@@ -1,0 +1,59 @@
+{
+  "category": "tenet-offerings",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-13",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Tenet_Weapons",
+      "snapshot": "2026-10-13",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "tenet-offerings",
+      "name": "Tenet melee and Ergo Glast rotation",
+      "wiki": "https://wiki.warframe.com/w/Tenet_Weapons",
+      "resetPeriodHours": 96,
+      "rotationEpochUTC": "2026-10-14T00:00:00Z",
+      "lastVerifiedUTC": "",
+      "currentBatch": null,
+      "offerings": [
+        {
+          "name": "Tenet Agendus",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null
+        },
+        {
+          "name": "Tenet Exec",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null
+        },
+        {
+          "name": "Tenet Ferrox",
+          "type": "Primary",
+          "element": "",
+          "bonusPercent": null
+        },
+        {
+          "name": "Tenet Grigori",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null
+        },
+        {
+          "name": "Tenet Livia",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null
+        }
+      ],
+      "note": "Element and bonus values are read from the wiki when available. Missing active values trigger an automatic wiki refresh when the app loads; cells remain unavailable if the wiki response does not publish them.",
+      "nextRotationUTC": "2026-10-14T00:00:00Z",
+      "lastWikiCheckUTC": "",
+      "lastWikiAttemptUTC": ""
+    }
+  ]
+}

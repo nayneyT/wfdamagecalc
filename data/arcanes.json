@@ -1,0 +1,5386 @@
+{
+  "category": "arcanes",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-11",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "akimbo-slip-shot",
+      "name": "Akimbo Slip Shot",
+      "type": "Secondary",
+      "description": "While sliding or aim gliding: Gain 65% ammo efficiency with Dual Pistols.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Akimbo_Slip_Shot",
+      "image": "images/mods/arcane-AkimboSlipShot.png",
+      "imageSource": "https://wiki.warframe.com/w/File:AkimboSlipShot.png"
+    },
+    {
+      "id": "arcane-acceleration",
+      "name": "Arcane Acceleration",
+      "type": "Warframe",
+      "description": "On Critical Hit:\r\n30% chance for +90% Fire Rate to Primary Weapons (Excludes Shotguns) for 9s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "fireRate",
+          "value": 0.9,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.15,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.45,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.6,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.75,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.9,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Acceleration",
+      "image": "images/mods/arcane-ArcaneAcceleration.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAcceleration.png"
+    },
+    {
+      "id": "arcane-aegis",
+      "name": "Arcane Aegis",
+      "type": "Warframe",
+      "description": "On Shield Damaged:\r\n3% chance for +30% Shield Recharge for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Aegis",
+      "image": "images/mods/arcane-ArcaneAegis.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAegis.png"
+    },
+    {
+      "id": "arcane-agility",
+      "name": "Arcane Agility",
+      "type": "Warframe",
+      "description": "On Damaged:\r\n60% chance for +60% Parkour Velocity for 18s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Agility",
+      "image": "images/mods/arcane-ArcaneAgility.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAgility.png"
+    },
+    {
+      "id": "arcane-arachne",
+      "name": "Arcane Arachne",
+      "type": "Warframe",
+      "description": "On Wall Latch:\r\n+150% Damage to Primary and Secondary weapons for 30s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Arachne",
+      "image": "images/mods/arcane-ArcaneArachne.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneArachne.png"
+    },
+    {
+      "id": "arcane-avenger",
+      "name": "Arcane Avenger",
+      "type": "Warframe",
+      "description": "On Damaged:\r\n21% chance for +45% Critical Chance for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "flatCrit",
+          "value": 0.45,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "flatCrit",
+            "value": 0.075,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "flatCrit",
+            "value": 0.15,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "flatCrit",
+            "value": 0.225,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "flatCrit",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "flatCrit",
+            "value": 0.375,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "flatCrit",
+            "value": 0.45,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Avenger",
+      "image": "images/mods/arcane-ArcaneAvenger.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAvenger.png"
+    },
+    {
+      "id": "arcane-awakening",
+      "name": "Arcane Awakening",
+      "type": "Warframe",
+      "description": "On Reload:\r\n60% chance for +150% Damage to Pistols for 24s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 1.5,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.25,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.75,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.25,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.5,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Awakening",
+      "image": "images/mods/arcane-ArcaneAwakening.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAwakening.png"
+    },
+    {
+      "id": "arcane-barrier",
+      "name": "Arcane Barrier",
+      "type": "Warframe",
+      "description": "On Shield Damaged:\r\n6% chance to instantly restore all Shields\r\n6s cooldown",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Barrier",
+      "image": "images/mods/arcane-ArcaneBarrier.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBarrier.png"
+    },
+    {
+      "id": "arcane-battery",
+      "name": "Arcane Battery",
+      "type": "Warframe",
+      "description": "Gain 0.30 maximum Energy per Armor point, up to 1000 Energy.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Battery",
+      "image": "images/mods/arcane-ArcaneBattery.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBattery.png"
+    },
+    {
+      "id": "arcane-bellicose",
+      "name": "Arcane Bellicose",
+      "type": "Warframe",
+      "description": "Gain 6% Ability Strength for every 250 Max Health up to 72%.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Bellicose",
+      "image": "images/mods/arcane-ArcaneBellicose.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBellicose.png"
+    },
+    {
+      "id": "arcane-blade-charger",
+      "name": "Arcane Blade Charger",
+      "type": "Warframe",
+      "description": "On Primary Weapon Kill:\r\n30% chance for +300% Melee Damage for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Blade_Charger",
+      "image": "images/mods/arcane-ArcaneBladeCharger.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBladeCharger.png"
+    },
+    {
+      "id": "arcane-blessing",
+      "name": "Arcane Blessing",
+      "type": "Warframe",
+      "description": "On Health Pickup:\r\n+24 Max Health. Stacks up to 50x.",
+      "maxRank": 5,
+      "maxStacks": 50,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Blessing",
+      "image": "images/mods/arcane-ArcaneBlessing.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBlessing.png"
+    },
+    {
+      "id": "arcane-bodyguard",
+      "name": "Arcane Bodyguard",
+      "type": "Warframe",
+      "description": "On 6 Melee Kills within 30s:\r\nHeal Companion for 900",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Bodyguard",
+      "image": "images/mods/arcane-ArcaneBodyguard.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBodyguard.png"
+    },
+    {
+      "id": "arcane-camisado",
+      "name": "Arcane Camisado",
+      "type": "Warframe",
+      "description": "Attacks from summoned minions increase Ability Strength by 6% up to 60% on the next Ability Cast. Summons gain 20% Movement Speed.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Camisado",
+      "image": "images/mods/arcane-ArcaneCamisado.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCamisado.png"
+    },
+    {
+      "id": "arcane-circumvent",
+      "name": "Arcane Circumvent",
+      "type": "Warframe",
+      "description": "Roll through enemies to steal 50% of their defenses for yourself. Stolen Armor lasts 15s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Circumvent",
+      "image": "images/mods/arcane-ArcaneCircumvent.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCircumvent.png"
+    },
+    {
+      "id": "arcane-concentration",
+      "name": "Arcane Concentration",
+      "type": "Warframe",
+      "description": "On Ability Cast:\r\n+60% Ability Duration for 3s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Concentration",
+      "image": "images/mods/arcane-ArcaneConcentration.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneConcentration.png"
+    },
+    {
+      "id": "arcane-consequence",
+      "name": "Arcane Consequence",
+      "type": "Warframe",
+      "description": "On Headshot:\r\n+60% Parkour Velocity for 18s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Consequence",
+      "image": "images/mods/arcane-ArcaneConsequence.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneConsequence.png"
+    },
+    {
+      "id": "arcane-crepuscular",
+      "name": "Arcane Crepuscular",
+      "type": "Warframe",
+      "description": "While invisible, gain +30% Ability Strength and +3x Final Critical Damage.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Crepuscular",
+      "image": "images/mods/arcane-ArcaneCrepuscular.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCrepuscular.png"
+    },
+    {
+      "id": "arcane-deflection",
+      "name": "Arcane Deflection",
+      "type": "Warframe",
+      "description": "+102% chance to resist a Slash Status effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Deflection",
+      "image": "images/mods/arcane-ArcaneDeflection.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneDeflection.png"
+    },
+    {
+      "id": "arcane-double-back",
+      "name": "Arcane Double Back",
+      "type": "Warframe",
+      "description": "Gain +25% damage resistance for 4s per Dodge, Double Jump and Bullet Jump. Stacks up to 3x.",
+      "maxRank": 5,
+      "maxStacks": 3,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Double_Back",
+      "image": "images/mods/arcane-ArcaneDoubleBack.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneDoubleBack.png"
+    },
+    {
+      "id": "arcane-energize",
+      "name": "Arcane Energize",
+      "type": "Warframe",
+      "description": "On Energy Pickup:\r\n60% chance to replenish 150 Energy to self and allies within 15m\r\n15s cooldown",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Energize",
+      "image": "images/mods/arcane-ArcaneEnergize.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEnergize.png"
+    },
+    {
+      "id": "arcane-eruption",
+      "name": "Arcane Eruption",
+      "type": "Warframe",
+      "description": "On Energy Pickup:\r\n100% chance to Knockdown nearby enemies",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Eruption",
+      "image": "images/mods/arcane-ArcaneEruption.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEruption.png"
+    },
+    {
+      "id": "arcane-escapist",
+      "name": "Arcane Escapist",
+      "type": "Warframe",
+      "description": "On Mercy Kill: Gain a stack of Escapist, up to 9x. On taking fatal damage, consume 3 stacks to avoid death and become invulnerable for 12s.",
+      "maxRank": 5,
+      "maxStacks": 9,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Escapist",
+      "image": "images/mods/arcane-ArcaneEscapist.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEscapist.png"
+    },
+    {
+      "id": "arcane-expertise",
+      "name": "Arcane Expertise",
+      "type": "Warframe",
+      "description": "100% of Ability Strength modifiers are also applied to Max Shields.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Expertise",
+      "image": "images/mods/arcane-ArcaneExpertise.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneExpertise.png"
+    },
+    {
+      "id": "arcane-fury",
+      "name": "Arcane Fury",
+      "type": "Warframe",
+      "description": "On Critical Hit:\r\n60% chance for +180% Melee Damage to Melee Weapons for 18s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 1.8,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.9,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.2,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.8,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Fury",
+      "image": "images/mods/arcane-ArcaneFury.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneFury.png"
+    },
+    {
+      "id": "arcane-grace",
+      "name": "Arcane Grace",
+      "type": "Warframe",
+      "description": "On Health Damaged:\r\n9% chance for +6% Health Regeneration/s for 9s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Grace",
+      "image": "images/mods/arcane-ArcaneGrace.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneGrace.png"
+    },
+    {
+      "id": "arcane-guardian",
+      "name": "Arcane Guardian",
+      "type": "Warframe",
+      "description": "On Damaged:\r\n15% chance for +900 Armor for 20s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Guardian",
+      "image": "images/mods/arcane-ArcaneGuardian.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneGuardian.png"
+    },
+    {
+      "id": "arcane-healing",
+      "name": "Arcane Healing",
+      "type": "Warframe",
+      "description": "+102% chance to resist a Radiation Status effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Healing",
+      "image": "images/mods/arcane-ArcaneHealing.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneHealing.png"
+    },
+    {
+      "id": "arcane-hot-shot",
+      "name": "Arcane Hot Shot",
+      "type": "Warframe",
+      "description": "Gain 6% weapon Critical Chance for 10s, when using abilities to inflict Heat Status effect on enemies. Maximum 50x stacks.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Hot_Shot",
+      "image": "images/mods/arcane-ArcaneHotShot.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneHotShot.png"
+    },
+    {
+      "id": "arcane-ice",
+      "name": "Arcane Ice",
+      "type": "Warframe",
+      "description": "+102% chance to resist a Heat Status effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Ice",
+      "image": "images/mods/arcane-ArcaneIce.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIce.png"
+    },
+    {
+      "id": "arcane-ice-storm",
+      "name": "Arcane Ice Storm",
+      "type": "Warframe",
+      "description": "On Enemy Frozen: Gain +2% Ability Strength and +2% Ability Duration for 15s. Stacks up to 20x.",
+      "maxRank": 5,
+      "maxStacks": 20,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Ice_Storm",
+      "image": "images/mods/arcane-ArcaneIceStorm.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIceStorm.png"
+    },
+    {
+      "id": "arcane-impetus",
+      "name": "Arcane Impetus",
+      "type": "Warframe",
+      "description": "Unique Status Effects from Abilities grant +6% Ability Strength and +3% Ability Efficiency for 20s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Impetus",
+      "image": "images/mods/arcane-ArcaneImpetus.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneImpetus.png"
+    },
+    {
+      "id": "arcane-intention",
+      "name": "Arcane Intention",
+      "type": "Warframe",
+      "description": "Gain +250 Max Health per active channeled ability.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Intention",
+      "image": "images/mods/arcane-ArcaneIntention.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIntention.png"
+    },
+    {
+      "id": "arcane-momentum",
+      "name": "Arcane Momentum",
+      "type": "Warframe",
+      "description": "On Critical Hit:\r\n60% chance for +150% Reload Speed to Sniper Rifles for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Momentum",
+      "image": "images/mods/arcane-ArcaneMomentum.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneMomentum.png"
+    },
+    {
+      "id": "arcane-nullifier",
+      "name": "Arcane Nullifier",
+      "type": "Warframe",
+      "description": "+102% chance to resist a Magnetic Status effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Nullifier",
+      "image": "images/mods/arcane-ArcaneNullifier.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneNullifier.png"
+    },
+    {
+      "id": "arcane-persistence",
+      "name": "Arcane Persistence",
+      "type": "Warframe",
+      "description": "Remove all Shields. If Armor is above 700: Cannot be hit for more than 500 Damage/s. Magnetic Status and Ability Nullifying Effects disable this protection.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Persistence",
+      "image": "images/mods/arcane-ArcanePersistence.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePersistence.png"
+    },
+    {
+      "id": "arcane-phantasm",
+      "name": "Arcane Phantasm",
+      "type": "Warframe",
+      "description": "On Block:\r\n45% chance for +60% Speed for 18s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Phantasm",
+      "image": "images/mods/arcane-ArcanePhantasm.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePhantasm.png"
+    },
+    {
+      "id": "arcane-pistoleer",
+      "name": "Arcane Pistoleer",
+      "type": "Warframe",
+      "description": "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Pistoleer",
+      "image": "images/mods/arcane-ArcanePistoleer.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePistoleer.png"
+    },
+    {
+      "id": "arcane-power-ramp",
+      "name": "Arcane Power Ramp",
+      "type": "Warframe",
+      "description": "On Ability Cast: Next Ability cast gains +9% Ability Strength, stacking up to 4x. Resets when the same ability is recast consecutively.",
+      "maxRank": 5,
+      "maxStacks": 4,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Power_Ramp",
+      "image": "images/mods/arcane-ArcanePowerRamp.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePowerRamp.png"
+    },
+    {
+      "id": "arcane-precision",
+      "name": "Arcane Precision",
+      "type": "Warframe",
+      "description": "On Weak Point Hit:\r\n+300% Damage for 18s on Secondary Weapon",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 3,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 2,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 2.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 3,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Precision",
+      "image": "images/mods/arcane-ArcanePrecision.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePrecision.png"
+    },
+    {
+      "id": "arcane-primary-charger",
+      "name": "Arcane Primary Charger",
+      "type": "Warframe",
+      "description": "On Melee Kill:\r\n30% chance for +300% Primary Weapon Damage for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Primary_Charger",
+      "image": "images/mods/arcane-ArcanePrimaryCharger.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePrimaryCharger.png"
+    },
+    {
+      "id": "arcane-pulse",
+      "name": "Arcane Pulse",
+      "type": "Warframe",
+      "description": "On Health Pickup:\r\n60% chance to restore 500 Health to allies within 25m\r\n15s cooldown",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Pulse",
+      "image": "images/mods/arcane-ArcanePulse.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePulse.png"
+    },
+    {
+      "id": "arcane-rage",
+      "name": "Arcane Rage",
+      "type": "Warframe",
+      "description": "On Headshot:\r\n15% chance for +180% Damage to Primary Weapons for 24s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 1.8,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.9,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.2,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.8,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Rage",
+      "image": "images/mods/arcane-ArcaneRage.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneRage.png"
+    },
+    {
+      "id": "arcane-reaper",
+      "name": "Arcane Reaper",
+      "type": "Warframe",
+      "description": "On Melee Kill:\r\n+24 Health Regen/s and +660 Armor for 10s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Reaper",
+      "image": "images/mods/arcane-ArcaneReaper.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneReaper.png"
+    },
+    {
+      "id": "arcane-resistance",
+      "name": "Arcane Resistance",
+      "type": "Warframe",
+      "description": "+102% chance to resist a Toxin Status effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Resistance",
+      "image": "images/mods/arcane-ArcaneResistance.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneResistance.png"
+    },
+    {
+      "id": "arcane-rise",
+      "name": "Arcane Rise",
+      "type": "Warframe",
+      "description": "On Reload:\r\n60% chance for +150% Damage to Primary Weapons for 24s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Rise",
+      "image": "images/mods/arcane-ArcaneRise.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneRise.png"
+    },
+    {
+      "id": "arcane-steadfast",
+      "name": "Arcane Steadfast",
+      "type": "Warframe",
+      "description": "On Ability Cast: 20% chance that the next three Abilities will not cost Energy.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Steadfast",
+      "image": "images/mods/arcane-ArcaneSteadfast.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneSteadfast.png"
+    },
+    {
+      "id": "arcane-sculptor",
+      "name": "Arcane Sculptor",
+      "type": "Warframe",
+      "description": "On creating an object with abilities: casts have 175% Ability Efficiency for 12 seconds",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Sculptor",
+      "image": "images/mods/arcane-ArcaneSculptor.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneSculptor.png"
+    },
+    {
+      "id": "arcane-strike",
+      "name": "Arcane Strike",
+      "type": "Warframe",
+      "description": "On Hit:\r\n15% chance for +60% Attack Speed to Melee Weapons for 18s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "fireRate",
+          "value": 0.6,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.09999999999999999,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.19999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.39999999999999997,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.6,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Strike",
+      "image": "images/mods/arcane-ArcaneStrike.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneStrike.png"
+    },
+    {
+      "id": "arcane-tanker",
+      "name": "Arcane Tanker",
+      "type": "Warframe",
+      "description": "On Archgun Equipped:\r\n+1,200 Armor for 60s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Tanker",
+      "image": "images/mods/arcane-ArcaneTanker.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTanker.png"
+    },
+    {
+      "id": "arcane-tempo",
+      "name": "Arcane Tempo",
+      "type": "Warframe",
+      "description": "On Critical Hit:\r\n15% chance for +90% Fire Rate to Shotguns for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Tempo",
+      "image": "images/mods/arcane-ArcaneTempo.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTempo.png"
+    },
+    {
+      "id": "arcane-trickery",
+      "name": "Arcane Trickery",
+      "type": "Warframe",
+      "description": "On Finisher Kill:\r\n15% chance to become invisible for 30s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Trickery",
+      "image": "images/mods/arcane-ArcaneTrickery.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTrickery.png"
+    },
+    {
+      "id": "arcane-truculence",
+      "name": "Arcane Truculence",
+      "type": "Warframe",
+      "description": "When gaining 3,000 or more Overguard threshold, release a 30m Radial Attack that applies max Viral Status stacks.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Truculence",
+      "image": "images/mods/arcane-ArcaneTruculence.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTruculence.png"
+    },
+    {
+      "id": "arcane-ultimatum",
+      "name": "Arcane Ultimatum",
+      "type": "Warframe",
+      "description": "On Finisher Kill:\r\n+1,200 Armor for 45s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Ultimatum",
+      "image": "images/mods/arcane-ArcaneUltimatum.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneUltimatum.png"
+    },
+    {
+      "id": "arcane-universal-fallout",
+      "name": "Arcane Universal Fallout",
+      "type": "Warframe",
+      "description": "Each Radiation Status Effect inflicted on enemies by Abilities gives a 6% chance to drop a Universal Orb on enemy death.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Universal_Fallout",
+      "image": "images/mods/arcane-ArcaneUniversalFallout.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneUniversalFallout.png"
+    },
+    {
+      "id": "arcane-velocity",
+      "name": "Arcane Velocity",
+      "type": "Warframe",
+      "description": "On Critical Hit:\r\n90% chance for +120% Fire Rate to Pistols for 9s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [
+        {
+          "stat": "fireRate",
+          "value": 1.2,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.19999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.39999999999999997,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.6,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 0.7999999999999999,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 1,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "fireRate",
+            "value": 1.2,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Velocity",
+      "image": "images/mods/arcane-ArcaneVelocity.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneVelocity.png"
+    },
+    {
+      "id": "arcane-victory",
+      "name": "Arcane Victory",
+      "type": "Warframe",
+      "description": "On Headshot Kill:\r\n75% chance for +3% Health Regeneration/s for 9s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Victory",
+      "image": "images/mods/arcane-ArcaneVictory.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneVictory.png"
+    },
+    {
+      "id": "arcane-warmth",
+      "name": "Arcane Warmth",
+      "type": "Warframe",
+      "description": "+102% chance to resist a Cold Status effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Arcane_Warmth",
+      "image": "images/mods/arcane-ArcaneWarmth.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneWarmth.png"
+    },
+    {
+      "id": "cascadia-accuracy",
+      "name": "Cascadia Accuracy",
+      "type": "Secondary",
+      "description": "On Roll:\r\n+300% Critical Chance on Weak Point Hits for 4s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Cascadia_Accuracy",
+      "image": "images/mods/arcane-CascadiaAccuracy.png",
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaAccuracy.png"
+    },
+    {
+      "id": "cascadia-empowered",
+      "name": "Cascadia Empowered",
+      "type": "Secondary",
+      "description": "On Status Effect:\r\nDeals +750 Damage matching the Damage Type of the Status Effect",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Cascadia_Empowered",
+      "image": "images/mods/arcane-CascadiaEmpowered.png",
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaEmpowered.png"
+    },
+    {
+      "id": "cascadia-flare",
+      "name": "Cascadia Flare",
+      "type": "Secondary",
+      "description": "On Heat Status Effect:\r\n+12% Damage for 10s. Stacks up to 480%.",
+      "maxRank": 5,
+      "maxStacks": 40,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Cascadia_Flare",
+      "image": "images/mods/arcane-CascadiaFlare.png",
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaFlare.png"
+    },
+    {
+      "id": "cascadia-overcharge",
+      "name": "Cascadia Overcharge",
+      "type": "Secondary",
+      "description": "While Overshields Active: +300% Critical Chance",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Cascadia_Overcharge",
+      "image": "images/mods/arcane-CascadiaOvercharge.png",
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaOvercharge.png"
+    },
+    {
+      "id": "conjunction-voltage",
+      "name": "Conjunction Voltage",
+      "type": "Secondary",
+      "description": "On Electricity Status Effect:\r\n+1.5% Reload Speed and +3% Multishot for 12s. Stacks up to 40x.",
+      "maxRank": 5,
+      "maxStacks": 40,
+      "effects": [
+        {
+          "stat": "reload",
+          "value": 0.015,
+          "conditional": true
+        },
+        {
+          "stat": "multishot",
+          "value": 0.03,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "reload",
+            "value": 0.0025,
+            "conditional": true
+          },
+          {
+            "stat": "multishot",
+            "value": 0.005,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "reload",
+            "value": 0.005,
+            "conditional": true
+          },
+          {
+            "stat": "multishot",
+            "value": 0.01,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "reload",
+            "value": 0.0075,
+            "conditional": true
+          },
+          {
+            "stat": "multishot",
+            "value": 0.015,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "reload",
+            "value": 0.01,
+            "conditional": true
+          },
+          {
+            "stat": "multishot",
+            "value": 0.02,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "reload",
+            "value": 0.012499999999999999,
+            "conditional": true
+          },
+          {
+            "stat": "multishot",
+            "value": 0.024999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "reload",
+            "value": 0.015,
+            "conditional": true
+          },
+          {
+            "stat": "multishot",
+            "value": 0.03,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Conjunction_Voltage",
+      "image": "images/mods/arcane-ConjunctionVoltage.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ConjunctionVoltage.png"
+    },
+    {
+      "id": "emergence-dissipate",
+      "name": "Emergence Dissipate",
+      "type": "Operator",
+      "description": "While in Void Sling: Press  to dissipate the endpoint in a 10m radius. Enemies hit create a short lived Void Mote that replenishes 10 Energy on pick up.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Emergence_Dissipate",
+      "image": "images/mods/arcane-EmergenceDissipate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:EmergenceDissipate.png"
+    },
+    {
+      "id": "emergence-renewed",
+      "name": "Emergence Renewed",
+      "type": "Operator",
+      "description": "On Energy Depleted:\r\nIncrease Energy Regeneration by 300% over 5s. Cooldown: 30s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Emergence_Renewed",
+      "image": "images/mods/arcane-EmergenceRenewed.png",
+      "imageSource": "https://wiki.warframe.com/w/File:EmergenceRenewed.png"
+    },
+    {
+      "id": "emergence-savior",
+      "name": "Emergence Savior",
+      "type": "Operator",
+      "description": "On Lethal Damage:\r\nBecome invulnerable for 5s and recover 60% Health. Cooldown: 90s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Emergence_Savior",
+      "image": "images/mods/arcane-EmergenceSavior.png",
+      "imageSource": "https://wiki.warframe.com/w/File:EmergenceSavior.png"
+    },
+    {
+      "id": "eternal-eradicate",
+      "name": "Eternal Eradicate",
+      "type": "Amp",
+      "description": "On Operator Ability:\r\n+60% Damage to Amps for 8s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Eternal_Eradicate",
+      "image": "images/mods/arcane-EternalEradicate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:EternalEradicate.png"
+    },
+    {
+      "id": "eternal-logistics",
+      "name": "Eternal Logistics",
+      "type": "Amp",
+      "description": "On Void Sling:\r\n+72% Amp Ammo Efficiency for 8s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Eternal_Logistics",
+      "image": "images/mods/arcane-EternalLogistics.png",
+      "imageSource": "https://wiki.warframe.com/w/File:EternalLogistics.png"
+    },
+    {
+      "id": "eternal-onslaught",
+      "name": "Eternal Onslaught",
+      "type": "Amp",
+      "description": "On Energy Depleted:\r\n180% Critical Chance for 8s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Eternal_Onslaught",
+      "image": "images/mods/arcane-EternalOnslaught.png",
+      "imageSource": "https://wiki.warframe.com/w/File:EternalOnslaught.png"
+    },
+    {
+      "id": "exodia-brave",
+      "name": "Exodia Brave",
+      "type": "Zaw",
+      "description": "On Heavy Attack Kill:\r\n+5 Energy Rate for 4s. Stacks up to 3x.",
+      "maxRank": 3,
+      "maxStacks": 3,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Brave",
+      "image": "images/mods/arcane-ExodiaBrave.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaBrave.png"
+    },
+    {
+      "id": "exodia-contagion",
+      "name": "Exodia Contagion",
+      "type": "Zaw",
+      "description": "After a Bullet Jump or Double Jump:\r\nMelee while Aim Gliding launches a projectile that explodes on impact",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Contagion",
+      "image": "images/mods/arcane-ExodiaContagion.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaContagion.png"
+    },
+    {
+      "id": "exodia-epidemic",
+      "name": "Exodia Epidemic",
+      "type": "Zaw",
+      "description": "After a Bullet Jump or Double Jump:\r\nSlam emits a shockwave forwards that suspends enemies in the air for a short period",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Epidemic",
+      "image": "images/mods/arcane-ExodiaEpidemic.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaEpidemic.png"
+    },
+    {
+      "id": "exodia-force",
+      "name": "Exodia Force",
+      "type": "Zaw",
+      "description": "On Status Effect:\r\n50% chance to deal 200% Weapon Damage to enemies within 6m.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Force",
+      "image": "images/mods/arcane-ExodiaForce.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaForce.png"
+    },
+    {
+      "id": "exodia-hunt",
+      "name": "Exodia Hunt",
+      "type": "Zaw",
+      "description": "On Ground Slam:\r\n50% chance to pull enemies within 12m into melee range.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Hunt",
+      "image": "images/mods/arcane-ExodiaHunt.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaHunt.png"
+    },
+    {
+      "id": "exodia-might",
+      "name": "Exodia Might",
+      "type": "Zaw",
+      "description": "On Finisher Kill:\r\n50% chance for +30% Life Steal for 8s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Might",
+      "image": "images/mods/arcane-ExodiaMight.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaMight.png"
+    },
+    {
+      "id": "exodia-triumph",
+      "name": "Exodia Triumph",
+      "type": "Zaw",
+      "description": "+50% Additional Combo Count Chance",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Triumph",
+      "image": "images/mods/arcane-ExodiaTriumph.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaTriumph.png"
+    },
+    {
+      "id": "exodia-valor",
+      "name": "Exodia Valor",
+      "type": "Zaw",
+      "description": "+200% Additional Combo Count Chance on Lifted enemies",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Exodia_Valor",
+      "image": "images/mods/arcane-ExodiaValor.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaValor.png"
+    },
+    {
+      "id": "fractalized-reset",
+      "name": "Fractalized Reset",
+      "type": "Primary",
+      "description": "On Ability Cast:\r\n+240% Reload Speed for 5s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Fractalized_Reset",
+      "image": "images/mods/arcane-FractalizedReset.png",
+      "imageSource": "https://wiki.warframe.com/w/File:FractalizedReset.png"
+    },
+    {
+      "id": "longbow-sharpshot",
+      "name": "Longbow Sharpshot",
+      "type": "Bow",
+      "description": "On Weak Point Hit: Gain +300% damage on your next shot.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Longbow_Sharpshot",
+      "image": "images/mods/arcane-LongbowSharpshot.png",
+      "imageSource": "https://wiki.warframe.com/w/File:LongbowSharpshot.png"
+    },
+    {
+      "id": "magus-accelerant",
+      "name": "Magus Accelerant",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nReduce Enemy Resistance to Heat Damage by 65%.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Accelerant",
+      "image": "images/mods/arcane-MagusAccelerant.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusAccelerant.png"
+    },
+    {
+      "id": "magus-aggress",
+      "name": "Magus Aggress",
+      "type": "Operator",
+      "description": "On Warframe Melee Transference: Heavy Blades deal +300% Critical Damage for 4 consecutive attacks. Cooldown 20s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Aggress",
+      "image": "images/mods/arcane-MagusAggress.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusAggress.png"
+    },
+    {
+      "id": "magus-anomaly",
+      "name": "Magus Anomaly",
+      "type": "Operator",
+      "description": "On Transference In:\r\nEnemies within 30m are pulled towards Warframe.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Anomaly",
+      "image": "images/mods/arcane-MagusAnomaly.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusAnomaly.png"
+    },
+    {
+      "id": "magus-cadence",
+      "name": "Magus Cadence",
+      "type": "Operator",
+      "description": "On Void Sling:\r\n+90% Sprint Speed for 12s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Cadence",
+      "image": "images/mods/arcane-MagusCadence.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusCadence.png"
+    },
+    {
+      "id": "magus-cloud",
+      "name": "Magus Cloud",
+      "type": "Operator",
+      "description": "On Void Mode:\r\n+300% Void Sling Radius for 6s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Cloud",
+      "image": "images/mods/arcane-MagusCloud.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusCloud.png"
+    },
+    {
+      "id": "magus-destruct",
+      "name": "Magus Destruct",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nReduce Enemy Resistance to Puncture Damage by 65%.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Destruct",
+      "image": "images/mods/arcane-MagusDestruct.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusDestruct.png"
+    },
+    {
+      "id": "magus-drive",
+      "name": "Magus Drive",
+      "type": "Operator",
+      "description": "On Transference In:\r\nIncrease K-Drive Speed by 150% for 30s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Drive",
+      "image": "images/mods/arcane-MagusDrive.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusDrive.png"
+    },
+    {
+      "id": "magus-elevate",
+      "name": "Magus Elevate",
+      "type": "Operator",
+      "description": "On Transference In:\r\n95% chance to restore 300 Health to Warframe",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Elevate",
+      "image": "images/mods/arcane-MagusElevate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusElevate.png"
+    },
+    {
+      "id": "magus-firewall",
+      "name": "Magus Firewall",
+      "type": "Operator",
+      "description": "On Void Mode:\r\nGenerate Void Particles every 1s up to 6 particles, each granting 12.5% Damage Reduction for 60s. Taking damage consumes a particle.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Firewall",
+      "image": "images/mods/arcane-MagusFirewall.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusFirewall.png"
+    },
+    {
+      "id": "magus-glitch",
+      "name": "Magus Glitch",
+      "type": "Operator",
+      "description": "On Transference Static:\r\n102% chance to negate Transference Static.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Glitch",
+      "image": "images/mods/arcane-MagusGlitch.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusGlitch.png"
+    },
+    {
+      "id": "magus-husk",
+      "name": "Magus Husk",
+      "type": "Operator",
+      "description": "On Transference Out:\r\n+300 Armor",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Husk",
+      "image": "images/mods/arcane-MagusHusk.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusHusk.png"
+    },
+    {
+      "id": "magus-lockdown",
+      "name": "Magus Lockdown",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nDrop a mine that tethers up to 10 enemies in 15m for 4s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Lockdown",
+      "image": "images/mods/arcane-MagusLockdown.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusLockdown.png"
+    },
+    {
+      "id": "magus-melt",
+      "name": "Magus Melt",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nIncrease Heat Damage in Operator Mode by 30% for 15s, stacking up to 7x.",
+      "maxRank": 5,
+      "maxStacks": 7,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Melt",
+      "image": "images/mods/arcane-MagusMelt.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusMelt.png"
+    },
+    {
+      "id": "magus-nourish",
+      "name": "Magus Nourish",
+      "type": "Operator",
+      "description": "While An Operator:\r\nRestores 35 Health/s to Warframe.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Nourish",
+      "image": "images/mods/arcane-MagusNourish.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusNourish.png"
+    },
+    {
+      "id": "magus-overload",
+      "name": "Magus Overload",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nStun robotic enemies for 3s, which then discharge Electricity Damage dealing 80% of their Max Health to anyone within 25m.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Overload",
+      "image": "images/mods/arcane-MagusOverload.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusOverload.png"
+    },
+    {
+      "id": "magus-repair",
+      "name": "Magus Repair",
+      "type": "Operator",
+      "description": "On Void Mode:\r\nHeal Warframes within 30m by 25% Health/s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Repair",
+      "image": "images/mods/arcane-MagusRepair.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusRepair.png"
+    },
+    {
+      "id": "magus-replenish",
+      "name": "Magus Replenish",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nHeal 30% Health",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Replenish",
+      "image": "images/mods/arcane-MagusReplenish.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusReplenish.png"
+    },
+    {
+      "id": "magus-revert",
+      "name": "Magus Revert",
+      "type": "Operator",
+      "description": "On Void Sling:\r\nUse again within 3s, to return the Operator to their original position at no energy cost. Restores 60 Health. 3s cooldown.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Revert",
+      "image": "images/mods/arcane-MagusRevert.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusRevert.png"
+    },
+    {
+      "id": "magus-vigor",
+      "name": "Magus Vigor",
+      "type": "Operator",
+      "description": "On Transference Out:\r\n+600 Health",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Magus_Vigor",
+      "image": "images/mods/arcane-MagusVigor.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MagusVigor.png"
+    },
+    {
+      "id": "melee-afflictions",
+      "name": "Melee Afflictions",
+      "type": "Melee",
+      "description": "Enemies affected by Status Effects gain 6 additional stacks when they're knocked down or flung by melee attacks.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Afflictions",
+      "image": "images/mods/arcane-MeleeAfflictions.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeAfflictions.png"
+    },
+    {
+      "id": "melee-animosity",
+      "name": "Melee Animosity",
+      "type": "Melee",
+      "description": "On Melee Hit: Gain 42% Critical Chance on your next Heavy Attack, up to 420%",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Animosity",
+      "image": "images/mods/arcane-MeleeAnimosity.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeAnimosity.png"
+    },
+    {
+      "id": "melee-assimilation",
+      "name": "Melee Assimilation",
+      "type": "Melee",
+      "description": "On Shield Break: +150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Assimilation",
+      "image": "images/mods/arcane-MeleeAssimilation.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeAssimilation.png"
+    },
+    {
+      "id": "melee-careen",
+      "name": "Melee Careen",
+      "type": "Melee",
+      "description": "x2.50 Melee Damage against Frozen enemies. On Roll:  Freeze enemies in a 5.5m radius with a 2s Cooldown.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Careen",
+      "image": "images/mods/arcane-MeleeCareen.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeCareen.png"
+    },
+    {
+      "id": "melee-crescendo",
+      "name": "Melee Crescendo",
+      "type": "Melee",
+      "description": "On Finisher Kill: Gain 6 Initial Combo for the rest of your mission",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Crescendo",
+      "image": "images/mods/arcane-MeleeCrescendo.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeCrescendo.png"
+    },
+    {
+      "id": "melee-doughty",
+      "name": "Melee Doughty",
+      "type": "Melee",
+      "description": "Gain 1.0x Critical Damage for every 10% Puncture Status chance on your Melee Weapon.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Doughty",
+      "image": "images/mods/arcane-MeleeDoughty.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeDoughty.png"
+    },
+    {
+      "id": "melee-duplicate",
+      "name": "Melee Duplicate",
+      "type": "Melee",
+      "description": "On Base Critical Hits: 100% chance for your attack to strike a second time",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Duplicate",
+      "image": "images/mods/arcane-MeleeDuplicate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeDuplicate.png"
+    },
+    {
+      "id": "melee-exposure",
+      "name": "Melee Exposure",
+      "type": "Melee",
+      "description": "On Ability Cast: Gain 60% Corrosive Damage on Melee strikes for 25s. Stacks up to 240%.",
+      "maxRank": 5,
+      "maxStacks": 4,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Exposure",
+      "image": "images/mods/arcane-MeleeExposure.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeExposure.png"
+    },
+    {
+      "id": "melee-fortification",
+      "name": "Melee Fortification",
+      "type": "Melee",
+      "description": "On Melee Kill: +210 Armor for 10s",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Fortification",
+      "image": "images/mods/arcane-MeleeFortification.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeFortification.png"
+    },
+    {
+      "id": "melee-influence",
+      "name": "Melee Influence",
+      "type": "Melee",
+      "description": "On Melee Electricity Status: 20% chance for elemental Melee Status Effects to apply to enemies within 20m for 18s. Cannot refresh while active.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Influence",
+      "image": "images/mods/arcane-MeleeInfluence.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeInfluence.png"
+    },
+    {
+      "id": "melee-retaliation",
+      "name": "Melee Retaliation",
+      "type": "Melee",
+      "description": "Gain 30% Melee Damage for every 200 current Shields, up to 420%. Bonus halved for Overshields.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Retaliation",
+      "image": "images/mods/arcane-MeleeRetaliation.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeRetaliation.png"
+    },
+    {
+      "id": "melee-vortex",
+      "name": "Melee Vortex",
+      "type": "Melee",
+      "description": "Kill an enemy affected by Magnetic Status for a 45% chance to pull in enemies within 18m radius",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Melee_Vortex",
+      "image": "images/mods/arcane-MeleeVortex.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeVortex.png"
+    },
+    {
+      "id": "molt-augmented",
+      "name": "Molt Augmented",
+      "type": "Warframe",
+      "description": "On Kill:\r\n+0.24% Ability Strength. Stacks up to 250x.",
+      "maxRank": 5,
+      "maxStacks": 250,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Molt_Augmented",
+      "image": "images/mods/arcane-MoltAugmented.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MoltAugmented.png"
+    },
+    {
+      "id": "molt-efficiency",
+      "name": "Molt Efficiency",
+      "type": "Warframe",
+      "description": "While Shields are Active: Gain 6% Ability Duration per second, up to a maximum of 36%",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Molt_Efficiency",
+      "image": "images/mods/arcane-MoltEfficiency.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MoltEfficiency.png"
+    },
+    {
+      "id": "molt-reconstruct",
+      "name": "Molt Reconstruct",
+      "type": "Warframe",
+      "description": "Heal yourself and allies within Affinity Range 6 Health for each Energy point spent on the initial casting cost of abilities.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Molt_Reconstruct",
+      "image": "images/mods/arcane-MoltReconstruct.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MoltReconstruct.png"
+    },
+    {
+      "id": "molt-vigor",
+      "name": "Molt Vigor",
+      "type": "Warframe",
+      "description": "On Operator Ability:\r\n45% Ability Strength on next Warframe Ability Cast",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Molt_Vigor",
+      "image": "images/mods/arcane-MoltVigor.png",
+      "imageSource": "https://wiki.warframe.com/w/File:MoltVigor.png"
+    },
+    {
+      "id": "pax-bolt",
+      "name": "Pax Bolt",
+      "type": "Kitgun",
+      "description": "On Headshot Kill:\r\n+30% Ability Efficiency and +30% Ability Strength on the next Ability used within 4s.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Pax_Bolt",
+      "image": "images/mods/arcane-PaxBolt.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PaxBolt.png"
+    },
+    {
+      "id": "pax-charge",
+      "name": "Pax Charge",
+      "type": "Kitgun",
+      "description": "Battery Recharge Delay is reduced by +50%",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Pax_Charge",
+      "image": "images/mods/arcane-PaxCharge.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PaxCharge.png"
+    },
+    {
+      "id": "pax-seeker",
+      "name": "Pax Seeker",
+      "type": "Kitgun",
+      "description": "On Headshot Kill:\r\n4 projectiles burst from the target and seek the heads of nearby enemies.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Pax_Seeker",
+      "image": "images/mods/arcane-PaxSeeker.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PaxSeeker.png"
+    },
+    {
+      "id": "pax-soar",
+      "name": "Pax Soar",
+      "type": "Kitgun",
+      "description": "+50% Accuracy while Airborne\r\n-50% Weapon Recoil while Airborne\r\n+5s Aim Glide/Wall Latch Duration",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Pax_Soar",
+      "image": "images/mods/arcane-PaxSoar.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PaxSoar.png"
+    },
+    {
+      "id": "primary-blight",
+      "name": "Primary Blight",
+      "type": "Primary",
+      "description": "On Toxin Status Effect:\r\n+3.6% Critical Damage and +1.8% Multishot for 12s. Stacks up to 40x.",
+      "maxRank": 5,
+      "maxStacks": 40,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Blight",
+      "image": "images/mods/arcane-PrimaryBlight.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryBlight.png"
+    },
+    {
+      "id": "primary-bulwark",
+      "name": "Primary Bulwark",
+      "type": "Primary",
+      "description": "Gain +1% damage for each unit of armor past 1,000, up to a max of +500%.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Bulwark",
+      "image": "images/mods/arcane-PrimaryBulwark.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryBulwark.png"
+    },
+    {
+      "id": "primary-compression",
+      "name": "Primary Compression",
+      "type": "Primary",
+      "description": "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Compression",
+      "image": "images/mods/arcane-PrimaryCompression.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryCompression.png"
+    },
+    {
+      "id": "primary-crux",
+      "name": "Primary Crux",
+      "type": "Primary",
+      "description": "On Weak Point Hit: Gain +30% Status Chance and +6% Ammo Efficiency for 10s. Stacks up to 10x.",
+      "maxRank": 5,
+      "maxStacks": 10,
+      "effects": [
+        {
+          "stat": "statusChance",
+          "value": 0.3,
+          "conditional": true
+        },
+        {
+          "stat": "ammoEfficiency",
+          "value": 0.06,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.049999999999999996,
+            "conditional": true
+          },
+          {
+            "stat": "ammoEfficiency",
+            "value": 0.01,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.09999999999999999,
+            "conditional": true
+          },
+          {
+            "stat": "ammoEfficiency",
+            "value": 0.02,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.15,
+            "conditional": true
+          },
+          {
+            "stat": "ammoEfficiency",
+            "value": 0.03,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.19999999999999998,
+            "conditional": true
+          },
+          {
+            "stat": "ammoEfficiency",
+            "value": 0.04,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.25,
+            "conditional": true
+          },
+          {
+            "stat": "ammoEfficiency",
+            "value": 0.049999999999999996,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.3,
+            "conditional": true
+          },
+          {
+            "stat": "ammoEfficiency",
+            "value": 0.06,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [
+        "Effect activates on Weak Point Hits; the calculator uses the selected Active Stacks and uptime as a sustained-build assumption."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Crux",
+      "image": "images/mods/arcane-PrimaryCrux.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryCrux.png"
+    },
+    {
+      "id": "primary-deadhead",
+      "name": "Primary Deadhead",
+      "type": "Primary",
+      "description": "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+      "maxRank": 5,
+      "maxStacks": 3,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 1.2,
+          "conditional": true
+        },
+        {
+          "stat": "headshot",
+          "value": 0.3
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.19999999999999998,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.049999999999999996
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.39999999999999997,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.09999999999999999
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.15
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.7999999999999999,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.19999999999999998
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.25
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.2,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.3
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Deadhead",
+      "image": "images/mods/arcane-PrimaryDeadhead.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDeadhead.png"
+    },
+    {
+      "id": "primary-debilitate",
+      "name": "Primary Debilitate",
+      "type": "Primary",
+      "description": "If an enemy has 10 stacks of a combined Status Effect, inflicting the same Status Effect again has a 100% chance to inflict one of the base Status Effects it is composed of.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Debilitate",
+      "image": "images/mods/arcane-PrimaryDebilitate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDebilitate.png"
+    },
+    {
+      "id": "primary-dexterity",
+      "name": "Primary Dexterity",
+      "type": "Primary",
+      "description": "On Melee Kill:\r\n+60% Damage for 20s. Stacks up to 6x.\r\n+7.5s Combo Duration",
+      "maxRank": 5,
+      "maxStacks": 6,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.6,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.09999999999999999,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.19999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.39999999999999997,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Dexterity",
+      "image": "images/mods/arcane-PrimaryDexterity.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDexterity.png"
+    },
+    {
+      "id": "primary-exhilarate",
+      "name": "Primary Exhilarate",
+      "type": "Primary",
+      "description": "On Weapon Impact Status Effect:\r\n+1.2 Energy Regen/s for 10s. Stacks up to 3x.",
+      "maxRank": 5,
+      "maxStacks": 3,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Exhilarate",
+      "image": "images/mods/arcane-PrimaryExhilarate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryExhilarate.png"
+    },
+    {
+      "id": "primary-frostbite",
+      "name": "Primary Frostbite",
+      "type": "Primary",
+      "description": "On Cold Status Effect:\r\n+3% Critical Damage and +2.25% Multishot for 12s. Stacks up to 40x.",
+      "maxRank": 5,
+      "maxStacks": 40,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Frostbite",
+      "image": "images/mods/arcane-PrimaryFrostbite.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryFrostbite.png"
+    },
+    {
+      "id": "primary-merciless",
+      "name": "Primary Merciless",
+      "type": "Primary",
+      "description": "On Kill:\r\n+30% Damage for 4s. Stacks up to 12x.\r\n+30% Reload Speed",
+      "maxRank": 5,
+      "maxStacks": 12,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.3,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.049999999999999996,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.09999999999999999,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.15,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.19999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.25,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.3,
+            "conditional": true
+          },
+          {
+            "stat": "reload",
+            "value": 0.3
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Merciless",
+      "image": "images/mods/arcane-PrimaryMerciless.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryMerciless.png"
+    },
+    {
+      "id": "primary-obstruct",
+      "name": "Primary Obstruct",
+      "type": "Primary",
+      "description": "On Weapon Magnetic Status Effect: Enemy weapons jam within 15m of target. Cooldown 10s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Obstruct",
+      "image": "images/mods/arcane-PrimaryObstruct.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryObstruct.png"
+    },
+    {
+      "id": "primary-overcharge",
+      "name": "Primary Overcharge",
+      "type": "Primary",
+      "description": "While at or above 90% Energy: Gain 35% of Max Energy as Multishot, capped at 350%.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Overcharge",
+      "image": "images/mods/arcane-PrimaryOvercharge.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryOvercharge.png"
+    },
+    {
+      "id": "primary-plated-round",
+      "name": "Primary Plated Round",
+      "type": "Primary",
+      "description": "On Reload: Deal increased damage per round loaded based on max magazine size. Lasts for 10s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Primary_Plated_Round",
+      "image": "images/mods/arcane-PrimaryPlatedRound.png",
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryPlatedRound.png"
+    },
+    {
+      "id": "residual-boils",
+      "name": "Residual Boils",
+      "type": "Kitgun",
+      "description": "On Kitgun Kill:\r\n20% chance to spawn volatile hives for 12s that explode when enemies approach for 80 Heat Damage in 10m. Standing in the area applies Heat Damage type to Theorem Arcanes.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Residual_Boils",
+      "image": "images/mods/arcane-ResidualBoils.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualBoils.png"
+    },
+    {
+      "id": "residual-malodor",
+      "name": "Residual Malodor",
+      "type": "Kitgun",
+      "description": "On Kitgun Kill:\r\n20% chance to create a frigid mist for 12s, dealing 40 Cold Damage/s. Standing in the area applies Cold Damage to Theorem Arcanes.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Residual_Malodor",
+      "image": "images/mods/arcane-ResidualMalodor.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualMalodor.png"
+    },
+    {
+      "id": "residual-shock",
+      "name": "Residual Shock",
+      "type": "Kitgun",
+      "description": "On Kitgun Kill:\r\n20% chance to spawn an electrified spike for 12s, dealing 200 Electricity Damage to enemies within 10m. Standing in the area applies Electricity Damage to Theorem Arcanes.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Residual_Shock",
+      "image": "images/mods/arcane-ResidualShock.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualShock.png"
+    },
+    {
+      "id": "residual-viremia",
+      "name": "Residual Viremia",
+      "type": "Kitgun",
+      "description": "On Kitgun Kill:\r\n20% chance to create pool of toxic blood for 12s, dealing 40 Toxin Damage/s. Standing in the area applies the Toxin Damage to Theorem Arcanes.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Residual_Viremia",
+      "image": "images/mods/arcane-ResidualViremia.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualViremia.png"
+    },
+    {
+      "id": "secondary-cryogenic",
+      "name": "Secondary Cryogenic",
+      "type": "Secondary",
+      "description": "On Puncture: Apply 3 Cold stacks on targets within 15m.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Cryogenic",
+      "image": "images/mods/arcane-SecondaryCryogenic.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryCryogenic.png"
+    },
+    {
+      "id": "secondary-deadhead",
+      "name": "Secondary Deadhead",
+      "type": "Secondary",
+      "description": "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+      "maxRank": 5,
+      "maxStacks": 3,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 1.2,
+          "conditional": true
+        },
+        {
+          "stat": "headshot",
+          "value": 0.3
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.19999999999999998,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.049999999999999996
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.39999999999999997,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.09999999999999999
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.15
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.7999999999999999,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.19999999999999998
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.25
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 1.2,
+            "conditional": true
+          },
+          {
+            "stat": "headshot",
+            "value": 0.3
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Deadhead",
+      "image": "images/mods/arcane-SecondaryDeadhead.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryDeadhead.png"
+    },
+    {
+      "id": "secondary-dexterity",
+      "name": "Secondary Dexterity",
+      "type": "Secondary",
+      "description": "On Melee Kill:\r\n+60% Damage for 20s. Stacks up to 6x.\r\n+7.5s Combo Duration",
+      "maxRank": 5,
+      "maxStacks": 6,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.6,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.09999999999999999,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.19999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.3,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.39999999999999997,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.5,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6,
+            "conditional": true
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Dexterity",
+      "image": "images/mods/arcane-SecondaryDexterity.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryDexterity.png"
+    },
+    {
+      "id": "secondary-encumber",
+      "name": "Secondary Encumber",
+      "type": "Secondary",
+      "description": "On Status Effect: +24% chance to trigger a second random Status Effect.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Encumber",
+      "image": "images/mods/arcane-SecondaryEncumber.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryEncumber.png"
+    },
+    {
+      "id": "secondary-enervate",
+      "name": "Secondary Enervate",
+      "type": "Secondary",
+      "description": "On Hit: Increase Critical Chance by 10%. Resets after 6 Big Critical Hit.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Enervate",
+      "image": "images/mods/arcane-SecondaryEnervate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryEnervate.png"
+    },
+    {
+      "id": "secondary-fortifier",
+      "name": "Secondary Fortifier",
+      "type": "Secondary",
+      "description": "Gain 1 Overguard for every 100 Damage dealt to an enemy's Overguard.\r\nDeals x8 Extra Damage to Overguard.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Fortifier",
+      "image": "images/mods/arcane-SecondaryFortifier.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryFortifier.png"
+    },
+    {
+      "id": "secondary-irradiate",
+      "name": "Secondary Irradiate",
+      "type": "Secondary",
+      "description": "On hitting enemies afflicted by 10 stacks of Radiation: Deal 180% of the hit damage to enemies within 7m.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Irradiate",
+      "image": "images/mods/arcane-SecondaryIrradiate.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryIrradiate.png"
+    },
+    {
+      "id": "secondary-kinship",
+      "name": "Secondary Kinship",
+      "type": "Secondary",
+      "description": "While Buffing Ally Warframes: +20% Critical Chance per buff",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Kinship",
+      "image": "images/mods/arcane-SecondaryKinship.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryKinship.png"
+    },
+    {
+      "id": "secondary-merciless",
+      "name": "Secondary Merciless",
+      "type": "Secondary",
+      "description": "On Kill:\r\n+30% Damage for 4s. Stacks up to 12x.\r\n+30% Reload Speed",
+      "maxRank": 5,
+      "maxStacks": 12,
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.3,
+          "conditional": true
+        }
+      ],
+      "rankEffects": [
+        [
+          {
+            "stat": "damage",
+            "value": 0.049999999999999996,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.09999999999999999,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.15,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.19999999999999998,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.25,
+            "conditional": true
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.3,
+            "conditional": true
+          },
+          {
+            "stat": "reload",
+            "value": 0.3
+          }
+        ]
+      ],
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Merciless",
+      "image": "images/mods/arcane-SecondaryMerciless.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryMerciless.png"
+    },
+    {
+      "id": "secondary-outburst",
+      "name": "Secondary Outburst",
+      "type": "Secondary",
+      "description": "On swapping to Secondary Weapon, consume all Combo Multipliers to increase Secondary Weapon Critical Chance and Critical Damage by 20% per Combo consumed for 30s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Outburst",
+      "image": "images/mods/arcane-SecondaryOutburst.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryOutburst.png"
+    },
+    {
+      "id": "secondary-shiver",
+      "name": "Secondary Shiver",
+      "type": "Secondary",
+      "description": "Enemies take +45% damage per Cold Status",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Shiver",
+      "image": "images/mods/arcane-SecondaryShiver.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryShiver.png"
+    },
+    {
+      "id": "secondary-surge",
+      "name": "Secondary Surge",
+      "type": "Secondary",
+      "description": "On Ability Cast: Next shot gains a Damage Multiplier for every 200 current Energy, up to x8.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Secondary_Surge",
+      "image": "images/mods/arcane-SecondarySurge.png",
+      "imageSource": "https://wiki.warframe.com/w/File:SecondarySurge.png"
+    },
+    {
+      "id": "shotgun-vendetta",
+      "name": "Shotgun Vendetta",
+      "type": "Shotgun",
+      "description": "On shotgun kill within 5m of target:\r\n+180% Multishot and +75% Reload Speed for 15s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Shotgun_Vendetta",
+      "image": "images/mods/arcane-ShotgunVendetta.png",
+      "imageSource": "https://wiki.warframe.com/w/File:ShotgunVendetta.png"
+    },
+    {
+      "id": "theorem-contagion",
+      "name": "Theorem Contagion",
+      "type": "Warframe",
+      "description": "Standing in a zone created by a Residual Arcane creates a globe that orbits the player every 2s. The globes will strike the nearest enemy within 15m dealing 150 damage increasing their vulnerability to the globe's damage type by 200% for 6s. Globes will persist for 30s upon leaving the zone.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Theorem_Contagion",
+      "image": "images/mods/arcane-TheoremContagion.png",
+      "imageSource": "https://wiki.warframe.com/w/File:TheoremContagion.png"
+    },
+    {
+      "id": "theorem-demulcent",
+      "name": "Theorem Demulcent",
+      "type": "Warframe",
+      "description": "Standing in a zone created by a Residual Arcane increases weapon damage by 12%/s stacking up to 15x. Effect persists for 20s upon leaving the zone.",
+      "maxRank": 5,
+      "maxStacks": 15,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Theorem_Demulcent",
+      "image": "images/mods/arcane-TheoremDemulcent.png",
+      "imageSource": "https://wiki.warframe.com/w/File:TheoremDemulcent.png"
+    },
+    {
+      "id": "theorem-infection",
+      "name": "Theorem Infection",
+      "type": "Warframe",
+      "description": "Standing in a zone created by a Residual Arcane increases damage of companions and summoned allies within 90m by 24%/s stacking up to 15x. Effect persists for 20s upon leaving the zone.",
+      "maxRank": 5,
+      "maxStacks": 15,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Theorem_Infection",
+      "image": "images/mods/arcane-TheoremInfection.png",
+      "imageSource": "https://wiki.warframe.com/w/File:TheoremInfection.png"
+    },
+    {
+      "id": "virtuos-forge",
+      "name": "Virtuos Forge",
+      "type": "Amp",
+      "description": "On Hit:\r\nConverts 98% Void Damage to Heat Damage.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Forge",
+      "image": "images/mods/arcane-VirtuosForge.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosForge.png"
+    },
+    {
+      "id": "virtuos-fury",
+      "name": "Virtuos Fury",
+      "type": "Amp",
+      "description": "On Status Effect:\r\n20% chance for +30% Damage for 4s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Fury",
+      "image": "images/mods/arcane-VirtuosFury.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosFury.png"
+    },
+    {
+      "id": "virtuos-ghost",
+      "name": "Virtuos Ghost",
+      "type": "Amp",
+      "description": "On Headshot:\r\n40% chance for +60% Status Chance for 12s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Ghost",
+      "image": "images/mods/arcane-VirtuosGhost.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosGhost.png"
+    },
+    {
+      "id": "virtuos-null",
+      "name": "Virtuos Null",
+      "type": "Amp",
+      "description": "On Kill:\r\n+20% Amp Energy Regeneration for 4s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Null",
+      "image": "images/mods/arcane-VirtuosNull.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosNull.png"
+    },
+    {
+      "id": "virtuos-shadow",
+      "name": "Virtuos Shadow",
+      "type": "Amp",
+      "description": "On Headshot:\r\n40% chance for +60% Critical Chance for 12s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Shadow",
+      "image": "images/mods/arcane-VirtuosShadow.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosShadow.png"
+    },
+    {
+      "id": "virtuos-spike",
+      "name": "Virtuos Spike",
+      "type": "Amp",
+      "description": "On Hit:\r\nConverts 98% Void Damage to Puncture Damage.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Spike",
+      "image": "images/mods/arcane-VirtuosSpike.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosSpike.png"
+    },
+    {
+      "id": "virtuos-strike",
+      "name": "Virtuos Strike",
+      "type": "Amp",
+      "description": "On Critical Hit:\r\n20% chance for +80% Critical Damage for 4s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Strike",
+      "image": "images/mods/arcane-VirtuosStrike.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosStrike.png"
+    },
+    {
+      "id": "virtuos-surge",
+      "name": "Virtuos Surge",
+      "type": "Amp",
+      "description": "On Hit:\r\nConverts 98% Void Damage to Electricity Damage.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Surge",
+      "image": "images/mods/arcane-VirtuosSurge.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosSurge.png"
+    },
+    {
+      "id": "virtuos-tempo",
+      "name": "Virtuos Tempo",
+      "type": "Amp",
+      "description": "On Kill:\r\n60% chance for +60% Fire Rate for 8s",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Tempo",
+      "image": "images/mods/arcane-VirtuosTempo.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosTempo.png"
+    },
+    {
+      "id": "virtuos-trojan",
+      "name": "Virtuos Trojan",
+      "type": "Amp",
+      "description": "On Hit:\r\nConverts 98% Void Damage to Viral Damage.",
+      "maxRank": 3,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Virtuos_Trojan",
+      "image": "images/mods/arcane-VirtuosTrojan.png",
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosTrojan.png"
+    },
+    {
+      "id": "zid-an-asheir",
+      "name": "Zid-An Asheir",
+      "type": "Tektolyst Artifacts",
+      "description": "6% Status chance for all Warframe weapons for each enemy hit with Tauron Strike, up to 300%. Buff lasts for 30s\r\n+18% Tauron Strike Initial Charge.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Zid-An_Asheir",
+      "image": "images/mods/arcane-Zid-AnAsheir.png",
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnAsheir.png"
+    },
+    {
+      "id": "zid-an-haras",
+      "name": "Zid-An Haras",
+      "type": "Tektolyst Artifacts",
+      "description": "48% Warframe Ammo Efficiency for 30s after executing Tauron Strike\r\n+18% Amp Ammo Efficiency",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Zid-An_Haras",
+      "image": "images/mods/arcane-Zid-AnHaras.png",
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnHaras.png"
+    },
+    {
+      "id": "zid-an-osbok",
+      "name": "Zid-An Osbok",
+      "type": "Tektolyst Artifacts",
+      "description": "Void Sling strips 30% of enemy Overguard.\r\nWhen Overguard is stripped: +3.0x Amp Critical Damage for 15s.",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Zid-An_Osbok",
+      "image": "images/mods/arcane-Zid-AnOsbok.png",
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnOsbok.png"
+    },
+    {
+      "id": "zid-an-sek-eel",
+      "name": "Zid-An Sek-Eel",
+      "type": "Tektolyst Artifacts",
+      "description": "Gain invisiblity for 30s after activating Tauron Strike\r\n+9% Tauron Strike Charge Rate",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Zid-An_Sek-Eel",
+      "image": "images/mods/arcane-Zid-AnSek-Eel.png",
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnSek-Eel.png"
+    },
+    {
+      "id": "zid-an-uskos",
+      "name": "Zid-An Uskos",
+      "type": "Tektolyst Artifacts",
+      "description": "On Operator and Tauron Strike Kill: 2.4% Heat Damage for Secondary Weapon for duration of mission, max 250%",
+      "maxRank": 5,
+      "maxStacks": 1,
+      "effects": [],
+      "rankEffects": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "limitations": [
+        "Arcane effect has not been modeled; the description is retained for editing."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:Arcane/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Zid-An_Uskos",
+      "image": "images/mods/arcane-Zid-AnUskos.png",
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnUskos.png"
+    }
+  ]
+}

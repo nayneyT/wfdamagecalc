@@ -1,0 +1,577 @@
+{
+  "category": "archon-shards",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-12",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Archon_Shard",
+      "snapshot": "2026-10-12",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "archon-crimson-primary-status-chance",
+      "name": "Crimson Archon Shard · Primary Status Chance",
+      "color": "Crimson",
+      "description": "+25% Primary Status Chance; Tauforged +37.5%.",
+      "effects": [
+        {
+          "stat": "statusChance",
+          "value": 0.25,
+          "tauValue": 0.375
+        }
+      ],
+      "weaponCategories": [
+        "Primary"
+      ],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-crimson-secondary-critical-chance",
+      "name": "Crimson Archon Shard · Secondary Critical Chance",
+      "color": "Crimson",
+      "description": "+25% Secondary Critical Chance; Tauforged +37.5%.",
+      "effects": [
+        {
+          "stat": "critChance",
+          "value": 0.25,
+          "tauValue": 0.375
+        }
+      ],
+      "weaponCategories": [
+        "Secondary"
+      ],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-crimson-melee-critical-damage",
+      "name": "Crimson Archon Shard · Melee Critical Damage",
+      "color": "Crimson",
+      "description": "+25% Melee Critical Damage; Tauforged +37.5%.",
+      "effects": [
+        {
+          "stat": "critDamage",
+          "value": 0.25,
+          "tauValue": 0.375
+        }
+      ],
+      "weaponCategories": [
+        "Melee"
+      ],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-crimson-ability-strength",
+      "name": "Crimson Archon Shard · Ability Strength",
+      "color": "Crimson",
+      "description": "+10% Ability Strength; Tauforged +15%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-crimson-ability-duration",
+      "name": "Crimson Archon Shard · Ability Duration",
+      "color": "Crimson",
+      "description": "+10% Ability Duration; Tauforged +15%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-amber-casting-speed",
+      "name": "Amber Archon Shard · Casting Speed",
+      "color": "Amber",
+      "description": "+25% Casting Speed; Tauforged +37.5%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-amber-energy-orb-effectiveness",
+      "name": "Amber Archon Shard · Energy Orb Effectiveness",
+      "color": "Amber",
+      "description": "+50% Energy Orb Effectiveness; Tauforged +75%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-amber-health-orb-effectiveness",
+      "name": "Amber Archon Shard · Health Orb Effectiveness",
+      "color": "Amber",
+      "description": "+100% Health Orb Effectiveness; Tauforged +150%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-amber-parkour-velocity",
+      "name": "Amber Archon Shard · Parkour Velocity",
+      "color": "Amber",
+      "description": "+25% Parkour Velocity; Tauforged +37.5%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-amber-energy-filled-on-spawn",
+      "name": "Amber Archon Shard · Energy Filled on Spawn",
+      "color": "Amber",
+      "description": "Fill 30% maximum Energy on spawn; Tauforged 45%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-azure-maximum-health",
+      "name": "Azure Archon Shard · Maximum Health",
+      "color": "Azure",
+      "description": "+150 Maximum Health; Tauforged +225.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-azure-maximum-shields",
+      "name": "Azure Archon Shard · Maximum Shields",
+      "color": "Azure",
+      "description": "+150 Maximum Shields; Tauforged +225.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-azure-maximum-energy",
+      "name": "Azure Archon Shard · Maximum Energy",
+      "color": "Azure",
+      "description": "+50 Maximum Energy; Tauforged +75.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-azure-armor",
+      "name": "Azure Archon Shard · Armor",
+      "color": "Azure",
+      "description": "+150 Armor; Tauforged +225.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-azure-health-regeneration",
+      "name": "Azure Archon Shard · Health Regeneration",
+      "color": "Azure",
+      "description": "+5 Health/s; Tauforged +7.5.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-topaz-secondary-critical-chance-on-heat-kills",
+      "name": "Topaz Archon Shard · Secondary Critical Chance on Heat Kills",
+      "color": "Topaz",
+      "description": "Gain +1% Secondary Critical Chance per Heat-affected enemy killed, up to 50%; Tauforged +1.5% up to 75%.",
+      "effects": [
+        {
+          "stat": "critChance",
+          "value": 0.01,
+          "tauValue": 0.015,
+          "conditional": true
+        }
+      ],
+      "weaponCategories": [
+        "Secondary"
+      ],
+      "maxStacks": 50,
+      "tauMaxStacks": 75,
+      "limitations": [
+        "Enter the already-earned Heat-kill stacks. The calculator does not infer prior mission kills."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-topaz-ability-damage-on-radiation",
+      "name": "Topaz Archon Shard · Ability Damage on Radiation",
+      "color": "Topaz",
+      "description": "+10% Ability Damage against enemies with Radiation status; Tauforged +15%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-topaz-shields-on-blast-status",
+      "name": "Topaz Archon Shard · Shields on Blast Status",
+      "color": "Topaz",
+      "description": "Restore +5 Shields when inflicting Blast status; Tauforged +7.5 Shields.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-topaz-health-on-blast-kills",
+      "name": "Topaz Archon Shard · Health on Blast Kills",
+      "color": "Topaz",
+      "description": "Recover 1 Health per enemy killed with Blast Damage, up to 300; Tauforged 2 per kill, up to 450.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-violet-primary-electricity-damage",
+      "name": "Violet Archon Shard · Primary Electricity Damage",
+      "color": "Violet",
+      "description": "+30% Primary Electricity Damage; Tauforged +45%, plus +10% (+15%) per equipped Crimson, Azure, or Violet shard.",
+      "effects": [
+        {
+          "stat": "element:electricity",
+          "value": 0.3,
+          "tauValue": 0.45,
+          "perOtherShard": 0.1,
+          "tauPerOtherShard": 0.15,
+          "countColors": [
+            "Crimson",
+            "Azure",
+            "Violet"
+          ]
+        }
+      ],
+      "weaponCategories": [
+        "Primary"
+      ],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-violet-ability-damage-on-electricity",
+      "name": "Violet Archon Shard · Ability Damage on Electricity",
+      "color": "Violet",
+      "description": "+10% Ability Damage against enemies with Electricity status; Tauforged +15%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-violet-melee-critical-damage",
+      "name": "Violet Archon Shard · Melee Critical Damage",
+      "color": "Violet",
+      "description": "+25% Melee Critical Damage; doubles above 500 maximum Energy.",
+      "effects": [],
+      "weaponCategories": [
+        "Melee"
+      ],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK. Energy threshold behavior is not modeled."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-violet-health-and-energy-pickups",
+      "name": "Violet Archon Shard · Health and Energy Pickups",
+      "color": "Violet",
+      "description": "Health pickups give +20% Energy and Energy pickups give +20% Health; Tauforged +30%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-emerald-toxin-status-damage",
+      "name": "Emerald Archon Shard · Toxin Status Damage",
+      "color": "Emerald",
+      "description": "Toxin Status Effects deal +30% more damage; Tauforged +45%.",
+      "effects": [
+        {
+          "stat": "toxinStatusDamage",
+          "value": 0.3,
+          "tauValue": 0.45
+        }
+      ],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-emerald-corrosive-status-stack-limit",
+      "name": "Emerald Archon Shard · Corrosive Status Stack Limit",
+      "color": "Emerald",
+      "description": "Increase maximum Corrosive status stacks by +2; Tauforged +3.",
+      "effects": [
+        {
+          "stat": "corrosiveCapBonus",
+          "value": 2,
+          "tauValue": 3
+        }
+      ],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-emerald-ability-damage-on-corrosive",
+      "name": "Emerald Archon Shard · Ability Damage on Corrosive",
+      "color": "Emerald",
+      "description": "+10% Ability Damage against enemies with Corrosive status; Tauforged +15%.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    },
+    {
+      "id": "archon-emerald-health-on-toxin-ticks",
+      "name": "Emerald Archon Shard · Health on Toxin Ticks",
+      "color": "Emerald",
+      "description": "Recover +2 Health each time enemies are damaged by a Toxin Status Effect; Tauforged +3.",
+      "effects": [],
+      "weaponCategories": [],
+      "maxStacks": 1,
+      "tauMaxStacks": 1,
+      "limitations": [
+        "This shard trait is retained in the build, but it does not affect weapon damage or TTK."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Archon_Shard",
+        "snapshot": "2026-10-12",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "wiki": "https://wiki.warframe.com/w/Archon_Shard"
+    }
+  ]
+}

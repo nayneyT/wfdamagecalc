@@ -1,0 +1,220 @@
+{
+  "category": "rules",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-11",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Enemy_Level_Scaling",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Armor",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Status_Effect",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "standard",
+      "name": "Standard PvE rules",
+      "armorMin": 200,
+      "armorCap": 2700,
+      "armorMaxReduction": 0.9,
+      "steelPathHealth": 2.5,
+      "steelPathShield": 2.5,
+      "steelPathOverguard": 1,
+      "scaling": {
+        "grineer": {
+          "health": [
+            0.015,
+            2.12,
+            10.7332,
+            0.72
+          ],
+          "shield": [
+            0.02,
+            1.75,
+            1.6,
+            0.75
+          ]
+        },
+        "corpus": {
+          "health": [
+            0.015,
+            2.12,
+            13.4165,
+            0.55
+          ],
+          "shield": [
+            0.02,
+            1.76,
+            2,
+            0.76
+          ]
+        },
+        "infested": {
+          "health": [
+            0.0225,
+            2.12,
+            16.0998,
+            0.72
+          ],
+          "shield": [
+            0.02,
+            1.75,
+            1.6,
+            0.75
+          ]
+        },
+        "orokin": {
+          "health": [
+            0.015,
+            2.1,
+            10.7332,
+            0.685
+          ],
+          "shield": [
+            0.02,
+            1.75,
+            2,
+            0.75
+          ]
+        },
+        "techrot": {
+          "health": [
+            0.02,
+            2.12,
+            15.0998,
+            0.7
+          ],
+          "shield": [
+            0.02,
+            1.76,
+            3.5,
+            0.76
+          ]
+        },
+        "standard": {
+          "health": [
+            0.015,
+            2,
+            10.7332,
+            0.5
+          ],
+          "shield": [
+            0.02,
+            1.75,
+            1.6,
+            0.75
+          ]
+        }
+      },
+      "armorScaling": [
+        0.005,
+        1.75,
+        0.4,
+        0.75
+      ],
+      "overguardScaling": [
+        0.0015,
+        4,
+        260,
+        0.9
+      ],
+      "overguardBase": 12,
+      "rivenLayouts": {
+        "2p0n": {
+          "positive": 0.99,
+          "negative": 0
+        },
+        "2p1n": {
+          "positive": 1.2375,
+          "negative": -0.495
+        },
+        "3p0n": {
+          "positive": 0.75,
+          "negative": 0
+        },
+        "3p1n": {
+          "positive": 0.9375,
+          "negative": -0.75
+        }
+      },
+      "status": {
+        "slash": {
+          "coefficient": 0.35,
+          "duration": 6,
+          "ticks": 6,
+          "damageType": "true"
+        },
+        "heat": {
+          "coefficient": 0.5,
+          "duration": 6,
+          "ticks": 6,
+          "damageType": "heat",
+          "element": "heat"
+        },
+        "toxin": {
+          "coefficient": 0.5,
+          "duration": 6,
+          "ticks": 6,
+          "damageType": "toxin",
+          "element": "toxin"
+        },
+        "electricity": {
+          "coefficient": 0.5,
+          "duration": 6,
+          "ticks": 7,
+          "damageType": "electricity",
+          "element": "electricity"
+        },
+        "gas": {
+          "coefficient": 0.5,
+          "duration": 6,
+          "ticks": 7,
+          "damageType": "gas",
+          "cap": 10
+        },
+        "blast": {
+          "coefficient": 0.3,
+          "duration": 1.5,
+          "ticks": 1,
+          "damageType": "blast"
+        }
+      },
+      "source": {
+        "url": "https://wiki.warframe.com/w/Enemy_Level_Scaling",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "statusIcons": {
+        "blast": "images/status/DmgBlastSmall64.png",
+        "cinematic": "images/placeholder.svg",
+        "cold": "images/status/DmgColdSmall64.png",
+        "corrosive": "images/status/DmgCorrosiveSmall64.png",
+        "electricity": "images/status/DmgElectricitySmall64.png",
+        "energy drain": "images/placeholder.svg",
+        "finisher": "images/placeholder.svg",
+        "gas": "images/status/DmgGasSmall64.png",
+        "heat": "images/status/DmgHeatSmall64.png",
+        "impact": "images/status/DmgImpactSmall64.png",
+        "magnetic": "images/status/DmgMagneticSmall64.png",
+        "puncture": "images/status/DmgPunctureSmall64.png",
+        "radiation": "images/status/DmgRadiationSmall64.png",
+        "shield drain": "images/status/IconShield.png",
+        "slash": "images/status/DmgSlashSmall64.png",
+        "tau": "images/status/DmgTauSmall64.png",
+        "toxin": "images/status/DmgToxinSmall64.png",
+        "true": "images/status/DmgTrueSmall64.png",
+        "viral": "images/status/DmgViralSmall64.png",
+        "void": "images/status/DmgVoidSmall64.png"
+      }
+    }
+  ]
+}

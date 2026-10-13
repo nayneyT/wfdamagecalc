@@ -1,0 +1,13 @@
+{
+  "category": "rivens",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-11",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Riven_Mods",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": []
+}

@@ -1,0 +1,339 @@
+{
+  "category": "factions",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-11",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "grineer",
+      "name": "Grineer",
+      "modifiers": {
+        "corrosive": 1.5,
+        "impact": 1.5
+      },
+      "scaling": "grineer",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "kuva-grineer",
+      "name": "Kuva Grineer",
+      "modifiers": {
+        "corrosive": 1.5,
+        "heat": 0.5,
+        "impact": 1.5
+      },
+      "scaling": "grineer",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "corpus",
+      "name": "Corpus",
+      "modifiers": {
+        "magnetic": 1.5,
+        "puncture": 1.5
+      },
+      "scaling": "corpus",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "corpus-amalgam",
+      "name": "Corpus Amalgam",
+      "modifiers": {
+        "blast": 0.5,
+        "electricity": 1.5,
+        "magnetic": 1.5
+      },
+      "scaling": "corpus",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "infested",
+      "name": "Infested",
+      "modifiers": {
+        "heat": 1.5,
+        "slash": 1.5
+      },
+      "scaling": "infested",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "infested-deimos",
+      "name": "Infested Deimos",
+      "modifiers": {
+        "blast": 1.5,
+        "gas": 1.5,
+        "viral": 0.5
+      },
+      "scaling": "infested",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "orokin",
+      "name": "Orokin",
+      "modifiers": {
+        "puncture": 1.5,
+        "radiation": 0.5,
+        "viral": 1.5
+      },
+      "scaling": "orokin",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "sentient",
+      "name": "Sentient",
+      "modifiers": {
+        "cold": 1.5,
+        "corrosive": 0.5,
+        "radiation": 1.5
+      },
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "narmer",
+      "name": "Narmer",
+      "modifiers": {
+        "magnetic": 0.5,
+        "slash": 1.5,
+        "toxin": 1.5
+      },
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "the-murmur",
+      "name": "The Murmur",
+      "modifiers": {
+        "electricity": 1.5,
+        "radiation": 1.5,
+        "viral": 0.5
+      },
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "techrot",
+      "name": "Techrot",
+      "modifiers": {
+        "cold": 0.5,
+        "gas": 1.5,
+        "magnetic": 1.5
+      },
+      "scaling": "techrot",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "scaldra",
+      "name": "Scaldra",
+      "modifiers": {
+        "corrosive": 1.5,
+        "gas": 0.5,
+        "impact": 1.5
+      },
+      "scaling": "grineer",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "anarchs",
+      "name": "Anarchs",
+      "modifiers": {
+        "electricity": 1.5,
+        "impact": 1.5,
+        "radiation": 0.5
+      },
+      "scaling": "orokin",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "stalker",
+      "name": "Stalker",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "unaffiliated",
+      "name": "Unaffiliated",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "predator",
+      "name": "Predator",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": [
+        "Faction damage modifiers require verification."
+      ]
+    },
+    {
+      "id": "prey",
+      "name": "Prey",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": [
+        "Faction damage modifiers require verification."
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": [
+        "Faction damage modifiers require verification."
+      ]
+    },
+    {
+      "id": "tenno",
+      "name": "Tenno",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": []
+    },
+    {
+      "id": "duviri",
+      "name": "Duviri",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": [
+        "Faction damage modifiers require verification."
+      ]
+    },
+    {
+      "id": "unknown",
+      "name": "?",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": [
+        "Faction damage modifiers require verification."
+      ]
+    },
+    {
+      "id": "objects",
+      "name": "Objects",
+      "modifiers": {},
+      "scaling": "standard",
+      "source": {
+        "url": "https://wiki.warframe.com/w/Module:DamageTypes/data",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      },
+      "limitations": [
+        "Faction damage modifiers require verification."
+      ]
+    }
+  ]
+}

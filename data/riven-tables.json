@@ -1,0 +1,590 @@
+{
+  "category": "riven-tables",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-11",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Riven_Mods",
+      "snapshot": "2026-10-11",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "damage",
+      "name": "Damage",
+      "values": {
+        "Rifle": 1.65,
+        "Shotgun": 1.647,
+        "Pistol": 2.196,
+        "Archgun": 0.999,
+        "Melee": 1.647
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "critChance",
+      "name": "Critical chance",
+      "values": {
+        "Rifle": 1.4999,
+        "Shotgun": 0.9,
+        "Pistol": 1.4999,
+        "Archgun": 0.999,
+        "Melee": 1.8
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "critDamage",
+      "name": "Critical damage",
+      "values": {
+        "Rifle": 1.19997,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 0.801,
+        "Melee": 0.9
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "multishot",
+      "name": "Multishot",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 1.197,
+        "Pistol": 1.197,
+        "Archgun": 0.603,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "fireRate",
+      "name": "Fire rate / attack speed",
+      "values": {
+        "Rifle": 0.6003,
+        "Shotgun": 0.9,
+        "Pistol": 0.747,
+        "Archgun": 0.6003,
+        "Melee": 0.549
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "statusChance",
+      "name": "Status chance",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 0.603,
+        "Melee": 0.9
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "statusDuration",
+      "name": "Status duration",
+      "values": {
+        "Rifle": 0.9999,
+        "Shotgun": 0.9999,
+        "Pistol": 0.9999,
+        "Archgun": 0.9999,
+        "Melee": 0.9999
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "reload",
+      "name": "Reload speed",
+      "values": {
+        "Rifle": 0.49995,
+        "Shotgun": 0.49995,
+        "Pistol": 0.49995,
+        "Archgun": 0.999,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "magazine",
+      "name": "Magazine capacity",
+      "values": {
+        "Rifle": 0.49995,
+        "Shotgun": 0.49995,
+        "Pistol": 0.49995,
+        "Archgun": 0.603,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "ammo",
+      "name": "Ammo maximum",
+      "values": {
+        "Rifle": 0.4995,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 0.999,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "punchThrough",
+      "name": "Punch through",
+      "values": {
+        "Rifle": 2.7,
+        "Shotgun": 2.7,
+        "Pistol": 2.7,
+        "Archgun": 2.7,
+        "Melee": null
+      },
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "range",
+      "name": "Melee range",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 1.94
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "initialCombo",
+      "name": "Initial combo",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 24.5
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "comboDuration",
+      "name": "Combo duration",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 8.1
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "heavyEfficiency",
+      "name": "Heavy attack efficiency",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 0.7344
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "finisher",
+      "name": "Finisher damage",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 1.197
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "slideCrit",
+      "name": "Slide critical chance",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 1.2
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "extraCombo",
+      "name": "Additional combo count chance",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 0.5877
+      },
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "negativeCombo",
+      "name": "Chance to gain combo count",
+      "values": {
+        "Rifle": null,
+        "Shotgun": null,
+        "Pistol": null,
+        "Archgun": null,
+        "Melee": 1.0485
+      },
+      "positiveOnly": false,
+      "negativeOnly": true,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "projectileSpeed",
+      "name": "Projectile speed",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": null,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "recoil",
+      "name": "Weapon recoil",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 0.9,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "values": {
+        "Rifle": 0.5999,
+        "Shotgun": 0.41994,
+        "Pistol": 0.801,
+        "Archgun": 0.5999,
+        "Melee": null
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:heat",
+      "name": "heat damage",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:cold",
+      "name": "cold damage",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:electricity",
+      "name": "electricity damage",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:toxin",
+      "name": "toxin damage",
+      "values": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:impact",
+      "name": "impact damage",
+      "values": {
+        "Rifle": 1.1997,
+        "Shotgun": 1.1997,
+        "Pistol": 1.1997,
+        "Archgun": 0.9,
+        "Melee": 1.197
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:puncture",
+      "name": "puncture damage",
+      "values": {
+        "Rifle": 1.19997,
+        "Shotgun": 1.19997,
+        "Pistol": 1.19997,
+        "Archgun": 0.9,
+        "Melee": 1.19997
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "element:slash",
+      "name": "slash damage",
+      "values": {
+        "Rifle": 1.1997,
+        "Shotgun": 1.1997,
+        "Pistol": 1.1997,
+        "Archgun": 0.9,
+        "Melee": 1.197
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "faction:grineer",
+      "name": "Damage to grineer",
+      "values": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45,
+        "Melee": 0.45
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "faction:corpus",
+      "name": "Damage to corpus",
+      "values": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45,
+        "Melee": 0.45
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    {
+      "id": "faction:infested",
+      "name": "Damage to infested",
+      "values": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45,
+        "Melee": 0.45
+      },
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "source": {
+        "url": "https://wiki.warframe.com/w/Riven_Mods",
+        "snapshot": "2026-10-11",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    }
+  ]
+}

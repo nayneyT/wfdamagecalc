@@ -1,0 +1,127 @@
+{
+  "category": "coda-offerings",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-13",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Coda_Weapons",
+      "snapshot": "2026-10-13",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "coda-offerings",
+      "name": "Coda weapon rotation",
+      "wiki": "https://wiki.warframe.com/w/Coda_Weapons",
+      "resetPeriodHours": 96,
+      "rotationEpochUTC": "2025-03-19T00:00:00Z",
+      "lastVerifiedUTC": "",
+      "currentBatch": "B",
+      "offerings": [
+        {
+          "name": "Coda Catabolyst",
+          "type": "Secondary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Coda Hema",
+          "type": "Primary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Coda Motovore",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Coda Mire",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Coda Pox",
+          "type": "Secondary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Coda Sporothrix",
+          "type": "Primary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Dual Coda Torxica",
+          "type": "Secondary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "A"
+        },
+        {
+          "name": "Coda Bassocyst",
+          "type": "Primary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        },
+        {
+          "name": "Coda Bubonico",
+          "type": "Primary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        },
+        {
+          "name": "Coda Caustacyst",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        },
+        {
+          "name": "Coda Hirudo",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        },
+        {
+          "name": "Coda Pathocyst",
+          "type": "Melee",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        },
+        {
+          "name": "Coda Synapse",
+          "type": "Primary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        },
+        {
+          "name": "Coda Tysis",
+          "type": "Secondary",
+          "element": "",
+          "bonusPercent": null,
+          "batch": "B"
+        }
+      ],
+      "note": "Element and bonus values are read from the wiki when available. Missing active values trigger an automatic wiki refresh when the app loads; cells remain unavailable if the wiki response does not publish them.",
+      "nextRotationUTC": "2026-10-15T00:00:00Z",
+      "lastWikiCheckUTC": "",
+      "lastWikiAttemptUTC": ""
+    }
+  ]
+}

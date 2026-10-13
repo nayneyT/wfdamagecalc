@@ -1,0 +1,482 @@
+{
+  "category": "riven-splices",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-13",
+  "sources": [
+    {
+      "url": "https://www.warframe.com/en/patch-notes/pc/44-1-0",
+      "snapshot": "2026-10-12",
+      "license": "Warframe patch notes"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Riven_Mods",
+      "snapshot": "2026-10-13",
+      "license": "CC BY-NC-SA 3.0",
+      "note": "Base values used for TBC estimates; provisional assumption that ordinary Riven roll spread and layout factors also apply to spliced traits."
+    }
+  ],
+  "records": [
+    {
+      "id": "weakDamage",
+      "name": "Weak Point Damage",
+      "stat": "weakDamage",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun"
+      ],
+      "pairs": [
+        [
+          "damage",
+          "zoom"
+        ],
+        [
+          "damage",
+          "multishot"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 2.25,
+        "Shotgun": 2.25,
+        "Pistol": 0.9,
+        "Archgun": 2.25
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "weakCrit",
+      "name": "Weak Point Critical Chance",
+      "stat": "weakCrit",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun"
+      ],
+      "pairs": [
+        [
+          "critChance",
+          "zoom"
+        ],
+        [
+          "critChance",
+          "multishot"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 2.475,
+        "Shotgun": 2.475,
+        "Pistol": 0.9,
+        "Archgun": 2.475
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "ammoEfficiency",
+      "name": "Ammo Efficiency",
+      "stat": "ammoEfficiency",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun"
+      ],
+      "pairs": [
+        [
+          "magazine",
+          "reload"
+        ],
+        [
+          "recoil",
+          "ammo"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "holsterReload",
+      "name": "Magazine Reload While Holstered",
+      "stat": "holsterReload",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun"
+      ],
+      "pairs": [
+        [
+          "ammo",
+          "reload"
+        ],
+        [
+          "ammo",
+          "magazine"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "statusDamage",
+      "name": "Status Damage",
+      "stat": "statusDamage",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "damage",
+          "statusChance"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 0.9,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "heavyAttackDamage",
+      "name": "Heavy Attack Damage",
+      "stat": "heavyAttackDamage",
+      "categories": [
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "heavyEfficiency",
+          "extraCombo"
+        ]
+      ],
+      "baseValues": {
+        "Melee": 1.2
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "windUp",
+      "name": "Heavy Attack Windup Speed",
+      "stat": "windUp",
+      "categories": [
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "heavyEfficiency",
+          "comboDuration"
+        ]
+      ],
+      "baseValues": {
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "parryAngle",
+      "name": "Parry Angle",
+      "stat": "parryAngle",
+      "categories": [
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "fireRate",
+          "range"
+        ]
+      ],
+      "baseValues": {
+        "Melee": 45
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "slamDamage",
+      "name": "Slam Damage",
+      "stat": "slamDamage",
+      "categories": [
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "damage",
+          "fireRate"
+        ]
+      ],
+      "baseValues": {
+        "Melee": 1.2
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "element:gas",
+      "name": "Gas Damage",
+      "stat": "element:gas",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "element:toxin",
+          "element:heat"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "element:corrosive",
+      "name": "Corrosive Damage",
+      "stat": "element:corrosive",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "element:toxin",
+          "element:electricity"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "element:viral",
+      "name": "Viral Damage",
+      "stat": "element:viral",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "element:toxin",
+          "element:cold"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "element:radiation",
+      "name": "Radiation Damage",
+      "stat": "element:radiation",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "element:heat",
+          "element:electricity"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "element:blast",
+      "name": "Blast Damage",
+      "stat": "element:blast",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "element:heat",
+          "element:cold"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "element:magnetic",
+      "name": "Magnetic Damage",
+      "stat": "element:magnetic",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "element:electricity",
+          "element:cold"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.9,
+        "Shotgun": 0.9,
+        "Pistol": 0.9,
+        "Archgun": 1.197,
+        "Melee": 0.9
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "faction:orokin",
+      "name": "Damage vs Orokin",
+      "stat": "faction:orokin",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "faction:corpus",
+          "faction:grineer"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45,
+        "Melee": 0.45
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "faction:techrot",
+      "name": "Damage vs Techrot",
+      "stat": "faction:techrot",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "faction:corpus",
+          "faction:infested"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45,
+        "Melee": 0.45
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    },
+    {
+      "id": "faction:scaldra",
+      "name": "Damage vs Scaldra",
+      "stat": "faction:scaldra",
+      "categories": [
+        "Rifle",
+        "Shotgun",
+        "Pistol",
+        "Archgun",
+        "Melee"
+      ],
+      "pairs": [
+        [
+          "faction:infested",
+          "faction:grineer"
+        ]
+      ],
+      "baseValues": {
+        "Rifle": 0.45,
+        "Shotgun": 0.45,
+        "Pistol": 0.45,
+        "Archgun": 0.45,
+        "Melee": 0.45
+      },
+      "rangeStatus": "TBC",
+      "rangeNote": "Indication only: assumes the standard Riven 90–110% roll spread and layout/disposition scaling apply to this spliced trait."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "progenitor-library",
+  "schemaVersion": 1,
+  "snapshot": "2026-10-13",
+  "sources": [
+    {
+      "url": "weapons.json",
+      "snapshot": "2026-10-13",
+      "license": "Local weapons category"
+    }
+  ],
+  "records": [],
+  "note": "Weapon entries are generated at runtime from records in weapons.json. User acquisition, element, and bonus values are retained by matching the weapon name."
+}
