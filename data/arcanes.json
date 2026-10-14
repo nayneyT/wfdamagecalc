@@ -36,7 +36,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Akimbo_Slip_Shot",
       "image": "images/mods/arcane-AkimboSlipShot.png",
-      "imageSource": "https://wiki.warframe.com/w/File:AkimboSlipShot.png"
+      "imageSource": "https://wiki.warframe.com/w/File:AkimboSlipShot.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-acceleration",
@@ -104,7 +105,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Acceleration",
       "image": "images/mods/arcane-ArcaneAcceleration.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAcceleration.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAcceleration.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-aegis",
@@ -132,7 +134,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Aegis",
       "image": "images/mods/arcane-ArcaneAegis.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAegis.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAegis.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-agility",
@@ -160,7 +163,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Agility",
       "image": "images/mods/arcane-ArcaneAgility.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAgility.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAgility.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-arachne",
@@ -188,7 +192,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Arachne",
       "image": "images/mods/arcane-ArcaneArachne.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneArachne.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneArachne.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-avenger",
@@ -256,7 +261,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Avenger",
       "image": "images/mods/arcane-ArcaneAvenger.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAvenger.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAvenger.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-awakening",
@@ -324,7 +330,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Awakening",
       "image": "images/mods/arcane-ArcaneAwakening.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAwakening.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneAwakening.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-barrier",
@@ -352,7 +359,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Barrier",
       "image": "images/mods/arcane-ArcaneBarrier.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBarrier.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBarrier.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-battery",
@@ -380,7 +388,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Battery",
       "image": "images/mods/arcane-ArcaneBattery.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBattery.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBattery.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-bellicose",
@@ -408,7 +417,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Bellicose",
       "image": "images/mods/arcane-ArcaneBellicose.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBellicose.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBellicose.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-blade-charger",
@@ -436,7 +446,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Blade_Charger",
       "image": "images/mods/arcane-ArcaneBladeCharger.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBladeCharger.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBladeCharger.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-blessing",
@@ -464,7 +475,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Blessing",
       "image": "images/mods/arcane-ArcaneBlessing.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBlessing.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBlessing.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-bodyguard",
@@ -492,7 +504,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Bodyguard",
       "image": "images/mods/arcane-ArcaneBodyguard.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBodyguard.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneBodyguard.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-camisado",
@@ -520,7 +533,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Camisado",
       "image": "images/mods/arcane-ArcaneCamisado.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCamisado.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCamisado.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-circumvent",
@@ -548,7 +562,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Circumvent",
       "image": "images/mods/arcane-ArcaneCircumvent.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCircumvent.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCircumvent.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-concentration",
@@ -576,7 +591,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Concentration",
       "image": "images/mods/arcane-ArcaneConcentration.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneConcentration.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneConcentration.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-consequence",
@@ -604,7 +620,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Consequence",
       "image": "images/mods/arcane-ArcaneConsequence.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneConsequence.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneConsequence.png",
+      "rarity": "Common"
     },
     {
       "id": "arcane-crepuscular",
@@ -632,7 +649,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Crepuscular",
       "image": "images/mods/arcane-ArcaneCrepuscular.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCrepuscular.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneCrepuscular.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-deflection",
@@ -660,7 +678,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Deflection",
       "image": "images/mods/arcane-ArcaneDeflection.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneDeflection.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneDeflection.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-double-back",
@@ -688,7 +707,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Double_Back",
       "image": "images/mods/arcane-ArcaneDoubleBack.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneDoubleBack.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneDoubleBack.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-energize",
@@ -716,7 +736,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Energize",
       "image": "images/mods/arcane-ArcaneEnergize.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEnergize.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEnergize.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-eruption",
@@ -744,7 +765,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Eruption",
       "image": "images/mods/arcane-ArcaneEruption.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEruption.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEruption.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-escapist",
@@ -772,7 +794,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Escapist",
       "image": "images/mods/arcane-ArcaneEscapist.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEscapist.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneEscapist.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-expertise",
@@ -800,7 +823,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Expertise",
       "image": "images/mods/arcane-ArcaneExpertise.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneExpertise.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneExpertise.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-fury",
@@ -868,7 +892,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Fury",
       "image": "images/mods/arcane-ArcaneFury.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneFury.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneFury.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-grace",
@@ -896,7 +921,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Grace",
       "image": "images/mods/arcane-ArcaneGrace.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneGrace.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneGrace.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-guardian",
@@ -924,7 +950,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Guardian",
       "image": "images/mods/arcane-ArcaneGuardian.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneGuardian.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneGuardian.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-healing",
@@ -952,7 +979,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Healing",
       "image": "images/mods/arcane-ArcaneHealing.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneHealing.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneHealing.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-hot-shot",
@@ -980,7 +1008,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Hot_Shot",
       "image": "images/mods/arcane-ArcaneHotShot.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneHotShot.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneHotShot.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-ice",
@@ -1008,7 +1037,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ice",
       "image": "images/mods/arcane-ArcaneIce.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIce.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIce.png",
+      "rarity": "Common"
     },
     {
       "id": "arcane-ice-storm",
@@ -1036,7 +1066,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ice_Storm",
       "image": "images/mods/arcane-ArcaneIceStorm.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIceStorm.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIceStorm.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-impetus",
@@ -1064,7 +1095,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Impetus",
       "image": "images/mods/arcane-ArcaneImpetus.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneImpetus.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneImpetus.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-intention",
@@ -1092,7 +1124,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Intention",
       "image": "images/mods/arcane-ArcaneIntention.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIntention.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneIntention.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-momentum",
@@ -1120,7 +1153,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Momentum",
       "image": "images/mods/arcane-ArcaneMomentum.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneMomentum.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneMomentum.png",
+      "rarity": "Common"
     },
     {
       "id": "arcane-nullifier",
@@ -1148,7 +1182,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Nullifier",
       "image": "images/mods/arcane-ArcaneNullifier.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneNullifier.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneNullifier.png",
+      "rarity": "Common"
     },
     {
       "id": "arcane-persistence",
@@ -1176,7 +1211,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Persistence",
       "image": "images/mods/arcane-ArcanePersistence.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePersistence.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePersistence.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-phantasm",
@@ -1204,7 +1240,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Phantasm",
       "image": "images/mods/arcane-ArcanePhantasm.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePhantasm.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePhantasm.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-pistoleer",
@@ -1232,7 +1269,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Pistoleer",
       "image": "images/mods/arcane-ArcanePistoleer.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePistoleer.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePistoleer.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-power-ramp",
@@ -1260,7 +1298,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Power_Ramp",
       "image": "images/mods/arcane-ArcanePowerRamp.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePowerRamp.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePowerRamp.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-precision",
@@ -1328,7 +1367,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Precision",
       "image": "images/mods/arcane-ArcanePrecision.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePrecision.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePrecision.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-primary-charger",
@@ -1356,7 +1396,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Primary_Charger",
       "image": "images/mods/arcane-ArcanePrimaryCharger.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePrimaryCharger.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePrimaryCharger.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-pulse",
@@ -1384,7 +1425,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Pulse",
       "image": "images/mods/arcane-ArcanePulse.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcanePulse.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcanePulse.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-rage",
@@ -1452,7 +1494,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Rage",
       "image": "images/mods/arcane-ArcaneRage.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneRage.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneRage.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-reaper",
@@ -1480,7 +1523,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Reaper",
       "image": "images/mods/arcane-ArcaneReaper.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneReaper.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneReaper.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-resistance",
@@ -1508,7 +1552,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Resistance",
       "image": "images/mods/arcane-ArcaneResistance.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneResistance.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneResistance.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-rise",
@@ -1536,7 +1581,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Rise",
       "image": "images/mods/arcane-ArcaneRise.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneRise.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneRise.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-steadfast",
@@ -1564,7 +1610,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Steadfast",
       "image": "images/mods/arcane-ArcaneSteadfast.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneSteadfast.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneSteadfast.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-sculptor",
@@ -1592,7 +1639,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Sculptor",
       "image": "images/mods/arcane-ArcaneSculptor.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneSculptor.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneSculptor.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-strike",
@@ -1660,7 +1708,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Strike",
       "image": "images/mods/arcane-ArcaneStrike.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneStrike.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneStrike.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-tanker",
@@ -1688,7 +1737,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Tanker",
       "image": "images/mods/arcane-ArcaneTanker.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTanker.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTanker.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-tempo",
@@ -1716,7 +1766,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Tempo",
       "image": "images/mods/arcane-ArcaneTempo.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTempo.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTempo.png",
+      "rarity": "Common"
     },
     {
       "id": "arcane-trickery",
@@ -1744,7 +1795,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Trickery",
       "image": "images/mods/arcane-ArcaneTrickery.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTrickery.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTrickery.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-truculence",
@@ -1772,7 +1824,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Truculence",
       "image": "images/mods/arcane-ArcaneTruculence.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTruculence.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneTruculence.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-ultimatum",
@@ -1800,7 +1853,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ultimatum",
       "image": "images/mods/arcane-ArcaneUltimatum.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneUltimatum.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneUltimatum.png",
+      "rarity": "Rare"
     },
     {
       "id": "arcane-universal-fallout",
@@ -1828,7 +1882,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Universal_Fallout",
       "image": "images/mods/arcane-ArcaneUniversalFallout.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneUniversalFallout.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneUniversalFallout.png",
+      "rarity": "Legendary"
     },
     {
       "id": "arcane-velocity",
@@ -1896,7 +1951,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Velocity",
       "image": "images/mods/arcane-ArcaneVelocity.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneVelocity.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneVelocity.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-victory",
@@ -1924,7 +1980,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Victory",
       "image": "images/mods/arcane-ArcaneVictory.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneVictory.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneVictory.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "arcane-warmth",
@@ -1952,7 +2009,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Warmth",
       "image": "images/mods/arcane-ArcaneWarmth.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ArcaneWarmth.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ArcaneWarmth.png",
+      "rarity": "Common"
     },
     {
       "id": "cascadia-accuracy",
@@ -1980,7 +2038,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Accuracy",
       "image": "images/mods/arcane-CascadiaAccuracy.png",
-      "imageSource": "https://wiki.warframe.com/w/File:CascadiaAccuracy.png"
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaAccuracy.png",
+      "rarity": "Rare"
     },
     {
       "id": "cascadia-empowered",
@@ -2008,7 +2067,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Empowered",
       "image": "images/mods/arcane-CascadiaEmpowered.png",
-      "imageSource": "https://wiki.warframe.com/w/File:CascadiaEmpowered.png"
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaEmpowered.png",
+      "rarity": "Rare"
     },
     {
       "id": "cascadia-flare",
@@ -2036,7 +2096,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Flare",
       "image": "images/mods/arcane-CascadiaFlare.png",
-      "imageSource": "https://wiki.warframe.com/w/File:CascadiaFlare.png"
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaFlare.png",
+      "rarity": "Rare"
     },
     {
       "id": "cascadia-overcharge",
@@ -2064,7 +2125,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Overcharge",
       "image": "images/mods/arcane-CascadiaOvercharge.png",
-      "imageSource": "https://wiki.warframe.com/w/File:CascadiaOvercharge.png"
+      "imageSource": "https://wiki.warframe.com/w/File:CascadiaOvercharge.png",
+      "rarity": "Rare"
     },
     {
       "id": "conjunction-voltage",
@@ -2167,7 +2229,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Conjunction_Voltage",
       "image": "images/mods/arcane-ConjunctionVoltage.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ConjunctionVoltage.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ConjunctionVoltage.png",
+      "rarity": "Rare"
     },
     {
       "id": "emergence-dissipate",
@@ -2195,7 +2258,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Dissipate",
       "image": "images/mods/arcane-EmergenceDissipate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:EmergenceDissipate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:EmergenceDissipate.png",
+      "rarity": "Rare"
     },
     {
       "id": "emergence-renewed",
@@ -2223,7 +2287,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Renewed",
       "image": "images/mods/arcane-EmergenceRenewed.png",
-      "imageSource": "https://wiki.warframe.com/w/File:EmergenceRenewed.png"
+      "imageSource": "https://wiki.warframe.com/w/File:EmergenceRenewed.png",
+      "rarity": "Rare"
     },
     {
       "id": "emergence-savior",
@@ -2251,7 +2316,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Savior",
       "image": "images/mods/arcane-EmergenceSavior.png",
-      "imageSource": "https://wiki.warframe.com/w/File:EmergenceSavior.png"
+      "imageSource": "https://wiki.warframe.com/w/File:EmergenceSavior.png",
+      "rarity": "Rare"
     },
     {
       "id": "eternal-eradicate",
@@ -2279,7 +2345,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Eradicate",
       "image": "images/mods/arcane-EternalEradicate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:EternalEradicate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:EternalEradicate.png",
+      "rarity": "Rare"
     },
     {
       "id": "eternal-logistics",
@@ -2307,7 +2374,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Logistics",
       "image": "images/mods/arcane-EternalLogistics.png",
-      "imageSource": "https://wiki.warframe.com/w/File:EternalLogistics.png"
+      "imageSource": "https://wiki.warframe.com/w/File:EternalLogistics.png",
+      "rarity": "Rare"
     },
     {
       "id": "eternal-onslaught",
@@ -2335,7 +2403,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Onslaught",
       "image": "images/mods/arcane-EternalOnslaught.png",
-      "imageSource": "https://wiki.warframe.com/w/File:EternalOnslaught.png"
+      "imageSource": "https://wiki.warframe.com/w/File:EternalOnslaught.png",
+      "rarity": "Rare"
     },
     {
       "id": "exodia-brave",
@@ -2361,7 +2430,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Brave",
       "image": "images/mods/arcane-ExodiaBrave.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaBrave.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaBrave.png",
+      "rarity": "Rare"
     },
     {
       "id": "exodia-contagion",
@@ -2387,7 +2457,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Contagion",
       "image": "images/mods/arcane-ExodiaContagion.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaContagion.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaContagion.png",
+      "rarity": "Legendary"
     },
     {
       "id": "exodia-epidemic",
@@ -2413,7 +2484,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Epidemic",
       "image": "images/mods/arcane-ExodiaEpidemic.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaEpidemic.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaEpidemic.png",
+      "rarity": "Legendary"
     },
     {
       "id": "exodia-force",
@@ -2439,7 +2511,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Force",
       "image": "images/mods/arcane-ExodiaForce.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaForce.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaForce.png",
+      "rarity": "Rare"
     },
     {
       "id": "exodia-hunt",
@@ -2465,7 +2538,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Hunt",
       "image": "images/mods/arcane-ExodiaHunt.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaHunt.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaHunt.png",
+      "rarity": "Rare"
     },
     {
       "id": "exodia-might",
@@ -2491,7 +2565,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Might",
       "image": "images/mods/arcane-ExodiaMight.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaMight.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaMight.png",
+      "rarity": "Rare"
     },
     {
       "id": "exodia-triumph",
@@ -2517,7 +2592,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Triumph",
       "image": "images/mods/arcane-ExodiaTriumph.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaTriumph.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaTriumph.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "exodia-valor",
@@ -2543,7 +2619,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Valor",
       "image": "images/mods/arcane-ExodiaValor.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ExodiaValor.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ExodiaValor.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "fractalized-reset",
@@ -2571,7 +2648,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Fractalized_Reset",
       "image": "images/mods/arcane-FractalizedReset.png",
-      "imageSource": "https://wiki.warframe.com/w/File:FractalizedReset.png"
+      "imageSource": "https://wiki.warframe.com/w/File:FractalizedReset.png",
+      "rarity": "Rare"
     },
     {
       "id": "longbow-sharpshot",
@@ -2599,7 +2677,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Longbow_Sharpshot",
       "image": "images/mods/arcane-LongbowSharpshot.png",
-      "imageSource": "https://wiki.warframe.com/w/File:LongbowSharpshot.png"
+      "imageSource": "https://wiki.warframe.com/w/File:LongbowSharpshot.png",
+      "rarity": "Legendary"
     },
     {
       "id": "magus-accelerant",
@@ -2627,7 +2706,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Accelerant",
       "image": "images/mods/arcane-MagusAccelerant.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusAccelerant.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusAccelerant.png",
+      "rarity": "Common"
     },
     {
       "id": "magus-aggress",
@@ -2655,7 +2735,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Aggress",
       "image": "images/mods/arcane-MagusAggress.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusAggress.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusAggress.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "magus-anomaly",
@@ -2683,7 +2764,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Anomaly",
       "image": "images/mods/arcane-MagusAnomaly.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusAnomaly.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusAnomaly.png",
+      "rarity": "Common"
     },
     {
       "id": "magus-cadence",
@@ -2711,7 +2793,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Cadence",
       "image": "images/mods/arcane-MagusCadence.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusCadence.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusCadence.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "magus-cloud",
@@ -2739,7 +2822,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Cloud",
       "image": "images/mods/arcane-MagusCloud.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusCloud.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusCloud.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "magus-destruct",
@@ -2767,7 +2851,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Destruct",
       "image": "images/mods/arcane-MagusDestruct.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusDestruct.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusDestruct.png",
+      "rarity": "Rare"
     },
     {
       "id": "magus-drive",
@@ -2795,7 +2880,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Drive",
       "image": "images/mods/arcane-MagusDrive.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusDrive.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusDrive.png",
+      "rarity": "Common"
     },
     {
       "id": "magus-elevate",
@@ -2823,7 +2909,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Elevate",
       "image": "images/mods/arcane-MagusElevate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusElevate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusElevate.png",
+      "rarity": "Rare"
     },
     {
       "id": "magus-firewall",
@@ -2851,7 +2938,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Firewall",
       "image": "images/mods/arcane-MagusFirewall.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusFirewall.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusFirewall.png",
+      "rarity": "Common"
     },
     {
       "id": "magus-glitch",
@@ -2879,7 +2967,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Glitch",
       "image": "images/mods/arcane-MagusGlitch.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusGlitch.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusGlitch.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "magus-husk",
@@ -2907,7 +2996,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Husk",
       "image": "images/mods/arcane-MagusHusk.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusHusk.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusHusk.png",
+      "rarity": "Common"
     },
     {
       "id": "magus-lockdown",
@@ -2935,7 +3025,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Lockdown",
       "image": "images/mods/arcane-MagusLockdown.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusLockdown.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusLockdown.png",
+      "rarity": "Rare"
     },
     {
       "id": "magus-melt",
@@ -2963,7 +3054,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Melt",
       "image": "images/mods/arcane-MagusMelt.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusMelt.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusMelt.png",
+      "rarity": "Rare"
     },
     {
       "id": "magus-nourish",
@@ -2991,7 +3083,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Nourish",
       "image": "images/mods/arcane-MagusNourish.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusNourish.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusNourish.png",
+      "rarity": "Rare"
     },
     {
       "id": "magus-overload",
@@ -3019,7 +3112,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Overload",
       "image": "images/mods/arcane-MagusOverload.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusOverload.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusOverload.png",
+      "rarity": "Common"
     },
     {
       "id": "magus-repair",
@@ -3047,7 +3141,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Repair",
       "image": "images/mods/arcane-MagusRepair.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusRepair.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusRepair.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "magus-replenish",
@@ -3075,7 +3170,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Replenish",
       "image": "images/mods/arcane-MagusReplenish.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusReplenish.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusReplenish.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "magus-revert",
@@ -3103,7 +3199,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Revert",
       "image": "images/mods/arcane-MagusRevert.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusRevert.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusRevert.png",
+      "rarity": "Rare"
     },
     {
       "id": "magus-vigor",
@@ -3131,7 +3228,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Vigor",
       "image": "images/mods/arcane-MagusVigor.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MagusVigor.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MagusVigor.png",
+      "rarity": "Common"
     },
     {
       "id": "melee-afflictions",
@@ -3159,7 +3257,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Afflictions",
       "image": "images/mods/arcane-MeleeAfflictions.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeAfflictions.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeAfflictions.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-animosity",
@@ -3187,7 +3286,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Animosity",
       "image": "images/mods/arcane-MeleeAnimosity.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeAnimosity.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeAnimosity.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-assimilation",
@@ -3215,7 +3315,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Assimilation",
       "image": "images/mods/arcane-MeleeAssimilation.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeAssimilation.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeAssimilation.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-careen",
@@ -3243,7 +3344,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Careen",
       "image": "images/mods/arcane-MeleeCareen.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeCareen.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeCareen.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-crescendo",
@@ -3271,7 +3373,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Crescendo",
       "image": "images/mods/arcane-MeleeCrescendo.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeCrescendo.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeCrescendo.png",
+      "rarity": "Legendary"
     },
     {
       "id": "melee-doughty",
@@ -3299,7 +3402,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Doughty",
       "image": "images/mods/arcane-MeleeDoughty.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeDoughty.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeDoughty.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-duplicate",
@@ -3327,7 +3431,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Duplicate",
       "image": "images/mods/arcane-MeleeDuplicate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeDuplicate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeDuplicate.png",
+      "rarity": "Legendary"
     },
     {
       "id": "melee-exposure",
@@ -3355,7 +3460,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Exposure",
       "image": "images/mods/arcane-MeleeExposure.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeExposure.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeExposure.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-fortification",
@@ -3383,7 +3489,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Fortification",
       "image": "images/mods/arcane-MeleeFortification.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeFortification.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeFortification.png",
+      "rarity": "Common"
     },
     {
       "id": "melee-influence",
@@ -3411,7 +3518,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Influence",
       "image": "images/mods/arcane-MeleeInfluence.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeInfluence.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeInfluence.png",
+      "rarity": "Rare"
     },
     {
       "id": "melee-retaliation",
@@ -3439,7 +3547,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Retaliation",
       "image": "images/mods/arcane-MeleeRetaliation.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeRetaliation.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeRetaliation.png",
+      "rarity": "Common"
     },
     {
       "id": "melee-vortex",
@@ -3467,7 +3576,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Vortex",
       "image": "images/mods/arcane-MeleeVortex.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MeleeVortex.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MeleeVortex.png",
+      "rarity": "Rare"
     },
     {
       "id": "molt-augmented",
@@ -3495,7 +3605,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Augmented",
       "image": "images/mods/arcane-MoltAugmented.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MoltAugmented.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MoltAugmented.png",
+      "rarity": "Rare"
     },
     {
       "id": "molt-efficiency",
@@ -3523,7 +3634,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Efficiency",
       "image": "images/mods/arcane-MoltEfficiency.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MoltEfficiency.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MoltEfficiency.png",
+      "rarity": "Rare"
     },
     {
       "id": "molt-reconstruct",
@@ -3551,7 +3663,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Reconstruct",
       "image": "images/mods/arcane-MoltReconstruct.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MoltReconstruct.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MoltReconstruct.png",
+      "rarity": "Rare"
     },
     {
       "id": "molt-vigor",
@@ -3579,7 +3692,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Vigor",
       "image": "images/mods/arcane-MoltVigor.png",
-      "imageSource": "https://wiki.warframe.com/w/File:MoltVigor.png"
+      "imageSource": "https://wiki.warframe.com/w/File:MoltVigor.png",
+      "rarity": "Rare"
     },
     {
       "id": "pax-bolt",
@@ -3605,7 +3719,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Bolt",
       "image": "images/mods/arcane-PaxBolt.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PaxBolt.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PaxBolt.png",
+      "rarity": "Rare"
     },
     {
       "id": "pax-charge",
@@ -3631,7 +3746,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Charge",
       "image": "images/mods/arcane-PaxCharge.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PaxCharge.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PaxCharge.png",
+      "rarity": "Rare"
     },
     {
       "id": "pax-seeker",
@@ -3657,7 +3773,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Seeker",
       "image": "images/mods/arcane-PaxSeeker.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PaxSeeker.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PaxSeeker.png",
+      "rarity": "Rare"
     },
     {
       "id": "pax-soar",
@@ -3683,7 +3800,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Soar",
       "image": "images/mods/arcane-PaxSoar.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PaxSoar.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PaxSoar.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-blight",
@@ -3711,7 +3829,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Blight",
       "image": "images/mods/arcane-PrimaryBlight.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryBlight.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryBlight.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-bulwark",
@@ -3739,7 +3858,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Bulwark",
       "image": "images/mods/arcane-PrimaryBulwark.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryBulwark.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryBulwark.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-compression",
@@ -3767,7 +3887,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Compression",
       "image": "images/mods/arcane-PrimaryCompression.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryCompression.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryCompression.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-crux",
@@ -3872,7 +3993,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Crux",
       "image": "images/mods/arcane-PrimaryCrux.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryCrux.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryCrux.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-deadhead",
@@ -3968,7 +4090,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Deadhead",
       "image": "images/mods/arcane-PrimaryDeadhead.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDeadhead.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDeadhead.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-debilitate",
@@ -3996,7 +4119,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Debilitate",
       "image": "images/mods/arcane-PrimaryDebilitate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDebilitate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDebilitate.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-dexterity",
@@ -4064,7 +4188,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Dexterity",
       "image": "images/mods/arcane-PrimaryDexterity.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDexterity.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryDexterity.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-exhilarate",
@@ -4092,7 +4217,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Exhilarate",
       "image": "images/mods/arcane-PrimaryExhilarate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryExhilarate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryExhilarate.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-frostbite",
@@ -4120,7 +4246,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Frostbite",
       "image": "images/mods/arcane-PrimaryFrostbite.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryFrostbite.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryFrostbite.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-merciless",
@@ -4192,7 +4319,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Merciless",
       "image": "images/mods/arcane-PrimaryMerciless.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryMerciless.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryMerciless.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-obstruct",
@@ -4220,7 +4348,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Obstruct",
       "image": "images/mods/arcane-PrimaryObstruct.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryObstruct.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryObstruct.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-overcharge",
@@ -4248,7 +4377,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Overcharge",
       "image": "images/mods/arcane-PrimaryOvercharge.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryOvercharge.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryOvercharge.png",
+      "rarity": "Rare"
     },
     {
       "id": "primary-plated-round",
@@ -4276,7 +4406,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Plated_Round",
       "image": "images/mods/arcane-PrimaryPlatedRound.png",
-      "imageSource": "https://wiki.warframe.com/w/File:PrimaryPlatedRound.png"
+      "imageSource": "https://wiki.warframe.com/w/File:PrimaryPlatedRound.png",
+      "rarity": "Rare"
     },
     {
       "id": "residual-boils",
@@ -4302,7 +4433,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Boils",
       "image": "images/mods/arcane-ResidualBoils.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ResidualBoils.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualBoils.png",
+      "rarity": "Rare"
     },
     {
       "id": "residual-malodor",
@@ -4328,7 +4460,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Malodor",
       "image": "images/mods/arcane-ResidualMalodor.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ResidualMalodor.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualMalodor.png",
+      "rarity": "Rare"
     },
     {
       "id": "residual-shock",
@@ -4354,7 +4487,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Shock",
       "image": "images/mods/arcane-ResidualShock.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ResidualShock.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualShock.png",
+      "rarity": "Rare"
     },
     {
       "id": "residual-viremia",
@@ -4380,7 +4514,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Viremia",
       "image": "images/mods/arcane-ResidualViremia.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ResidualViremia.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ResidualViremia.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-cryogenic",
@@ -4408,7 +4543,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Cryogenic",
       "image": "images/mods/arcane-SecondaryCryogenic.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryCryogenic.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryCryogenic.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-deadhead",
@@ -4504,7 +4640,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Deadhead",
       "image": "images/mods/arcane-SecondaryDeadhead.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryDeadhead.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryDeadhead.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-dexterity",
@@ -4572,7 +4709,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Dexterity",
       "image": "images/mods/arcane-SecondaryDexterity.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryDexterity.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryDexterity.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-encumber",
@@ -4600,7 +4738,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Encumber",
       "image": "images/mods/arcane-SecondaryEncumber.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryEncumber.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryEncumber.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-enervate",
@@ -4628,7 +4767,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Enervate",
       "image": "images/mods/arcane-SecondaryEnervate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryEnervate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryEnervate.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-fortifier",
@@ -4656,7 +4796,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Fortifier",
       "image": "images/mods/arcane-SecondaryFortifier.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryFortifier.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryFortifier.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-irradiate",
@@ -4684,7 +4825,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Irradiate",
       "image": "images/mods/arcane-SecondaryIrradiate.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryIrradiate.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryIrradiate.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-kinship",
@@ -4712,7 +4854,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Kinship",
       "image": "images/mods/arcane-SecondaryKinship.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryKinship.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryKinship.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-merciless",
@@ -4784,7 +4927,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Merciless",
       "image": "images/mods/arcane-SecondaryMerciless.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryMerciless.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryMerciless.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-outburst",
@@ -4812,7 +4956,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Outburst",
       "image": "images/mods/arcane-SecondaryOutburst.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryOutburst.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryOutburst.png",
+      "rarity": "Rare"
     },
     {
       "id": "secondary-shiver",
@@ -4840,7 +4985,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Shiver",
       "image": "images/mods/arcane-SecondaryShiver.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondaryShiver.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondaryShiver.png",
+      "rarity": "Legendary"
     },
     {
       "id": "secondary-surge",
@@ -4868,7 +5014,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Surge",
       "image": "images/mods/arcane-SecondarySurge.png",
-      "imageSource": "https://wiki.warframe.com/w/File:SecondarySurge.png"
+      "imageSource": "https://wiki.warframe.com/w/File:SecondarySurge.png",
+      "rarity": "Rare"
     },
     {
       "id": "shotgun-vendetta",
@@ -4896,7 +5043,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Shotgun_Vendetta",
       "image": "images/mods/arcane-ShotgunVendetta.png",
-      "imageSource": "https://wiki.warframe.com/w/File:ShotgunVendetta.png"
+      "imageSource": "https://wiki.warframe.com/w/File:ShotgunVendetta.png",
+      "rarity": "Rare"
     },
     {
       "id": "theorem-contagion",
@@ -4924,7 +5072,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Contagion",
       "image": "images/mods/arcane-TheoremContagion.png",
-      "imageSource": "https://wiki.warframe.com/w/File:TheoremContagion.png"
+      "imageSource": "https://wiki.warframe.com/w/File:TheoremContagion.png",
+      "rarity": "Rare"
     },
     {
       "id": "theorem-demulcent",
@@ -4952,7 +5101,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Demulcent",
       "image": "images/mods/arcane-TheoremDemulcent.png",
-      "imageSource": "https://wiki.warframe.com/w/File:TheoremDemulcent.png"
+      "imageSource": "https://wiki.warframe.com/w/File:TheoremDemulcent.png",
+      "rarity": "Rare"
     },
     {
       "id": "theorem-infection",
@@ -4980,7 +5130,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Infection",
       "image": "images/mods/arcane-TheoremInfection.png",
-      "imageSource": "https://wiki.warframe.com/w/File:TheoremInfection.png"
+      "imageSource": "https://wiki.warframe.com/w/File:TheoremInfection.png",
+      "rarity": "Rare"
     },
     {
       "id": "virtuos-forge",
@@ -5006,7 +5157,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Forge",
       "image": "images/mods/arcane-VirtuosForge.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosForge.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosForge.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "virtuos-fury",
@@ -5032,7 +5184,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Fury",
       "image": "images/mods/arcane-VirtuosFury.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosFury.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosFury.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "virtuos-ghost",
@@ -5058,7 +5211,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Ghost",
       "image": "images/mods/arcane-VirtuosGhost.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosGhost.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosGhost.png",
+      "rarity": "Rare"
     },
     {
       "id": "virtuos-null",
@@ -5084,7 +5238,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Null",
       "image": "images/mods/arcane-VirtuosNull.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosNull.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosNull.png",
+      "rarity": "Common"
     },
     {
       "id": "virtuos-shadow",
@@ -5110,7 +5265,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Shadow",
       "image": "images/mods/arcane-VirtuosShadow.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosShadow.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosShadow.png",
+      "rarity": "Rare"
     },
     {
       "id": "virtuos-spike",
@@ -5136,7 +5292,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Spike",
       "image": "images/mods/arcane-VirtuosSpike.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosSpike.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosSpike.png",
+      "rarity": "Common"
     },
     {
       "id": "virtuos-strike",
@@ -5162,7 +5319,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Strike",
       "image": "images/mods/arcane-VirtuosStrike.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosStrike.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosStrike.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "virtuos-surge",
@@ -5188,7 +5346,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Surge",
       "image": "images/mods/arcane-VirtuosSurge.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosSurge.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosSurge.png",
+      "rarity": "Common"
     },
     {
       "id": "virtuos-tempo",
@@ -5214,7 +5373,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Tempo",
       "image": "images/mods/arcane-VirtuosTempo.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosTempo.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosTempo.png",
+      "rarity": "Common"
     },
     {
       "id": "virtuos-trojan",
@@ -5240,7 +5400,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Trojan",
       "image": "images/mods/arcane-VirtuosTrojan.png",
-      "imageSource": "https://wiki.warframe.com/w/File:VirtuosTrojan.png"
+      "imageSource": "https://wiki.warframe.com/w/File:VirtuosTrojan.png",
+      "rarity": "Uncommon"
     },
     {
       "id": "zid-an-asheir",
@@ -5268,7 +5429,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Asheir",
       "image": "images/mods/arcane-Zid-AnAsheir.png",
-      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnAsheir.png"
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnAsheir.png",
+      "rarity": "Rare"
     },
     {
       "id": "zid-an-haras",
@@ -5296,7 +5458,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Haras",
       "image": "images/mods/arcane-Zid-AnHaras.png",
-      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnHaras.png"
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnHaras.png",
+      "rarity": "Rare"
     },
     {
       "id": "zid-an-osbok",
@@ -5324,7 +5487,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Osbok",
       "image": "images/mods/arcane-Zid-AnOsbok.png",
-      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnOsbok.png"
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnOsbok.png",
+      "rarity": "Rare"
     },
     {
       "id": "zid-an-sek-eel",
@@ -5352,7 +5516,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Sek-Eel",
       "image": "images/mods/arcane-Zid-AnSek-Eel.png",
-      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnSek-Eel.png"
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnSek-Eel.png",
+      "rarity": "Rare"
     },
     {
       "id": "zid-an-uskos",
@@ -5380,7 +5545,8 @@
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Uskos",
       "image": "images/mods/arcane-Zid-AnUskos.png",
-      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnUskos.png"
+      "imageSource": "https://wiki.warframe.com/w/File:Zid-AnUskos.png",
+      "rarity": "Rare"
     }
   ]
 }
