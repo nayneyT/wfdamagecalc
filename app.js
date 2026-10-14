@@ -3408,7 +3408,8 @@ function simpleEffects(text){
   // GunCO is weapon-dependent; never guess its stacking group.
   if(/^Galvanized (Aptitude|Savvy|Shot)$/.test(name))parsed.unknown=true;
   const maxRank=m.MaxRank??0;
-  mods.push({id:id(name),name,type:m.Type||'Unknown',description:clean(m.Description),maxRank,baseDrain:m.BaseDrain??0,polarity:(m.Polarity||'').toLowerCase(),isExilus:!!m.IsExilus,incompatible:list(m.Incompatible).map(id),compatibilityTags:list(m.CompatibilityTags),incompatibilityTags:list(m.IncompatibilityTags),compatibility:m.Type||'',handler:special.handler||'',maxStacks:special.maxStacks||1,effects:parsed.effects,rankEffects:Array.from({length:maxRank+1},(_,r)=>parsed.effects.map(e=>({...e,value:e.stat==='lockMultishot'?1:e.value*(r+1)/(maxRank+1)}))),limitations:parsed.unknown?['Conditional or special effects in the description are not fully modeled.']:[],source:source('Module:Mods/data'),wiki:wiki(m.Link||name)});
+  const iconSource=m.Icon?'https://wiki.warframe.com/w/File:'+encodeURIComponent(m.Icon):'';
+  mods.push({id:id(name),name,type:m.Type||'Unknown',description:clean(m.Description),maxRank,baseDrain:m.BaseDrain??0,polarity:(m.Polarity||'').toLowerCase(),isExilus:!!m.IsExilus,incompatible:list(m.Incompatible).map(id),compatibilityTags:list(m.CompatibilityTags),incompatibilityTags:list(m.IncompatibilityTags),compatibility:m.Type||'',handler:special.handler||'',maxStacks:special.maxStacks||1,effects:parsed.effects,rankEffects:Array.from({length:maxRank+1},(_,r)=>parsed.effects.map(e=>({...e,value:e.stat==='lockMultishot'?1:e.value*(r+1)/(maxRank+1)}))),limitations:parsed.unknown?['Conditional or special effects in the description are not fully modeled.']:[],iconSource,source:source('Module:Mods/data'),wiki:wiki(m.Link||name)});
  }
  const arcanes=[];const arcaneRaw=lua(await raw('Module:Arcane/data')).Arcanes;
  const known={
@@ -3468,7 +3469,7 @@ function simpleEffects(text){
  }
 
  const output={weapons:uniqueWeapons,mods,arcanes,enemies:[...new Map(enemies.map(e=>[e.id,e])).values()],factions:[...new Map(factions.map(f=>[f.id,f])).values()],'modular-parts':parts,stances};
- for(const c of ['weapons','mods','arcanes'])for(const r of output[c]){const old=get(baseline,c,r.id);if(old){if(c==='weapons')delete r.limitations;else if(r.description===old.description)delete r.limitations;else r.limitations=[...old.limitations,...r.limitations];if(c==='weapons'){r.incarnonVariant=old.incarnonVariant;delete r.description;}else if(r.description===old.description){for(const field of ['effects','rankEffects','handler','maxStacks','compatibilityTags','incompatibilityTags'])if(Object.hasOwn(old,field))r[field]=clone(old[field]);}if(c==='mods'&&r.description===old.description&&r.maxRank===old.maxRank&&old.rankDescriptions)r.rankDescriptions=clone(old.rankDescriptions);if(c!=='weapons'&&(r.description!==old.description||r.maxRank!==old.maxRank)){const parsed=c==='mods'?simpleEffects(r.description):null;if(c==='arcanes'||r.handler||parsed.unknown){r.effects=[];r.rankEffects=Array.from({length:r.maxRank+1},()=>[]);r.limitations=[...new Set([...(old.limitations||[]),'Online mod/arcane description or rank changed; verify its conditional mechanics before inclusion in totals.'])];}else{r.effects=parsed.effects;r.rankEffects=Array.from({length:r.maxRank+1},(_,rank)=>r.effects.map(e=>({...e,value:e.value*(rank+1)/(r.maxRank+1)})));}}r.image=old.image;r.imageSource=old.imageSource;if(c==='mods'){r.icon=old.icon;r.rarity=old.rarity;}}else{r.image='images/placeholder.svg';const rawData=c==='mods'?modWiki[r.name]:c==='arcanes'?arcaneRaw[r.name]:Object.values(modules).map(m=>m[r.name]).find(Boolean);const file=rawData?.Image||rawData?.Icon;if(file)r.imageSource='https://wiki.warframe.com/w/File:'+encodeURIComponent(file);}}
+ for(const c of ['weapons','mods','arcanes'])for(const r of output[c]){const old=get(baseline,c,r.id);if(old){if(c==='weapons')delete r.limitations;else if(r.description===old.description)delete r.limitations;else r.limitations=[...old.limitations,...r.limitations];if(c==='weapons'){r.incarnonVariant=old.incarnonVariant;delete r.description;}else if(r.description===old.description){for(const field of ['effects','rankEffects','handler','maxStacks','compatibilityTags','incompatibilityTags'])if(Object.hasOwn(old,field))r[field]=clone(old[field]);}if(c==='mods'&&r.description===old.description&&r.maxRank===old.maxRank&&old.rankDescriptions)r.rankDescriptions=clone(old.rankDescriptions);if(c!=='weapons'&&(r.description!==old.description||r.maxRank!==old.maxRank)){const parsed=c==='mods'?simpleEffects(r.description):null;if(c==='arcanes'||r.handler||parsed.unknown){r.effects=[];r.rankEffects=Array.from({length:r.maxRank+1},()=>[]);r.limitations=[...new Set([...(old.limitations||[]),'Online mod/arcane description or rank changed; verify its conditional mechanics before inclusion in totals.'])];}else{r.effects=parsed.effects;r.rankEffects=Array.from({length:r.maxRank+1},(_,rank)=>r.effects.map(e=>({...e,value:e.value*(rank+1)/(r.maxRank+1)})));}}r.image=old.image;r.imageSource=old.imageSource;if(c==='mods'){r.icon=old.icon;r.iconFallback=old.iconFallback;r.rarity=old.rarity;r.iconSource=r.iconSource||old.iconSource;}}else{r.image='images/placeholder.svg';const rawData=c==='mods'?modWiki[r.name]:c==='arcanes'?arcaneRaw[r.name]:Object.values(modules).map(m=>m[r.name]).find(Boolean);const file=rawData?.Image||rawData?.Icon;if(file)r.imageSource='https://wiki.warframe.com/w/File:'+encodeURIComponent(file);}}
  for(const c of ['enemies','factions','stances','modular-parts'])for(const r of output[c])if(get(baseline,c,r.id))delete r.limitations;
  return output;
 }
@@ -3553,12 +3554,25 @@ async function checkOnlineUpdates(){
  finally{onlineBusy=false;for(const b of document.querySelectorAll('[data-check-online]'))b.disabled=false;}
 }
 async function downloadSyncedArtwork(candidate){
- if(!appDirectory)return;let count=0,missing=0;for(const c of ['weapons','mods','arcanes','enemies'])for(const r of candidate[c].records){if(get(db,c,r.id)||r.image!=='images/placeholder.svg'||!r.imageSource?.startsWith('https://wiki.warframe.com/w/File:'))continue;
-  try{const file=decodeURIComponent(r.imageSource.split('/File:')[1]),response=await fetch('https://wiki.warframe.com/images/'+encodeURIComponent(file),{signal:AbortSignal.timeout(15000)});if(!response.ok||!/^image\//.test(response.headers.get('content-type')||''))throw Error('Image unavailable');const bytes=await response.arrayBuffer();if(bytes.byteLength>20000000)throw Error('Image too large');const images=await appDirectory.getDirectoryHandle('images',{create:true}),folder=c==='weapons'?'weapons':c==='enemies'?'enemies':'mods',dir=await images.getDirectoryHandle(folder,{create:true}),ext=file.match(/\.(png|jpe?g|webp|gif|svg)$/i)?.[0]||'.png',name=(c==='weapons'?'weapon-':c==='enemies'?'enemy-':c==='mods'?'mod-':'arcane-')+r.id+ext,handle=await dir.getFileHandle(name,{create:true}),writer=await handle.createWritable();try{await writer.write(bytes);await writer.close();}catch(e){await writer.abort();throw e;}r.image='images/'+folder+'/'+name;count++;
-  }catch{missing++;}
- }
- for(const r of candidate.weapons.records){if(!r.incarnonImage||!r.incarnonImageSource?.startsWith('https://wiki.warframe.com/w/File:'))continue;const localName=r.incarnonImage.split('/').pop(),folder=await (await appDirectory.getDirectoryHandle('images',{create:true})).getDirectoryHandle('weapons',{create:true});try{await folder.getFileHandle(localName);continue;}catch{}try{const file=decodeURIComponent(r.incarnonImageSource.split('/File:')[1]),response=await fetch('https://wiki.warframe.com/images/'+encodeURIComponent(file),{signal:AbortSignal.timeout(15000)});if(!response.ok||!/^image\//.test(response.headers.get('content-type')||''))throw Error('Image unavailable');const bytes=await response.arrayBuffer();if(bytes.byteLength>20000000)throw Error('Image too large');const handle=await folder.getFileHandle(localName,{create:true}),writer=await handle.createWritable();try{await writer.write(bytes);await writer.close();}catch(e){await writer.abort();throw e;}count++;}catch{missing++;}}
- if(count||missing)onlineProgress(count+' new images saved'+(missing?' · '+missing+' unavailable; placeholders retained.':'.'));
+ if(!appDirectory)return;
+ let count=0,missing=0;
+ const images=await appDirectory.getDirectoryHandle('images',{create:true});let manifest={source:'Canonical local-to-source image registry.',assets:[],missing:[]},manifestReady=true;
+ try{const handle=await images.getFileHandle('manifest.json'),file=await handle.getFile();manifest=JSON.parse(await file.text());if(!Array.isArray(manifest.assets))throw Error('Image manifest has no assets list.');}
+ catch(error){if(error.name!=='NotFoundError'){manifestReady=false;onlineProgress('Image downloads skipped: images/manifest.json could not be read ('+error.message+').');}}
+ if(!manifestReady)return;
+ const sourceURL=sourcePage=>{if(!sourcePage?.includes('/File:'))return '';let file=sourcePage.split('/File:').at(-1).split(/[?#]/)[0];try{file=decodeURIComponent(file);}catch{}return 'https://wiki.warframe.com/images/'+encodeURIComponent(file);};
+ const addManifestEntry=entry=>{const previous=manifest.assets.find(item=>item.local===entry.local);if(previous){Object.assign(previous,entry,{owners:[...new Set([...(previous.owners||[]),...(entry.owners||[])])]});}else manifest.assets.push(entry);};
+ const preserveIconFallback=(record,local)=>{if(record.icon&&record.icon!==local&&record.icon.startsWith('images/mods/icons/')&&!record.icon.includes('/wiki/'))record.iconFallback=record.icon;};
+ const getImageDirectory=async path=>{let dir=images;for(const part of path.split('/'))dir=await dir.getDirectoryHandle(part,{create:true});return dir;};
+ const downloadOne=async({category,record,sourcePage,local,folder,fileName,field})=>{
+  try{const url=sourceURL(sourcePage);if(!url)throw Error('Source URL is unavailable.');const response=await fetch(url,{signal:AbortSignal.timeout(15000)});if(!response.ok||!/^image\//.test(response.headers.get('content-type')||''))throw Error('Image unavailable');const bytes=await response.arrayBuffer();if(bytes.byteLength>20000000)throw Error('Image too large');const dir=await getImageDirectory(folder),handle=await dir.getFileHandle(fileName,{create:true}),writer=await handle.createWritable();try{await writer.write(bytes);await writer.close();}catch(error){await writer.abort();throw error;}if(field==='icon')preserveIconFallback(record,local);record[field]=local;addManifestEntry({file:fileName,local,owners:[category+'/'+record.id+(field==='incarnonImage'?'#incarnon':field==='icon'?'#icon':'')],url,sourcePage,provider:'Warframe Wiki',bytes:bytes.byteLength});count++;}
+  catch{missing++;}
+ };
+ for(const category of ['weapons','mods','arcanes','enemies'])for(const record of candidate[category].records){if(get(db,category,record.id)||record.image!=='images/placeholder.svg'||!record.imageSource?.startsWith('https://wiki.warframe.com/w/File:'))continue;const fileName=decodeURIComponent(record.imageSource.split('/File:')[1]).split(/[?#]/)[0],folder=category==='weapons'?'weapons':category==='enemies'?'enemies':'mods',local='images/'+folder+'/'+(category==='weapons'?'weapon-':category==='enemies'?'enemy-':category==='mods'?'mod-':'arcane-')+record.id+(fileName.match(/\.(png|jpe?g|webp|gif|svg)$/i)?.[0]||'.png');await downloadOne({category,record,sourcePage:record.imageSource,local,folder,fileName:local.split('/').at(-1),field:'image'});}
+ for(const record of candidate.mods.records){if(!record.iconSource?.startsWith('https://wiki.warframe.com/w/File:'))continue;const sourceName=decodeURIComponent(record.iconSource.split('/File:')[1]).split(/[?#]/)[0],fileName=sourceName.replace(/[^a-zA-Z0-9_.-]/g,'_'),local='images/mods/icons/wiki/'+fileName,dir=await getImageDirectory('mods/icons/wiki');try{const handle=await dir.getFileHandle(fileName),file=await handle.getFile();preserveIconFallback(record,local);record.icon=local;addManifestEntry({file:fileName,local,owners:['mods/'+record.id+'#icon'],url:sourceURL(record.iconSource),sourcePage:record.iconSource,provider:'Warframe Wiki',bytes:file.size});continue;}catch(error){if(error.name!=='NotFoundError'){missing++;continue;}}await downloadOne({category:'mods',record,sourcePage:record.iconSource,local,folder:'mods/icons/wiki',fileName,field:'icon'});}
+ for(const record of candidate.weapons.records){if(!record.incarnonImage||!record.incarnonImageSource?.startsWith('https://wiki.warframe.com/w/File:'))continue;const fileName=decodeURIComponent(record.incarnonImageSource.split('/File:')[1]).split(/[?#]/)[0],localName=record.incarnonImage.split('/').at(-1),dir=await images.getDirectoryHandle('weapons',{create:true});try{await dir.getFileHandle(localName);continue;}catch(error){if(error.name!=='NotFoundError'){missing++;continue;}}await downloadOne({category:'weapons',record,sourcePage:record.incarnonImageSource,local:record.incarnonImage,folder:'weapons',fileName:localName,field:'incarnonImage'});}
+ if(count&&manifestReady){try{manifest.assets.sort((a,b)=>String(a.local).localeCompare(String(b.local)));const handle=await images.getFileHandle('manifest.json',{create:true}),writer=await handle.createWritable();try{await writer.write(JSON.stringify(manifest,null,2)+'\n');await writer.close();}catch(error){await writer.abort();throw error;}}catch(error){onlineProgress(count+' images saved, but the image manifest could not be updated: '+error.message+'.');}}
+ if(count||missing)onlineProgress(count+' new images saved'+(missing?' · '+missing+' unavailable; placeholders retained.':manifestReady?' and added to images/manifest.json.':'.'));
 }
 async function applyOnlineUpdates(){
  if(!onlineDraft||onlineBusy)return;const draft=onlineDraft;if(recordFingerprint(db)!==draft.dbFingerprint){notify('Database changed after the online preview. Check online again before applying.',true);return;}
@@ -3775,7 +3789,13 @@ function modRankDescription(m,rank){
  if(m.riven)return {text:arr(m.effects).map(e=>((e.value>=0?'+':'')+fmt(e.value*100,1)+'% '+(e.stat.startsWith('element:')?e.stat.slice(8):e.stat))).join('\n')||m.name,exact:true};
  return {text:m.description||'No description available.',exact:rank===m.maxRank};
 }
-function modCardArt(m){return '<img class="asset-image mod-card-art" src="'+escape(safeImagePath(m.icon||m.image))+'"'+(m.icon?' data-fallback="'+escape(safeImagePath(m.image))+'"':'')+' alt="" loading="lazy">';}
+function modCardArt(m){
+ const rivenTypes={Rifle:'Rifle',Shotgun:'Shotgun',Pistol:'Pistol',Melee:'Melee',Archgun:'Archgun',Kitgun:'Kitgun',Zaw:'Zaw','Companion Weapon':'CompanionWeapon'};
+ const rivenType=rivenTypes[m.type]||'Rifle',rivenIcon=m.riven?'images/mods/icons/wiki/'+rivenType+'RivenMod.png':'',rivenCard=m.riven?'images/mods/mod-'+rivenType+'RivenMod.png':'';
+ const rivenWeapon=m.riven?(get(db,'weapons',m.weaponId)||records(db,'weapons').find(w=>w.family===m.family&&w.image)):null;
+ const primary=m.icon||rivenWeapon?.image||rivenIcon||m.image||rivenCard,fallback=m.iconFallback||m.image||rivenCard;
+ return '<img class="asset-image mod-card-art" src="'+escape(safeImagePath(primary))+'"'+(primary&&fallback&&primary!==fallback?' data-fallback="'+escape(safeImagePath(fallback))+'"':'')+' alt="" loading="lazy">';
+}
 function modRarity(m){
  if(m.riven||/\bRiven\b/.test(m.name))return 'riven';
  if(/^Galvanized\b/.test(m.name))return 'galvanized';
@@ -3787,8 +3807,21 @@ function modRarity(m){
 }
 function modRankStars(m,s){
  if(!m.maxRank)return '<span class="mod-unranked">Unranked</span>';
- const ranks=Array.from({length:m.maxRank},(_,index)=>'<span class="mod-rank-pip'+(index<s.rank?' filled':'')+'"></span>').join('');
- return '<div class="mod-rank-stars" aria-label="Fusion rank '+s.rank+' of '+m.maxRank+'" title="Rank '+s.rank+' / '+m.maxRank+'">'+ranks+'</div>';
+ const ranks=Array.from({length:m.maxRank},(_,index)=>'<span class="mod-rank-pip'+(index<s.rank?' filled':'')+'" aria-hidden="true"></span>').join('');
+ return '<div class="mod-rank-stars'+(s.rank===m.maxRank?' maxed':'')+'" aria-label="Fusion rank '+s.rank+' of '+m.maxRank+'" title="Rank '+s.rank+' / '+m.maxRank+'">'+ranks+'</div>';
+}
+function modFrameAssets(rarity){
+ const sets={
+  bronze:['BronzeBackground.png','BronzeFrameTop.png','BronzeFrameBottom.png','BronzeSideLight.png','BronzeLowerTab.png'],
+  silver:['SilverBackground.png','SilverFrameTop.png','SilverFrameBottom.png','SilverSideLight.png','SilverLowerTab.png'],
+  gold:['GoldBackground.png','GoldFrameTop.png','GoldFrameBottom.png','GoldSideLight.png','GoldLowerTab.png'],
+  legendary:['LegendaryBackground.png','LegendaryFrameTop.png','LegendaryFrameBottom.png','LegendarySideLight.png','LegendaryLowerTab.png'],
+  amalgam:['AmalgamBackground.png','AmalgamFrameTop.png','AmalgamFrameBottom.png','LegendarySideLight.png','LegendaryLowerTab.png'],
+  galvanized:['LegendaryBackground.png','GalvanizedFrameTop.png','GalvanizedFrameBottom.png','LegendarySideLight.png','LegendaryLowerTab.png'],
+  riven:['SilverBackground.png','OmegaFrameTop.png','OmegaFrameBottom.png','OmegaSideLight.png','RivenLowerTab.png']
+ };
+ const [background,top,bottom,side,tab]=sets[rarity]||sets.bronze;
+ return {background,top,bottom,side,tab};
 }
 function modFaceHTML(m,s,i){
  const rank=modRankDescription(m,s.rank),raw=m.baseDrain+s.rank,adjusted=modDrain(m,s.rank,s.polarity);
@@ -3796,7 +3829,9 @@ function modFaceHTML(m,s,i){
  const polarity=POLARITIES.includes(m.polarity)?m.polarity:'';
  const glyph=polarity==='universal'?'<span class="mod-polarity-icon universal" aria-label="Universal polarity">✦</span>':polarity?'<img class="mod-polarity-icon" src="images/mods/polarities/'+polarity+'.svg" alt="'+escape(polarity)+' polarity">':'';
  const tooltip='Mod polarity '+(polarity||'none')+'; slot polarity '+(s.polarity||'none')+'; base drain '+m.baseDrain+' + '+s.rank+' fusion ranks = '+raw+' raw drain; slot cost '+adjusted;
- return '<div class="mod-face rarity-'+modRarity(m)+'"><div class="mod-card-image">'+modCardArt(m)+'</div><div class="mod-face-bottom-panel"></div><div class="mod-face-sides"></div><span class="mod-face-drain '+(match?'polarity-match':mismatch?'polarity-mismatch':'polarity-neutral')+'" title="'+escape(tooltip)+'"><b>'+adjusted+'</b>'+glyph+'</span><div class="mod-face-name">'+escape(m.name)+'</div><div class="mod-face-effect">'+escape(rank.text)+'</div><div class="mod-face-type">'+escape(m.type||'Mod')+'</div>'+modRankStars(m,s)+'</div>';
+ const rarity=modRarity(m),frame=modFrameAssets(rarity),typeLabel=/^warframe$/i.test(m.type||'')?'WARFRAME':String(m.type||'MOD').toUpperCase();
+ const framePath='images/mods/frames/overframe/',frameStyle=Object.entries(frame).map(([part,file])=>'--mod-'+part+':url('+framePath+file+')').join(';');
+ return '<div class="mod-face rarity-'+rarity+'" style="'+escape(frameStyle)+'"><div class="mod-frame-content"><div class="mod-card-image">'+modCardArt(m)+'</div><div class="mod-face-description"><div class="mod-face-name">'+escape(m.name)+'</div><div class="mod-face-effect" title="'+escape(rank.text)+'">'+escape(rank.text)+'</div></div></div><div class="mod-frame-borders" aria-hidden="true"></div><span class="mod-face-drain '+(match?'polarity-match':mismatch?'polarity-mismatch':'polarity-neutral')+'" title="'+escape(tooltip)+'"><b>'+adjusted+'</b>'+glyph+'</span><div class="mod-face-type"><span>'+escape(typeLabel)+'</span></div>'+modRankStars(m,s)+'</div>';
 }
 function slotHTML(s,i,w,choices,exilus=false){
  const m=slotMod(db,s,w),label=exilus?'Exilus mod':'Mod slot '+(i+1);
@@ -4059,6 +4094,7 @@ function runChecks(testDb=db){
   assert(modRankDescription(serration,0).text.includes('+15%')&&modRankDescription(serration,10).text.includes('+165%'),'Mod card descriptions follow selected rank');
   const previewSlot={id:'serration',rank:0,polarity:'madurai',stacks:0,uptime:100},previewCard=slotHTML(previewSlot,0,get(testDb,'weapons','burston-prime'),[{id:'serration',name:'Serration'}]);
   assert(previewCard.includes('rarity-silver')&&previewCard.includes('mod-face-drain polarity-match')&&previewCard.includes('madurai.svg')&&previewCard.includes('data-mod-rank-step="-1"')&&previewCard.includes('data-mod-rank-step="1"')&&previewCard.includes('UNRANKED')&&!previewCard.includes('data-mod-star')&&!previewCard.includes('mod-preview')&&previewCard.includes('+15% Damage'),'Mod card follows catalog rarity, has non-clickable stars with rank controls and inline hover summary');
+  const expectedFrames={bronze:'BronzeBackground.png|BronzeFrameTop.png|BronzeFrameBottom.png|BronzeSideLight.png|BronzeLowerTab.png',silver:'SilverBackground.png|SilverFrameTop.png|SilverFrameBottom.png|SilverSideLight.png|SilverLowerTab.png',gold:'GoldBackground.png|GoldFrameTop.png|GoldFrameBottom.png|GoldSideLight.png|GoldLowerTab.png',legendary:'LegendaryBackground.png|LegendaryFrameTop.png|LegendaryFrameBottom.png|LegendarySideLight.png|LegendaryLowerTab.png',amalgam:'AmalgamBackground.png|AmalgamFrameTop.png|AmalgamFrameBottom.png|LegendarySideLight.png|LegendaryLowerTab.png',galvanized:'LegendaryBackground.png|GalvanizedFrameTop.png|GalvanizedFrameBottom.png|LegendarySideLight.png|LegendaryLowerTab.png',riven:'SilverBackground.png|OmegaFrameTop.png|OmegaFrameBottom.png|OmegaSideLight.png|RivenLowerTab.png'};assert(Object.entries(expectedFrames).every(([rarity,expected])=>{const f=modFrameAssets(rarity);return [f.background,f.top,f.bottom,f.side,f.tab].join('|')===expected;})&&previewCard.includes('overframe/SilverBackground.png')&&previewCard.includes('overframe/SilverFrameTop.png')&&previewCard.includes('overframe/SilverFrameBottom.png')&&previewCard.includes('mod-frame-borders'),'Each mod rarity composes the matching Overframe frame assets');
   const wrongPolarityCard=slotHTML({...previewSlot,polarity:'vazarin'},0,get(testDb,'weapons','burston-prime'),[{id:'serration',name:'Serration'}]);assert(wrongPolarityCard.includes('mod-face-drain polarity-mismatch')&&wrongPolarityCard.includes('>5</b>'),'Mismatched polarity shows red adjusted drain');
   assert(modRarity({name:'Galvanized Chamber',rarity:'Rare'})==='galvanized'&&modRarity({name:'Primed Cryo Rounds',rarity:'Legendary'})==='legendary'&&modRarity({name:'Common Mod',rarity:'Common'})==='bronze','Galvanized, Legendary and Bronze frame types follow their categories');
   const rankState=defaultState(testDb);rankState.slots[0]={id:'serration',rank:0,polarity:'',stacks:0,uptime:100};const baseRankDamage=calculateWeapon(testDb,rankState).ordinary;rankState.slots[0].rank=1;const rankOneDamage=calculateWeapon(testDb,rankState).ordinary;assert(near(baseRankDamage,1.15)&&near(rankOneDamage,1.3),'Base-rank mod value applies before each added fusion rank');
@@ -4197,7 +4233,18 @@ async function boot(){try{
  if(activeBuildId&&!get(db,'arsenal',activeBuildId))activeBuildId='';if(draftOpen)applyOwnedProgenitor(state);
  if(!restoredSession&&!$('embedded-session')&&!draftOpen&&db.arsenal.records.length){const b=db.arsenal.records[0];state=normalizeBuild(db,b.state);applyOwnedProgenitor(state);activeBuildId=b.id;draftOpen=true;}
  savedFingerprint=activeBuildId?JSON.stringify(normalizeBuild(db,get(db,'arsenal',activeBuildId).state)):'';
- for(const c of ['weapons','mods','arcanes','enemies'])for(const r of records(db,c)){const fresh=get(bundled,c,r.id);if(!Object.hasOwn(r,'image')&&fresh?.image){r.image=fresh.image;r.imageSource=fresh.imageSource;}}
+ for(const c of ['weapons','mods','arcanes','enemies'])for(const r of records(db,c)){
+  const fresh=get(bundled,c,r.id);
+  if(!Object.hasOwn(r,'image')&&fresh?.image){r.image=fresh.image;r.imageSource=fresh.imageSource;}
+  if(c!=='mods'||!fresh)continue;
+  if(fresh.iconSource&&!r.iconSource){r.iconSource=fresh.iconSource;r.icon=fresh.icon;r.iconFallback=fresh.iconFallback;databaseDirty=hasIndexedCatalogue||!!legacyDatabase;}
+  else if(r.iconSource?.startsWith('https://wiki.warframe.com/w/File:')&&r.iconSource!==fresh.iconSource){
+   if(r.icon?.startsWith('images/mods/icons/wiki/')||r.icon===r.iconFallback)r.icon=fresh.icon||fresh.image;
+   if(fresh.iconSource)r.iconSource=fresh.iconSource;else delete r.iconSource;
+   if(fresh.iconFallback)r.iconFallback=fresh.iconFallback;
+   databaseDirty=hasIndexedCatalogue||!!legacyDatabase;
+  }
+ }
  if(db['incarnon-evolutions'].onlinePageHashVersion!==2){db['incarnon-evolutions'].onlinePageHashes=clone(bundled['incarnon-evolutions'].onlinePageHashes||{});db['incarnon-evolutions'].onlinePageHashVersion=2;databaseDirty=hasIndexedCatalogue||!!legacyDatabase;}
  const iconRules=ruleOf(db),defaultIcons=ruleOf(bundled).statusIcons||{};iconRules.statusIcons||={};for(const [type,path] of Object.entries(defaultIcons))iconRules.statusIcons[type]=statusIconPath(iconRules,type)||path;
  autoSelectEvolutions(db,state);indexData();$('status-controls').innerHTML=['viral','corrosive','heat','magnetic','cold','puncture'].map(t=>'<label>'+t[0].toUpperCase()+t.slice(1)+'<input data-status="'+t+'" type="number" min="0" max="'+(t==='puncture'?5:t==='heat'?1:10)+'" value="0"></label>').join('');fillCatalogControls();renderWeaponControls();renderMods();renderArcanes();renderArchonShards();syncInputs();renderRivenList();bind();renderArsenalUI();renderCalculations();let savedView='calculator';try{const candidate=localStorage.getItem('void-arsenal-selected-view-v1');if(candidate&&document.getElementById('view-'+candidate))savedView=candidate;}catch{}showView(savedView);
