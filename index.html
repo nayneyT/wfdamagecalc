@@ -52,6 +52,9 @@ details.faction-database-panel>summary.faction-database-toggle{list-style:none;c
 .mod-card-empty[data-slot-kind="aura"]{background-image:url('images/mods/slots/icon-aura.png'),url('images/mods/slots/warframe-placeholder.png');background-size:auto 50%,contain}
 .mod-card-empty>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 .mod-card-empty:hover,.mod-card-empty:focus{filter:brightness(1.65);opacity:.85}
+.mod-card.mod-card-empty:is(:hover,:focus,:focus-visible){background:url('images/mods/slots/warframe-placeholder.png') center/contain no-repeat}
+.mod-card.mod-card-empty[data-slot-kind="exilus"]:is(:hover,:focus,:focus-visible){background-image:url('images/mods/slots/icon-exilus.png'),url('images/mods/slots/warframe-placeholder.png');background-position:center,center;background-size:auto 45%,contain;background-repeat:no-repeat,no-repeat}
+.mod-card.mod-card-empty[data-slot-kind="aura"]:is(:hover,:focus,:focus-visible){background-image:url('images/mods/slots/icon-aura.png'),url('images/mods/slots/warframe-placeholder.png');background-position:center,center;background-size:auto 50%,contain;background-repeat:no-repeat,no-repeat}
 .mod-rank-control-row{display:grid;grid-template-columns:32px minmax(0,1fr) 32px;align-items:center;gap:4px;margin:7px 0 3px;white-space:nowrap}
 .mod-rank-control-row>span{min-width:0;text-align:center;font-size:9px;line-height:1.2}
 .mod-rank-control-row>button{display:flex;align-items:center;justify-content:center;gap:1px;min-width:0;padding:3px 0;font-size:10px;line-height:1.1}
@@ -85,14 +88,12 @@ details.faction-database-panel>summary.faction-database-toggle{list-style:none;c
 .mod-card:is(:hover,:focus-visible) .mod-frame-borders::after,.modslot-card-hover .mod-frame-borders::after{visibility:visible;transform:scaleY(1)}
 .rarity-legendary .mod-frame-borders::before,.rarity-legendary .mod-frame-borders::after{top:1.1em}
 .rarity-amalgam .mod-frame-borders::before,.rarity-amalgam .mod-frame-borders::after,.rarity-galvanized .mod-frame-borders::before,.rarity-galvanized .mod-frame-borders::after{top:2.1em}
-.mod-face-drain{position:absolute;top:.8em;right:.4em;z-index:8;display:flex;align-items:center;justify-content:flex-end;gap:.2em;padding:.2em .5em 0 .1em;min-width:3.8em;font-size:1.2em;line-height:1;font-weight:800;color:var(--mod-ink);text-shadow:0 1px 2px #000}
-.mod-face-drain::before,.mod-face-drain::after{content:"";position:absolute;z-index:-1;background:rgba(0,0,0,.6);border-color:var(--mod-ink)}
-.mod-face-drain::before{top:.2em;left:-.6em;width:1.1em;height:1.1em;transform:rotate(-45deg);border-top:1px solid;border-left:1px solid}
-.mod-face-drain::after{top:0;right:0;width:100%;height:1.5em;border-top:1px solid;border-bottom:1px solid}
+.mod-face-drain{position:absolute;top:.8em;right:.4em;z-index:18;display:flex;align-items:center;justify-content:flex-end;gap:.14em;width:3.75em;height:2.16em;padding:0 .3em 0 .65em;background:var(--mod-backer) center/100% 100% no-repeat;font-size:1.2em;line-height:1;font-weight:800;color:var(--mod-ink);text-shadow:0 1px 2px #000;white-space:nowrap}
 .mod-face-drain.polarity-match{color:#68ce5f}
 .mod-face-drain.polarity-mismatch{color:#f73533}
-.mod-polarity-icon{display:inline-block;width:1.2em;height:1.2em;flex:none;background:currentColor;mask:var(--polarity-icon) center/contain no-repeat;-webkit-mask:var(--polarity-icon) center/contain no-repeat;filter:drop-shadow(0 1px 1px #000)}
-.mod-polarity-icon.universal{width:auto;height:auto;background:none;mask:none;-webkit-mask:none;font-size:1.2em;color:inherit}
+.mod-polarity-icon{display:inline-flex;align-items:center;justify-content:center;width:1.15em;height:1.15em;flex:none;color:inherit;filter:drop-shadow(0 1px 1px #000)}
+.mod-polarity-icon svg{display:block;width:100%;height:100%;fill:currentColor}
+.mod-polarity-icon.universal{font-size:1.1em}
 .mod-top-icon{position:absolute;top:.5em;left:.7em;z-index:10;width:2em;height:2em;background-size:contain;background-position:center;background-repeat:no-repeat;opacity:.85}
 .mod-top-icon.exilus{background-image:url('images/mods/slots/icon-exilus.png')}
 .mod-top-icon.aura{background-image:url('images/mods/slots/icon-aura.png')}
@@ -123,6 +124,47 @@ details.faction-database-panel>summary.faction-database-toggle{list-style:none;c
 .weapon-arcane-group,.warframe-aura-group{margin-top:18px;padding-top:16px;border-top:1px solid var(--border)}
 .weapon-arcane-group h3,.warframe-aura-group h3{margin-bottom:14px;color:var(--orange)}
 .warframe-aura-group .modslot{max-width:230px;margin:0 auto 16px}
+#mod-picker{max-width:900px}
+#mod-picker-list.mod-picker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(184px,1fr));align-items:start;justify-items:center;gap:18px 12px;max-height:min(59vh,600px);padding:12px 10px 18px;overflow:auto}
+.mod-picker-mini{position:relative;display:block;width:184px;height:90px;max-width:100%;margin:0;padding:0;border:0;background:transparent;color:var(--text);cursor:pointer;container-type:inline-size}
+.mod-picker-mini:hover{filter:brightness(1.16)}
+.mod-picker-mini:focus-visible,.mod-picker-mini.selected{outline:2px solid var(--cyan);outline-offset:3px;border-radius:4px}
+.mod-picker-mini .mod-face{pointer-events:none}
+.mod-picker-selected{position:absolute;right:0;bottom:-16px;color:var(--cyan);font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.mod-picker-preview{position:fixed;z-index:1000;width:220px;height:300px;pointer-events:none}
+.mod-picker-preview[hidden]{display:none}
+.mod-picker-preview .mod-card{position:absolute;top:100px;left:18px;width:184px;height:90px;margin:0}
+#loadout-choice-list.arcane-picker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px;max-height:min(60vh,590px);overflow:auto}
+.arcane-picker-tile{display:flex;flex-direction:column;align-items:center;justify-content:start;gap:4px;min-width:0;min-height:128px;padding:9px 6px;border:1px solid var(--border);border-radius:9px;background:#141e2c;color:var(--text);text-align:center;cursor:pointer}
+.arcane-picker-tile:hover,.arcane-picker-tile:focus-visible{border-color:var(--cyan);filter:brightness(1.2)}
+.arcane-picker-tile.selected{border-color:var(--cyan)}
+.arcane-picker-tile img{display:block;width:116px;max-width:100%;height:75px;object-fit:contain}
+.arcane-picker-tile strong{font-size:11px;line-height:1.15;overflow-wrap:anywhere}
+.arcane-picker-tile small{font-size:9px;color:var(--muted)}
+.arcane-picker-selected{color:var(--cyan);font-size:9px;font-weight:700;text-transform:uppercase}
+#weapon-arcane-slots,#warframe-arcane-slots{display:grid;gap:11px}
+.arcane{position:relative;padding:9px;border:1px solid var(--border);border-radius:9px;background:#111b28}
+.arcane-choice-card{display:grid;grid-template-columns:96px minmax(0,1fr);grid-template-rows:auto auto;align-items:center;gap:4px 10px;width:100%;min-height:88px;padding:6px;border:0;background:transparent;color:var(--text);text-align:left;cursor:pointer}
+.arcane-choice-card:hover,.arcane-choice-card:focus-visible{background:#1c2b3c;outline:1px solid var(--cyan)}
+.arcane-choice-card .arcane-image,.arcane-choice-empty{grid-row:1/3;grid-column:1;display:block;width:96px;height:70px;max-width:100%;object-fit:contain}
+.arcane-choice-empty{background:url('images/mods/slots/no-arcane.png') center/contain no-repeat;opacity:.45}
+.arcane-choice-card:hover .arcane-choice-empty,.arcane-choice-card:focus-visible .arcane-choice-empty{opacity:.72;filter:brightness(1.45)}
+.arcane-choice-copy{grid-column:2;align-self:end;display:flex;flex-direction:column;gap:3px;min-width:0}
+.arcane-choice-copy strong{font-size:12px;line-height:1.2;overflow-wrap:anywhere}
+.arcane-choice-copy small{font-size:10px;color:var(--muted)}
+.arcane-choice-action{grid-column:2;align-self:start;color:var(--cyan);font-size:10px}
+.arcane-empty-hint{margin:4px 6px 2px;font-size:10px}
+.arcane-settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}
+.arcane-settings label{min-width:0;font-size:10px}
+.arcane-settings input{width:100%;min-width:0}
+.arcane-rank-control{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.arcane-rank-control>span{display:flex;align-items:center;gap:5px;font-size:11px}
+.arcane-rank-control small{color:var(--muted);font-size:9px}
+.arcane-rank-buttons{display:flex;gap:5px}
+.arcane-rank-buttons button{min-width:28px;padding:3px 7px}
+.arcane-description-tooltip{display:none;position:absolute;left:5px;right:5px;bottom:calc(100% + 5px);z-index:100;padding:9px;border:1px solid var(--border);border-radius:7px;background:#182638;box-shadow:0 8px 20px #0009;font-size:11px;line-height:1.35}
+.arcane:hover .arcane-description-tooltip,.arcane:focus-within .arcane-description-tooltip{display:block}
+@media(max-width:520px){#mod-picker-list.mod-picker-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:18px 4px}.mod-picker-mini{width:160px;height:79px}.arcane-choice-card{grid-template-columns:80px minmax(0,1fr)}.arcane-choice-card .arcane-image,.arcane-choice-empty{width:80px;height:62px}}
 @media(prefers-reduced-motion:reduce){.mod-face,.mod-face-name,.mod-card-art,.mod-card-image::after,.mod-frame-borders::before,.mod-frame-borders::after,.mod-face-type{transition:none}}
 </style></head>
 <body>
@@ -319,7 +361,7 @@ Increase Base Status Chance by +Y.</div></details></div></details></div></div></
  </main>
  <footer class="footer"><span>Independent community tool · Not affiliated with Digital Extremes</span><span id="catalog-summary">911 weapons · 1019 enemies · 1534 mods · 166 arcanes</span><span>Offline · Vanilla JavaScript</span></footer>
 </div>
-<dialog id="mod-picker" class="dialog"><div class="panelhead"><h2 id="mod-picker-title">Choose a mod</h2><button id="close-mod-picker">Close</button></div><p id="mod-picker-hint" class="hint"></p><input id="mod-picker-search" type="search" placeholder="Search mods"><button id="clear-mod-selection">Clear selection</button><div id="mod-picker-list" class="catalog-list"></div></dialog><dialog id="loadout-choice-picker" class="dialog"><div class="panelhead"><h2 id="loadout-choice-title">Choose</h2><button id="close-loadout-choice">Close</button></div><p id="loadout-choice-hint" class="hint"></p><input id="loadout-choice-search" type="search"><div id="loadout-choice-list" class="catalog-list"></div></dialog><dialog id="online-dialog" class="dialog"><h2>Online catalogue update</h2><div id="online-summary"></div><label>Local data folder<input id="online-folder" type="text"></label><div class="toolbar spacer"><button id="connect-online-folder">Connect folder</button><button id="apply-online">Apply</button><button id="cancel-online">Cancel</button></div></dialog>
+<dialog id="mod-picker" class="dialog"><div class="panelhead"><h2 id="mod-picker-title">Choose a mod</h2><button id="close-mod-picker">Close</button></div><p id="mod-picker-hint" class="hint"></p><input id="mod-picker-search" type="search" placeholder="Search mods"><button id="clear-mod-selection">Clear selection</button><div id="mod-picker-list" class="catalog-list mod-picker-grid"></div><div id="mod-picker-preview" class="mod-picker-preview modslot-card-hover" aria-hidden="true" hidden></div></dialog><dialog id="loadout-choice-picker" class="dialog"><div class="panelhead"><h2 id="loadout-choice-title">Choose</h2><button id="close-loadout-choice">Close</button></div><p id="loadout-choice-hint" class="hint"></p><input id="loadout-choice-search" type="search"><div id="loadout-choice-list" class="catalog-list"></div></dialog><dialog id="online-dialog" class="dialog"><h2>Online catalogue update</h2><div id="online-summary"></div><label>Local data folder<input id="online-folder" type="text"></label><div class="toolbar spacer"><button id="connect-online-folder">Connect folder</button><button id="apply-online">Apply</button><button id="cancel-online">Cancel</button></div></dialog>
 <dialog id="weapon-creator" class="dialog"><div class="panelhead"><h2>Create weapon</h2><button id="close-creator" aria-label="Close weapon creator">Close</button></div><p class="hint">Choose a category and base weapon. It enters your arsenal only when you save the configured build.</p><div class="fieldgrid"><label>Category<select id="weapon-category"><option value="Amp">Amp</option><option value="Archgun">Archgun</option><option value="Archgun (Atmosphere)">Archgun (Atmosphere)</option><option value="Archmelee">Archmelee</option><option value="Beast">Beast</option><option value="Emplacement">Emplacement</option><option value="Gear">Gear</option><option value="Hound">Hound</option><option value="Melee">Melee</option><option value="Nech-Melee">Nech-Melee</option><option value="Primary" selected="">Primary</option><option value="Railjack Ordnance">Railjack Ordnance</option><option value="Railjack Turret">Railjack Turret</option><option value="Robotic">Robotic</option><option value="Secondary">Secondary</option><option value="Unique">Unique</option><option value="Vehicle">Vehicle</option></select></label><label>Find base weapon<input id="weapon-search" type="search" placeholder="Search catalogue"></label></div><div id="catalog-list" class="catalog-list"><button data-create-weapon="braton-prime">Braton Prime<small>Rifle · Primary</small></button></div></dialog>
 <dialog id="arsenal-import-dialog" class="dialog"><h2>Import arsenal</h2><div id="arsenal-import-preview"></div><div class="toolbar spacer"><button id="apply-arsenal-import" class="primary">Replace arsenal and apply records</button><button id="cancel-arsenal-import">Cancel</button></div></dialog>
 <input id="arsenal-file" type="file" accept=".json,application/json" hidden="">

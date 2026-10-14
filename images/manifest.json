@@ -66770,6 +66770,15 @@
       "sourcePage": "https://overframe.gg/build/new/8/banshee/",
       "provider": "Overframe",
       "bytes": 1048
+    },
+    {
+      "file": "NoArcaneIcon.png",
+      "local": "images/mods/slots/no-arcane.png",
+      "owners": ["ui/empty-weapon-arcane-slot", "ui/empty-warframe-arcane-slot"],
+      "url": "https://static.overframe.gg/static/images/mod/arcanes/NoArcaneIcon.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 16011
     }
   ],
   "missing": [
