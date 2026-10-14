@@ -15434,18 +15434,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "auraArmorReduction",
+          "value": 0.18
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "auraArmorReduction",
+            "value": 0.03
+          }
+        ],
+        [
+          {
+            "stat": "auraArmorReduction",
+            "value": 0.06
+          }
+        ],
+        [
+          {
+            "stat": "auraArmorReduction",
+            "value": 0.09
+          }
+        ],
+        [
+          {
+            "stat": "auraArmorReduction",
+            "value": 0.12
+          }
+        ],
+        [
+          {
+            "stat": "auraArmorReduction",
+            "value": 0.15
+          }
+        ],
+        [
+          {
+            "stat": "auraArmorReduction",
+            "value": 0.18
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -17906,18 +17939,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.525
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "damage",
+            "value": 0.0875
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.175
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.2625
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.35
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.4375
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.525
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -21222,17 +21288,80 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "statusChance",
+          "value": 0.6
+        },
+        {
+          "stat": "statusDamage",
+          "value": 0.6
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.1
+          },
+          {
+            "stat": "statusDamage",
+            "value": 0.1
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.2
+          },
+          {
+            "stat": "statusDamage",
+            "value": 0.2
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.3
+          },
+          {
+            "stat": "statusDamage",
+            "value": 0.3
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.4
+          },
+          {
+            "stat": "statusDamage",
+            "value": 0.4
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.5
+          },
+          {
+            "stat": "statusDamage",
+            "value": 0.5
+          }
+        ],
+        [
+          {
+            "stat": "statusChance",
+            "value": 0.6
+          },
+          {
+            "stat": "statusDamage",
+            "value": 0.6
+          }
+        ]
       ],
       "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
+        "The 90 Shields lost by the Warframe on each Heavy Attack are not modeled."
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
@@ -58477,18 +58606,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.27
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "damage",
+            "value": 0.045
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.09
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.135
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.18
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.225
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.27
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -72866,18 +73028,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.27
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "damage",
+            "value": 0.045
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.09
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.135
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.18
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.225
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.27
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -78593,18 +78788,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "auraShieldReduction",
+          "value": 0.18
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "auraShieldReduction",
+            "value": 0.03
+          }
+        ],
+        [
+          {
+            "stat": "auraShieldReduction",
+            "value": 0.06
+          }
+        ],
+        [
+          {
+            "stat": "auraShieldReduction",
+            "value": 0.09
+          }
+        ],
+        [
+          {
+            "stat": "auraShieldReduction",
+            "value": 0.12
+          }
+        ],
+        [
+          {
+            "stat": "auraShieldReduction",
+            "value": 0.15
+          }
+        ],
+        [
+          {
+            "stat": "auraShieldReduction",
+            "value": 0.18
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -79385,18 +79613,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.18
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "damage",
+            "value": 0.03
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.06
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.09
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.12
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.15
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.18
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -83688,18 +83949,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "damage",
+          "value": 0.6
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "damage",
+            "value": 0.1
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.2
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.3
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.4
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.5
+          }
+        ],
+        [
+          {
+            "stat": "damage",
+            "value": 0.6
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",
@@ -89124,49 +89418,14 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [
-        {
-          "stat": "element:toxin",
-          "value": 0.15
-        }
-      ],
+      "effects": [],
       "rankEffects": [
-        [
-          {
-            "stat": "element:toxin",
-            "value": 0.024999999999999998
-          }
-        ],
-        [
-          {
-            "stat": "element:toxin",
-            "value": 0.049999999999999996
-          }
-        ],
-        [
-          {
-            "stat": "element:toxin",
-            "value": 0.075
-          }
-        ],
-        [
-          {
-            "stat": "element:toxin",
-            "value": 0.09999999999999999
-          }
-        ],
-        [
-          {
-            "stat": "element:toxin",
-            "value": 0.125
-          }
-        ],
-        [
-          {
-            "stat": "element:toxin",
-            "value": 0.15
-          }
-        ]
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
       ],
       "limitations": [],
       "source": {
@@ -95331,18 +95590,51 @@
       "compatibility": "Aura",
       "handler": "",
       "maxStacks": 1,
-      "effects": [],
+      "effects": [
+        {
+          "stat": "weakCrit",
+          "value": 0.75
+        }
+      ],
       "rankEffects": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          {
+            "stat": "weakCrit",
+            "value": 0.125
+          }
+        ],
+        [
+          {
+            "stat": "weakCrit",
+            "value": 0.25
+          }
+        ],
+        [
+          {
+            "stat": "weakCrit",
+            "value": 0.375
+          }
+        ],
+        [
+          {
+            "stat": "weakCrit",
+            "value": 0.5
+          }
+        ],
+        [
+          {
+            "stat": "weakCrit",
+            "value": 0.625
+          }
+        ],
+        [
+          {
+            "stat": "weakCrit",
+            "value": 0.75
+          }
+        ]
       ],
-      "limitations": [
-        "Conditional or special effects in the description are not fully modeled."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Mods/data",
         "snapshot": "2026-10-11",

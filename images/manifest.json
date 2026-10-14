@@ -66743,6 +66743,33 @@
       "bytes": 34883,
       "sourcePage": "https://wiki.warframe.com/w/File:Zymos.png",
       "provider": "Warframe Wiki"
+    },
+    {
+      "file": "warframe_placeholder.png",
+      "local": "images/mods/slots/warframe-placeholder.png",
+      "owners": ["ui/empty-mod-slot"],
+      "url": "https://overframe.gg/static/images/warframe_placeholder.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 2478
+    },
+    {
+      "file": "icon-exilus.png",
+      "local": "images/mods/slots/icon-exilus.png",
+      "owners": ["ui/exilus-slot"],
+      "url": "https://static.overframe.gg/static/images/icon-exilus.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 923
+    },
+    {
+      "file": "icon-aura.png",
+      "local": "images/mods/slots/icon-aura.png",
+      "owners": ["ui/aura-slot"],
+      "url": "https://static.overframe.gg/static/images/icon-aura.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 1048
     }
   ],
   "missing": [
