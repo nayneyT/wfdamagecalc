@@ -2,6 +2,24 @@
   "source": "Canonical local-to-source registry. Warframe Wiki and WFCD sources retain their individual attribution and licensing terms.",
   "assets": [
     {
+      "file": "plain-shard.png",
+      "local": "images/archon-shards/plain-shard.png",
+      "owners": ["ui/empty-archon-shard"],
+      "url": null,
+      "sourcePage": null,
+      "provider": "local user artwork",
+      "bytes": 62981
+    },
+    {
+      "file": "plain-shard-large.png",
+      "local": "images/archon-shards/plain-shard-large.png",
+      "owners": ["ui/empty-archon-shard-large"],
+      "url": null,
+      "sourcePage": null,
+      "provider": "local user artwork",
+      "bytes": 197516
+    },
+    {
       "file": "AmberArchonShard.png",
       "local": "images/archon-shards/amber-normal.png",
       "owners": [

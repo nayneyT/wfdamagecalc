@@ -261,6 +261,8 @@
       "name": "Azure Archon Shard · Maximum Energy",
       "color": "Azure",
       "description": "+50 Maximum Energy; Tauforged +75.",
+      "maximumEnergyBonus": 50,
+      "tauMaximumEnergyBonus": 75,
       "effects": [],
       "weaponCategories": [],
       "maxStacks": 1,
@@ -403,6 +405,10 @@
       "name": "Violet Archon Shard · Primary Electricity Damage",
       "color": "Violet",
       "description": "+30% Primary Electricity Damage; Tauforged +45%, plus +10% (+15%) per equipped Crimson, Azure, or Violet shard.",
+      "displayEffects": {
+        "normal": "+30% Primary Electricity Damage, plus +10% per equipped Crimson, Azure, or Violet shard.",
+        "tauforged": "+45% Primary Electricity Damage, plus +15% per equipped Crimson, Azure, or Violet shard."
+      },
       "effects": [
         {
           "stat": "element:electricity",
@@ -453,15 +459,26 @@
       "id": "archon-violet-melee-critical-damage",
       "name": "Violet Archon Shard · Melee Critical Damage",
       "color": "Violet",
-      "description": "+25% Melee Critical Damage; doubles above 500 maximum Energy.",
-      "effects": [],
+      "description": "+25% Melee Critical Damage; Tauforged +37%; doubles above 500 maximum Energy.",
+      "displayEffects": {
+        "normal": "+25% Melee Critical Damage; doubles above 500 maximum Energy.",
+        "tauforged": "+37% Melee Critical Damage; doubles above 500 maximum Energy."
+      },
+      "effects": [
+        {
+          "stat": "critDamage",
+          "value": 0.25,
+          "tauValue": 0.37,
+          "doubleAboveEnergy": 500
+        }
+      ],
       "weaponCategories": [
         "Melee"
       ],
       "maxStacks": 1,
       "tauMaxStacks": 1,
       "limitations": [
-        "This shard trait is retained in the build, but it does not affect weapon damage or TTK. Energy threshold behavior is not modeled."
+        "Enter maximum Warframe Energy before Archon Shards to evaluate the over-500 Energy condition."
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Archon_Shard",
@@ -475,6 +492,10 @@
       "name": "Violet Archon Shard · Health and Energy Pickups",
       "color": "Violet",
       "description": "Health pickups give +20% Energy and Energy pickups give +20% Health; Tauforged +30%.",
+      "displayEffects": {
+        "normal": "Health pickups give +20% Energy and Energy pickups give +20% Health.",
+        "tauforged": "Health pickups give +30% Energy and Energy pickups give +30% Health."
+      },
       "effects": [],
       "weaponCategories": [],
       "maxStacks": 1,
