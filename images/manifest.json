@@ -11974,9 +11974,9 @@
         "mods/frame/AmalgamBackground",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/AmalgamBackground.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:AmalgamBackground.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
+      "url": "https://overframe.gg/static/images/mod/AmalgamBackground.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
       "bytes": 11680
     },
     {
@@ -11986,10 +11986,10 @@
         "mods/frame/AmalgamFrameBottom",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/AmalgamFrameBottom.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:AmalgamFrameBottom.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 22600
+      "url": "https://overframe.gg/static/images/mod/AmalgamFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 8182
     },
     {
       "file": "AmalgamFrameTop.png",
@@ -11998,9 +11998,9 @@
         "mods/frame/AmalgamFrameTop",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/AmalgamFrameTop.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:AmalgamFrameTop.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
+      "url": "https://overframe.gg/static/images/mod/AmalgamFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
       "bytes": 5601
     },
     {
@@ -12010,10 +12010,10 @@
         "mods/frame/BronzeBackground",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/BronzeBackground.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:BronzeBackground.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 78878
+      "url": "https://overframe.gg/static/images/mod/BronzeBackground.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 8609
     },
     {
       "file": "BronzeCornerLights.png",
@@ -12034,10 +12034,10 @@
         "mods/frame/BronzeFrameBottom",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/BronzeFrameBottom.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:BronzeFrameBottom.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 21446
+      "url": "https://overframe.gg/static/images/mod/BronzeFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 5816
     },
     {
       "file": "BronzeFrameTop.png",
@@ -12046,10 +12046,10 @@
         "mods/frame/BronzeFrameTop",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/BronzeFrameTop.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:BronzeFrameTop.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 3901
+      "url": "https://overframe.gg/static/images/mod/BronzeFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 2056
     },
     {
       "file": "BronzeLowerTab.png",
@@ -12058,10 +12058,10 @@
         "mods/frame/BronzeLowerTab",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/BronzeLowerTab.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:BronzeLowerTab.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 908
+      "url": "https://overframe.gg/static/images/mod/BronzeLowerTab.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 404
     },
     {
       "file": "BronzeSideLight.png",
@@ -12070,10 +12070,10 @@
         "mods/frame/BronzeSideLight",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/BronzeSideLight.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:BronzeSideLight.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 3649
+      "url": "https://overframe.gg/static/images/mod/BronzeSideLight.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 1301
     },
     {
       "file": "BronzeTopRightBacker.png",
@@ -12106,10 +12106,10 @@
         "mods/frame/GalvanizedFrameBottom",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GalvanizedFrameBottom.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GalvanizedFrameBottom.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 80127
+      "url": "https://overframe.gg/static/images/mod/GalvanizedFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 9397
     },
     {
       "file": "GalvanizedFrameTop.png",
@@ -12118,10 +12118,10 @@
         "mods/frame/GalvanizedFrameTop",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GalvanizedFrameTop.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GalvanizedFrameTop.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 63799
+      "url": "https://overframe.gg/static/images/mod/GalvanizedFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 9499
     },
     {
       "file": "GalvanizedSideLight.png",
@@ -12142,10 +12142,10 @@
         "mods/frame/GoldBackground",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GoldBackground.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GoldBackground.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 101682
+      "url": "https://overframe.gg/static/images/mod/GoldBackground.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 20168
     },
     {
       "file": "GoldCornerLights.png",
@@ -12166,10 +12166,10 @@
         "mods/frame/GoldFrameBottom",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GoldFrameBottom.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GoldFrameBottom.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 19245
+      "url": "https://overframe.gg/static/images/mod/GoldFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 5820
     },
     {
       "file": "GoldFrameTop.png",
@@ -12178,10 +12178,10 @@
         "mods/frame/GoldFrameTop",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GoldFrameTop.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GoldFrameTop.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 4341
+      "url": "https://overframe.gg/static/images/mod/GoldFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 2193
     },
     {
       "file": "GoldLowerTab.png",
@@ -12190,10 +12190,10 @@
         "mods/frame/GoldLowerTab",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GoldLowerTab.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GoldLowerTab.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 994
+      "url": "https://overframe.gg/static/images/mod/GoldLowerTab.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 442
     },
     {
       "file": "GoldSideLight.png",
@@ -12202,10 +12202,10 @@
         "mods/frame/GoldSideLight",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/GoldSideLight.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:GoldSideLight.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 3364
+      "url": "https://overframe.gg/static/images/mod/GoldSideLight.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 1574
     },
     {
       "file": "GoldTopRightBacker.png",
@@ -12226,10 +12226,10 @@
         "mods/frame/LegendaryBackground",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/LegendaryBackground.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:LegendaryBackground.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 27903
+      "url": "https://overframe.gg/static/images/mod/LegendaryBackground.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 4991
     },
     {
       "file": "LegendaryCornerLights.png",
@@ -12250,10 +12250,10 @@
         "mods/frame/LegendaryFrameBottom",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/LegendaryFrameBottom.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:LegendaryFrameBottom.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 15086
+      "url": "https://overframe.gg/static/images/mod/LegendaryFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 6102
     },
     {
       "file": "LegendaryFrameTop.png",
@@ -12262,10 +12262,10 @@
         "mods/frame/LegendaryFrameTop",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/LegendaryFrameTop.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:LegendaryFrameTop.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 4131
+      "url": "https://overframe.gg/static/images/mod/LegendaryFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 2078
     },
     {
       "file": "LegendaryLowerTab.png",
@@ -12274,10 +12274,10 @@
         "mods/frame/LegendaryLowerTab",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/LegendaryLowerTab.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:LegendaryLowerTab.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 762
+      "url": "https://overframe.gg/static/images/mod/LegendaryLowerTab.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 425
     },
     {
       "file": "LegendarySideLight.png",
@@ -12286,10 +12286,10 @@
         "mods/frame/LegendarySideLight",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/LegendarySideLight.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:LegendarySideLight.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 2125
+      "url": "https://overframe.gg/static/images/mod/LegendarySideLight.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 1504
     },
     {
       "file": "LegendaryTopRightBacker.png",
@@ -12370,10 +12370,10 @@
         "mods/frame/RivenLowerTab",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/RivenLowerTab.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:RivenLowerTab.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 1206
+      "url": "https://overframe.gg/static/images/mod/RivenLowerTab.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 563
     },
     {
       "file": "RivenSideLight.png",
@@ -12406,10 +12406,10 @@
         "mods/frame/SilverBackground",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/SilverBackground.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:SilverBackground.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 87591
+      "url": "https://overframe.gg/static/images/mod/SilverBackground.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 12715
     },
     {
       "file": "SilverCornerLights.png",
@@ -12430,10 +12430,10 @@
         "mods/frame/SilverFrameBottom",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/SilverFrameBottom.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:SilverFrameBottom.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 20767
+      "url": "https://overframe.gg/static/images/mod/SilverFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 6494
     },
     {
       "file": "SilverFrameTop.png",
@@ -12442,10 +12442,10 @@
         "mods/frame/SilverFrameTop",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/SilverFrameTop.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:SilverFrameTop.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 4155
+      "url": "https://overframe.gg/static/images/mod/SilverFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 2047
     },
     {
       "file": "SilverLowerTab.png",
@@ -12454,10 +12454,10 @@
         "mods/frame/SilverLowerTab",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/SilverLowerTab.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:SilverLowerTab.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 903
+      "url": "https://overframe.gg/static/images/mod/SilverLowerTab.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 469
     },
     {
       "file": "SilverSideLight.png",
@@ -12466,10 +12466,10 @@
         "mods/frame/SilverSideLight",
         "ui/mod-card-frame"
       ],
-      "url": "https://wiki.warframe.com/images/SilverSideLight.png",
-      "sourcePage": "https://warframe.fandom.com/wiki/File:SilverSideLight.png",
-      "provider": "Warframe Wiki file catalog (Fandom)",
-      "bytes": 2616
+      "url": "https://overframe.gg/static/images/mod/SilverSideLight.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 1097
     },
     {
       "file": "SilverTopRightBacker.png",
@@ -66491,6 +66491,39 @@
       "sourcePage": "https://overframe.gg/build/new/8/banshee/",
       "provider": "Overframe",
       "bytes": 16011
+    },
+    {
+      "file": "OmegaFrameBottom.png",
+      "local": "images/mods/frames/OmegaFrameBottom.png",
+      "owners": [
+        "ui/mod-frame/riven"
+      ],
+      "url": "https://overframe.gg/static/images/mod/OmegaFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 9087
+    },
+    {
+      "file": "OmegaFrameTop.png",
+      "local": "images/mods/frames/OmegaFrameTop.png",
+      "owners": [
+        "ui/mod-frame/riven"
+      ],
+      "url": "https://overframe.gg/static/images/mod/OmegaFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 8034
+    },
+    {
+      "file": "OmegaSideLight.png",
+      "local": "images/mods/frames/OmegaSideLight.png",
+      "owners": [
+        "ui/mod-frame/riven"
+      ],
+      "url": "https://overframe.gg/static/images/mod/OmegaSideLight.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 1163
     }
   ],
   "missing": [
