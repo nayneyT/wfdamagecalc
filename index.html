@@ -89,6 +89,13 @@ details.faction-database-panel>summary.faction-database-toggle{list-style:none;c
 .rarity-galvanized .mod-face-name{font-size:1.55em;max-width:13.5ch}
 .mod-card:is(:hover,:focus-visible) .mod-card-image,.modslot-card-hover .mod-card-image{min-height:2em}
 .mod-frame-borders{position:absolute;inset:0;z-index:16;pointer-events:none}
+.mod-corner-lights{position:absolute;inset:0;z-index:17;pointer-events:none}
+.mod-corner-light{position:absolute;bottom:0;width:4.6em;height:4.6em;background:var(--mod-corner) center/contain no-repeat}
+.mod-corner-light.left{left:.2em;transform:scaleX(-1)}
+.mod-corner-light.right{right:.2em}
+.rarity-riven .mod-corner-light,.rarity-amalgam .mod-corner-light,.rarity-galvanized .mod-corner-light{bottom:-.5em}
+.rarity-riven .mod-corner-light.left,.rarity-amalgam .mod-corner-light.left,.rarity-galvanized .mod-corner-light.left{left:.7em}
+.rarity-riven .mod-corner-light.right,.rarity-amalgam .mod-corner-light.right,.rarity-galvanized .mod-corner-light.right{right:.7em}
 .mod-frame-borders::before,.mod-frame-borders::after{content:"";position:absolute;top:2.4em;width:.8em;height:18.2em;background-image:var(--mod-side);background-size:100% 100%;visibility:hidden;transform-origin:center;transition:visibility 0s linear .06s,transform .12s ease}
 .mod-frame-borders::before{left:.2em;transform:scale(-1,0)}
 .mod-frame-borders::after{right:.2em;transform:scaleY(0)}
