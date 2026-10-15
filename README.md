@@ -1,6 +1,33 @@
 # Void Arsenal
 
+## How to Use
+
+In PowerShell, create a folder for the checkout, enter it, and clone the repository:
+
+```powershell
+mkdir C:\github
+cd C:\github
+git clone https://github.com/nayneyT/wfdamagecalc.git
+cd C:\github\wfdamagecalc
+start .\index.html
+```
+
+If `C:\github` already exists, skip the `mkdir` command. You can also open `index.html` from File Explorer. The page uses online images by default.
+
+To save images for offline use, open the page in Chrome or Edge, go to **Database editor → Image assets**, and click **Download Images Locally**. Select the folder containing `index.html` (for example, `C:\github\wfdamagecalc`) and allow the browser to edit files there. When the download finishes, choose **Use Local Images**.
+
+Alternatively, from the project folder run the Python downloader:
+
+```powershell
+cd C:\github\wfdamagecalc
+py scripts/download_images.py
+```
+
+You can use `python scripts/download_images.py` if `py` is unavailable. After it finishes, return to **Database editor → Image assets** and change **Image source** from **Remote images** to **Local images**. See **How to download images** in the app for more help.
+
 A browser-only Warframe damage calculator. Open [index.html](index.html) with `app.js` beside it. There is no installation, Node.js, npm, framework, build step, or server. Artwork loads from its online source by default; download it locally for offline use.
+
+The original application code is licensed under GPL-3.0-or-later; see [LICENSE.md](LICENSE.md). The bundled parser, Wiki-derived data, and third-party artwork have separate terms documented in [LICENSES.md](LICENSES.md), [SOURCES.md](SOURCES.md), and `images/manifest.json`.
 
 ## Use
 
@@ -75,15 +102,7 @@ The GitHub checkout includes `images/placeholder.svg`, `images/archon-shards/pla
 
 To save artwork for offline use, open the app in a current Chromium browser such as Chrome or Edge, then choose **Database editor → Image assets → Download Images Locally**. Select the project folder containing `index.html` when the browser asks for folder access. A progress window shows checked, downloaded, skipped, and failed images; **Cancel download** keeps files already saved. At completion, choose **Use Local Images** or **Stay Remote**. Local mode tries the online source for any missing image, so it can also be used after a partial download. Run the download again to retry failures. If a source blocks browser cross-origin downloads, the downloader retries it through `images.weserv.nl`; source attribution remains in the manifest. The app does not upload your local images.
 
-Opening `index.html` directly from disk can work in a browser with folder access. If the page says folder access is unavailable, first check that you are using a supported browser. You can also serve the folder locally, which gives the app a localhost origin; a server alone cannot add folder access to an unsupported browser. From the project folder, run either command and then open `http://localhost:8000/` in Chrome or Edge:
-
-```sh
-npx serve . -l 8000
-# or, with Python installed:
-python -m http.server 8000 --bind 127.0.0.1
-```
-
-These commands only serve the existing static files. Node.js is not required by the app; `npx serve` is an optional local server. The **Image source** selector can also switch between remote and local artwork at any time.
+Opening `index.html` directly from disk works in Chrome and Edge with folder access; a local server is not required. If folder access is unavailable, the Image assets card displays an error and points to **How to download images**. The Python fallback reads `images/manifest.json`, skips images already present, prints progress and failures, and writes a detailed, ignored `image-download.log` in the project folder. It can be rerun after an interruption. Python is optional for image downloads and is not required to run the app.
 
 Weapon artwork lives in `images/weapons`, enemy portraits in `images/enemies`, status icons in `images/status`, mod and arcane artwork in `images/mods`, and Archon Shards in `images/archon-shards`. The manifests retain source URLs and attribution. Artwork is kept on your computer after Git stops tracking it; `.gitignore` prevents it from being added to future commits. The three included images have no remote source.
 

@@ -6,3 +6,7 @@
 !/images/placeholder.svg
 !/images/archon-shards/plain-shard.png
 !/images/archon-shards/plain-shard-large.png
+
+# Local image-download activity log.
+/image-download.log
+/scripts/__pycache__/
