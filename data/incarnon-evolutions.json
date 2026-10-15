@@ -1,7 +1,7 @@
 {
   "category": "incarnon-evolutions",
   "schemaVersion": 1,
-  "snapshot": "2026-10-11",
+  "snapshot": "2026-10-15",
   "sources": [
     {
       "url": "https://wiki.warframe.com/w/Angstrum_Incarnon_Genesis",
@@ -216,12 +216,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -236,12 +236,12 @@
         "Angstrum": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -249,12 +249,12 @@
         "Prisma Angstrum": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -287,7 +287,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 75.0,
+          "value": 75,
           "scope": "both"
         },
         {
@@ -307,7 +307,7 @@
         "Angstrum": [
           {
             "stat": "baseDamage",
-            "value": 75.0,
+            "value": 75,
             "scope": "both"
           },
           {
@@ -320,7 +320,7 @@
         "Prisma Angstrum": [
           {
             "stat": "baseDamage",
-            "value": 75.0,
+            "value": 75,
             "scope": "both"
           },
           {
@@ -527,13 +527,13 @@
       "variantValues": {
         "Angstrum": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         },
         "Prisma Angstrum": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         }
@@ -598,21 +598,21 @@
       "variantValues": {
         "Angstrum": {
           "X": {
-            "value": 9.0,
+            "value": 9,
             "unit": "%"
           },
           "Y": {
-            "value": 9.0,
+            "value": 9,
             "unit": "%"
           }
         },
         "Prisma Angstrum": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           },
           "Y": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           }
         }
@@ -681,12 +681,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 24.0,
+          "value": 24,
           "scope": "both"
         },
         {
           "stat": "baseCritDamage",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -701,12 +701,12 @@
         "Atomos": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "both"
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -738,12 +738,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 24.0,
+          "value": 24,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -758,12 +758,12 @@
         "Atomos": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -795,7 +795,7 @@
       "effects": [
         {
           "stat": "range",
-          "value": 7.0,
+          "value": 7,
           "scope": "normal"
         }
       ],
@@ -811,7 +811,7 @@
         "Atomos": [
           {
             "stat": "range",
-            "value": 7.0,
+            "value": 7,
             "scope": "normal"
           }
         ]
@@ -835,7 +835,7 @@
       "effects": [
         {
           "stat": "baseAmmoSet",
-          "value": 560.0,
+          "value": 560,
           "scope": "normal"
         }
       ],
@@ -849,7 +849,7 @@
         "Atomos": [
           {
             "stat": "baseAmmoSet",
-            "value": 560.0,
+            "value": 560,
             "scope": "normal"
           }
         ]
@@ -873,7 +873,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 5.0,
+          "value": 5,
           "scope": "normal",
           "condition": "condition-0"
         }
@@ -888,7 +888,7 @@
         "Atomos": [
           {
             "stat": "baseMagazine",
-            "value": 5.0,
+            "value": 5,
             "scope": "normal",
             "condition": "condition-0"
           }
@@ -1071,7 +1071,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "both"
         },
         {
@@ -1093,7 +1093,7 @@
         "Ballistica": [
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both"
           },
           {
@@ -1106,7 +1106,7 @@
         "Rakta Ballistica": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           },
           {
@@ -1119,7 +1119,7 @@
         "Ballistica Prime": [
           {
             "stat": "baseDamage",
-            "value": 3.0,
+            "value": 3,
             "scope": "both"
           },
           {
@@ -1146,19 +1146,19 @@
       "variantValues": {
         "Ballistica": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         },
         "Rakta Ballistica": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": ""
           }
         },
         "Ballistica Prime": {
           "X": {
-            "value": 3.0,
+            "value": 3,
             "unit": ""
           }
         }
@@ -1173,7 +1173,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "both"
         }
       ],
@@ -1190,21 +1190,21 @@
         "Ballistica": [
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both"
           }
         ],
         "Rakta Ballistica": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ],
         "Ballistica Prime": [
           {
             "stat": "baseDamage",
-            "value": 3.0,
+            "value": 3,
             "scope": "both"
           }
         ]
@@ -1218,19 +1218,19 @@
       "variantValues": {
         "Ballistica": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         },
         "Rakta Ballistica": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": ""
           }
         },
         "Ballistica Prime": {
           "X": {
-            "value": 3.0,
+            "value": 3,
             "unit": ""
           }
         }
@@ -1486,31 +1486,31 @@
       "variantValues": {
         "Ballistica": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           },
           "Y": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Rakta Ballistica": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           },
           "Y": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Ballistica Prime": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": "%"
           },
           "Y": {
-            "value": 72.0,
+            "value": 72,
             "unit": "%"
           }
         }
@@ -1607,43 +1607,43 @@
       "variantValues": {
         "Ballistica": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Z": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         },
         "Rakta Ballistica": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           },
           "Y": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           },
           "Z": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           }
         },
         "Ballistica Prime": {
           "X": {
-            "value": 7.0,
+            "value": 7,
             "unit": "%"
           },
           "Y": {
-            "value": 7.0,
+            "value": 7,
             "unit": "%"
           },
           "Z": {
-            "value": 28.0,
+            "value": 28,
             "unit": "%"
           }
         }
@@ -1663,7 +1663,7 @@
         },
         {
           "stat": "baseCritDamage",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -1682,7 +1682,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ],
@@ -1694,7 +1694,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ],
@@ -1706,7 +1706,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ]
@@ -1720,31 +1720,31 @@
       "variantValues": {
         "Ballistica": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": "%"
           },
           "Y": {
-            "value": 1.0,
+            "value": 1,
             "unit": "x"
           }
         },
         "Rakta Ballistica": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           },
           "Y": {
-            "value": 1.0,
+            "value": 1,
             "unit": "x"
           }
         },
         "Ballistica Prime": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           },
           "Y": {
-            "value": 1.0,
+            "value": 1,
             "unit": "x"
           }
         }
@@ -1786,12 +1786,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 14.0,
+          "value": 14,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -1806,12 +1806,12 @@
         "Boar": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 14.0,
+            "value": 14,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -1819,12 +1819,12 @@
         "Boar Prime": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 14.0,
+            "value": 14,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -1857,12 +1857,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 16.0,
+          "value": 16,
           "scope": "both"
         },
         {
           "stat": "punchThrough",
-          "value": 4.0,
+          "value": 4,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -1877,12 +1877,12 @@
         "Boar": [
           {
             "stat": "baseDamage",
-            "value": 16.0,
+            "value": 16,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -1890,12 +1890,12 @@
         "Boar Prime": [
           {
             "stat": "baseDamage",
-            "value": 16.0,
+            "value": 16,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -1928,7 +1928,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -1943,7 +1943,7 @@
         "Boar": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -1951,7 +1951,7 @@
         "Boar Prime": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -1984,7 +1984,7 @@
       "effects": [
         {
           "stat": "baseAmmoSet",
-          "value": 195.0,
+          "value": 195,
           "scope": "normal"
         }
       ],
@@ -1998,14 +1998,14 @@
         "Boar": [
           {
             "stat": "baseAmmoSet",
-            "value": 195.0,
+            "value": 195,
             "scope": "normal"
           }
         ],
         "Boar Prime": [
           {
             "stat": "baseAmmoSet",
-            "value": 195.0,
+            "value": 195,
             "scope": "normal"
           }
         ]
@@ -2301,12 +2301,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 18.0,
+          "value": 18,
           "scope": "both"
         },
         {
           "stat": "punchThrough",
-          "value": 4.0,
+          "value": 4,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -2321,12 +2321,12 @@
         "Boltor": [
           {
             "stat": "baseDamage",
-            "value": 18.0,
+            "value": 18,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2334,12 +2334,12 @@
         "Telos Boltor": [
           {
             "stat": "baseDamage",
-            "value": 4.0,
+            "value": 4,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2347,12 +2347,12 @@
         "Boltor Prime": [
           {
             "stat": "baseDamage",
-            "value": 4.0,
+            "value": 4,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2374,19 +2374,19 @@
       "variantValues": {
         "Boltor": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": ""
           }
         },
         "Telos Boltor": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": ""
           }
         },
         "Boltor Prime": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": ""
           }
         }
@@ -2401,12 +2401,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 12.0,
+          "value": 12,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 2.0,
+          "value": 2,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -2421,12 +2421,12 @@
         "Boltor": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2434,12 +2434,12 @@
         "Telos Boltor": [
           {
             "stat": "baseDamage",
-            "value": 0.0,
+            "value": 0,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2447,12 +2447,12 @@
         "Boltor Prime": [
           {
             "stat": "baseDamage",
-            "value": 0.0,
+            "value": 0,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2474,31 +2474,31 @@
       "variantValues": {
         "Boltor": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           },
           "Y": {
-            "value": 4.0,
+            "value": 4,
             "unit": ""
           }
         },
         "Telos Boltor": {
           "X": {
-            "value": 0.0,
+            "value": 0,
             "unit": ""
           },
           "Y": {
-            "value": 3.0,
+            "value": 3,
             "unit": ""
           }
         },
         "Boltor Prime": {
           "X": {
-            "value": 0.0,
+            "value": 0,
             "unit": ""
           },
           "Y": {
-            "value": 3.0,
+            "value": 3,
             "unit": ""
           }
         }
@@ -2566,7 +2566,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 20.0,
+          "value": 20,
           "scope": "normal"
         }
       ],
@@ -2580,21 +2580,21 @@
         "Boltor": [
           {
             "stat": "baseMagazine",
-            "value": 20.0,
+            "value": 20,
             "scope": "normal"
           }
         ],
         "Telos Boltor": [
           {
             "stat": "baseMagazine",
-            "value": 20.0,
+            "value": 20,
             "scope": "normal"
           }
         ],
         "Boltor Prime": [
           {
             "stat": "baseMagazine",
-            "value": 20.0,
+            "value": 20,
             "scope": "normal"
           }
         ]
@@ -2714,19 +2714,19 @@
       "variantValues": {
         "Boltor": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Telos Boltor": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Boltor Prime": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": "%"
           }
         }
@@ -2803,31 +2803,31 @@
       "variantValues": {
         "Boltor": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           },
           "Y": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           }
         },
         "Telos Boltor": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Y": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           }
         },
         "Boltor Prime": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         }
@@ -2884,19 +2884,19 @@
       "variantValues": {
         "Boltor": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Telos Boltor": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           }
         },
         "Boltor Prime": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         }
@@ -2938,12 +2938,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 24.0,
+          "value": 24,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -2958,12 +2958,12 @@
         "Braton": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2971,12 +2971,12 @@
         "Mk1-Braton": [
           {
             "stat": "baseDamage",
-            "value": 28.0,
+            "value": 28,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 22.0,
+            "value": 22,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2984,12 +2984,12 @@
         "Braton Vandal": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 34.0,
+            "value": 34,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -2997,12 +2997,12 @@
         "Braton Prime": [
           {
             "stat": "baseDamage",
-            "value": 4.0,
+            "value": 4,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 38.0,
+            "value": 38,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -3024,41 +3024,41 @@
       "variantValues": {
         "Braton": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": ""
           },
           "Y": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         },
         "Mk1-Braton": {
           "X": {
-            "value": 28.0,
+            "value": 28,
             "unit": ""
           },
           "Y": {
-            "value": 22.0,
+            "value": 22,
             "unit": ""
           }
         },
         "Braton Vandal": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           },
           "Y": {
-            "value": 34.0,
+            "value": 34,
             "unit": ""
           }
         },
         "Braton Prime": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": ""
           },
           "Y": {
-            "value": 38.0,
+            "value": 38,
             "unit": ""
           }
         }
@@ -3073,7 +3073,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 14.0,
+          "value": 14,
           "scope": "both"
         },
         {
@@ -3097,7 +3097,7 @@
         "Braton": [
           {
             "stat": "baseDamage",
-            "value": 14.0,
+            "value": 14,
             "scope": "both"
           },
           {
@@ -3109,7 +3109,7 @@
         "Mk1-Braton": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           },
           {
@@ -3121,7 +3121,7 @@
         "Braton Vandal": [
           {
             "stat": "baseDamage",
-            "value": 8.0,
+            "value": 8,
             "scope": "both"
           },
           {
@@ -3133,7 +3133,7 @@
         "Braton Prime": [
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           },
           {
@@ -3152,41 +3152,41 @@
       "variantValues": {
         "Braton": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": ""
           },
           "Y": {
-            "value": 60.0,
+            "value": 60,
             "unit": "%"
           }
         },
         "Mk1-Braton": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           },
           "Y": {
-            "value": 48.0,
+            "value": 48,
             "unit": "%"
           }
         },
         "Braton Vandal": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": ""
           },
           "Y": {
-            "value": 58.0,
+            "value": 58,
             "unit": "%"
           }
         },
         "Braton Prime": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": ""
           },
           "Y": {
-            "value": 54.0,
+            "value": 54,
             "unit": "%"
           }
         }
@@ -3201,7 +3201,7 @@
       "effects": [
         {
           "stat": "baseAmmoSet",
-          "value": 675.0,
+          "value": 675,
           "scope": "normal"
         }
       ],
@@ -3215,28 +3215,28 @@
         "Braton": [
           {
             "stat": "baseAmmoSet",
-            "value": 675.0,
+            "value": 675,
             "scope": "normal"
           }
         ],
         "Mk1-Braton": [
           {
             "stat": "baseAmmoSet",
-            "value": 600.0,
+            "value": 600,
             "scope": "normal"
           }
         ],
         "Braton Vandal": [
           {
             "stat": "baseAmmoSet",
-            "value": 750.0,
+            "value": 750,
             "scope": "normal"
           }
         ],
         "Braton Prime": [
           {
             "stat": "baseAmmoSet",
-            "value": 1125.0,
+            "value": 1125,
             "scope": "normal"
           }
         ]
@@ -3250,25 +3250,25 @@
       "variantValues": {
         "Braton": {
           "X": {
-            "value": 675.0,
+            "value": 675,
             "unit": ""
           }
         },
         "Mk1-Braton": {
           "X": {
-            "value": 600.0,
+            "value": 600,
             "unit": ""
           }
         },
         "Braton Vandal": {
           "X": {
-            "value": 750.0,
+            "value": 750,
             "unit": ""
           }
         },
         "Braton Prime": {
           "X": {
-            "value": 1125.0,
+            "value": 1125,
             "unit": ""
           }
         }
@@ -3469,7 +3469,7 @@
       "variantValues": {
         "Braton": {
           "X": {
-            "value": 16.0,
+            "value": 16,
             "unit": "%"
           },
           "Y": {
@@ -3479,7 +3479,7 @@
         },
         "Mk1-Braton": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": "%"
           },
           "Y": {
@@ -3489,7 +3489,7 @@
         },
         "Braton Vandal": {
           "X": {
-            "value": 16.0,
+            "value": 16,
             "unit": "%"
           },
           "Y": {
@@ -3499,7 +3499,7 @@
         },
         "Braton Prime": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": "%"
           },
           "Y": {
@@ -3547,13 +3547,13 @@
         },
         "Braton Vandal": {
           "X": {
-            "value": 3.0,
+            "value": 3,
             "unit": "x"
           }
         },
         "Braton Prime": {
           "X": {
-            "value": 3.0,
+            "value": 3,
             "unit": "x"
           }
         }
@@ -3642,41 +3642,41 @@
       "variantValues": {
         "Braton": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Y": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Mk1-Braton": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           },
           "Y": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Braton Vandal": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Y": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Braton Prime": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Y": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         }
@@ -3718,7 +3718,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 36.0,
+          "value": 36,
           "scope": "both"
         }
       ],
@@ -3734,14 +3734,14 @@
         "Bronco": [
           {
             "stat": "baseDamage",
-            "value": 36.0,
+            "value": 36,
             "scope": "both"
           }
         ],
         "Bronco Prime": [
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both"
           }
         ]
@@ -3755,13 +3755,13 @@
       "variantValues": {
         "Bronco": {
           "X": {
-            "value": 36.0,
+            "value": 36,
             "unit": ""
           }
         },
         "Bronco Prime": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         }
@@ -3776,12 +3776,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 20.0,
+          "value": 20,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -3796,12 +3796,12 @@
         "Bronco": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -3809,12 +3809,12 @@
         "Bronco Prime": [
           {
             "stat": "baseDamage",
-            "value": 16.0,
+            "value": 16,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 9.0,
+            "value": 9,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -3836,21 +3836,21 @@
       "variantValues": {
         "Bronco": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": ""
           }
         },
         "Bronco Prime": {
           "X": {
-            "value": 16.0,
+            "value": 16,
             "unit": ""
           },
           "Y": {
-            "value": 9.0,
+            "value": 9,
             "unit": ""
           }
         }
@@ -3957,7 +3957,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 2.0,
+          "value": 2,
           "scope": "normal"
         }
       ],
@@ -3971,14 +3971,14 @@
         "Bronco": [
           {
             "stat": "baseMagazine",
-            "value": 2.0,
+            "value": 2,
             "scope": "normal"
           }
         ],
         "Bronco Prime": [
           {
             "stat": "baseMagazine",
-            "value": 2.0,
+            "value": 2,
             "scope": "normal"
           }
         ]
@@ -4076,7 +4076,7 @@
       "effects": [
         {
           "stat": "baseMultishot",
-          "value": 2.0,
+          "value": 2,
           "scope": "normal"
         }
       ],
@@ -4090,14 +4090,14 @@
         "Bronco": [
           {
             "stat": "baseMultishot",
-            "value": 2.0,
+            "value": 2,
             "scope": "normal"
           }
         ],
         "Bronco Prime": [
           {
             "stat": "baseMultishot",
-            "value": 2.0,
+            "value": 2,
             "scope": "normal"
           }
         ]
@@ -4193,12 +4193,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 42.0,
+          "value": 42,
           "scope": "both"
         },
         {
           "stat": "punchThrough",
-          "value": 2.0,
+          "value": 2,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -4237,7 +4237,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 21.0,
+          "value": 21,
           "scope": "normal"
         }
       ],
@@ -4273,7 +4273,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -4467,7 +4467,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         }
       ],
@@ -4483,7 +4483,7 @@
         "Cestra": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ]
@@ -4507,7 +4507,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         }
       ],
@@ -4521,7 +4521,7 @@
         "Cestra": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ]
@@ -4687,7 +4687,7 @@
       "effects": [
         {
           "stat": "baseCritDamage",
-          "value": 2.0,
+          "value": 2,
           "scope": "both"
         }
       ],
@@ -4701,7 +4701,7 @@
         "Cestra": [
           {
             "stat": "baseCritDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           }
         ]
@@ -4791,7 +4791,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 8.0,
+          "value": 8,
           "scope": "both"
         }
       ],
@@ -4807,14 +4807,14 @@
         "Dera": [
           {
             "stat": "baseDamage",
-            "value": 8.0,
+            "value": 8,
             "scope": "both"
           }
         ],
         "Dera Vandal": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both"
           }
         ]
@@ -4828,13 +4828,13 @@
       "variantValues": {
         "Dera": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": ""
           }
         },
         "Dera Vandal": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": ""
           }
         }
@@ -4849,7 +4849,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 6.0,
+          "value": 6,
           "scope": "both"
         },
         {
@@ -4869,7 +4869,7 @@
         "Dera": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both"
           },
           {
@@ -4882,7 +4882,7 @@
         "Dera Vandal": [
           {
             "stat": "baseDamage",
-            "value": 4.0,
+            "value": 4,
             "scope": "both"
           },
           {
@@ -4909,13 +4909,13 @@
       "variantValues": {
         "Dera": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": ""
           }
         },
         "Dera Vandal": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": ""
           }
         }
@@ -4976,7 +4976,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 22.0,
+          "value": 22,
           "scope": "normal"
         }
       ],
@@ -4990,14 +4990,14 @@
         "Dera": [
           {
             "stat": "baseMagazine",
-            "value": 22.0,
+            "value": 22,
             "scope": "normal"
           }
         ],
         "Dera Vandal": [
           {
             "stat": "baseMagazine",
-            "value": 30.0,
+            "value": 30,
             "scope": "normal"
           }
         ]
@@ -5011,13 +5011,13 @@
       "variantValues": {
         "Dera": {
           "X": {
-            "value": 22.0,
+            "value": 22,
             "unit": ""
           }
         },
         "Dera Vandal": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         }
@@ -5211,13 +5211,13 @@
       "variantValues": {
         "Dera": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": "%"
           }
         },
         "Dera Vandal": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         }
@@ -5258,7 +5258,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both"
         }
       ],
@@ -5274,7 +5274,7 @@
         "Despair": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           }
         ]
@@ -5298,7 +5298,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 60.0,
+          "value": 60,
           "scope": "both"
         }
       ],
@@ -5318,7 +5318,7 @@
         "Despair": [
           {
             "stat": "baseDamage",
-            "value": 60.0,
+            "value": 60,
             "scope": "both"
           }
         ]
@@ -5406,7 +5406,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -5420,7 +5420,7 @@
         "Despair": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ]
@@ -5572,12 +5572,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 70.0,
+          "value": 70,
           "scope": "both"
         },
         {
           "stat": "damage",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -5593,12 +5593,12 @@
         "Dread": [
           {
             "stat": "baseDamage",
-            "value": 70.0,
+            "value": 70,
             "scope": "both"
           },
           {
             "stat": "damage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ]
@@ -5622,12 +5622,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -5642,12 +5642,12 @@
         "Dread": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -5743,7 +5743,7 @@
       "effects": [
         {
           "stat": "baseAmmoSet",
-          "value": 144.0,
+          "value": 144,
           "scope": "normal"
         }
       ],
@@ -5757,7 +5757,7 @@
         "Dread": [
           {
             "stat": "baseAmmoSet",
-            "value": 144.0,
+            "value": 144,
             "scope": "normal"
           }
         ]
@@ -5867,7 +5867,7 @@
       "effects": [
         {
           "stat": "baseCritDamage",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -5881,7 +5881,7 @@
         "Dread": [
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ]
@@ -5932,7 +5932,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 60.0,
+          "value": 60,
           "scope": "both"
         }
       ],
@@ -5948,7 +5948,7 @@
         "Dual Toxocyst": [
           {
             "stat": "baseDamage",
-            "value": 60.0,
+            "value": 60,
             "scope": "both"
           }
         ]
@@ -5972,7 +5972,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both"
         }
       ],
@@ -5988,7 +5988,7 @@
         "Dual Toxocyst": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           }
         ]
@@ -6012,7 +6012,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -6027,7 +6027,7 @@
         "Dual Toxocyst": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -6187,7 +6187,7 @@
       "effects": [
         {
           "stat": "punchThrough",
-          "value": 3.0,
+          "value": 3,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -6202,7 +6202,7 @@
         "Dual Toxocyst": [
           {
             "stat": "punchThrough",
-            "value": 3.0,
+            "value": 3,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -6349,7 +6349,7 @@
       "effects": [
         {
           "stat": "punchThrough",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -6659,12 +6659,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 28.0,
+          "value": 28,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -6679,12 +6679,12 @@
         "Furis": [
           {
             "stat": "baseDamage",
-            "value": 28.0,
+            "value": 28,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -6692,12 +6692,12 @@
         "Mk1-Furis": [
           {
             "stat": "baseDamage",
-            "value": 34.0,
+            "value": 34,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -6719,13 +6719,13 @@
       "variantValues": {
         "Furis": {
           "X": {
-            "value": 28.0,
+            "value": 28,
             "unit": ""
           }
         },
         "Mk1-Furis": {
           "X": {
-            "value": 34.0,
+            "value": 34,
             "unit": ""
           }
         }
@@ -6740,7 +6740,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 28.0,
+          "value": 28,
           "scope": "both"
         }
       ],
@@ -6756,14 +6756,14 @@
         "Furis": [
           {
             "stat": "baseDamage",
-            "value": 28.0,
+            "value": 28,
             "scope": "both"
           }
         ],
         "Mk1-Furis": [
           {
             "stat": "baseDamage",
-            "value": 34.0,
+            "value": 34,
             "scope": "both"
           }
         ]
@@ -6777,13 +6777,13 @@
       "variantValues": {
         "Furis": {
           "X": {
-            "value": 28.0,
+            "value": 28,
             "unit": ""
           }
         },
         "Mk1-Furis": {
           "X": {
-            "value": 34.0,
+            "value": 34,
             "unit": ""
           }
         }
@@ -6844,7 +6844,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 25.0,
+          "value": 25,
           "scope": "normal"
         }
       ],
@@ -6858,14 +6858,14 @@
         "Furis": [
           {
             "stat": "baseMagazine",
-            "value": 25.0,
+            "value": 25,
             "scope": "normal"
           }
         ],
         "Mk1-Furis": [
           {
             "stat": "baseMagazine",
-            "value": 25.0,
+            "value": 25,
             "scope": "normal"
           }
         ]
@@ -7035,13 +7035,13 @@
       "variantValues": {
         "Furis": {
           "X": {
-            "value": 28.0,
+            "value": 28,
             "unit": "%"
           }
         },
         "Mk1-Furis": {
           "X": {
-            "value": 39.0,
+            "value": 39,
             "unit": "%"
           }
         }
@@ -7084,7 +7084,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         }
       ],
@@ -7100,14 +7100,14 @@
         "Gammacor": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ],
         "Synoid Gammacor": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ]
@@ -7132,12 +7132,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 6.0,
+          "value": 6,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 5.0,
+          "value": 5,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -7152,12 +7152,12 @@
         "Gammacor": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7165,12 +7165,12 @@
         "Synoid Gammacor": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7230,7 +7230,7 @@
       "effects": [
         {
           "stat": "range",
-          "value": 8.0,
+          "value": 8,
           "scope": "both"
         }
       ],
@@ -7244,14 +7244,14 @@
         "Gammacor": [
           {
             "stat": "range",
-            "value": 8.0,
+            "value": 8,
             "scope": "both"
           }
         ],
         "Synoid Gammacor": [
           {
             "stat": "range",
-            "value": 8.0,
+            "value": 8,
             "scope": "both"
           }
         ]
@@ -7276,7 +7276,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 40.0,
+          "value": 40,
           "scope": "normal"
         }
       ],
@@ -7290,14 +7290,14 @@
         "Gammacor": [
           {
             "stat": "baseMagazine",
-            "value": 40.0,
+            "value": 40,
             "scope": "normal"
           }
         ],
         "Synoid Gammacor": [
           {
             "stat": "baseMagazine",
-            "value": 40.0,
+            "value": 40,
             "scope": "normal"
           }
         ]
@@ -7372,13 +7372,13 @@
       "variantValues": {
         "Gammacor": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Synoid Gammacor": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         }
@@ -7443,21 +7443,21 @@
       "variantValues": {
         "Gammacor": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         },
         "Synoid Gammacor": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           },
           "Y": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           }
         }
@@ -7507,13 +7507,13 @@
       "variantValues": {
         "Gammacor": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Synoid Gammacor": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         }
@@ -7555,12 +7555,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         },
         {
           "stat": "punchThrough",
-          "value": 3.0,
+          "value": 3,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -7575,12 +7575,12 @@
         "Gorgon": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 3.0,
+            "value": 3,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7588,12 +7588,12 @@
         "Gorgon Wraith": [
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 3.0,
+            "value": 3,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7601,12 +7601,12 @@
         "Prisma Gorgon": [
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 3.0,
+            "value": 3,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7628,19 +7628,19 @@
       "variantValues": {
         "Gorgon": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": ""
           }
         },
         "Gorgon Wraith": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": ""
           }
         },
         "Prisma Gorgon": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": ""
           }
         }
@@ -7655,12 +7655,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 13.0,
+          "value": 13,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -7675,12 +7675,12 @@
         "Gorgon": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 13.0,
+            "value": 13,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7688,12 +7688,12 @@
         "Gorgon Wraith": [
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 8.0,
+            "value": 8,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7701,12 +7701,12 @@
         "Prisma Gorgon": [
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 8.0,
+            "value": 8,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -7728,31 +7728,31 @@
       "variantValues": {
         "Gorgon": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": ""
           },
           "Y": {
-            "value": 13.0,
+            "value": 13,
             "unit": ""
           }
         },
         "Gorgon Wraith": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": ""
           },
           "Y": {
-            "value": 8.0,
+            "value": 8,
             "unit": ""
           }
         },
         "Prisma Gorgon": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": ""
           },
           "Y": {
-            "value": 8.0,
+            "value": 8,
             "unit": ""
           }
         }
@@ -7767,7 +7767,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 15.0,
+          "value": 15,
           "scope": "normal",
           "condition": "condition-0"
         }
@@ -7782,7 +7782,7 @@
         "Gorgon": [
           {
             "stat": "baseMagazine",
-            "value": 15.0,
+            "value": 15,
             "scope": "normal",
             "condition": "condition-0"
           }
@@ -7790,7 +7790,7 @@
         "Gorgon Wraith": [
           {
             "stat": "baseMagazine",
-            "value": 15.0,
+            "value": 15,
             "scope": "normal",
             "condition": "condition-0"
           }
@@ -7798,7 +7798,7 @@
         "Prisma Gorgon": [
           {
             "stat": "baseMagazine",
-            "value": 15.0,
+            "value": 15,
             "scope": "normal",
             "condition": "condition-0"
           }
@@ -7999,31 +7999,31 @@
       "variantValues": {
         "Gorgon": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           },
           "Y": {
-            "value": 9.0,
+            "value": 9,
             "unit": "%"
           }
         },
         "Gorgon Wraith": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           },
           "Y": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           }
         },
         "Prisma Gorgon": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": "%"
           },
           "Y": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           }
         }
@@ -8080,19 +8080,19 @@
       "variantValues": {
         "Gorgon": {
           "X": {
-            "value": 16.0,
+            "value": 16,
             "unit": "%"
           }
         },
         "Gorgon Wraith": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         },
         "Prisma Gorgon": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         }
@@ -8149,19 +8149,19 @@
       "variantValues": {
         "Gorgon": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         },
         "Gorgon Wraith": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": "%"
           }
         },
         "Prisma Gorgon": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           }
         }
@@ -8203,12 +8203,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 70.0,
+          "value": 70,
           "scope": "both"
         },
         {
           "stat": "damage",
-          "value": 2.0,
+          "value": 2,
           "scope": "both"
         }
       ],
@@ -8224,24 +8224,24 @@
         "Kunai": [
           {
             "stat": "baseDamage",
-            "value": 70.0,
+            "value": 70,
             "scope": "both"
           },
           {
             "stat": "damage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           }
         ],
         "Mk1-Kunai": [
           {
             "stat": "baseDamage",
-            "value": 80.0,
+            "value": 80,
             "scope": "both"
           },
           {
             "stat": "damage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           }
         ]
@@ -8255,13 +8255,13 @@
       "variantValues": {
         "Kunai": {
           "X": {
-            "value": 70.0,
+            "value": 70,
             "unit": ""
           }
         },
         "Mk1-Kunai": {
           "X": {
-            "value": 80.0,
+            "value": 80,
             "unit": ""
           }
         }
@@ -8276,7 +8276,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 80.0,
+          "value": 80,
           "scope": "both"
         }
       ],
@@ -8292,14 +8292,14 @@
         "Kunai": [
           {
             "stat": "baseDamage",
-            "value": 80.0,
+            "value": 80,
             "scope": "both"
           }
         ],
         "Mk1-Kunai": [
           {
             "stat": "baseDamage",
-            "value": 70.0,
+            "value": 70,
             "scope": "both"
           }
         ]
@@ -8313,13 +8313,13 @@
       "variantValues": {
         "Kunai": {
           "X": {
-            "value": 80.0,
+            "value": 80,
             "unit": ""
           }
         },
         "Mk1-Kunai": {
           "X": {
-            "value": 70.0,
+            "value": 70,
             "unit": ""
           }
         }
@@ -8380,7 +8380,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 10.0,
+          "value": 10,
           "scope": "normal"
         }
       ],
@@ -8394,14 +8394,14 @@
         "Kunai": [
           {
             "stat": "baseMagazine",
-            "value": 10.0,
+            "value": 10,
             "scope": "normal"
           }
         ],
         "Mk1-Kunai": [
           {
             "stat": "baseMagazine",
-            "value": 10.0,
+            "value": 10,
             "scope": "normal"
           }
         ]
@@ -8510,7 +8510,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ]
@@ -8524,7 +8524,7 @@
       "variantValues": {
         "Kunai": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": "%"
           },
           "Y": {
@@ -8534,11 +8534,11 @@
         },
         "Mk1-Kunai": {
           "X": {
-            "value": 42.0,
+            "value": 42,
             "unit": "%"
           },
           "Y": {
-            "value": 1.0,
+            "value": 1,
             "unit": "x"
           }
         }
@@ -8992,7 +8992,7 @@
       "effects": [
         {
           "stat": "damage",
-          "value": 4.0,
+          "value": 4,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -9057,12 +9057,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 40.0,
+          "value": 40,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 40.0,
+          "value": 40,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -9077,12 +9077,12 @@
         "Lato": [
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -9090,12 +9090,12 @@
         "Lato Vandal": [
           {
             "stat": "baseDamage",
-            "value": 22.0,
+            "value": 22,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -9103,12 +9103,12 @@
         "Lato Prime": [
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 34.0,
+            "value": 34,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -9130,31 +9130,31 @@
       "variantValues": {
         "Lato": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           },
           "Y": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           }
         },
         "Lato Vandal": {
           "X": {
-            "value": 22.0,
+            "value": 22,
             "unit": ""
           },
           "Y": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           }
         },
         "Lato Prime": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": ""
           },
           "Y": {
-            "value": 34.0,
+            "value": 34,
             "unit": ""
           }
         }
@@ -9169,12 +9169,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 30.0,
+          "value": 30,
           "scope": "normal",
           "condition": "condition-1"
         }
@@ -9192,12 +9192,12 @@
         "Lato": [
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "normal",
             "condition": "condition-1"
           }
@@ -9205,12 +9205,12 @@
         "Lato Vandal": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "normal",
             "condition": "condition-1"
           }
@@ -9218,12 +9218,12 @@
         "Lato Prime": [
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "normal",
             "condition": "condition-1"
           }
@@ -9245,31 +9245,31 @@
       "variantValues": {
         "Lato": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           },
           "Y": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         },
         "Lato Vandal": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           },
           "Y": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         },
         "Lato Prime": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": ""
           },
           "Y": {
-            "value": 24.0,
+            "value": 24,
             "unit": ""
           }
         }
@@ -9473,31 +9473,31 @@
       "variantValues": {
         "Lato": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           },
           "Y": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Lato Vandal": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": "%"
           },
           "Y": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Lato Prime": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         }
@@ -9576,7 +9576,7 @@
       "variantValues": {
         "Lato": {
           "X": {
-            "value": 50.0,
+            "value": 50,
             "unit": "%"
           },
           "Y": {
@@ -9586,7 +9586,7 @@
         },
         "Lato Vandal": {
           "X": {
-            "value": 38.0,
+            "value": 38,
             "unit": "%"
           },
           "Y": {
@@ -9596,7 +9596,7 @@
         },
         "Lato Prime": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": "%"
           },
           "Y": {
@@ -9669,7 +9669,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 48.0,
+          "value": 48,
           "scope": "both"
         }
       ],
@@ -9685,21 +9685,21 @@
         "Latron": [
           {
             "stat": "baseDamage",
-            "value": 48.0,
+            "value": 48,
             "scope": "both"
           }
         ],
         "Latron Wraith": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           }
         ],
         "Latron Prime": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both"
           }
         ]
@@ -9713,19 +9713,19 @@
       "variantValues": {
         "Latron": {
           "X": {
-            "value": 48.0,
+            "value": 48,
             "unit": ""
           }
         },
         "Latron Wraith": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           }
         },
         "Latron Prime": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": ""
           }
         }
@@ -9740,7 +9740,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 48.0,
+          "value": 48,
           "scope": "both"
         }
       ],
@@ -9756,21 +9756,21 @@
         "Latron": [
           {
             "stat": "baseDamage",
-            "value": 48.0,
+            "value": 48,
             "scope": "both"
           }
         ],
         "Latron Wraith": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           }
         ],
         "Latron Prime": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both"
           }
         ]
@@ -9784,19 +9784,19 @@
       "variantValues": {
         "Latron": {
           "X": {
-            "value": 48.0,
+            "value": 48,
             "unit": ""
           }
         },
         "Latron Wraith": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           }
         },
         "Latron Prime": {
           "X": {
-            "value": 6.0,
+            "value": 6,
             "unit": ""
           }
         }
@@ -9864,7 +9864,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 15.0,
+          "value": 15,
           "scope": "normal"
         }
       ],
@@ -9878,21 +9878,21 @@
         "Latron": [
           {
             "stat": "baseMagazine",
-            "value": 15.0,
+            "value": 15,
             "scope": "normal"
           }
         ],
         "Latron Wraith": [
           {
             "stat": "baseMagazine",
-            "value": 15.0,
+            "value": 15,
             "scope": "normal"
           }
         ],
         "Latron Prime": [
           {
             "stat": "baseMagazine",
-            "value": 15.0,
+            "value": 15,
             "scope": "normal"
           }
         ]
@@ -9971,7 +9971,7 @@
       "effects": [
         {
           "stat": "headshot",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -9985,21 +9985,21 @@
         "Latron": [
           {
             "stat": "headshot",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ],
         "Latron Wraith": [
           {
             "stat": "headshot",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ],
         "Latron Prime": [
           {
             "stat": "headshot",
-            "value": 1.0,
+            "value": 1,
             "scope": "both"
           }
         ]
@@ -10086,7 +10086,7 @@
       "variantValues": {
         "Latron": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": "%"
           },
           "Y": {
@@ -10096,7 +10096,7 @@
         },
         "Latron Wraith": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": "%"
           },
           "Y": {
@@ -10106,7 +10106,7 @@
         },
         "Latron Prime": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": "%"
           },
           "Y": {
@@ -10152,12 +10152,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 80.0,
+          "value": 80,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 80.0,
+          "value": 80,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -10172,12 +10172,12 @@
         "Lex": [
           {
             "stat": "baseDamage",
-            "value": 80.0,
+            "value": 80,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 80.0,
+            "value": 80,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -10185,12 +10185,12 @@
         "Lex Prime": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 80.0,
+            "value": 80,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -10212,13 +10212,13 @@
       "variantValues": {
         "Lex": {
           "X": {
-            "value": 80.0,
+            "value": 80,
             "unit": ""
           }
         },
         "Lex Prime": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           }
         }
@@ -10233,7 +10233,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 80.0,
+          "value": 80,
           "scope": "both"
         }
       ],
@@ -10249,14 +10249,14 @@
         "Lex": [
           {
             "stat": "baseDamage",
-            "value": 80.0,
+            "value": 80,
             "scope": "both"
           }
         ],
         "Lex Prime": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           }
         ]
@@ -10270,13 +10270,13 @@
       "variantValues": {
         "Lex": {
           "X": {
-            "value": 80.0,
+            "value": 80,
             "unit": ""
           }
         },
         "Lex Prime": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           }
         }
@@ -10318,7 +10318,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 10.0,
+          "value": 10,
           "scope": "normal"
         }
       ],
@@ -10332,14 +10332,14 @@
         "Lex": [
           {
             "stat": "baseMagazine",
-            "value": 10.0,
+            "value": 10,
             "scope": "normal"
           }
         ],
         "Lex Prime": [
           {
             "stat": "baseMagazine",
-            "value": 10.0,
+            "value": 10,
             "scope": "normal"
           }
         ]
@@ -10364,7 +10364,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -10379,7 +10379,7 @@
         "Lex": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -10387,7 +10387,7 @@
         "Lex Prime": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -10420,7 +10420,7 @@
       "effects": [
         {
           "stat": "headshot",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -10435,7 +10435,7 @@
         "Lex": [
           {
             "stat": "headshot",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -10443,7 +10443,7 @@
         "Lex Prime": [
           {
             "stat": "headshot",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -10511,13 +10511,13 @@
       "variantValues": {
         "Lex": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": "%"
           }
         },
         "Lex Prime": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": "%"
           }
         }
@@ -10582,13 +10582,13 @@
       "variantValues": {
         "Lex": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Lex Prime": {
           "X": {
-            "value": 19.0,
+            "value": 19,
             "unit": "%"
           }
         }
@@ -10630,7 +10630,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 77.0,
+          "value": 77,
           "scope": "both"
         },
         {
@@ -10650,7 +10650,7 @@
         "Miter": [
           {
             "stat": "baseDamage",
-            "value": 77.0,
+            "value": 77,
             "scope": "both"
           },
           {
@@ -10687,7 +10687,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 57.0,
+          "value": 57,
           "scope": "both"
         }
       ],
@@ -10706,7 +10706,7 @@
         "Miter": [
           {
             "stat": "baseDamage",
-            "value": 57.0,
+            "value": 57,
             "scope": "both"
           }
         ]
@@ -10768,7 +10768,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -10783,7 +10783,7 @@
         "Miter": [
           {
             "stat": "reload",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -10815,7 +10815,7 @@
       "effects": [
         {
           "stat": "baseAmmoSet",
-          "value": 160.0,
+          "value": 160,
           "scope": "normal"
         }
       ],
@@ -10829,7 +10829,7 @@
         "Miter": [
           {
             "stat": "baseAmmoSet",
-            "value": 160.0,
+            "value": 160,
             "scope": "normal"
           }
         ]
@@ -11280,7 +11280,7 @@
       "effects": [
         {
           "stat": "punchThrough",
-          "value": 2.0,
+          "value": 2,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -11375,7 +11375,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 40.0,
+          "value": 40,
           "scope": "both"
         }
       ],
@@ -11391,21 +11391,21 @@
         "Paris": [
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both"
           }
         ],
         "Mk1-Paris": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           }
         ],
         "Paris Prime": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           }
         ]
@@ -11419,19 +11419,19 @@
       "variantValues": {
         "Paris": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           }
         },
         "Mk1-Paris": {
           "X": {
-            "value": 50.0,
+            "value": 50,
             "unit": ""
           }
         },
         "Paris Prime": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           }
         }
@@ -11446,12 +11446,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 40.0,
+          "value": 40,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 52.0,
+          "value": 52,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -11466,12 +11466,12 @@
         "Paris": [
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 52.0,
+            "value": 52,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -11479,12 +11479,12 @@
         "Mk1-Paris": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -11492,12 +11492,12 @@
         "Paris Prime": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 74.0,
+            "value": 74,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -11519,31 +11519,31 @@
       "variantValues": {
         "Paris": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           },
           "Y": {
-            "value": 52.0,
+            "value": 52,
             "unit": ""
           }
         },
         "Mk1-Paris": {
           "X": {
-            "value": 50.0,
+            "value": 50,
             "unit": ""
           },
           "Y": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           }
         },
         "Paris Prime": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           },
           "Y": {
-            "value": 74.0,
+            "value": 74,
             "unit": ""
           }
         }
@@ -11708,7 +11708,7 @@
         },
         {
           "stat": "baseCritDamage",
-          "value": 2.0,
+          "value": 2,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -11729,7 +11729,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -11743,7 +11743,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -11757,7 +11757,7 @@
           },
           {
             "stat": "baseCritDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -11849,7 +11849,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 15.0,
+          "value": 15,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -11864,7 +11864,7 @@
         "Paris": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -11872,7 +11872,7 @@
         "Mk1-Paris": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -11880,7 +11880,7 @@
         "Paris Prime": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -12041,7 +12041,7 @@
       "effects": [
         {
           "stat": "reload",
-          "value": 1.0,
+          "value": 1,
           "scope": "normal",
           "condition": "condition-0"
         }
@@ -12216,7 +12216,7 @@
       "effects": [
         {
           "stat": "critDamage",
-          "value": 1.0,
+          "value": 1,
           "scope": "both"
         }
       ],
@@ -12307,7 +12307,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both"
         },
         {
@@ -12328,7 +12328,7 @@
         "Sicarus": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           },
           {
@@ -12340,7 +12340,7 @@
         "Sicarus Prime": [
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both"
           },
           {
@@ -12359,13 +12359,13 @@
       "variantValues": {
         "Sicarus": {
           "X": {
-            "value": 50.0,
+            "value": 50,
             "unit": ""
           }
         },
         "Sicarus Prime": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           }
         }
@@ -12380,7 +12380,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 50.0,
+          "value": 50,
           "scope": "both"
         },
         {
@@ -12403,7 +12403,7 @@
         "Sicarus": [
           {
             "stat": "baseDamage",
-            "value": 50.0,
+            "value": 50,
             "scope": "both"
           },
           {
@@ -12416,7 +12416,7 @@
         "Sicarus Prime": [
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "both"
           },
           {
@@ -12443,13 +12443,13 @@
       "variantValues": {
         "Sicarus": {
           "X": {
-            "value": 50.0,
+            "value": 50,
             "unit": ""
           }
         },
         "Sicarus Prime": {
           "X": {
-            "value": 40.0,
+            "value": 40,
             "unit": ""
           }
         }
@@ -12556,7 +12556,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 9.0,
+          "value": 9,
           "scope": "normal"
         }
       ],
@@ -12570,14 +12570,14 @@
         "Sicarus": [
           {
             "stat": "baseMagazine",
-            "value": 9.0,
+            "value": 9,
             "scope": "normal"
           }
         ],
         "Sicarus Prime": [
           {
             "stat": "baseMagazine",
-            "value": 12.0,
+            "value": 12,
             "scope": "normal"
           }
         ]
@@ -12591,13 +12591,13 @@
       "variantValues": {
         "Sicarus": {
           "X": {
-            "value": 9.0,
+            "value": 9,
             "unit": ""
           }
         },
         "Sicarus Prime": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           }
         }
@@ -12647,13 +12647,13 @@
       "variantValues": {
         "Sicarus": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": ""
           }
         },
         "Sicarus Prime": {
           "X": {
-            "value": 14.0,
+            "value": 14,
             "unit": ""
           }
         }
@@ -12718,21 +12718,21 @@
       "variantValues": {
         "Sicarus": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           },
           "Y": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           }
         },
         "Sicarus Prime": {
           "X": {
-            "value": 9.0,
+            "value": 9,
             "unit": ""
           },
           "Y": {
-            "value": 9.0,
+            "value": 9,
             "unit": ""
           }
         }
@@ -12820,12 +12820,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 12.0,
+          "value": 12,
           "scope": "both"
         },
         {
           "stat": "punchThrough",
-          "value": 4.0,
+          "value": 4,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -12840,12 +12840,12 @@
         "Soma": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -12853,12 +12853,12 @@
         "Soma Prime": [
           {
             "stat": "baseDamage",
-            "value": 12.0,
+            "value": 12,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -12891,7 +12891,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 10.0,
+          "value": 10,
           "scope": "both"
         }
       ],
@@ -12907,14 +12907,14 @@
         "Soma": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ],
         "Soma Prime": [
           {
             "stat": "baseDamage",
-            "value": 10.0,
+            "value": 10,
             "scope": "both"
           }
         ]
@@ -13077,7 +13077,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 6.0,
+          "value": 6,
           "scope": "both",
           "condition": "condition-0"
         }
@@ -13092,7 +13092,7 @@
         "Soma": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -13100,7 +13100,7 @@
         "Soma Prime": [
           {
             "stat": "baseDamage",
-            "value": 6.0,
+            "value": 6,
             "scope": "both",
             "condition": "condition-0"
           }
@@ -13233,12 +13233,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 54.0,
+          "value": 54,
           "scope": "both"
         },
         {
           "stat": "punchThrough",
-          "value": 4.0,
+          "value": 4,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -13253,12 +13253,12 @@
         "Strun": [
           {
             "stat": "baseDamage",
-            "value": 54.0,
+            "value": 54,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -13266,12 +13266,12 @@
         "Mk1-Strun": [
           {
             "stat": "baseDamage",
-            "value": 68.0,
+            "value": 68,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -13279,12 +13279,12 @@
         "Strun Wraith": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -13292,12 +13292,12 @@
         "Strun Prime": [
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           },
           {
             "stat": "punchThrough",
-            "value": 4.0,
+            "value": 4,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -13319,25 +13319,25 @@
       "variantValues": {
         "Strun": {
           "X": {
-            "value": 54.0,
+            "value": 54,
             "unit": ""
           }
         },
         "Mk1-Strun": {
           "X": {
-            "value": 68.0,
+            "value": 68,
             "unit": ""
           }
         },
         "Strun Wraith": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": ""
           }
         },
         "Strun Prime": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": ""
           }
         }
@@ -13352,7 +13352,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 54.0,
+          "value": 54,
           "scope": "both"
         },
         {
@@ -13376,7 +13376,7 @@
         "Strun": [
           {
             "stat": "baseDamage",
-            "value": 54.0,
+            "value": 54,
             "scope": "both"
           },
           {
@@ -13389,7 +13389,7 @@
         "Mk1-Strun": [
           {
             "stat": "baseDamage",
-            "value": 68.0,
+            "value": 68,
             "scope": "both"
           },
           {
@@ -13402,7 +13402,7 @@
         "Strun Wraith": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "both"
           },
           {
@@ -13415,7 +13415,7 @@
         "Strun Prime": [
           {
             "stat": "baseDamage",
-            "value": 2.0,
+            "value": 2,
             "scope": "both"
           },
           {
@@ -13442,25 +13442,25 @@
       "variantValues": {
         "Strun": {
           "X": {
-            "value": 54.0,
+            "value": 54,
             "unit": ""
           }
         },
         "Mk1-Strun": {
           "X": {
-            "value": 68.0,
+            "value": 68,
             "unit": ""
           }
         },
         "Strun Wraith": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": ""
           }
         },
         "Strun Prime": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": ""
           }
         }
@@ -13670,7 +13670,7 @@
           },
           {
             "stat": "baseStatus",
-            "value": 1.0,
+            "value": 1,
             "scope": "incarnon"
           }
         ],
@@ -13696,31 +13696,31 @@
       "variantValues": {
         "Strun": {
           "X": {
-            "value": 11.0,
+            "value": 11,
             "unit": "%"
           },
           "Y": {
-            "value": 132.0,
+            "value": 132,
             "unit": "%"
           }
         },
         "Mk1-Strun": {
           "X": {
-            "value": 11.0,
+            "value": 11,
             "unit": "%"
           },
           "Y": {
-            "value": 110.0,
+            "value": 110,
             "unit": "%"
           }
         },
         "Strun Wraith": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           },
           "Y": {
-            "value": 100.0,
+            "value": 100,
             "unit": "%"
           }
         },
@@ -13730,7 +13730,7 @@
             "unit": "%"
           },
           "Y": {
-            "value": 136.0,
+            "value": 136,
             "unit": "%"
           }
         }
@@ -13794,25 +13794,25 @@
       "variantValues": {
         "Strun": {
           "X": {
-            "value": 16.0,
+            "value": 16,
             "unit": "%"
           }
         },
         "Mk1-Strun": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         },
         "Strun Wraith": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         },
         "Strun Prime": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": "%"
           }
         }
@@ -13926,35 +13926,35 @@
       "variantValues": {
         "Strun": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Y": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Z": {
-            "value": 48.0,
+            "value": 48,
             "unit": "%"
           }
         },
         "Mk1-Strun": {
           "X": {
-            "value": 2.0,
+            "value": 2,
             "unit": "%"
           },
           "Y": {
-            "value": 2.0,
+            "value": 2,
             "unit": "%"
           },
           "Z": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Strun Wraith": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Y": {
@@ -13962,21 +13962,21 @@
             "unit": "%"
           },
           "Z": {
-            "value": 48.0,
+            "value": 48,
             "unit": "%"
           }
         },
         "Strun Prime": {
           "X": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Y": {
-            "value": 4.0,
+            "value": 4,
             "unit": "%"
           },
           "Z": {
-            "value": 48.0,
+            "value": 48,
             "unit": "%"
           }
         }
@@ -14017,7 +14017,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 175.0,
+          "value": 175,
           "scope": "both"
         }
       ],
@@ -14035,7 +14035,7 @@
         "Stug": [
           {
             "stat": "baseDamage",
-            "value": 175.0,
+            "value": 175,
             "scope": "both"
           }
         ]
@@ -14059,7 +14059,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 300.0,
+          "value": 300,
           "scope": "both"
         }
       ],
@@ -14077,7 +14077,7 @@
         "Stug": [
           {
             "stat": "baseDamage",
-            "value": 300.0,
+            "value": 300,
             "scope": "both"
           }
         ]
@@ -14177,7 +14177,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 10.0,
+          "value": 10,
           "scope": "normal",
           "condition": "condition-0"
         }
@@ -14192,7 +14192,7 @@
         "Stug": [
           {
             "stat": "baseMagazine",
-            "value": 10.0,
+            "value": 10,
             "scope": "normal",
             "condition": "condition-0"
           }
@@ -14385,12 +14385,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 20.0,
+          "value": 20,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 5.0,
+          "value": 5,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -14405,12 +14405,12 @@
         "Sybaris": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -14418,12 +14418,12 @@
         "Dex Sybaris": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -14431,12 +14431,12 @@
         "Sybaris Prime": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 5.0,
+            "value": 5,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -14458,19 +14458,19 @@
       "variantValues": {
         "Sybaris": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           }
         },
         "Dex Sybaris": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": ""
           }
         },
         "Sybaris Prime": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": ""
           }
         }
@@ -14485,7 +14485,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 20.0,
+          "value": 20,
           "scope": "both"
         }
       ],
@@ -14502,21 +14502,21 @@
         "Sybaris": [
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both"
           }
         ],
         "Dex Sybaris": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both"
           }
         ],
         "Sybaris Prime": [
           {
             "stat": "baseDamage",
-            "value": 15.0,
+            "value": 15,
             "scope": "both"
           }
         ]
@@ -14530,19 +14530,19 @@
       "variantValues": {
         "Sybaris": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": ""
           }
         },
         "Dex Sybaris": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": ""
           }
         },
         "Sybaris Prime": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": ""
           }
         }
@@ -14557,7 +14557,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 8.0,
+          "value": 8,
           "scope": "normal"
         }
       ],
@@ -14571,21 +14571,21 @@
         "Sybaris": [
           {
             "stat": "baseMagazine",
-            "value": 8.0,
+            "value": 8,
             "scope": "normal"
           }
         ],
         "Dex Sybaris": [
           {
             "stat": "baseMagazine",
-            "value": 10.0,
+            "value": 10,
             "scope": "normal"
           }
         ],
         "Sybaris Prime": [
           {
             "stat": "baseMagazine",
-            "value": 12.0,
+            "value": 12,
             "scope": "normal"
           }
         ]
@@ -14599,19 +14599,19 @@
       "variantValues": {
         "Sybaris": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": ""
           }
         },
         "Dex Sybaris": {
           "X": {
-            "value": 10.0,
+            "value": 10,
             "unit": ""
           }
         },
         "Sybaris Prime": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           }
         }
@@ -14787,19 +14787,19 @@
       "variantValues": {
         "Sybaris": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": "%"
           }
         },
         "Dex Sybaris": {
           "X": {
-            "value": 15.0,
+            "value": 15,
             "unit": "%"
           }
         },
         "Sybaris Prime": {
           "X": {
-            "value": 8.0,
+            "value": 8,
             "unit": "%"
           }
         }
@@ -14895,31 +14895,31 @@
       "variantValues": {
         "Sybaris": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         },
         "Dex Sybaris": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         },
         "Sybaris Prime": {
           "X": {
-            "value": 5.0,
+            "value": 5,
             "unit": "%"
           },
           "Y": {
-            "value": 10.0,
+            "value": 10,
             "unit": "%"
           }
         }
@@ -14961,12 +14961,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 51.0,
+          "value": 51,
           "scope": "both"
         },
         {
           "stat": "baseMultishot",
-          "value": 3.0,
+          "value": 3,
           "scope": "normal",
           "condition": "condition-1"
         }
@@ -14981,12 +14981,12 @@
         "Torid": [
           {
             "stat": "baseDamage",
-            "value": 51.0,
+            "value": 51,
             "scope": "both"
           },
           {
             "stat": "baseMultishot",
-            "value": 3.0,
+            "value": 3,
             "scope": "normal",
             "condition": "condition-1"
           }
@@ -15018,7 +15018,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 31.0,
+          "value": 31,
           "scope": "both"
         }
       ],
@@ -15038,7 +15038,7 @@
         "Torid": [
           {
             "stat": "baseDamage",
-            "value": 31.0,
+            "value": 31,
             "scope": "both"
           }
         ]
@@ -15126,7 +15126,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 9.0,
+          "value": 9,
           "scope": "normal"
         }
       ],
@@ -15140,7 +15140,7 @@
         "Torid": [
           {
             "stat": "baseMagazine",
-            "value": 9.0,
+            "value": 9,
             "scope": "normal"
           }
         ]
@@ -15315,17 +15315,17 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 66.0,
+          "value": 66,
           "scope": "normal"
         },
         {
           "stat": "baseDamage",
-          "value": 40.0,
+          "value": 40,
           "scope": "normal"
         },
         {
           "stat": "baseMagazine",
-          "value": 14.0,
+          "value": 14,
           "scope": "normal"
         }
       ],
@@ -15342,34 +15342,34 @@
         "Vasto": [
           {
             "stat": "baseDamage",
-            "value": 66.0,
+            "value": 66,
             "scope": "normal"
           },
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "normal"
           },
           {
             "stat": "baseMagazine",
-            "value": 14.0,
+            "value": 14,
             "scope": "normal"
           }
         ],
         "Vasto Prime": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "normal"
           },
           {
             "stat": "baseDamage",
-            "value": 40.0,
+            "value": 40,
             "scope": "normal"
           },
           {
             "stat": "baseMagazine",
-            "value": 14.0,
+            "value": 14,
             "scope": "normal"
           }
         ]
@@ -15383,13 +15383,13 @@
       "variantValues": {
         "Vasto": {
           "X": {
-            "value": 66.0,
+            "value": 66,
             "unit": ""
           }
         },
         "Vasto Prime": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": ""
           }
         }
@@ -15404,7 +15404,7 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 66.0,
+          "value": 66,
           "scope": "both"
         },
         {
@@ -15431,7 +15431,7 @@
         "Vasto": [
           {
             "stat": "baseDamage",
-            "value": 66.0,
+            "value": 66,
             "scope": "both"
           },
           {
@@ -15448,7 +15448,7 @@
         "Vasto Prime": [
           {
             "stat": "baseDamage",
-            "value": 24.0,
+            "value": 24,
             "scope": "both"
           },
           {
@@ -15472,7 +15472,7 @@
       "variantValues": {
         "Vasto": {
           "X": {
-            "value": 66.0,
+            "value": 66,
             "unit": ""
           },
           "Y": {
@@ -15482,7 +15482,7 @@
         },
         "Vasto Prime": {
           "X": {
-            "value": 24.0,
+            "value": 24,
             "unit": ""
           },
           "Y": {
@@ -15501,7 +15501,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 6.0,
+          "value": 6,
           "scope": "normal"
         }
       ],
@@ -15515,14 +15515,14 @@
         "Vasto": [
           {
             "stat": "baseMagazine",
-            "value": 6.0,
+            "value": 6,
             "scope": "normal"
           }
         ],
         "Vasto Prime": [
           {
             "stat": "baseMagazine",
-            "value": 6.0,
+            "value": 6,
             "scope": "normal"
           }
         ]
@@ -15655,13 +15655,13 @@
       "variantValues": {
         "Vasto": {
           "X": {
-            "value": 16.0,
+            "value": 16,
             "unit": "%"
           }
         },
         "Vasto Prime": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": "%"
           }
         }
@@ -15760,82 +15760,41 @@
       "name": "Incarnon Form",
       "family": "Vectis",
       "tier": 1,
-      "description": "Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge.\nFire slowing projectiles that explode on headshot",
+      "description": "! EVO1 | style=\"white-space: nowrap; text-align:center;\" | Incarnon Form 64px|center | * Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge. * Fire slowing projectiles that explode on headshot | style=\"text-align:center\" | - | style=\"text-align:center\" | - | * Incarnon Form has higher Critical Chance, but with reduced Fire Rate and can no longer Punch Through. * Fires projectiles which deal 150 {{D|Cold}} direct hit damage, then embed an orb which instantly deals an additional 25 {{D|Cold}} AoE damage in a ~0.5m radius with a guaranteed {{D|Cold}} proc. On body shots, the orb remains embedded for 2.5s, dealing another 2 ticks of 25 AoE damage before disappearing. On headshots, the orb instead explodes after a 0.4s delay, dealing 2 simultaneous hits of 150 {{D|Cold}} damage in a 6.7m AoE, each with a guaranteed {{D|Cold}} proc. ** Direct hit, orb embed, and orb AoE explosion damage are all affected by EVO2's base damage increase. *** Also affected as expected by all modded bonuses, such as multishot, base damage, elemental damage, critical / status stats, etc. ** Forced {{D|Cold}} procs cannot be changed with elemental mods. ** Orb embed and explosion damage do not increase sniper combo, but are affected by the sniper combo damage multiplier. ** Projectiles have a flight speed of 300m/s. *** As the weapon is normally hitscan, it is unable to equip {{M|Terminal Velocity}}. ** Headshot AoE has 70% damage falloff, dealing 30% damage at the edge of its range.",
       "effects": [],
-      "limitations": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
       "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "* Incarnon Form has higher Critical Chance, but with reduced Fire Rate and can no longer Punch Through. * Fires projectiles which deal 150 Cold direct hit damage, then embed an orb which instantly deals an additional 25 Cold AoE damage in a ~0.5m radius with a guaranteed Cold proc. On body shots, the orb remains embedded for 2.5s, dealing another 2 ticks of 25 AoE damage before disappearing. On headshots, the orb instead explodes after a 0.4s delay, dealing 2 simultaneous hits of 150 Cold damage in a 6.7m AoE, each with a guaranteed Cold proc. ** Direct hit, orb embed, and orb AoE explosion damage are all affected by EVO2's base damage increase. *** Also affected as expected by all modded bonuses, such as multishot, base damage, elemental damage, critical / status stats, etc. ** Forced Cold procs cannot be changed with elemental mods. ** Orb embed and explosion damage do not increase sniper combo, but are affected by the sniper combo damage multiplier. ** Projectiles have a flight speed of 300m/s. *** As the weapon is normally hitscan, it is unable to equip Terminal Velocity. ** Headshot AoE has 70% damage falloff, dealing 30% damage at the edge of its range. ** Despite being AoE damage, the headshot AoE can sometimes benefit from Vectis's bonus headshot damage on the initial target. This includes its scope bonus, EVO4 Deadhead, Target Acquired, etc. but not an enemy's innate headshot multiplier (3x for most units). Potentially a bug.",
-      "nonDamageEffects": [
-        "Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge.",
-        "Fire slowing projectiles that explode on headshot"
-      ],
+      "nonDamageEffects": [],
       "coverage": "utility",
       "legacyFingerprint": "4cfab03b",
-      "variantValues": {
-        "Vectis": {},
-        "Vectis Prime": {}
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-2-inciting-incident",
       "name": "Inciting Incident",
       "family": "Vectis",
       "tier": 2,
-      "description": "Increase Base Damage by +X.\nWith Channeled Ability Active: +2 Punch Through",
-      "effects": [
-        {
-          "stat": "baseDamage",
-          "value": 100.0,
-          "scope": "both"
-        },
-        {
-          "stat": "punchThrough",
-          "value": 2.0,
-          "scope": "both",
-          "condition": "condition-1"
-        }
+      "description": "! rowspan=\"2\" | EVO2 | style=\"white-space: nowrap; text-align:center;\" | Inciting Incident 64px|center | * Increase Base Damage by +X. * With Channeled Ability Active: +2 Punch Through | style=\"text-align:center\" | X = 100 | style=\"text-align:center\" | X = 200 | * Punch Through is locked to 0 in Incarnon Form, meaning the Channeled Ability bonus from this evolution applies only in the base form.",
+      "effects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
-      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "baseDamage",
-            "value": 100.0,
-            "scope": "both"
-          },
-          {
-            "stat": "punchThrough",
-            "value": 2.0,
-            "scope": "both",
-            "condition": "condition-1"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "baseDamage",
-            "value": 200.0,
-            "scope": "both"
-          },
-          {
-            "stat": "punchThrough",
-            "value": 2.0,
-            "scope": "both",
-            "condition": "condition-1"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [
         {
           "id": "condition-1",
@@ -15849,185 +15808,93 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "9429851c",
-      "variantValues": {
-        "Vectis": {
-          "X": {
-            "value": 100.0,
-            "unit": ""
-          }
-        },
-        "Vectis Prime": {
-          "X": {
-            "value": 200.0,
-            "unit": ""
-          }
-        }
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-2-lone-enforcer",
       "name": "Lone Enforcer",
       "family": "Vectis",
       "tier": 2,
-      "description": "Increase Base Damage by +X.\n+25% Multishot if no enemies are within 5m.",
-      "effects": [
-        {
-          "stat": "baseDamage",
-          "value": 75.0,
-          "scope": "both"
-        }
-      ],
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Lone Enforcer 64px|center | * Increase Base Damage by +X. * +25% Multishot if no enemies are within 5m. | style=\"text-align:center\" | X = 75 | style=\"text-align:center\" | X = 150 | * Multishot bonus is additive with {{M|Split Chamber}} and similar bonuses.",
+      "effects": [],
       "limitations": [
-        "Unmodeled evolution effect: +25% Multishot if no enemies are within 5m.",
-        "Unmodeled evolution effect: Source interaction: Multishot bonus is additive with Split Chamber and similar bonuses."
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "baseDamage",
-            "value": 75.0,
-            "scope": "both"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "baseDamage",
-            "value": 150.0,
-            "scope": "both"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "* Multishot bonus is additive with Split Chamber and similar bonuses.",
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "9602080c",
-      "variantValues": {
-        "Vectis": {
-          "X": {
-            "value": 75.0,
-            "unit": ""
-          }
-        },
-        "Vectis Prime": {
-          "X": {
-            "value": 150.0,
-            "unit": ""
-          }
-        }
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-3-rapid-reinforcement",
       "name": "Rapid Reinforcement",
       "family": "Vectis",
       "tier": 3,
-      "description": "+60% Reload Speed.",
-      "effects": [
-        {
-          "stat": "reload",
-          "value": 0.6,
-          "scope": "both"
-        }
+      "description": "! rowspan=\"3\" | EVO3 | style=\"white-space: nowrap; text-align:center;\" | Rapid Reinforcement 64px|center | * +60% Reload Speed. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
+      "effects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
-      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "reload",
-            "value": 0.6,
-            "scope": "both"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "reload",
-            "value": 0.6,
-            "scope": "both"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "776a562a",
-      "variantValues": {
-        "Vectis": {},
-        "Vectis Prime": {}
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-3-marksman-s-hand",
       "name": "Marksman's Hand",
       "family": "Vectis",
       "tier": 3,
-      "description": "-60% Recoil.",
-      "effects": [
-        {
-          "stat": "recoil",
-          "value": -0.6,
-          "scope": "both"
-        }
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Marksman's Hand 64px|center | * -60% Recoil. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
+      "effects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
-      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "recoil",
-            "value": -0.6,
-            "scope": "both"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "recoil",
-            "value": -0.6,
-            "scope": "both"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "2437cd04",
-      "variantValues": {
-        "Vectis": {},
-        "Vectis Prime": {}
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-3-silent-running",
       "name": "Silent Running",
       "family": "Vectis",
       "tier": 3,
-      "description": "Reduce the chance an enemy will hear gunfire by 100%.",
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Silent Running 64px|center | * Reduce the chance an enemy will hear gunfire by 100%. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
       "effects": [],
       "limitations": [
-        "Unmodeled evolution effect: Reduce the chance an enemy will hear gunfire by 100%."
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
       "variantEffects": {},
@@ -16037,173 +15904,79 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "b81290b8",
-      "variantValues": {
-        "Vectis": {},
-        "Vectis Prime": {}
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-4-deadhead",
       "name": "Deadhead",
       "family": "Vectis",
       "tier": 4,
-      "description": "+25% Headshot Damage.",
-      "effects": [
-        {
-          "stat": "headshot",
-          "value": 0.25,
-          "scope": "both"
-        }
+      "description": "! rowspan=\"3\" | EVO4 | style=\"white-space: nowrap; text-align:center;\" | Deadhead 64px|center | * +25% Headshot Damage. | colspan=\"2\" style=\"text-align:center\" | - | * Bonus is additive with Vectis's Scope bonus, {{M|Target Acquired}}, {{Arcane|Primary Deadhead}}, and similar bonuses.",
+      "effects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
-      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "headshot",
-            "value": 0.25,
-            "scope": "both"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "headshot",
-            "value": 0.25,
-            "scope": "both"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "4e2e69e6",
-      "variantValues": {
-        "Vectis": {},
-        "Vectis Prime": {}
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-4-critical-parallel",
       "name": "Critical Parallel",
       "family": "Vectis",
       "tier": 4,
-      "description": "Increase Base Critical Chance by +X.\nIncrease Base Critical Damage Multiplier by +0.5x.",
-      "effects": [
-        {
-          "stat": "baseCrit",
-          "value": 0.1,
-          "scope": "both"
-        },
-        {
-          "stat": "baseCritDamage",
-          "value": 0.5,
-          "scope": "both"
-        }
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Critical Parallel 64px|center | *Increase Base Critical Chance by +X. *Increase Base Critical Damage Multiplier by +0.5x. | style=\"text-align:center\" | X = 10% | style=\"text-align:center\" | X = 8% | style=\"text-align:center\" | -",
+      "effects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
-      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "baseCrit",
-            "value": 0.1,
-            "scope": "both"
-          },
-          {
-            "stat": "baseCritDamage",
-            "value": 0.5,
-            "scope": "both"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "baseCrit",
-            "value": 0.08,
-            "scope": "both"
-          },
-          {
-            "stat": "baseCritDamage",
-            "value": 0.5,
-            "scope": "both"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "-",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "8d339509",
-      "variantValues": {
-        "Vectis": {
-          "X": {
-            "value": 10.0,
-            "unit": "%"
-          }
-        },
-        "Vectis Prime": {
-          "X": {
-            "value": 8.0,
-            "unit": "%"
-          }
-        }
-      }
+      "variantValues": {}
     },
     {
       "id": "vectis-2-survivor-s-edge",
       "name": "Survivor's Edge",
       "family": "Vectis",
-      "tier": 4,
-      "description": "Increase Base Status Chance by 30% of current Critical Chance, up to 40%",
-      "effects": [
-        {
-          "stat": "baseStatus",
-          "value": 0.3,
-          "scope": "both"
-        }
+      "tier": 2,
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Survivor's Edge 64px|center | * Increase Base Status Chance by 30% of current Critical Chance, up to 40% | colspan=\"2\" style=\"text-align:center\" | - | * Maximum Base Status Chance increase is gained at 134% Critical Chance, requiring +345% critical chance to reach. ** Critical chance from {{M|Primary Acuity}} does not work, however {{M|Galvanized Scope}} does. |} ==Notes== * The headshot explosion does not trigger an Extra Hit from sources like {{WF|Saryn}}'s {{A|Toxic Lash}} (which may be a bug) or {{WF|Oraxia}}'s {{A|Silken Stride}} (because it doesn't work on any Incarnon form). ==Tips== ==Known Bugs== *EVO2's base damage increase is applied a second time for the Total Damage stat in the arsenal UI (in-mission damage is not affected). The damage value for each individual damage type will be correctly calculated based on the damage bonus applying once. *EVO4 Survivor's Edge does not appear to apply its bonus for the Incarnon form's radial attack portion when modding for {{D|Blast}} specifically. However, this is just a UI bug in the Arsenal: the bonus applies correctly during gameplay. ==Patch History== {{Scrollbox/Article| {{ver|43.5.3}} *Fixed the Vectis (Prime) not having a fully reloaded magazine after exiting Incarnon Form. {{ver|43.5}} *Fixed the Vectis Incarnon Form benefitting from Primed Chamber on every shot. {{ver|43.0.5}} *Fixed explosion kills from the Vectis' Incarnon Forms not counting towards the \"Kill 100 Enemies\" challenge. {{ver|43.0.4}} *Increased the Vectis Incarnon \"Lone Enforcer\" Evolution's stats as follows: **Increased Base Damage from +50 to +75 (+100 to +150 for Vectis Prime). **Increased Multishot from 20% to 25%. *Increased the Vectis Incarnon form's projectile speed from 200 to 300. {{ver|43}} *Introduced. }} {{IncarnonNav}} Category:Duviri Category:Incarnon Category:Incarnon Geneses",
+      "effects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
       ],
-      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-11",
+        "snapshot": "2026-10-15",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {
-        "Vectis": [
-          {
-            "stat": "baseStatus",
-            "value": 0.3,
-            "scope": "both"
-          }
-        ],
-        "Vectis Prime": [
-          {
-            "stat": "baseStatus",
-            "value": 0.3,
-            "scope": "both"
-          }
-        ]
-      },
+      "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "22beff36",
-      "variantValues": {
-        "Vectis": {},
-        "Vectis Prime": {}
-      }
+      "variantValues": {}
     },
     {
       "id": "zylok-1-incarnon-form",
@@ -16241,12 +16014,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 76.0,
+          "value": 76,
           "scope": "both"
         },
         {
           "stat": "baseDamage",
-          "value": 20.0,
+          "value": 20,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -16261,12 +16034,12 @@
         "Zylok": [
           {
             "stat": "baseDamage",
-            "value": 76.0,
+            "value": 76,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -16274,12 +16047,12 @@
         "Zylok Prime": [
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both"
           },
           {
             "stat": "baseDamage",
-            "value": 20.0,
+            "value": 20,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -16301,13 +16074,13 @@
       "variantValues": {
         "Zylok": {
           "X": {
-            "value": 76.0,
+            "value": 76,
             "unit": ""
           }
         },
         "Zylok Prime": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         }
@@ -16322,12 +16095,12 @@
       "effects": [
         {
           "stat": "baseDamage",
-          "value": 76.0,
+          "value": 76,
           "scope": "both"
         },
         {
           "stat": "baseCritDamage",
-          "value": 1.0,
+          "value": 1,
           "scope": "both",
           "condition": "condition-1"
         }
@@ -16344,12 +16117,12 @@
         "Zylok": [
           {
             "stat": "baseDamage",
-            "value": 76.0,
+            "value": 76,
             "scope": "both"
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -16357,12 +16130,12 @@
         "Zylok Prime": [
           {
             "stat": "baseDamage",
-            "value": 30.0,
+            "value": 30,
             "scope": "both"
           },
           {
             "stat": "baseCritDamage",
-            "value": 1.0,
+            "value": 1,
             "scope": "both",
             "condition": "condition-1"
           }
@@ -16384,13 +16157,13 @@
       "variantValues": {
         "Zylok": {
           "X": {
-            "value": 76.0,
+            "value": 76,
             "unit": ""
           }
         },
         "Zylok Prime": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": ""
           }
         }
@@ -16405,7 +16178,7 @@
       "effects": [
         {
           "stat": "baseMagazine",
-          "value": 12.0,
+          "value": 12,
           "scope": "normal"
         }
       ],
@@ -16419,14 +16192,14 @@
         "Zylok": [
           {
             "stat": "baseMagazine",
-            "value": 12.0,
+            "value": 12,
             "scope": "normal"
           }
         ],
         "Zylok Prime": [
           {
             "stat": "baseMagazine",
-            "value": 18.0,
+            "value": 18,
             "scope": "normal"
           }
         ]
@@ -16440,13 +16213,13 @@
       "variantValues": {
         "Zylok": {
           "X": {
-            "value": 12.0,
+            "value": 12,
             "unit": ""
           }
         },
         "Zylok Prime": {
           "X": {
-            "value": 18.0,
+            "value": 18,
             "unit": ""
           }
         }
@@ -16618,21 +16391,21 @@
       "variantValues": {
         "Zylok": {
           "X": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           },
           "Y": {
-            "value": 20.0,
+            "value": 20,
             "unit": "%"
           }
         },
         "Zylok Prime": {
           "X": {
-            "value": 22.0,
+            "value": 22,
             "unit": "%"
           },
           "Y": {
-            "value": 16.0,
+            "value": 16,
             "unit": "%"
           }
         }
@@ -16682,13 +16455,13 @@
       "variantValues": {
         "Zylok": {
           "X": {
-            "value": 32.0,
+            "value": 32,
             "unit": "%"
           }
         },
         "Zylok Prime": {
           "X": {
-            "value": 30.0,
+            "value": 30,
             "unit": "%"
           }
         }
@@ -16755,8 +16528,1533 @@
     "Sybaris_Incarnon_Genesis": "1035b7c7",
     "Torid_Incarnon_Genesis": "e003caff",
     "Vasto_Incarnon_Genesis": "05bb54ea",
-    "Vectis_Incarnon_Genesis": "45bf9c38",
-    "Zylok_Incarnon_Genesis": "578a8fff"
+    "Vectis_Incarnon_Genesis": "2369bcd9",
+    "Zylok_Incarnon_Genesis": "578a8fff",
+    "Dual_Toxocyst_Incarnon_Genesis": "099acdb8"
   },
-  "onlinePageHashVersion": 2
+  "onlinePageHashVersion": 2,
+  "onlineReference": {
+    "angstrum-1-incarnon-form": {
+      "id": "angstrum-1-incarnon-form"
+    },
+    "angstrum-2-haven-foray": {
+      "id": "angstrum-2-haven-foray"
+    },
+    "angstrum-2-paladin-virtue": {
+      "id": "angstrum-2-paladin-virtue"
+    },
+    "angstrum-3-swift-deliverance": {
+      "id": "angstrum-3-swift-deliverance"
+    },
+    "angstrum-3-rapid-reinforcement": {
+      "id": "angstrum-3-rapid-reinforcement"
+    },
+    "angstrum-3-hitman-s-hoard": {
+      "id": "angstrum-3-hitman-s-hoard"
+    },
+    "angstrum-4-critical-parallel": {
+      "id": "angstrum-4-critical-parallel"
+    },
+    "angstrum-4-survivor-s-edge": {
+      "id": "angstrum-4-survivor-s-edge"
+    },
+    "angstrum-4-fatal-affliction": {
+      "id": "angstrum-4-fatal-affliction"
+    },
+    "atomos-1-incarnon-form": {
+      "id": "atomos-1-incarnon-form"
+    },
+    "atomos-2-paladin-virtue": {
+      "id": "atomos-2-paladin-virtue"
+    },
+    "atomos-2-hoplite-virtue": {
+      "id": "atomos-2-hoplite-virtue"
+    },
+    "atomos-3-moonrise-velocity": {
+      "id": "atomos-3-moonrise-velocity"
+    },
+    "atomos-3-mercenary-chamber": {
+      "id": "atomos-3-mercenary-chamber"
+    },
+    "atomos-3-resonant-restore": {
+      "id": "atomos-3-resonant-restore"
+    },
+    "atomos-4-elemental-balance": {
+      "id": "atomos-4-elemental-balance"
+    },
+    "atomos-4-commodore-s-fortune": {
+      "id": "atomos-4-commodore-s-fortune"
+    },
+    "atomos-4-survivor-s-edge": {
+      "id": "atomos-4-survivor-s-edge"
+    },
+    "ballistica-1-incarnon-form": {
+      "id": "ballistica-1-incarnon-form"
+    },
+    "ballistica-2-headcracker": {
+      "id": "ballistica-2-headcracker"
+    },
+    "ballistica-2-prolific-perforation": {
+      "id": "ballistica-2-prolific-perforation"
+    },
+    "ballistica-3-rapid-reinforcement": {
+      "id": "ballistica-3-rapid-reinforcement"
+    },
+    "ballistica-3-swift-deliverance": {
+      "id": "ballistica-3-swift-deliverance"
+    },
+    "ballistica-3-void-s-guidance": {
+      "id": "ballistica-3-void-s-guidance"
+    },
+    "ballistica-4-elemental-balance": {
+      "id": "ballistica-4-elemental-balance"
+    },
+    "ballistica-4-survivor-s-edge": {
+      "id": "ballistica-4-survivor-s-edge"
+    },
+    "ballistica-4-critical-parallel": {
+      "id": "ballistica-4-critical-parallel"
+    },
+    "boar-1-incarnon-form": {
+      "id": "boar-1-incarnon-form"
+    },
+    "boar-2-reified-bane": {
+      "id": "boar-2-reified-bane"
+    },
+    "boar-2-fortress-salvo": {
+      "id": "boar-2-fortress-salvo"
+    },
+    "boar-3-ready-retaliation": {
+      "id": "boar-3-ready-retaliation"
+    },
+    "boar-3-mercenary-chamber": {
+      "id": "boar-3-mercenary-chamber"
+    },
+    "boar-3-practiced-grip": {
+      "id": "boar-3-practiced-grip"
+    },
+    "boar-4-elemental-balance": {
+      "id": "boar-4-elemental-balance"
+    },
+    "boar-4-critical-parallel": {
+      "id": "boar-4-critical-parallel"
+    },
+    "boar-4-survivor-s-edge": {
+      "id": "boar-4-survivor-s-edge"
+    },
+    "boltor-1-incarnon-form": {
+      "id": "boltor-1-incarnon-form"
+    },
+    "boltor-2-hunter-s-mantra": {
+      "id": "boltor-2-hunter-s-mantra"
+    },
+    "boltor-2-crimson-overture": {
+      "id": "boltor-2-crimson-overture"
+    },
+    "boltor-3-swift-deliverance": {
+      "id": "boltor-3-swift-deliverance"
+    },
+    "boltor-3-extended-volley": {
+      "id": "boltor-3-extended-volley"
+    },
+    "boltor-3-rapid-reinforcement": {
+      "id": "boltor-3-rapid-reinforcement"
+    },
+    "boltor-4-elemental-balance": {
+      "id": "boltor-4-elemental-balance"
+    },
+    "boltor-4-survivor-s-edge": {
+      "id": "boltor-4-survivor-s-edge"
+    },
+    "boltor-4-commodore-s-fortune": {
+      "id": "boltor-4-commodore-s-fortune"
+    },
+    "braton-1-incarnon-form": {
+      "id": "braton-1-incarnon-form"
+    },
+    "braton-2-daring-reverie": {
+      "id": "braton-2-daring-reverie"
+    },
+    "braton-2-munitions-grit": {
+      "id": "braton-2-munitions-grit"
+    },
+    "braton-3-mercenary-chamber": {
+      "id": "braton-3-mercenary-chamber"
+    },
+    "braton-3-void-s-guidance": {
+      "id": "braton-3-void-s-guidance"
+    },
+    "braton-3-gunsmoke-pick-up": {
+      "id": "braton-3-gunsmoke-pick-up"
+    },
+    "braton-4-critical-parallel": {
+      "id": "braton-4-critical-parallel"
+    },
+    "braton-4-prelude-of-might": {
+      "id": "braton-4-prelude-of-might"
+    },
+    "braton-4-survivor-s-edge": {
+      "id": "braton-4-survivor-s-edge"
+    },
+    "bronco-1-incarnon-form": {
+      "id": "bronco-1-incarnon-form"
+    },
+    "bronco-2-speeding-bullet": {
+      "id": "bronco-2-speeding-bullet"
+    },
+    "bronco-2-infused-shots": {
+      "id": "bronco-2-infused-shots"
+    },
+    "bronco-3-kinetic-battle": {
+      "id": "bronco-3-kinetic-battle"
+    },
+    "bronco-3-practised-grip": {
+      "id": "bronco-3-practised-grip"
+    },
+    "bronco-3-extended-volley": {
+      "id": "bronco-3-extended-volley"
+    },
+    "bronco-4-enough-for-everyone": {
+      "id": "bronco-4-enough-for-everyone"
+    },
+    "bronco-4-commodore-s-fortune": {
+      "id": "bronco-4-commodore-s-fortune"
+    },
+    "bronco-4-rain-of-lead": {
+      "id": "bronco-4-rain-of-lead"
+    },
+    "burston-1-incarnon-form": {
+      "id": "burston-1-incarnon-form"
+    },
+    "burston-2-forceful-finality": {
+      "id": "burston-2-forceful-finality"
+    },
+    "burston-2-fortress-salvo": {
+      "id": "burston-2-fortress-salvo"
+    },
+    "burston-3-extended-volley": {
+      "id": "burston-3-extended-volley"
+    },
+    "burston-3-ready-retaliation": {
+      "id": "burston-3-ready-retaliation"
+    },
+    "burston-3-kinetic-battle": {
+      "id": "burston-3-kinetic-battle"
+    },
+    "burston-4-reaver-s-rapture": {
+      "id": "burston-4-reaver-s-rapture"
+    },
+    "burston-4-absolute-valor": {
+      "id": "burston-4-absolute-valor"
+    },
+    "burston-4-fatal-affliction": {
+      "id": "burston-4-fatal-affliction"
+    },
+    "cestra-1-incarnon-form": {
+      "id": "cestra-1-incarnon-form"
+    },
+    "cestra-2-steadfast-grit": {
+      "id": "cestra-2-steadfast-grit"
+    },
+    "cestra-2-fortress-salvo": {
+      "id": "cestra-2-fortress-salvo"
+    },
+    "cestra-3-rapid-reinforcement": {
+      "id": "cestra-3-rapid-reinforcement"
+    },
+    "cestra-3-slayer-s-nerve": {
+      "id": "cestra-3-slayer-s-nerve"
+    },
+    "cestra-3-swift-deliverance": {
+      "id": "cestra-3-swift-deliverance"
+    },
+    "cestra-4-survivor-s-edge": {
+      "id": "cestra-4-survivor-s-edge"
+    },
+    "cestra-4-deathtrap-trigger": {
+      "id": "cestra-4-deathtrap-trigger"
+    },
+    "cestra-4-wiseman-s-regard": {
+      "id": "cestra-4-wiseman-s-regard"
+    },
+    "dera-1-incarnon-form": {
+      "id": "dera-1-incarnon-form"
+    },
+    "dera-2-crimson-overture": {
+      "id": "dera-2-crimson-overture"
+    },
+    "dera-2-paragon-essence": {
+      "id": "dera-2-paragon-essence"
+    },
+    "dera-3-swift-deliverance": {
+      "id": "dera-3-swift-deliverance"
+    },
+    "dera-3-extended-volley": {
+      "id": "dera-3-extended-volley"
+    },
+    "dera-3-evolved-autoloader": {
+      "id": "dera-3-evolved-autoloader"
+    },
+    "dera-4-deathtrap-trigger": {
+      "id": "dera-4-deathtrap-trigger"
+    },
+    "dera-4-high-ground": {
+      "id": "dera-4-high-ground"
+    },
+    "dera-4-elemental-balance": {
+      "id": "dera-4-elemental-balance"
+    },
+    "despair-1-incarnon-form": {
+      "id": "despair-1-incarnon-form"
+    },
+    "despair-2-fatal-affliction": {
+      "id": "despair-2-fatal-affliction"
+    },
+    "despair-2-stalker-s-vendetta": {
+      "id": "despair-2-stalker-s-vendetta"
+    },
+    "despair-3-marksman-s-focus": {
+      "id": "despair-3-marksman-s-focus"
+    },
+    "despair-3-swift-deliverance": {
+      "id": "despair-3-swift-deliverance"
+    },
+    "despair-3-rapid-reinforcement": {
+      "id": "despair-3-rapid-reinforcement"
+    },
+    "despair-4-elemental-balance": {
+      "id": "despair-4-elemental-balance"
+    },
+    "despair-4-survivor-s-edge": {
+      "id": "despair-4-survivor-s-edge"
+    },
+    "despair-4-critical-parallel": {
+      "id": "despair-4-critical-parallel"
+    },
+    "dread-1-incarnon-form": {
+      "id": "dread-1-incarnon-form"
+    },
+    "dread-2-hitman-s-opportunity": {
+      "id": "dread-2-hitman-s-opportunity"
+    },
+    "dread-2-stalker-s-resentment": {
+      "id": "dread-2-stalker-s-resentment"
+    },
+    "dread-3-swift-deliverance": {
+      "id": "dread-3-swift-deliverance"
+    },
+    "dread-3-marksman-s-focus": {
+      "id": "dread-3-marksman-s-focus"
+    },
+    "dread-3-hitman-s-hoard": {
+      "id": "dread-3-hitman-s-hoard"
+    },
+    "dread-4-survivor-s-edge": {
+      "id": "dread-4-survivor-s-edge"
+    },
+    "dread-4-elemental-balance": {
+      "id": "dread-4-elemental-balance"
+    },
+    "dread-4-zeroed-in": {
+      "id": "dread-4-zeroed-in"
+    },
+    "dual-toxocyst-1-incarnon-form": {
+      "id": "dual-toxocyst-1-incarnon-form"
+    },
+    "dual-toxocyst-2-carnage-reign": {
+      "id": "dual-toxocyst-2-carnage-reign"
+    },
+    "dual-toxocyst-2-fevered-frenzy": {
+      "id": "dual-toxocyst-2-fevered-frenzy"
+    },
+    "dual-toxocyst-3-ready-retaliation": {
+      "id": "dual-toxocyst-3-ready-retaliation"
+    },
+    "dual-toxocyst-3-evolved-autoloader": {
+      "id": "dual-toxocyst-3-evolved-autoloader"
+    },
+    "dual-toxocyst-3-marksman-s-hand": {
+      "id": "dual-toxocyst-3-marksman-s-hand"
+    },
+    "dual-toxocyst-4-commodore-s-fortune": {
+      "id": "dual-toxocyst-4-commodore-s-fortune"
+    },
+    "dual-toxocyst-4-neurotoxin": {
+      "id": "dual-toxocyst-4-neurotoxin"
+    },
+    "dual-toxocyst-4-ripper-rounds": {
+      "id": "dual-toxocyst-4-ripper-rounds"
+    },
+    "felarx-1-incarnon-form": {
+      "id": "felarx-1-incarnon-form"
+    },
+    "felarx-2-attuned-accuracy": {
+      "id": "felarx-2-attuned-accuracy"
+    },
+    "felarx-2-kinetic-baffle": {
+      "id": "felarx-2-kinetic-baffle"
+    },
+    "felarx-2-frictionless-flight": {
+      "id": "felarx-2-frictionless-flight"
+    },
+    "felarx-3-dual-mode": {
+      "id": "felarx-3-dual-mode"
+    },
+    "felarx-3-evolved-autoloader": {
+      "id": "felarx-3-evolved-autoloader"
+    },
+    "felarx-3-mounting-momentum": {
+      "id": "felarx-3-mounting-momentum"
+    },
+    "felarx-4-brutal-edge": {
+      "id": "felarx-4-brutal-edge"
+    },
+    "felarx-4-incarnon-catalyst": {
+      "id": "felarx-4-incarnon-catalyst"
+    },
+    "felarx-4-racking-wrath": {
+      "id": "felarx-4-racking-wrath"
+    },
+    "felarx-5-devastating-attrition": {
+      "id": "felarx-5-devastating-attrition"
+    },
+    "felarx-5-ruptured-plentitude": {
+      "id": "felarx-5-ruptured-plentitude"
+    },
+    "felarx-5-agile-executor": {
+      "id": "felarx-5-agile-executor"
+    },
+    "furis-1-incarnon-form": {
+      "id": "furis-1-incarnon-form"
+    },
+    "furis-2-haven-foray": {
+      "id": "furis-2-haven-foray"
+    },
+    "furis-2-stormburst": {
+      "id": "furis-2-stormburst"
+    },
+    "furis-3-practiced-grip": {
+      "id": "furis-3-practiced-grip"
+    },
+    "furis-3-extended-volley": {
+      "id": "furis-3-extended-volley"
+    },
+    "furis-3-executioner-s-fortune": {
+      "id": "furis-3-executioner-s-fortune"
+    },
+    "furis-4-headcracker": {
+      "id": "furis-4-headcracker"
+    },
+    "furis-4-prelude-of-might": {
+      "id": "furis-4-prelude-of-might"
+    },
+    "furis-4-elemental-balance": {
+      "id": "furis-4-elemental-balance"
+    },
+    "gammacor-1-incarnon-form": {
+      "id": "gammacor-1-incarnon-form"
+    },
+    "gammacor-2-sage-s-resolve": {
+      "id": "gammacor-2-sage-s-resolve"
+    },
+    "gammacor-2-infused-shots": {
+      "id": "gammacor-2-infused-shots"
+    },
+    "gammacor-3-evolved-autoloader": {
+      "id": "gammacor-3-evolved-autoloader"
+    },
+    "gammacor-3-moonrise-velocity": {
+      "id": "gammacor-3-moonrise-velocity"
+    },
+    "gammacor-3-extended-volley": {
+      "id": "gammacor-3-extended-volley"
+    },
+    "gammacor-4-critical-parallel": {
+      "id": "gammacor-4-critical-parallel"
+    },
+    "gammacor-4-survivor-s-edge": {
+      "id": "gammacor-4-survivor-s-edge"
+    },
+    "gammacor-4-elemental-balance": {
+      "id": "gammacor-4-elemental-balance"
+    },
+    "gorgon-1-incarnon-form": {
+      "id": "gorgon-1-incarnon-form"
+    },
+    "gorgon-2-hunter-s-mantra": {
+      "id": "gorgon-2-hunter-s-mantra"
+    },
+    "gorgon-2-hoplite-virtue": {
+      "id": "gorgon-2-hoplite-virtue"
+    },
+    "gorgon-3-resonant-restore": {
+      "id": "gorgon-3-resonant-restore"
+    },
+    "gorgon-3-rapid-reinforcement": {
+      "id": "gorgon-3-rapid-reinforcement"
+    },
+    "gorgon-3-void-s-guidance": {
+      "id": "gorgon-3-void-s-guidance"
+    },
+    "gorgon-4-survivor-s-edge": {
+      "id": "gorgon-4-survivor-s-edge"
+    },
+    "gorgon-4-elemental-balance": {
+      "id": "gorgon-4-elemental-balance"
+    },
+    "gorgon-4-absolute-valor": {
+      "id": "gorgon-4-absolute-valor"
+    },
+    "kunai-1-incarnon-form": {
+      "id": "kunai-1-incarnon-form"
+    },
+    "kunai-2-swift-conclusion": {
+      "id": "kunai-2-swift-conclusion"
+    },
+    "kunai-2-sage-s-resolve": {
+      "id": "kunai-2-sage-s-resolve"
+    },
+    "kunai-3-swift-deliverance": {
+      "id": "kunai-3-swift-deliverance"
+    },
+    "kunai-3-extended-volley": {
+      "id": "kunai-3-extended-volley"
+    },
+    "kunai-3-rapid-reinforcement": {
+      "id": "kunai-3-rapid-reinforcement"
+    },
+    "kunai-4-deathtrap-trigger": {
+      "id": "kunai-4-deathtrap-trigger"
+    },
+    "kunai-4-accelerating-volley": {
+      "id": "kunai-4-accelerating-volley"
+    },
+    "kunai-4-survivor-s-edge": {
+      "id": "kunai-4-survivor-s-edge"
+    },
+    "laetum-1-incarnon-form": {
+      "id": "laetum-1-incarnon-form"
+    },
+    "laetum-2-marksman-s-hand": {
+      "id": "laetum-2-marksman-s-hand"
+    },
+    "laetum-2-rapid-wrath": {
+      "id": "laetum-2-rapid-wrath"
+    },
+    "laetum-2-raptor-s-chase": {
+      "id": "laetum-2-raptor-s-chase"
+    },
+    "laetum-3-lethal-rearmament": {
+      "id": "laetum-3-lethal-rearmament"
+    },
+    "laetum-3-awakened-readiness": {
+      "id": "laetum-3-awakened-readiness"
+    },
+    "laetum-3-feather-of-justice": {
+      "id": "laetum-3-feather-of-justice"
+    },
+    "laetum-4-caput-mortuum": {
+      "id": "laetum-4-caput-mortuum"
+    },
+    "laetum-4-incarnon-efficiency": {
+      "id": "laetum-4-incarnon-efficiency"
+    },
+    "laetum-4-elemental-excess": {
+      "id": "laetum-4-elemental-excess"
+    },
+    "laetum-5-devouring-attrition": {
+      "id": "laetum-5-devouring-attrition"
+    },
+    "laetum-5-reaper-s-plenty": {
+      "id": "laetum-5-reaper-s-plenty"
+    },
+    "laetum-5-overwhelming-attrition": {
+      "id": "laetum-5-overwhelming-attrition"
+    },
+    "lato-1-incarnon-form": {
+      "id": "lato-1-incarnon-form"
+    },
+    "lato-2-haven-foray": {
+      "id": "lato-2-haven-foray"
+    },
+    "lato-2-reified-bane": {
+      "id": "lato-2-reified-bane"
+    },
+    "lato-3-void-s-guidance": {
+      "id": "lato-3-void-s-guidance"
+    },
+    "lato-3-marksman-s-gain": {
+      "id": "lato-3-marksman-s-gain"
+    },
+    "lato-3-exact-penance": {
+      "id": "lato-3-exact-penance"
+    },
+    "lato-4-survivor-s-edge": {
+      "id": "lato-4-survivor-s-edge"
+    },
+    "lato-4-deathtrap-trigger": {
+      "id": "lato-4-deathtrap-trigger"
+    },
+    "lato-4-carnage-reign": {
+      "id": "lato-4-carnage-reign"
+    },
+    "latron-1-incarnon-form": {
+      "id": "latron-1-incarnon-form"
+    },
+    "latron-2-riddled-target": {
+      "id": "latron-2-riddled-target"
+    },
+    "latron-2-swift-punishment": {
+      "id": "latron-2-swift-punishment"
+    },
+    "latron-3-marksman-s-hand": {
+      "id": "latron-3-marksman-s-hand"
+    },
+    "latron-3-extended-volley": {
+      "id": "latron-3-extended-volley"
+    },
+    "latron-3-marksman-s-focus": {
+      "id": "latron-3-marksman-s-focus"
+    },
+    "latron-4-flensing-spikes": {
+      "id": "latron-4-flensing-spikes"
+    },
+    "latron-4-deadhead": {
+      "id": "latron-4-deadhead"
+    },
+    "latron-4-critical-parallel": {
+      "id": "latron-4-critical-parallel"
+    },
+    "lex-1-incarnon-form": {
+      "id": "lex-1-incarnon-form"
+    },
+    "lex-2-hoplite-virtue": {
+      "id": "lex-2-hoplite-virtue"
+    },
+    "lex-2-trusty-sidearm": {
+      "id": "lex-2-trusty-sidearm"
+    },
+    "lex-3-lex-talionis": {
+      "id": "lex-3-lex-talionis"
+    },
+    "lex-3-extended-volley": {
+      "id": "lex-3-extended-volley"
+    },
+    "lex-3-ready-retaliation": {
+      "id": "lex-3-ready-retaliation"
+    },
+    "lex-4-executioner-s-dawn": {
+      "id": "lex-4-executioner-s-dawn"
+    },
+    "lex-4-elemental-balance": {
+      "id": "lex-4-elemental-balance"
+    },
+    "lex-4-critical-parallel": {
+      "id": "lex-4-critical-parallel"
+    },
+    "miter-1-incarnon-form": {
+      "id": "miter-1-incarnon-form"
+    },
+    "miter-2-swift-sawblades": {
+      "id": "miter-2-swift-sawblades"
+    },
+    "miter-2-plentiful-mayhem": {
+      "id": "miter-2-plentiful-mayhem"
+    },
+    "miter-3-swift-deliverance": {
+      "id": "miter-3-swift-deliverance"
+    },
+    "miter-3-ready-retaliation": {
+      "id": "miter-3-ready-retaliation"
+    },
+    "miter-3-mercenary-chamber": {
+      "id": "miter-3-mercenary-chamber"
+    },
+    "miter-4-sawblade-storm": {
+      "id": "miter-4-sawblade-storm"
+    },
+    "miter-4-commodore-s-fortune": {
+      "id": "miter-4-commodore-s-fortune"
+    },
+    "miter-4-critical-parallel": {
+      "id": "miter-4-critical-parallel"
+    },
+    "onos-1-incarnon-form": {
+      "id": "onos-1-incarnon-form"
+    },
+    "onos-2-marksman-s-hand": {
+      "id": "onos-2-marksman-s-hand"
+    },
+    "onos-2-rapid-wrath": {
+      "id": "onos-2-rapid-wrath"
+    },
+    "onos-2-swift-deliverance": {
+      "id": "onos-2-swift-deliverance"
+    },
+    "onos-3-extended-volley": {
+      "id": "onos-3-extended-volley"
+    },
+    "onos-3-rapid-reinforcement": {
+      "id": "onos-3-rapid-reinforcement"
+    },
+    "onos-3-hunter-s-rearmament": {
+      "id": "onos-3-hunter-s-rearmament"
+    },
+    "onos-4-lethal-lance": {
+      "id": "onos-4-lethal-lance"
+    },
+    "onos-4-incarnon-efficiency": {
+      "id": "onos-4-incarnon-efficiency"
+    },
+    "onos-4-elemental-excess": {
+      "id": "onos-4-elemental-excess"
+    },
+    "onos-5-sequential-skullbuster": {
+      "id": "onos-5-sequential-skullbuster"
+    },
+    "onos-5-impaler-s-ferocity": {
+      "id": "onos-5-impaler-s-ferocity"
+    },
+    "onos-5-devastation-cascade": {
+      "id": "onos-5-devastation-cascade"
+    },
+    "paris-1-incarnon-form": {
+      "id": "paris-1-incarnon-form"
+    },
+    "paris-2-deadly-pace": {
+      "id": "paris-2-deadly-pace"
+    },
+    "paris-2-guardian-s-might": {
+      "id": "paris-2-guardian-s-might"
+    },
+    "paris-3-ardent-trigger": {
+      "id": "paris-3-ardent-trigger"
+    },
+    "paris-3-markman-s-focus": {
+      "id": "paris-3-markman-s-focus"
+    },
+    "paris-3-swift-deliverance": {
+      "id": "paris-3-swift-deliverance"
+    },
+    "paris-4-vicious-promise": {
+      "id": "paris-4-vicious-promise"
+    },
+    "paris-4-elemental-balance": {
+      "id": "paris-4-elemental-balance"
+    },
+    "paris-4-striking-succession": {
+      "id": "paris-4-striking-succession"
+    },
+    "phenmor-1-incarnon-form": {
+      "id": "phenmor-1-incarnon-form"
+    },
+    "phenmor-2-void-s-guidance": {
+      "id": "phenmor-2-void-s-guidance"
+    },
+    "phenmor-2-rapid-wrath": {
+      "id": "phenmor-2-rapid-wrath"
+    },
+    "phenmor-2-swift-deliverance": {
+      "id": "phenmor-2-swift-deliverance"
+    },
+    "phenmor-3-retribution-s-vessel": {
+      "id": "phenmor-3-retribution-s-vessel"
+    },
+    "phenmor-3-ready-retaliation": {
+      "id": "phenmor-3-ready-retaliation"
+    },
+    "phenmor-3-executioner-s-fortune": {
+      "id": "phenmor-3-executioner-s-fortune"
+    },
+    "phenmor-4-survivor-s-edge": {
+      "id": "phenmor-4-survivor-s-edge"
+    },
+    "phenmor-4-incarnon-efficiency": {
+      "id": "phenmor-4-incarnon-efficiency"
+    },
+    "phenmor-4-elemental-excess": {
+      "id": "phenmor-4-elemental-excess"
+    },
+    "phenmor-5-devouring-attrition": {
+      "id": "phenmor-5-devouring-attrition"
+    },
+    "phenmor-5-spiteful-defilement": {
+      "id": "phenmor-5-spiteful-defilement"
+    },
+    "phenmor-5-lingering-judgement": {
+      "id": "phenmor-5-lingering-judgement"
+    },
+    "sicarus-1-incarnon-form": {
+      "id": "sicarus-1-incarnon-form"
+    },
+    "sicarus-2-feigned-retreat": {
+      "id": "sicarus-2-feigned-retreat"
+    },
+    "sicarus-2-king-s-gambit": {
+      "id": "sicarus-2-king-s-gambit"
+    },
+    "sicarus-3-void-s-guidance": {
+      "id": "sicarus-3-void-s-guidance"
+    },
+    "sicarus-3-rapid-reinforcement": {
+      "id": "sicarus-3-rapid-reinforcement"
+    },
+    "sicarus-3-extended-volley": {
+      "id": "sicarus-3-extended-volley"
+    },
+    "sicarus-4-commodore-s-fortune": {
+      "id": "sicarus-4-commodore-s-fortune"
+    },
+    "sicarus-4-survivor-s-edge": {
+      "id": "sicarus-4-survivor-s-edge"
+    },
+    "sicarus-4-wiseman-s-regard": {
+      "id": "sicarus-4-wiseman-s-regard"
+    },
+    "soma-1-incarnon-form": {
+      "id": "soma-1-incarnon-form"
+    },
+    "soma-2-fortress-salvo": {
+      "id": "soma-2-fortress-salvo"
+    },
+    "soma-2-fortifying-bloodshed": {
+      "id": "soma-2-fortifying-bloodshed"
+    },
+    "soma-3-kinetic-battle": {
+      "id": "soma-3-kinetic-battle"
+    },
+    "soma-3-practiced-grip": {
+      "id": "soma-3-practiced-grip"
+    },
+    "soma-3-rapid-reinforcement": {
+      "id": "soma-3-rapid-reinforcement"
+    },
+    "soma-4-fresh-havoc": {
+      "id": "soma-4-fresh-havoc"
+    },
+    "soma-4-fatal-affliction": {
+      "id": "soma-4-fatal-affliction"
+    },
+    "soma-4-zeroed-in": {
+      "id": "soma-4-zeroed-in"
+    },
+    "strun-1-incarnon-form": {
+      "id": "strun-1-incarnon-form"
+    },
+    "strun-2-tenno-targeting": {
+      "id": "strun-2-tenno-targeting"
+    },
+    "strun-2-blazing-barrel": {
+      "id": "strun-2-blazing-barrel"
+    },
+    "strun-3-rapid-reinforcement": {
+      "id": "strun-3-rapid-reinforcement"
+    },
+    "strun-3-galvanic-reload": {
+      "id": "strun-3-galvanic-reload"
+    },
+    "strun-3-swift-deliverance": {
+      "id": "strun-3-swift-deliverance"
+    },
+    "strun-4-elemental-balance": {
+      "id": "strun-4-elemental-balance"
+    },
+    "strun-4-commodore-s-fortune": {
+      "id": "strun-4-commodore-s-fortune"
+    },
+    "strun-4-brutal-edge": {
+      "id": "strun-4-brutal-edge"
+    },
+    "stug-1-incarnon-form": {
+      "id": "stug-1-incarnon-form"
+    },
+    "stug-2-blazing-barrel": {
+      "id": "stug-2-blazing-barrel"
+    },
+    "stug-2-overcharge-blast": {
+      "id": "stug-2-overcharge-blast"
+    },
+    "stug-3-rapid-reinforcement": {
+      "id": "stug-3-rapid-reinforcement"
+    },
+    "stug-3-swift-deliverance": {
+      "id": "stug-3-swift-deliverance"
+    },
+    "stug-3-resonant-restore": {
+      "id": "stug-3-resonant-restore"
+    },
+    "stug-4-survivor-s-edge": {
+      "id": "stug-4-survivor-s-edge"
+    },
+    "stug-4-deathtrap-trigger": {
+      "id": "stug-4-deathtrap-trigger"
+    },
+    "stug-4-elemental-dominance": {
+      "id": "stug-4-elemental-dominance"
+    },
+    "sybaris-1-incarnon-form": {
+      "id": "sybaris-1-incarnon-form"
+    },
+    "sybaris-2-well-rehearsed": {
+      "id": "sybaris-2-well-rehearsed"
+    },
+    "sybaris-2-blazing-barrel": {
+      "id": "sybaris-2-blazing-barrel"
+    },
+    "sybaris-3-extended-volley": {
+      "id": "sybaris-3-extended-volley"
+    },
+    "sybaris-3-ready-retaliation": {
+      "id": "sybaris-3-ready-retaliation"
+    },
+    "sybaris-3-marksman-s-hand": {
+      "id": "sybaris-3-marksman-s-hand"
+    },
+    "sybaris-4-elemental-dominance": {
+      "id": "sybaris-4-elemental-dominance"
+    },
+    "sybaris-4-reaver-s-rapture": {
+      "id": "sybaris-4-reaver-s-rapture"
+    },
+    "sybaris-4-survivor-s-edge": {
+      "id": "sybaris-4-survivor-s-edge"
+    },
+    "torid-1-incarnon-form": {
+      "id": "torid-1-incarnon-form"
+    },
+    "torid-2-final-fusillade": {
+      "id": "torid-2-final-fusillade"
+    },
+    "torid-2-plentiful-mayhem": {
+      "id": "torid-2-plentiful-mayhem"
+    },
+    "torid-3-swift-deliverance": {
+      "id": "torid-3-swift-deliverance"
+    },
+    "torid-3-renewed-horror": {
+      "id": "torid-3-renewed-horror"
+    },
+    "torid-3-extended-volley": {
+      "id": "torid-3-extended-volley"
+    },
+    "torid-4-commodore-s-fortune": {
+      "id": "torid-4-commodore-s-fortune"
+    },
+    "torid-4-survivor-s-edge": {
+      "id": "torid-4-survivor-s-edge"
+    },
+    "torid-4-elemental-balance": {
+      "id": "torid-4-elemental-balance"
+    },
+    "vasto-1-incarnon-form": {
+      "id": "vasto-1-incarnon-form"
+    },
+    "vasto-2-lone-gun": {
+      "id": "vasto-2-lone-gun"
+    },
+    "vasto-2-deathtrap-trigger": {
+      "id": "vasto-2-deathtrap-trigger"
+    },
+    "vasto-3-extended-volley": {
+      "id": "vasto-3-extended-volley"
+    },
+    "vasto-3-marksman-s-hand": {
+      "id": "vasto-3-marksman-s-hand"
+    },
+    "vasto-3-awakened-readiness": {
+      "id": "vasto-3-awakened-readiness"
+    },
+    "vasto-4-commodore-s-fortune": {
+      "id": "vasto-4-commodore-s-fortune"
+    },
+    "vasto-4-survivor-s-edge": {
+      "id": "vasto-4-survivor-s-edge"
+    },
+    "vasto-4-reaper-s-plenty": {
+      "id": "vasto-4-reaper-s-plenty"
+    },
+    "vectis-1-incarnon-form": {
+      "id": "vectis-1-incarnon-form",
+      "name": "Incarnon Form",
+      "family": "Vectis",
+      "tier": 1,
+      "description": "! EVO1 | style=\"white-space: nowrap; text-align:center;\" | Incarnon Form 64px|center | * Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge. * Fire slowing projectiles that explode on headshot | style=\"text-align:center\" | - | style=\"text-align:center\" | - | * Incarnon Form has higher Critical Chance, but with reduced Fire Rate and can no longer Punch Through. * Fires projectiles which deal 150 {{D|Cold}} direct hit damage, then embed an orb which instantly deals an additional 25 {{D|Cold}} AoE damage in a ~0.5m radius with a guaranteed {{D|Cold}} proc. On body shots, the orb remains embedded for 2.5s, dealing another 2 ticks of 25 AoE damage before disappearing. On headshots, the orb instead explodes after a 0.4s delay, dealing 2 simultaneous hits of 150 {{D|Cold}} damage in a 6.7m AoE, each with a guaranteed {{D|Cold}} proc. ** Direct hit, orb embed, and orb AoE explosion damage are all affected by EVO2's base damage increase. *** Also affected as expected by all modded bonuses, such as multishot, base damage, elemental damage, critical / status stats, etc. ** Forced {{D|Cold}} procs cannot be changed with elemental mods. ** Orb embed and explosion damage do not increase sniper combo, but are affected by the sniper combo damage multiplier. ** Projectiles have a flight speed of 300m/s. *** As the weapon is normally hitscan, it is unable to equip {{M|Terminal Velocity}}. ** Headshot AoE has 70% damage falloff, dealing 30% damage at the edge of its range.",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-2-inciting-incident": {
+      "id": "vectis-2-inciting-incident",
+      "name": "Inciting Incident",
+      "family": "Vectis",
+      "tier": 2,
+      "description": "! rowspan=\"2\" | EVO2 | style=\"white-space: nowrap; text-align:center;\" | Inciting Incident 64px|center | * Increase Base Damage by +X. * With Channeled Ability Active: +2 Punch Through | style=\"text-align:center\" | X = 100 | style=\"text-align:center\" | X = 200 | * Punch Through is locked to 0 in Incarnon Form, meaning the Channeled Ability bonus from this evolution applies only in the base form.",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-2-lone-enforcer": {
+      "id": "vectis-2-lone-enforcer",
+      "name": "Lone Enforcer",
+      "family": "Vectis",
+      "tier": 2,
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Lone Enforcer 64px|center | * Increase Base Damage by +X. * +25% Multishot if no enemies are within 5m. | style=\"text-align:center\" | X = 75 | style=\"text-align:center\" | X = 150 | * Multishot bonus is additive with {{M|Split Chamber}} and similar bonuses.",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-3-rapid-reinforcement": {
+      "id": "vectis-3-rapid-reinforcement",
+      "name": "Rapid Reinforcement",
+      "family": "Vectis",
+      "tier": 3,
+      "description": "! rowspan=\"3\" | EVO3 | style=\"white-space: nowrap; text-align:center;\" | Rapid Reinforcement 64px|center | * +60% Reload Speed. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-3-marksman-s-hand": {
+      "id": "vectis-3-marksman-s-hand",
+      "name": "Marksman's Hand",
+      "family": "Vectis",
+      "tier": 3,
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Marksman's Hand 64px|center | * -60% Recoil. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-3-silent-running": {
+      "id": "vectis-3-silent-running",
+      "name": "Silent Running",
+      "family": "Vectis",
+      "tier": 3,
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Silent Running 64px|center | * Reduce the chance an enemy will hear gunfire by 100%. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-4-deadhead": {
+      "id": "vectis-4-deadhead",
+      "name": "Deadhead",
+      "family": "Vectis",
+      "tier": 4,
+      "description": "! rowspan=\"3\" | EVO4 | style=\"white-space: nowrap; text-align:center;\" | Deadhead 64px|center | * +25% Headshot Damage. | colspan=\"2\" style=\"text-align:center\" | - | * Bonus is additive with Vectis's Scope bonus, {{M|Target Acquired}}, {{Arcane|Primary Deadhead}}, and similar bonuses.",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-4-critical-parallel": {
+      "id": "vectis-4-critical-parallel",
+      "name": "Critical Parallel",
+      "family": "Vectis",
+      "tier": 4,
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Critical Parallel 64px|center | *Increase Base Critical Chance by +X. *Increase Base Critical Damage Multiplier by +0.5x. | style=\"text-align:center\" | X = 10% | style=\"text-align:center\" | X = 8% | style=\"text-align:center\" | -",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "vectis-2-survivor-s-edge": {
+      "id": "vectis-2-survivor-s-edge",
+      "name": "Survivor's Edge",
+      "family": "Vectis",
+      "tier": 2,
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Survivor's Edge 64px|center | * Increase Base Status Chance by 30% of current Critical Chance, up to 40% | colspan=\"2\" style=\"text-align:center\" | - | * Maximum Base Status Chance increase is gained at 134% Critical Chance, requiring +345% critical chance to reach. ** Critical chance from {{M|Primary Acuity}} does not work, however {{M|Galvanized Scope}} does. |} ==Notes== * The headshot explosion does not trigger an Extra Hit from sources like {{WF|Saryn}}'s {{A|Toxic Lash}} (which may be a bug) or {{WF|Oraxia}}'s {{A|Silken Stride}} (because it doesn't work on any Incarnon form). ==Tips== ==Known Bugs== *EVO2's base damage increase is applied a second time for the Total Damage stat in the arsenal UI (in-mission damage is not affected). The damage value for each individual damage type will be correctly calculated based on the damage bonus applying once. *EVO4 Survivor's Edge does not appear to apply its bonus for the Incarnon form's radial attack portion when modding for {{D|Blast}} specifically. However, this is just a UI bug in the Arsenal: the bonus applies correctly during gameplay. ==Patch History== {{Scrollbox/Article| {{ver|43.5.3}} *Fixed the Vectis (Prime) not having a fully reloaded magazine after exiting Incarnon Form. {{ver|43.5}} *Fixed the Vectis Incarnon Form benefitting from Primed Chamber on every shot. {{ver|43.0.5}} *Fixed explosion kills from the Vectis' Incarnon Forms not counting towards the \"Kill 100 Enemies\" challenge. {{ver|43.0.4}} *Increased the Vectis Incarnon \"Lone Enforcer\" Evolution's stats as follows: **Increased Base Damage from +50 to +75 (+100 to +150 for Vectis Prime). **Increased Multishot from 20% to 25%. *Increased the Vectis Incarnon form's projectile speed from 200 to 300. {{ver|43}} *Introduced. }} {{IncarnonNav}} Category:Duviri Category:Incarnon Category:Incarnon Geneses",
+      "effects": [],
+      "variantEffects": {},
+      "variantValues": {},
+      "nonDamageEffects": [],
+      "limitations": [
+        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      ],
+      "source": {
+        "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
+        "snapshot": "2026-10-15",
+        "license": "CC BY-NC-SA 3.0"
+      }
+    },
+    "zylok-1-incarnon-form": {
+      "id": "zylok-1-incarnon-form"
+    },
+    "zylok-2-precision-s-payoff": {
+      "id": "zylok-2-precision-s-payoff"
+    },
+    "zylok-2-mauler-s-magazine": {
+      "id": "zylok-2-mauler-s-magazine"
+    },
+    "zylok-3-extended-volley": {
+      "id": "zylok-3-extended-volley"
+    },
+    "zylok-3-rapid-reinforcement": {
+      "id": "zylok-3-rapid-reinforcement"
+    },
+    "zylok-3-void-s-guidance": {
+      "id": "zylok-3-void-s-guidance"
+    },
+    "zylok-4-survivor-s-edge": {
+      "id": "zylok-4-survivor-s-edge"
+    },
+    "zylok-4-commodore-s-fortune": {
+      "id": "zylok-4-commodore-s-fortune"
+    },
+    "zylok-4-fatal-affliction": {
+      "id": "zylok-4-fatal-affliction"
+    }
+  },
+  "onlineHashes": {
+    "angstrum-1-incarnon-form": {},
+    "angstrum-2-haven-foray": {},
+    "angstrum-2-paladin-virtue": {},
+    "angstrum-3-swift-deliverance": {},
+    "angstrum-3-rapid-reinforcement": {},
+    "angstrum-3-hitman-s-hoard": {},
+    "angstrum-4-critical-parallel": {},
+    "angstrum-4-survivor-s-edge": {},
+    "angstrum-4-fatal-affliction": {},
+    "atomos-1-incarnon-form": {},
+    "atomos-2-paladin-virtue": {},
+    "atomos-2-hoplite-virtue": {},
+    "atomos-3-moonrise-velocity": {},
+    "atomos-3-mercenary-chamber": {},
+    "atomos-3-resonant-restore": {},
+    "atomos-4-elemental-balance": {},
+    "atomos-4-commodore-s-fortune": {},
+    "atomos-4-survivor-s-edge": {},
+    "ballistica-1-incarnon-form": {},
+    "ballistica-2-headcracker": {},
+    "ballistica-2-prolific-perforation": {},
+    "ballistica-3-rapid-reinforcement": {},
+    "ballistica-3-swift-deliverance": {},
+    "ballistica-3-void-s-guidance": {},
+    "ballistica-4-elemental-balance": {},
+    "ballistica-4-survivor-s-edge": {},
+    "ballistica-4-critical-parallel": {},
+    "boar-1-incarnon-form": {},
+    "boar-2-reified-bane": {},
+    "boar-2-fortress-salvo": {},
+    "boar-3-ready-retaliation": {},
+    "boar-3-mercenary-chamber": {},
+    "boar-3-practiced-grip": {},
+    "boar-4-elemental-balance": {},
+    "boar-4-critical-parallel": {},
+    "boar-4-survivor-s-edge": {},
+    "boltor-1-incarnon-form": {},
+    "boltor-2-hunter-s-mantra": {},
+    "boltor-2-crimson-overture": {},
+    "boltor-3-swift-deliverance": {},
+    "boltor-3-extended-volley": {},
+    "boltor-3-rapid-reinforcement": {},
+    "boltor-4-elemental-balance": {},
+    "boltor-4-survivor-s-edge": {},
+    "boltor-4-commodore-s-fortune": {},
+    "braton-1-incarnon-form": {},
+    "braton-2-daring-reverie": {},
+    "braton-2-munitions-grit": {},
+    "braton-3-mercenary-chamber": {},
+    "braton-3-void-s-guidance": {},
+    "braton-3-gunsmoke-pick-up": {},
+    "braton-4-critical-parallel": {},
+    "braton-4-prelude-of-might": {},
+    "braton-4-survivor-s-edge": {},
+    "bronco-1-incarnon-form": {},
+    "bronco-2-speeding-bullet": {},
+    "bronco-2-infused-shots": {},
+    "bronco-3-kinetic-battle": {},
+    "bronco-3-practised-grip": {},
+    "bronco-3-extended-volley": {},
+    "bronco-4-enough-for-everyone": {},
+    "bronco-4-commodore-s-fortune": {},
+    "bronco-4-rain-of-lead": {},
+    "burston-1-incarnon-form": {},
+    "burston-2-forceful-finality": {},
+    "burston-2-fortress-salvo": {},
+    "burston-3-extended-volley": {},
+    "burston-3-ready-retaliation": {},
+    "burston-3-kinetic-battle": {},
+    "burston-4-reaver-s-rapture": {},
+    "burston-4-absolute-valor": {},
+    "burston-4-fatal-affliction": {},
+    "cestra-1-incarnon-form": {},
+    "cestra-2-steadfast-grit": {},
+    "cestra-2-fortress-salvo": {},
+    "cestra-3-rapid-reinforcement": {},
+    "cestra-3-slayer-s-nerve": {},
+    "cestra-3-swift-deliverance": {},
+    "cestra-4-survivor-s-edge": {},
+    "cestra-4-deathtrap-trigger": {},
+    "cestra-4-wiseman-s-regard": {},
+    "dera-1-incarnon-form": {},
+    "dera-2-crimson-overture": {},
+    "dera-2-paragon-essence": {},
+    "dera-3-swift-deliverance": {},
+    "dera-3-extended-volley": {},
+    "dera-3-evolved-autoloader": {},
+    "dera-4-deathtrap-trigger": {},
+    "dera-4-high-ground": {},
+    "dera-4-elemental-balance": {},
+    "despair-1-incarnon-form": {},
+    "despair-2-fatal-affliction": {},
+    "despair-2-stalker-s-vendetta": {},
+    "despair-3-marksman-s-focus": {},
+    "despair-3-swift-deliverance": {},
+    "despair-3-rapid-reinforcement": {},
+    "despair-4-elemental-balance": {},
+    "despair-4-survivor-s-edge": {},
+    "despair-4-critical-parallel": {},
+    "dread-1-incarnon-form": {},
+    "dread-2-hitman-s-opportunity": {},
+    "dread-2-stalker-s-resentment": {},
+    "dread-3-swift-deliverance": {},
+    "dread-3-marksman-s-focus": {},
+    "dread-3-hitman-s-hoard": {},
+    "dread-4-survivor-s-edge": {},
+    "dread-4-elemental-balance": {},
+    "dread-4-zeroed-in": {},
+    "dual-toxocyst-1-incarnon-form": {},
+    "dual-toxocyst-2-carnage-reign": {},
+    "dual-toxocyst-2-fevered-frenzy": {},
+    "dual-toxocyst-3-ready-retaliation": {},
+    "dual-toxocyst-3-evolved-autoloader": {},
+    "dual-toxocyst-3-marksman-s-hand": {},
+    "dual-toxocyst-4-commodore-s-fortune": {},
+    "dual-toxocyst-4-neurotoxin": {},
+    "dual-toxocyst-4-ripper-rounds": {},
+    "felarx-1-incarnon-form": {},
+    "felarx-2-attuned-accuracy": {},
+    "felarx-2-kinetic-baffle": {},
+    "felarx-2-frictionless-flight": {},
+    "felarx-3-dual-mode": {},
+    "felarx-3-evolved-autoloader": {},
+    "felarx-3-mounting-momentum": {},
+    "felarx-4-brutal-edge": {},
+    "felarx-4-incarnon-catalyst": {},
+    "felarx-4-racking-wrath": {},
+    "felarx-5-devastating-attrition": {},
+    "felarx-5-ruptured-plentitude": {},
+    "felarx-5-agile-executor": {},
+    "furis-1-incarnon-form": {},
+    "furis-2-haven-foray": {},
+    "furis-2-stormburst": {},
+    "furis-3-practiced-grip": {},
+    "furis-3-extended-volley": {},
+    "furis-3-executioner-s-fortune": {},
+    "furis-4-headcracker": {},
+    "furis-4-prelude-of-might": {},
+    "furis-4-elemental-balance": {},
+    "gammacor-1-incarnon-form": {},
+    "gammacor-2-sage-s-resolve": {},
+    "gammacor-2-infused-shots": {},
+    "gammacor-3-evolved-autoloader": {},
+    "gammacor-3-moonrise-velocity": {},
+    "gammacor-3-extended-volley": {},
+    "gammacor-4-critical-parallel": {},
+    "gammacor-4-survivor-s-edge": {},
+    "gammacor-4-elemental-balance": {},
+    "gorgon-1-incarnon-form": {},
+    "gorgon-2-hunter-s-mantra": {},
+    "gorgon-2-hoplite-virtue": {},
+    "gorgon-3-resonant-restore": {},
+    "gorgon-3-rapid-reinforcement": {},
+    "gorgon-3-void-s-guidance": {},
+    "gorgon-4-survivor-s-edge": {},
+    "gorgon-4-elemental-balance": {},
+    "gorgon-4-absolute-valor": {},
+    "kunai-1-incarnon-form": {},
+    "kunai-2-swift-conclusion": {},
+    "kunai-2-sage-s-resolve": {},
+    "kunai-3-swift-deliverance": {},
+    "kunai-3-extended-volley": {},
+    "kunai-3-rapid-reinforcement": {},
+    "kunai-4-deathtrap-trigger": {},
+    "kunai-4-accelerating-volley": {},
+    "kunai-4-survivor-s-edge": {},
+    "laetum-1-incarnon-form": {},
+    "laetum-2-marksman-s-hand": {},
+    "laetum-2-rapid-wrath": {},
+    "laetum-2-raptor-s-chase": {},
+    "laetum-3-lethal-rearmament": {},
+    "laetum-3-awakened-readiness": {},
+    "laetum-3-feather-of-justice": {},
+    "laetum-4-caput-mortuum": {},
+    "laetum-4-incarnon-efficiency": {},
+    "laetum-4-elemental-excess": {},
+    "laetum-5-devouring-attrition": {},
+    "laetum-5-reaper-s-plenty": {},
+    "laetum-5-overwhelming-attrition": {},
+    "lato-1-incarnon-form": {},
+    "lato-2-haven-foray": {},
+    "lato-2-reified-bane": {},
+    "lato-3-void-s-guidance": {},
+    "lato-3-marksman-s-gain": {},
+    "lato-3-exact-penance": {},
+    "lato-4-survivor-s-edge": {},
+    "lato-4-deathtrap-trigger": {},
+    "lato-4-carnage-reign": {},
+    "latron-1-incarnon-form": {},
+    "latron-2-riddled-target": {},
+    "latron-2-swift-punishment": {},
+    "latron-3-marksman-s-hand": {},
+    "latron-3-extended-volley": {},
+    "latron-3-marksman-s-focus": {},
+    "latron-4-flensing-spikes": {},
+    "latron-4-deadhead": {},
+    "latron-4-critical-parallel": {},
+    "lex-1-incarnon-form": {},
+    "lex-2-hoplite-virtue": {},
+    "lex-2-trusty-sidearm": {},
+    "lex-3-lex-talionis": {},
+    "lex-3-extended-volley": {},
+    "lex-3-ready-retaliation": {},
+    "lex-4-executioner-s-dawn": {},
+    "lex-4-elemental-balance": {},
+    "lex-4-critical-parallel": {},
+    "miter-1-incarnon-form": {},
+    "miter-2-swift-sawblades": {},
+    "miter-2-plentiful-mayhem": {},
+    "miter-3-swift-deliverance": {},
+    "miter-3-ready-retaliation": {},
+    "miter-3-mercenary-chamber": {},
+    "miter-4-sawblade-storm": {},
+    "miter-4-commodore-s-fortune": {},
+    "miter-4-critical-parallel": {},
+    "onos-1-incarnon-form": {},
+    "onos-2-marksman-s-hand": {},
+    "onos-2-rapid-wrath": {},
+    "onos-2-swift-deliverance": {},
+    "onos-3-extended-volley": {},
+    "onos-3-rapid-reinforcement": {},
+    "onos-3-hunter-s-rearmament": {},
+    "onos-4-lethal-lance": {},
+    "onos-4-incarnon-efficiency": {},
+    "onos-4-elemental-excess": {},
+    "onos-5-sequential-skullbuster": {},
+    "onos-5-impaler-s-ferocity": {},
+    "onos-5-devastation-cascade": {},
+    "paris-1-incarnon-form": {},
+    "paris-2-deadly-pace": {},
+    "paris-2-guardian-s-might": {},
+    "paris-3-ardent-trigger": {},
+    "paris-3-markman-s-focus": {},
+    "paris-3-swift-deliverance": {},
+    "paris-4-vicious-promise": {},
+    "paris-4-elemental-balance": {},
+    "paris-4-striking-succession": {},
+    "phenmor-1-incarnon-form": {},
+    "phenmor-2-void-s-guidance": {},
+    "phenmor-2-rapid-wrath": {},
+    "phenmor-2-swift-deliverance": {},
+    "phenmor-3-retribution-s-vessel": {},
+    "phenmor-3-ready-retaliation": {},
+    "phenmor-3-executioner-s-fortune": {},
+    "phenmor-4-survivor-s-edge": {},
+    "phenmor-4-incarnon-efficiency": {},
+    "phenmor-4-elemental-excess": {},
+    "phenmor-5-devouring-attrition": {},
+    "phenmor-5-spiteful-defilement": {},
+    "phenmor-5-lingering-judgement": {},
+    "sicarus-1-incarnon-form": {},
+    "sicarus-2-feigned-retreat": {},
+    "sicarus-2-king-s-gambit": {},
+    "sicarus-3-void-s-guidance": {},
+    "sicarus-3-rapid-reinforcement": {},
+    "sicarus-3-extended-volley": {},
+    "sicarus-4-commodore-s-fortune": {},
+    "sicarus-4-survivor-s-edge": {},
+    "sicarus-4-wiseman-s-regard": {},
+    "soma-1-incarnon-form": {},
+    "soma-2-fortress-salvo": {},
+    "soma-2-fortifying-bloodshed": {},
+    "soma-3-kinetic-battle": {},
+    "soma-3-practiced-grip": {},
+    "soma-3-rapid-reinforcement": {},
+    "soma-4-fresh-havoc": {},
+    "soma-4-fatal-affliction": {},
+    "soma-4-zeroed-in": {},
+    "strun-1-incarnon-form": {},
+    "strun-2-tenno-targeting": {},
+    "strun-2-blazing-barrel": {},
+    "strun-3-rapid-reinforcement": {},
+    "strun-3-galvanic-reload": {},
+    "strun-3-swift-deliverance": {},
+    "strun-4-elemental-balance": {},
+    "strun-4-commodore-s-fortune": {},
+    "strun-4-brutal-edge": {},
+    "stug-1-incarnon-form": {},
+    "stug-2-blazing-barrel": {},
+    "stug-2-overcharge-blast": {},
+    "stug-3-rapid-reinforcement": {},
+    "stug-3-swift-deliverance": {},
+    "stug-3-resonant-restore": {},
+    "stug-4-survivor-s-edge": {},
+    "stug-4-deathtrap-trigger": {},
+    "stug-4-elemental-dominance": {},
+    "sybaris-1-incarnon-form": {},
+    "sybaris-2-well-rehearsed": {},
+    "sybaris-2-blazing-barrel": {},
+    "sybaris-3-extended-volley": {},
+    "sybaris-3-ready-retaliation": {},
+    "sybaris-3-marksman-s-hand": {},
+    "sybaris-4-elemental-dominance": {},
+    "sybaris-4-reaver-s-rapture": {},
+    "sybaris-4-survivor-s-edge": {},
+    "torid-1-incarnon-form": {},
+    "torid-2-final-fusillade": {},
+    "torid-2-plentiful-mayhem": {},
+    "torid-3-swift-deliverance": {},
+    "torid-3-renewed-horror": {},
+    "torid-3-extended-volley": {},
+    "torid-4-commodore-s-fortune": {},
+    "torid-4-survivor-s-edge": {},
+    "torid-4-elemental-balance": {},
+    "vasto-1-incarnon-form": {},
+    "vasto-2-lone-gun": {},
+    "vasto-2-deathtrap-trigger": {},
+    "vasto-3-extended-volley": {},
+    "vasto-3-marksman-s-hand": {},
+    "vasto-3-awakened-readiness": {},
+    "vasto-4-commodore-s-fortune": {},
+    "vasto-4-survivor-s-edge": {},
+    "vasto-4-reaper-s-plenty": {},
+    "vectis-1-incarnon-form": {
+      "description": "66b4e56d",
+      "variantValues": "5465b825",
+      "nonDamageEffects": "741638a5",
+      "limitations": "24a20968"
+    },
+    "vectis-2-inciting-incident": {
+      "description": "1796ee85",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-2-lone-enforcer": {
+      "description": "fdb7b498",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-3-rapid-reinforcement": {
+      "description": "3212d7bb",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-3-marksman-s-hand": {
+      "description": "1d4964e5",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-3-silent-running": {
+      "description": "4916db8f",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-4-deadhead": {
+      "description": "498e7caf",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-4-critical-parallel": {
+      "description": "4d875952",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "vectis-2-survivor-s-edge": {
+      "tier": "370cabd5",
+      "description": "569e9c49",
+      "effects": "741638a5",
+      "variantEffects": "5465b825",
+      "variantValues": "5465b825",
+      "limitations": "24a20968"
+    },
+    "zylok-1-incarnon-form": {},
+    "zylok-2-precision-s-payoff": {},
+    "zylok-2-mauler-s-magazine": {},
+    "zylok-3-extended-volley": {},
+    "zylok-3-rapid-reinforcement": {},
+    "zylok-3-void-s-guidance": {},
+    "zylok-4-survivor-s-edge": {},
+    "zylok-4-commodore-s-fortune": {},
+    "zylok-4-fatal-affliction": {}
+  }
 }
