@@ -73,7 +73,17 @@ See [SOURCES.md](SOURCES.md) for provenance.
 
 The GitHub checkout includes `images/placeholder.svg`, `images/archon-shards/plain-shard.png`, and `images/archon-shards/plain-shard-large.png`. Other artwork is deliberately omitted from Git and loads from the source URLs listed in `images/manifest.json`. A compact source lookup is embedded in `index.html`, so opening the page directly from disk does not require a local JSON fetch. Internet access is needed for artwork in the default **Remote images** mode; unavailable sources show a local image, when present, or the placeholder.
 
-To save artwork for offline use, open **Database editor → Image assets → Download Images Locally**. In a browser supporting folder access (such as current Chromium-based browsers), select the app folder containing `index.html` when prompted. The button downloads missing files into the existing `images` subfolders, skips files already there, reports progress and failures, and selects **Local images**. If a source blocks browser cross-origin downloads, the downloader retries that public image through `images.weserv.nl`; source attribution remains in the manifest. The **Image source** selector in the same card switches between remote and local artwork. Local mode tries the online source if an individual file is missing. You can run the download again to retry failures. Folder permission is requested by the browser; the app does not upload your local images.
+To save artwork for offline use, open the app in a current Chromium browser such as Chrome or Edge, then choose **Database editor → Image assets → Download Images Locally**. Select the project folder containing `index.html` when the browser asks for folder access. A progress window shows checked, downloaded, skipped, and failed images; **Cancel download** keeps files already saved. At completion, choose **Use Local Images** or **Stay Remote**. Local mode tries the online source for any missing image, so it can also be used after a partial download. Run the download again to retry failures. If a source blocks browser cross-origin downloads, the downloader retries it through `images.weserv.nl`; source attribution remains in the manifest. The app does not upload your local images.
+
+Opening `index.html` directly from disk can work in a browser with folder access. If the page says folder access is unavailable, first check that you are using a supported browser. You can also serve the folder locally, which gives the app a localhost origin; a server alone cannot add folder access to an unsupported browser. From the project folder, run either command and then open `http://localhost:8000/` in Chrome or Edge:
+
+```sh
+npx serve . -l 8000
+# or, with Python installed:
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+These commands only serve the existing static files. Node.js is not required by the app; `npx serve` is an optional local server. The **Image source** selector can also switch between remote and local artwork at any time.
 
 Weapon artwork lives in `images/weapons`, enemy portraits in `images/enemies`, status icons in `images/status`, mod and arcane artwork in `images/mods`, and Archon Shards in `images/archon-shards`. The manifests retain source URLs and attribution. Artwork is kept on your computer after Git stops tracking it; `.gitignore` prevents it from being added to future commits. The three included images have no remote source.
 
