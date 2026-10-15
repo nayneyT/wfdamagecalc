@@ -1,0 +1,8 @@
+# Artwork is kept on disk but fetched from its source by default.
+/images/**
+!/images/**/
+!/images/manifest.json
+!/images/enemies/manifest.json
+!/images/placeholder.svg
+!/images/archon-shards/plain-shard.png
+!/images/archon-shards/plain-shard-large.png

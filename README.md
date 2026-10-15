@@ -1,6 +1,6 @@
 # Void Arsenal
 
-A browser-only Warframe damage calculator. **Open [index.html](index.html) with `app.js` and the `images` folder beside it.** No installation, Node.js, npm, framework, build step, server, or internet connection is needed to use the app.
+A browser-only Warframe damage calculator. Open [index.html](index.html) with `app.js` beside it. There is no installation, Node.js, npm, framework, build step, or server. Artwork loads from its online source by default; download it locally for offline use.
 
 ## Use
 
@@ -40,7 +40,7 @@ For ranked mods and arcanes, `rankEffects` contains explicit effects for every r
 
 Import multiple category files together when adding related records. Imports are validated as one replacement and require a preview confirmation. Missing references leave the existing database intact. Referenced records cannot be deleted until their references are changed, including references from saved arsenal builds. Legacy single-build exports reference database IDs; arsenal exports include referenced custom records for portability.
 
-Database edits, saved arsenal builds, and the current draft are stored locally when browser storage is available. Draft autosaving does not overwrite an explicitly saved arsenal profile. Moving files, changing browsers, private browsing, or storage limits can affect persistence. **Export JSON files for portable backups.** “Export updated HTML” embeds current datasets and the current build into a new HTML file; keep `app.js` and the `images` folder beside it. An existing browser save takes precedence over that embedded build.
+Database edits, saved arsenal builds, and the current draft are stored locally when browser storage is available. Draft autosaving does not overwrite an explicitly saved arsenal profile. Moving files, changing browsers, private browsing, or storage limits can affect persistence. **Export JSON files for portable backups.** “Export updated HTML” embeds current datasets and the current build into a new HTML file; keep `app.js` and the three included local-only images beside it. Download the remaining images if you want offline artwork. An existing browser save takes precedence over that embedded build.
 
 ## Calculation model
 
@@ -69,11 +69,15 @@ See [SOURCES.md](SOURCES.md) for provenance.
 
 
 
-### Local images and navigation
+### Artwork and local downloads
 
-Keep the `images` folder beside `index.html` and `app.js`. Weapon artwork lives in `images/weapons`, enemy portraits in `images/enemies`, status icons in `images/status`, mod cards and arcane artwork in `images/mods`, and color-coded normal/Tauforged shard illustrations in `images/archon-shards`. All images load locally without a server or internet connection. Unavailable images use `images/placeholder.svg`; manifests record downloaded files and source pages.
+The GitHub checkout includes `images/placeholder.svg`, `images/archon-shards/plain-shard.png`, and `images/archon-shards/plain-shard-large.png`. Other artwork is deliberately omitted from Git and loads from the source URLs listed in `images/manifest.json`. A compact source lookup is embedded in `index.html`, so opening the page directly from disk does not require a local JSON fetch. Internet access is needed for artwork in the default **Remote images** mode; unavailable sources show a local image, when present, or the placeholder.
 
-The database editor supports optional `image` and `imageSource` fields on weapons, enemies, mods, and arcanes. Use relative paths such as `images/weapons/my-weapon.png`. Status icon paths are editable in the rules record's `statusIcons` object. Standard status icons resolve to their matching local files even if an older browser save points at a different bundled status icon; custom image paths remain available. Older browser databases receive missing image metadata while keeping custom edits and explicitly chosen image paths. Custom images must accompany exported builds and HTML separately.
+To save artwork for offline use, open **Database editor → Image assets → Download Images Locally**. In a browser supporting folder access (such as current Chromium-based browsers), select the app folder containing `index.html` when prompted. The button downloads missing files into the existing `images` subfolders, skips files already there, reports progress and failures, and selects **Local images**. If a source blocks browser cross-origin downloads, the downloader retries that public image through `images.weserv.nl`; source attribution remains in the manifest. The **Image source** selector in the same card switches between remote and local artwork. Local mode tries the online source if an individual file is missing. You can run the download again to retry failures. Folder permission is requested by the browser; the app does not upload your local images.
+
+Weapon artwork lives in `images/weapons`, enemy portraits in `images/enemies`, status icons in `images/status`, mod and arcane artwork in `images/mods`, and Archon Shards in `images/archon-shards`. The manifests retain source URLs and attribution. Artwork is kept on your computer after Git stops tracking it; `.gitignore` prevents it from being added to future commits. The three included images have no remote source.
+
+The database editor supports optional `image` and `imageSource` fields on weapons, enemies, mods, and arcanes. Use relative paths such as `images/weapons/my-weapon.png`. Status icon paths are editable in the rules record's `statusIcons` object. Standard status icons resolve to their matching images even if an older browser save points at a different bundled status icon; custom image paths remain available. Older browser databases receive missing image metadata while keeping custom edits and explicitly chosen image paths. Custom images must accompany exported builds and HTML separately.
 
 Single-choice Incarnon evolution tiers select automatically. Hover or focus an evolution or selected mod for its description; use the collapsed Effect details or Mod details controls on touch screens. Conditional bonuses still start inactive. Cancel creation discards a draft after confirmation, and Back to arsenal returns from a saved build. Returning to the arsenal survives reloading. Faction comparisons initially remain collapsed.
 
