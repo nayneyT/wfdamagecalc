@@ -20,7 +20,7 @@ MANIFEST = ROOT / "images" / "manifest.json"
 HEADERS = {"User-Agent": "VoidArsenalImageDownloader/1.0"}
 
 
-def image_bytes(url):
+def image_bytes(url: str) -> bytes:
     request = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(request, timeout=45) as response:
         content_type = response.headers.get("Content-Type", "").split(";", 1)[0]
@@ -32,7 +32,7 @@ def image_bytes(url):
         return data
 
 
-def download(url):
+def download(url: str) -> bytes:
     try:
         return image_bytes(url)
     except (OSError, ValueError) as direct_error:
@@ -43,12 +43,22 @@ def download(url):
             raise RuntimeError(f"source: {direct_error}; proxy: {proxy_error}") from proxy_error
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--limit", type=int, default=0, help="check only the first N assets (for testing)")
+    parser.add_argument(
+        "--limit", type=int, default=0, help="check only the first N assets (for testing)"
+    )
     args = parser.parse_args()
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    assets = [(entry["local"], entry["url"]) for entry in manifest["assets"] if entry.get("url")]
+    entries = manifest.get("assets")
+    if not isinstance(entries, list):
+        raise ValueError(f"{MANIFEST} must contain an assets list")
+    if any(
+        not isinstance(entry, dict) or not isinstance(entry.get("local"), str)
+        for entry in entries
+    ):
+        raise ValueError(f"{MANIFEST} contains an asset without a local path")
+    assets = [(entry["local"], entry["url"]) for entry in entries if entry.get("url")]
     if args.limit > 0:
         assets = assets[: args.limit]
     log_path = ROOT / "image-download.log"
@@ -86,7 +96,11 @@ def main():
                     logger.error("FAILED %s <- %s: %s", local, url, error)
                     print(f"Failed: {local}: {error}", file=sys.stderr)
             if count % 25 == 0 or count == len(assets):
-                print(f"{count}/{len(assets)} checked - {saved} downloaded - {skipped} present - {failed} failed", flush=True)
+                print(
+                    f"{count}/{len(assets)} checked - {saved} downloaded - "
+                    f"{skipped} present - {failed} failed",
+                    flush=True,
+                )
         logger.info("Finished: %d downloaded, %d present, %d failed", saved, skipped, failed)
     finally:
         logger.removeHandler(handler)

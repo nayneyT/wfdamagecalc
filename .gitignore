@@ -6,6 +6,11 @@
 !/images/placeholder.svg
 !/images/archon-shards/plain-shard.png
 !/images/archon-shards/plain-shard-large.png
+/*.md
+!/LICENSE.md
+!/LICENSES.md
+!/SOURCES.md
+!/README.md
 
 # Local image-download activity log.
 /image-download.log

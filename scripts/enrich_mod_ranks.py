@@ -11,6 +11,8 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
+from embedded_data import replace_embedded_category
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = "https://raw.githubusercontent.com/WFCD/warframe-items/master/data/json/Mods.json"
@@ -39,15 +41,24 @@ def rank_text(source, rank):
 
 
 def choose(record, candidates):
-    ranked = [item for item in candidates if len(item.get("levelStats", [])) == record["maxRank"] + 1]
+    ranked = [
+        item for item in candidates
+        if len(item.get("levelStats", [])) == record["maxRank"] + 1
+    ]
     if not ranked:
         return None
-    scores = sorted(
-        ((difflib.SequenceMatcher(None, comparable(record["description"]), comparable(rank_text(item, -1))).ratio(), item)
-         for item in ranked),
-        key=lambda pair: pair[0],
-        reverse=True,
-    )
+    scores = [
+        (
+            difflib.SequenceMatcher(
+                None,
+                comparable(record["description"]),
+                comparable(rank_text(item, -1)),
+            ).ratio(),
+            item,
+        )
+        for item in ranked
+    ]
+    scores.sort(key=lambda pair: pair[0], reverse=True)
     if scores[0][0] < 0.25:
         return None
     if len(scores) > 1 and scores[0][0] - scores[1][0] < 0.05:
@@ -69,7 +80,9 @@ def modeled_rank_text(record):
     return [
         re.sub(
             r"^[+-]\d+(?:\.\d+)?%",
-            ("+" if rank[0]["value"] >= 0 else "-") + f"{abs(rank[0]['value'] * 100):.1f}".rstrip("0").rstrip(".") + "%",
+            ("+" if rank[0]["value"] >= 0 else "-")
+            + f"{abs(rank[0]['value'] * 100):.1f}".rstrip("0").rstrip(".")
+            + "%",
             record["description"],
             count=1,
         )
@@ -77,7 +90,7 @@ def modeled_rank_text(record):
     ]
 
 
-def main():
+def main() -> None:
     with urllib.request.urlopen(SOURCE, timeout=30) as response:
         source = json.load(response)
     by_name = defaultdict(list)
@@ -108,17 +121,15 @@ def main():
 
     if not any(entry.get("url") == SOURCE for entry in database["sources"]):
         database["sources"].append({"url": SOURCE, "snapshot": str(date.today())})
-    path.write_text(json.dumps(database, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
     html_path = ROOT / "index.html"
     html = html_path.read_text(encoding="utf-8")
-    pattern = r'(<script type="application/json" id="data-mods">)(.*?)(</script>)'
-    packed = json.dumps(database, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    html, count = re.subn(pattern, lambda match: match.group(1) + packed + match.group(3), html, count=1, flags=re.S)
-    if count != 1:
-        raise RuntimeError("Could not find embedded mods dataset")
-    html_path.write_text(html, encoding="utf-8")
-    print(f"Sourced {sourced} mods; {invariant} stance descriptions are rank-invariant; {modeled} use existing modeled effects; {fallback} retain labelled max-rank descriptions.")
+    updated_html = replace_embedded_category(html, "mods", database)
+    path.write_text(json.dumps(database, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    html_path.write_text(updated_html, encoding="utf-8")
+    print(
+        f"Sourced {sourced} mods; {invariant} stance descriptions are rank-invariant; "
+        f"{modeled} use existing modeled effects; {fallback} retain labelled max-rank descriptions."
+    )
 
 
 if __name__ == "__main__":
