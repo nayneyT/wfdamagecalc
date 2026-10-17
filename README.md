@@ -1,5 +1,8 @@
 # Void Arsenal
 
+![](images/github_screenshot_arsenal.png)
+![](images/github_screenshot_progenitor.png)
+
 ## How to Use
 
 In PowerShell, create a folder for the checkout, enter it, and clone the repository:
@@ -63,6 +66,8 @@ selector contains saved profiles only. **Save as new** creates another profile o
 subsequent edits require an explicit save.
 
 ## Riven workshop
+
+![](images/github_screenshot_riven.png)
 
 Choose ordinary Riven traits and their roll quality from 90% to 110%. The preview shows each trait's
 minimum, current and maximum at the selected weapon variant's disposition and Riven rank, plus its
