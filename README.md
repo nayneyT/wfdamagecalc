@@ -1,6 +1,11 @@
 # Void Arsenal
 
+### Weapon Arsenal
+
 ![](images/github_screenshot_arsenal.png)
+
+### Progenitor Weapons Tracker
+
 ![](images/github_screenshot_progenitor.png)
 
 ## How to Use
