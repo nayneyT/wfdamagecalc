@@ -2,28 +2,6 @@
   "source": "Canonical local-to-source registry. Warframe Wiki and WFCD sources retain their individual attribution and licensing terms.",
   "assets": [
     {
-      "file": "plain-shard.png",
-      "local": "images/archon-shards/plain-shard.png",
-      "owners": [
-        "ui/empty-archon-shard"
-      ],
-      "url": null,
-      "sourcePage": null,
-      "provider": "local user artwork",
-      "bytes": 62981
-    },
-    {
-      "file": "plain-shard-large.png",
-      "local": "images/archon-shards/plain-shard-large.png",
-      "owners": [
-        "ui/empty-archon-shard-large"
-      ],
-      "url": null,
-      "sourcePage": null,
-      "provider": "local user artwork",
-      "bytes": 197516
-    },
-    {
       "file": "AmberArchonShard.png",
       "local": "images/archon-shards/amber-normal.png",
       "owners": [
@@ -110,6 +88,28 @@
       "sourcePage": "https://wiki.warframe.com/w/File:TauforgedEmeraldArchonShard.png",
       "provider": "Warframe Wiki",
       "bytes": 26961
+    },
+    {
+      "file": "plain-shard-large.png",
+      "local": "images/archon-shards/plain-shard-large.png",
+      "owners": [
+        "ui/empty-archon-shard-large"
+      ],
+      "url": null,
+      "sourcePage": null,
+      "provider": "local user artwork",
+      "bytes": 197516
+    },
+    {
+      "file": "plain-shard.png",
+      "local": "images/archon-shards/plain-shard.png",
+      "owners": [
+        "ui/empty-archon-shard"
+      ],
+      "url": null,
+      "sourcePage": null,
+      "provider": "local user artwork",
+      "bytes": 62981
     },
     {
       "file": "TopazArchonShard.png",
@@ -10142,6 +10142,2037 @@
       "bytes": 51600
     },
     {
+      "file": "4RoundInnateBlast.png",
+      "local": "images/incarnon-evolutions/4roundinnateblast.png",
+      "owners": [
+        "incarnon-evolutions/sybaris-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/4RoundInnateBlast%28xWhite%29.png?0c896",
+      "sourcePage": "https://wiki.warframe.com/w/File:4RoundInnateBlast(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 15295
+    },
+    {
+      "file": "AdditionalCCForEveryEnemyPunchedThrough(xWhite).png",
+      "local": "images/incarnon-evolutions/additionalccforeveryenemypunchedthrough-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/ballistica-2-prolific-perforation"
+      ],
+      "url": "https://wiki.warframe.com/images/AdditionalCCForEveryEnemyPunchedThrough%28xWhite%29.png?7af65",
+      "sourcePage": "https://wiki.warframe.com/w/File:AdditionalCCForEveryEnemyPunchedThrough(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 28142
+    },
+    {
+      "file": "AdditionalViralDamageInFrenziedState(xWhite).png",
+      "local": "images/incarnon-evolutions/additionalviraldamageinfrenziedstate-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dual-toxocyst-4-neurotoxin"
+      ],
+      "url": "https://wiki.warframe.com/images/AdditionalViralDamageInFrenziedState%28xWhite%29.png?0c896",
+      "sourcePage": "https://wiki.warframe.com/w/File:AdditionalViralDamageInFrenziedState(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31503
+    },
+    {
+      "file": "AddMultishotAndKunaiSeekHeads(xWhite).png",
+      "local": "images/incarnon-evolutions/addmultishotandkunaiseekheads-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/kunai-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/AddMultishotAndKunaiSeekHeads%28xWhite%29.png?b3505",
+      "sourcePage": "https://wiki.warframe.com/w/File:AddMultishotAndKunaiSeekHeads(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35780
+    },
+    {
+      "file": "AmmoEffWhenAimGlidingOrSliding(xWhite).png",
+      "local": "images/incarnon-evolutions/ammoeffwhenaimglidingorsliding-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-4-enough-for-everyone"
+      ],
+      "url": "https://wiki.warframe.com/images/AmmoEffWhenAimGlidingOrSliding%28xWhite%29.png?140cf",
+      "sourcePage": "https://wiki.warframe.com/w/File:AmmoEffWhenAimGlidingOrSliding(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 28937
+    },
+    {
+      "file": "ArmorAboveXMultishot(xWhite).png",
+      "local": "images/incarnon-evolutions/armorabovexmultishot-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/cestra-2-fortress-salvo"
+      ],
+      "url": "https://wiki.warframe.com/images/ArmorAboveXMultishot%28xWhite%29.png?140cf",
+      "sourcePage": "https://wiki.warframe.com/w/File:ArmorAboveXMultishot(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 14896
+    },
+    {
+      "file": "ArmourStrippedForEveryStackOfPierce.png",
+      "local": "images/incarnon-evolutions/armourstrippedforeverystackofpierce.png",
+      "owners": [
+        "incarnon-evolutions/latron-4-flensing-spikes"
+      ],
+      "url": "https://wiki.warframe.com/images/ArmourStrippedForEveryStackOfPierce%28xWhite%29.png?140cf",
+      "sourcePage": "https://wiki.warframe.com/w/File:ArmourStrippedForEveryStackOfPierce(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29333
+    },
+    {
+      "file": "AutomaticKillsExplode.png",
+      "local": "images/incarnon-evolutions/automatickillsexplode.png",
+      "owners": [
+        "incarnon-evolutions/burston-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/AutomaticKillsExplode%28xWhite%29.png?156f0",
+      "sourcePage": "https://wiki.warframe.com/w/File:AutomaticKillsExplode(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35735
+    },
+    {
+      "file": "BodyShotsCantCritHeadshotsIncCritChance(xWhite).png",
+      "local": "images/incarnon-evolutions/bodyshotscantcritheadshotsinccritchance-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/sicarus-2-king-s-gambit"
+      ],
+      "url": "https://wiki.warframe.com/images/BodyShotsCantCritHeadshotsIncCritChance%28xWhite%29.png?156f0",
+      "sourcePage": "https://wiki.warframe.com/w/File:BodyShotsCantCritHeadshotsIncCritChance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 17863
+    },
+    {
+      "file": "ChanceToReplenishMagOnHeadshot(xWhite).png",
+      "local": "images/incarnon-evolutions/chancetoreplenishmagonheadshot-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/furis-3-executioner-s-fortune",
+        "incarnon-evolutions/lato-3-exact-penance"
+      ],
+      "url": "https://wiki.warframe.com/images/ChanceToReplenishMagOnHeadshot%28xWhite%29.png?61445",
+      "sourcePage": "https://wiki.warframe.com/w/File:ChanceToReplenishMagOnHeadshot(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 40834
+    },
+    {
+      "file": "ChargeBeamCritChanceDmg(xWhite).png",
+      "local": "images/incarnon-evolutions/chargebeamcritchancedmg-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/onos-5-devastation-cascade"
+      ],
+      "url": "https://wiki.warframe.com/images/ChargeBeamCritChanceDmg%28xWhite%29.png?61445",
+      "sourcePage": "https://wiki.warframe.com/w/File:ChargeBeamCritChanceDmg(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32736
+    },
+    {
+      "file": "ConsecutivetHeadshotIncrDmg(xWhite).png",
+      "local": "images/incarnon-evolutions/consecutivetheadshotincrdmg-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/onos-5-sequential-skullbuster"
+      ],
+      "url": "https://wiki.warframe.com/images/ConsecutivetHeadshotIncrDmg%28xWhite%29.png?f8c58",
+      "sourcePage": "https://wiki.warframe.com/w/File:ConsecutivetHeadshotIncrDmg(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35527
+    },
+    {
+      "file": "ConsecutivetHeadshotIncrDmg.png",
+      "local": "images/incarnon-evolutions/consecutivetheadshotincrdmg.png",
+      "owners": [
+        "incarnon-evolutions/sybaris-2-well-rehearsed"
+      ],
+      "url": "https://wiki.warframe.com/images/ConsecutivetHeadshotIncrDmg%28xWhite%29.png?f8c58",
+      "sourcePage": "https://wiki.warframe.com/w/File:ConsecutivetHeadshotIncrDmg(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35527
+    },
+    {
+      "file": "CritChanceAndDmgOnFirstShot(xWhite).png",
+      "local": "images/incarnon-evolutions/critchanceanddmgonfirstshot-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vasto-2-deathtrap-trigger"
+      ],
+      "url": "https://wiki.warframe.com/images/CritChanceAndDmgOnFirstShot%28xWhite%29.png?f8c58",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritChanceAndDmgOnFirstShot(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36329
+    },
+    {
+      "file": "CritChanceCritDamage(xWhite).png",
+      "local": "images/incarnon-evolutions/critchancecritdamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/ballistica-4-critical-parallel",
+        "incarnon-evolutions/dera-4-deathtrap-trigger",
+        "incarnon-evolutions/gammacor-4-critical-parallel",
+        "incarnon-evolutions/lex-4-critical-parallel",
+        "incarnon-evolutions/stug-4-deathtrap-trigger",
+        "incarnon-evolutions/vectis-4-critical-parallel"
+      ],
+      "url": "https://wiki.warframe.com/images/CritChanceCritDamage%28xWhite%29.png?f8c58",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritChanceCritDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35875
+    },
+    {
+      "file": "CritChanceCritDamage.png",
+      "local": "images/incarnon-evolutions/critchancecritdamage.png",
+      "owners": [
+        "incarnon-evolutions/boar-4-critical-parallel",
+        "incarnon-evolutions/latron-4-critical-parallel"
+      ],
+      "url": "https://wiki.warframe.com/images/CritChanceCritDamage%28xWhite%29.png?f8c58",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritChanceCritDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35875
+    },
+    {
+      "file": "CritChanceDamageToEnemiesAtFullHealth.png",
+      "local": "images/incarnon-evolutions/critchancedamagetoenemiesatfullhealth.png",
+      "owners": [
+        "incarnon-evolutions/paris-4-vicious-promise"
+      ],
+      "url": "https://wiki.warframe.com/images/CritChanceDamageToEnemiesAtFullHealth%28xWhite%29.png?cadf0",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritChanceDamageToEnemiesAtFullHealth(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35375
+    },
+    {
+      "file": "CritDamage(xWhite).png",
+      "local": "images/incarnon-evolutions/critdamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/cestra-4-deathtrap-trigger",
+        "incarnon-evolutions/dread-4-zeroed-in",
+        "incarnon-evolutions/soma-4-zeroed-in"
+      ],
+      "url": "https://wiki.warframe.com/images/CritDamage%28xWhite%29.png?cadf0",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37990
+    },
+    {
+      "file": "CritDamageOnReloadFromEmpty(xWhite).png",
+      "local": "images/incarnon-evolutions/critdamageonreloadfromempty-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/zylok-2-mauler-s-magazine"
+      ],
+      "url": "https://wiki.warframe.com/images/CritDamageOnReloadFromEmpty%28xWhite%29.png?cadf0",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritDamageOnReloadFromEmpty(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33366
+    },
+    {
+      "file": "CritDamageWhenCritChanceIsBelowX(xWhite).png",
+      "local": "images/incarnon-evolutions/critdamagewhencritchanceisbelowx-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dera-4-high-ground",
+        "incarnon-evolutions/furis-4-prelude-of-might"
+      ],
+      "url": "https://wiki.warframe.com/images/CritDamageWhenCritChanceIsBelowX%28xWhite%29.png?6ca08",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritDamageWhenCritChanceIsBelowX(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32502
+    },
+    {
+      "file": "CritDamageWhenCritChanceIsBelowX.png",
+      "local": "images/incarnon-evolutions/critdamagewhencritchanceisbelowx.png",
+      "owners": [
+        "incarnon-evolutions/braton-4-prelude-of-might"
+      ],
+      "url": "https://wiki.warframe.com/images/CritDamageWhenCritChanceIsBelowX%28xWhite%29.png?6ca08",
+      "sourcePage": "https://wiki.warframe.com/w/File:CritDamageWhenCritChanceIsBelowX(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32502
+    },
+    {
+      "file": "DamageAccuracyPunchThroughActiveChanAbility(xWhite).png",
+      "local": "images/incarnon-evolutions/damageaccuracypunchthroughactivechanability-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/boltor-2-hunter-s-mantra"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAccuracyPunchThroughActiveChanAbility%28xWhite%29.png?6ca08",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAccuracyPunchThroughActiveChanAbility(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32708
+    },
+    {
+      "file": "DamageAccuracyPunchThroughActiveChanAbility.png",
+      "local": "images/incarnon-evolutions/damageaccuracypunchthroughactivechanability.png",
+      "owners": [
+        "incarnon-evolutions/gorgon-2-hunter-s-mantra"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAccuracyPunchThroughActiveChanAbility%28xWhite%29.png?6ca08",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAccuracyPunchThroughActiveChanAbility(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32708
+    },
+    {
+      "file": "DamageAmmoEfficiencyDuringActiveChannelledAbility.png",
+      "local": "images/incarnon-evolutions/damageammoefficiencyduringactivechannelledability.png",
+      "owners": [
+        "incarnon-evolutions/braton-2-daring-reverie"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAmmoEfficiencyDuringActiveChannelledAbility%28xWhite%29.png?fa36b",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAmmoEfficiencyDuringActiveChannelledAbility(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32218
+    },
+    {
+      "file": "DamageAmmoEfficiencyOnKill(xWhite).png",
+      "local": "images/incarnon-evolutions/damageammoefficiencyonkill-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/boltor-2-crimson-overture",
+        "incarnon-evolutions/dera-2-crimson-overture"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAmmoEfficiencyOnKill%28xWhite%29.png?fa36b",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAmmoEfficiencyOnKill(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35527
+    },
+    {
+      "file": "DamageAndAdditionalDamageToEnemiesAtHalfHealth(xWhite).png",
+      "local": "images/incarnon-evolutions/damageandadditionaldamagetoenemiesathalfhealth-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dread-2-hitman-s-opportunity",
+        "incarnon-evolutions/kunai-2-swift-conclusion"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndAdditionalDamageToEnemiesAtHalfHealth%28xWhite%29.png?fa36b",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndAdditionalDamageToEnemiesAtHalfHealth(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32112
+    },
+    {
+      "file": "DamageAndIncreasedDamageWithOvershields(xWhite).png",
+      "local": "images/incarnon-evolutions/damageandincreaseddamagewithovershields-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-2-haven-foray",
+        "incarnon-evolutions/furis-2-haven-foray"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndIncreasedDamageWithOvershields%28xWhite%29.png?f9bd2",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndIncreasedDamageWithOvershields(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 28579
+    },
+    {
+      "file": "DamageAndIncreasedDamageWithOvershields.png",
+      "local": "images/incarnon-evolutions/damageandincreaseddamagewithovershields.png",
+      "owners": [
+        "incarnon-evolutions/paris-2-guardian-s-might"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndIncreasedDamageWithOvershields%28xWhite%29.png?f9bd2",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndIncreasedDamageWithOvershields(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 28579
+    },
+    {
+      "file": "DamageAndIncreasedFireRateWithSprint.png",
+      "local": "images/incarnon-evolutions/damageandincreasedfireratewithsprint.png",
+      "owners": [
+        "incarnon-evolutions/paris-2-deadly-pace"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndIncreasedFireRateWithSprint%28xWhite%29.png?f9bd2",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndIncreasedFireRateWithSprint(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35521
+    },
+    {
+      "file": "DamageAndMultishotWithActiveChanneledAbility(xWhite).png",
+      "local": "images/incarnon-evolutions/damageandmultishotwithactivechanneledability-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/gammacor-2-sage-s-resolve",
+        "incarnon-evolutions/kunai-2-sage-s-resolve",
+        "incarnon-evolutions/lex-2-trusty-sidearm"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndMultishotWithActiveChanneledAbility%28xWhite%29.png?f9bd2",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndMultishotWithActiveChanneledAbility(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32063
+    },
+    {
+      "file": "DamageAndOnHittingEnemyAffectedByElectricity(xWhite).png",
+      "local": "images/incarnon-evolutions/damageandonhittingenemyaffectedbyelectricity-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/furis-2-stormburst"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndOnHittingEnemyAffectedByElectricity%28xWhite%29.png?f9bd2",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndOnHittingEnemyAffectedByElectricity(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31936
+    },
+    {
+      "file": "DamageAndOnPierce.png",
+      "local": "images/incarnon-evolutions/damageandonpierce.png",
+      "owners": [
+        "incarnon-evolutions/latron-2-riddled-target"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndOnPierce%28xWhite%29.png?717c1",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndOnPierce(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31750
+    },
+    {
+      "file": "DamageAndWithMoveSpeed.png",
+      "local": "images/incarnon-evolutions/damageandwithmovespeed.png",
+      "owners": [
+        "incarnon-evolutions/latron-2-swift-punishment"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageAndWithMoveSpeed%28xWhite%29.png?717c1",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageAndWithMoveSpeed(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33355
+    },
+    {
+      "file": "DamageIncreasedFallOffRangeWithSprintSpeedLowerThanX(xWhite).png",
+      "local": "images/incarnon-evolutions/damageincreasedfalloffrangewithsprintspeedlowerthanx-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-2-speeding-bullet"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageIncreasedFallOffRangeWithSprintSpeedLowerThanX%28xWhite%29.png?717c1",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageIncreasedFallOffRangeWithSprintSpeedLowerThanX(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37275
+    },
+    {
+      "file": "DamageIncreaseOnFullBurstHitResetOnReload.png",
+      "local": "images/incarnon-evolutions/damageincreaseonfullbursthitresetonreload.png",
+      "owners": [
+        "incarnon-evolutions/burston-4-reaver-s-rapture",
+        "incarnon-evolutions/sybaris-4-reaver-s-rapture"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageIncreaseOnFullBurstHitResetOnReload%28xWhite%29.png?28a26",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageIncreaseOnFullBurstHitResetOnReload(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36484
+    },
+    {
+      "file": "DamageIncreasesOnEachConsecutiveHit.png",
+      "local": "images/incarnon-evolutions/damageincreasesoneachconsecutivehit.png",
+      "owners": [
+        "incarnon-evolutions/paris-4-striking-succession"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageIncreasesOnEachConsecutiveHit%28xWhite%29.png?28a26",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageIncreasesOnEachConsecutiveHit(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31519
+    },
+    {
+      "file": "DamageOnShieldBreak.png",
+      "local": "images/incarnon-evolutions/damageonshieldbreak.png",
+      "owners": [
+        "incarnon-evolutions/gorgon-2-hoplite-virtue"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageOnShieldBreak%28xWhite%29.png?28a26",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageOnShieldBreak(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33152
+    },
+    {
+      "file": "DamageOnShieldLoss(xWhite).png",
+      "local": "images/incarnon-evolutions/damageonshieldloss-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/atomos-2-hoplite-virtue"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageOnShieldLoss%28xWhite%29.png?28a26",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageOnShieldLoss(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29945
+    },
+    {
+      "file": "DamagePerActiveStatus(xWhite).png",
+      "local": "images/incarnon-evolutions/damageperactivestatus-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-4-fatal-affliction",
+        "incarnon-evolutions/despair-2-fatal-affliction",
+        "incarnon-evolutions/lato-4-carnage-reign",
+        "incarnon-evolutions/soma-4-fatal-affliction",
+        "incarnon-evolutions/zylok-4-fatal-affliction"
+      ],
+      "url": "https://wiki.warframe.com/images/DamagePerActiveStatus%28xWhite%29.png?fd749",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamagePerActiveStatus(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 40672
+    },
+    {
+      "file": "DamagePerActiveStatus.png",
+      "local": "images/incarnon-evolutions/damageperactivestatus.png",
+      "owners": [
+        "incarnon-evolutions/burston-4-fatal-affliction"
+      ],
+      "url": "https://wiki.warframe.com/images/DamagePerActiveStatus%28xWhite%29.png?fd749",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamagePerActiveStatus(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 40672
+    },
+    {
+      "file": "DamagePerStatusOnEnemyWithEnergyPool(xWhite).png",
+      "local": "images/incarnon-evolutions/damageperstatusonenemywithenergypool-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dual-toxocyst-2-carnage-reign"
+      ],
+      "url": "https://wiki.warframe.com/images/DamagePerStatusOnEnemyWithEnergyPool%28xWhite%29.png?fd749",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamagePerStatusOnEnemyWithEnergyPool(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 43821
+    },
+    {
+      "file": "DamagePlusXDamageWithOvershields(xWhite).png",
+      "local": "images/incarnon-evolutions/damageplusxdamagewithovershields-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lato-2-haven-foray"
+      ],
+      "url": "https://wiki.warframe.com/images/DamagePlusXDamageWithOvershields%28xWhite%29.png?fd749",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamagePlusXDamageWithOvershields(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33140
+    },
+    {
+      "file": "DamageWithEnergySpent(xWhite).png",
+      "local": "images/incarnon-evolutions/damagewithenergyspent-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-2-infused-shots",
+        "incarnon-evolutions/gammacor-2-infused-shots"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageWithEnergySpent%28xWhite%29.png?39ac1",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageWithEnergySpent(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34920
+    },
+    {
+      "file": "DamageWithNoPrimaryOrMeleeEquipped(xWhite).png",
+      "local": "images/incarnon-evolutions/damagewithnoprimaryormeleeequipped-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vasto-2-lone-gun"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageWithNoPrimaryOrMeleeEquipped%28xWhite%29.png?39ac1",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageWithNoPrimaryOrMeleeEquipped(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32298
+    },
+    {
+      "file": "DamageXMultishotOnLastShotInMag(xWhite).png",
+      "local": "images/incarnon-evolutions/damagexmultishotonlastshotinmag-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/torid-2-final-fusillade"
+      ],
+      "url": "https://wiki.warframe.com/images/DamageXMultishotOnLastShotInMag%28xWhite%29.png?39ac1",
+      "sourcePage": "https://wiki.warframe.com/w/File:DamageXMultishotOnLastShotInMag(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30999
+    },
+    {
+      "file": "DespairExplodingKnives(xWhite).png",
+      "local": "images/incarnon-evolutions/despairexplodingknives-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/despair-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/DespairExplodingKnives%28xWhite%29.png?5abcd",
+      "sourcePage": "https://wiki.warframe.com/w/File:DespairExplodingKnives(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33523
+    },
+    {
+      "file": "EvolutionCaputMortuum.png",
+      "local": "images/incarnon-evolutions/evolutioncaputmortuum.png",
+      "owners": [
+        "incarnon-evolutions/laetum-4-caput-mortuum"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionCaputMortuum%28xWhite%29.png?7bc0e",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionCaputMortuum(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 41909
+    },
+    {
+      "file": "EvolutionCriticalStatusUp.png",
+      "local": "images/incarnon-evolutions/evolutioncriticalstatusup.png",
+      "owners": [
+        "incarnon-evolutions/felarx-4-brutal-edge",
+        "incarnon-evolutions/phenmor-4-survivor-s-edge",
+        "incarnon-evolutions/sybaris-4-survivor-s-edge"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionCriticalStatusUp%28xWhite%29.png?6a1ee",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionCriticalStatusUp(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35126
+    },
+    {
+      "file": "EvolutionExecutioner'sFortune.png",
+      "local": "images/incarnon-evolutions/evolutionexecutioner-sfortune.png",
+      "owners": [
+        "incarnon-evolutions/phenmor-3-executioner-s-fortune"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionExecutioner%27sFortune%28xWhite%29.png?b9889",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionExecutioner%27sFortune(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 40565
+    },
+    {
+      "file": "EvolutionFastTransmutation.png",
+      "local": "images/incarnon-evolutions/evolutionfasttransmutation.png",
+      "owners": [
+        "incarnon-evolutions/laetum-4-incarnon-efficiency",
+        "incarnon-evolutions/phenmor-4-incarnon-efficiency"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionFastTransmutation%28xWhite%29.png?158fc",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionFastTransmutation(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 39175
+    },
+    {
+      "file": "EvolutionFeatherOfJustice.png",
+      "local": "images/incarnon-evolutions/evolutionfeatherofjustice.png",
+      "owners": [
+        "incarnon-evolutions/laetum-3-feather-of-justice"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionFeatherOfJustice%28xWhite%29.png?3713e",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionFeatherOfJustice(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29367
+    },
+    {
+      "file": "EvolutionHolsterReload.png",
+      "local": "images/incarnon-evolutions/evolutionholsterreload.png",
+      "owners": [
+        "incarnon-evolutions/laetum-3-awakened-readiness"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionHolsterReload%28xWhite%29.png?5628c",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionHolsterReload(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33058
+    },
+    {
+      "file": "EvolutionIncarnonFormGun.png",
+      "local": "images/incarnon-evolutions/evolutionincarnonformgun.png",
+      "owners": [
+        "incarnon-evolutions/felarx-1-incarnon-form",
+        "incarnon-evolutions/laetum-1-incarnon-form",
+        "incarnon-evolutions/onos-1-incarnon-form",
+        "incarnon-evolutions/phenmor-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionIncarnonFormGun%28xWhite%29.png?e85d2",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionIncarnonFormGun(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31610
+    },
+    {
+      "file": "EvolutionLethalRearmament.png",
+      "local": "images/incarnon-evolutions/evolutionlethalrearmament.png",
+      "owners": [
+        "incarnon-evolutions/laetum-3-lethal-rearmament"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionLethalRearmament%28xWhite%29.png?3dbbe",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionLethalRearmament(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 41998
+    },
+    {
+      "file": "EvolutionLingeringJudgement.png",
+      "local": "images/incarnon-evolutions/evolutionlingeringjudgement.png",
+      "owners": [
+        "incarnon-evolutions/phenmor-5-lingering-judgement"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionLingeringJudgement%28xWhite%29.png?10220",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionLingeringJudgement(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 42140
+    },
+    {
+      "file": "EvolutionNon-Critical.png",
+      "local": "images/incarnon-evolutions/evolutionnon-critical.png",
+      "owners": [
+        "incarnon-evolutions/felarx-5-devastating-attrition",
+        "incarnon-evolutions/laetum-5-devouring-attrition",
+        "incarnon-evolutions/phenmor-5-devouring-attrition"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionNon-Critical%28xWhite%29.png?9cc1d",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionNon-Critical(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38708
+    },
+    {
+      "file": "EvolutionOverwhelmingAttrition.png",
+      "local": "images/incarnon-evolutions/evolutionoverwhelmingattrition.png",
+      "owners": [
+        "incarnon-evolutions/laetum-5-overwhelming-attrition"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionOverwhelmingAttrition%28xWhite%29.png?e2bd3",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionOverwhelmingAttrition(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 39582
+    },
+    {
+      "file": "EvolutionProjectileSpeed.png",
+      "local": "images/incarnon-evolutions/evolutionprojectilespeed.png",
+      "owners": [
+        "incarnon-evolutions/felarx-2-frictionless-flight",
+        "incarnon-evolutions/phenmor-2-swift-deliverance"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionProjectileSpeed%28xWhite%29.png?2dac6",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionProjectileSpeed(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30657
+    },
+    {
+      "file": "EvolutionRapidWrath.png",
+      "local": "images/incarnon-evolutions/evolutionrapidwrath.png",
+      "owners": [
+        "incarnon-evolutions/laetum-2-rapid-wrath",
+        "incarnon-evolutions/phenmor-2-rapid-wrath"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionRapidWrath%28xWhite%29.png?433f1",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionRapidWrath(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38952
+    },
+    {
+      "file": "EvolutionRaptor'sChase.png",
+      "local": "images/incarnon-evolutions/evolutionraptor-schase.png",
+      "owners": [
+        "incarnon-evolutions/laetum-2-raptor-s-chase"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionRaptor%27sChase%28xWhite%29.png?4250e",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionRaptor%27sChase(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36786
+    },
+    {
+      "file": "EvolutionReadyRetaliation.png",
+      "local": "images/incarnon-evolutions/evolutionreadyretaliation.png",
+      "owners": [
+        "incarnon-evolutions/phenmor-3-ready-retaliation"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionReadyRetaliation%28xWhite%29.png?fae6f",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionReadyRetaliation(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33924
+    },
+    {
+      "file": "EvolutionReaper'sPlenty.png",
+      "local": "images/incarnon-evolutions/evolutionreaper-splenty.png",
+      "owners": [
+        "incarnon-evolutions/laetum-5-reaper-s-plenty"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionReaper%27sPlenty%28xWhite%29.png?f35b4",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionReaper%27sPlenty(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 42007
+    },
+    {
+      "file": "EvolutionReducedRecoil.png",
+      "local": "images/incarnon-evolutions/evolutionreducedrecoil.png",
+      "owners": [
+        "incarnon-evolutions/laetum-2-marksman-s-hand"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionReducedRecoil%28xWhite%29.png?c0fc2",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionReducedRecoil(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36898
+    },
+    {
+      "file": "EvolutionRetribution'sVessel.png",
+      "local": "images/incarnon-evolutions/evolutionretribution-svessel.png",
+      "owners": [
+        "incarnon-evolutions/phenmor-3-retribution-s-vessel"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionRetribution%27sVessel%28xWhite%29.png?eba74",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionRetribution%27sVessel(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34300
+    },
+    {
+      "file": "EvolutionSpitefulDefilement.png",
+      "local": "images/incarnon-evolutions/evolutionspitefuldefilement.png",
+      "owners": [
+        "incarnon-evolutions/phenmor-5-spiteful-defilement"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionSpitefulDefilement.png?04692",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionSpitefulDefilement.png",
+      "provider": "Warframe Wiki",
+      "bytes": 38974
+    },
+    {
+      "file": "EvolutionTrade-Off.png",
+      "local": "images/incarnon-evolutions/evolutiontrade-off.png",
+      "owners": [
+        "incarnon-evolutions/felarx-4-racking-wrath",
+        "incarnon-evolutions/laetum-4-elemental-excess",
+        "incarnon-evolutions/phenmor-4-elemental-excess"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionTrade-Off%28xWhite%29.png?6c4b3",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionTrade-Off(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32122
+    },
+    {
+      "file": "EvolutionVoid'sGuidance.png",
+      "local": "images/incarnon-evolutions/evolutionvoid-sguidance.png",
+      "owners": [
+        "incarnon-evolutions/braton-3-void-s-guidance",
+        "incarnon-evolutions/phenmor-2-void-s-guidance"
+      ],
+      "url": "https://wiki.warframe.com/images/EvolutionVoid%27sGuidance%28xWhite%29.png?def86",
+      "sourcePage": "https://wiki.warframe.com/w/File:EvolutionVoid%27sGuidance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33822
+    },
+    {
+      "file": "ExplodingBouncyBallProjections(xWhite).png",
+      "local": "images/incarnon-evolutions/explodingbouncyballprojections-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/stug-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/ExplodingBouncyBallProjections%28xWhite%29.png?e9daa",
+      "sourcePage": "https://wiki.warframe.com/w/File:ExplodingBouncyBallProjections(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 39636
+    },
+    {
+      "file": "ExplodingSpikes.png",
+      "local": "images/incarnon-evolutions/explodingspikes.png",
+      "owners": [
+        "incarnon-evolutions/gorgon-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/ExplodingSpikes%28xWhite%29.png?25eda",
+      "sourcePage": "https://wiki.warframe.com/w/File:ExplodingSpikes(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30525
+    },
+    {
+      "file": "FireRateIncreasesPerShellReloaded.png",
+      "local": "images/incarnon-evolutions/firerateincreasespershellreloaded.png",
+      "owners": [
+        "incarnon-evolutions/felarx-3-mounting-momentum"
+      ],
+      "url": "https://wiki.warframe.com/images/FireRateIncreasesPerShellReloaded%28xWhite%29.png?ce463",
+      "sourcePage": "https://wiki.warframe.com/w/File:FireRateIncreasesPerShellReloaded(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35247
+    },
+    {
+      "file": "GainMultishotOnFireResetOnReload(xWhite).png",
+      "local": "images/incarnon-evolutions/gainmultishotonfireresetonreload-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/stug-2-blazing-barrel"
+      ],
+      "url": "https://wiki.warframe.com/images/GainMultishotOnFireResetOnReload%28xWhite%29.png?1afc0",
+      "sourcePage": "https://wiki.warframe.com/w/File:GainMultishotOnFireResetOnReload(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 22926
+    },
+    {
+      "file": "GainStatusChanceOfCritChance(xWhite).png",
+      "local": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/cestra-4-wiseman-s-regard",
+        "incarnon-evolutions/sicarus-4-wiseman-s-regard",
+        "incarnon-evolutions/stug-4-elemental-dominance",
+        "incarnon-evolutions/vectis-2-survivor-s-edge"
+      ],
+      "url": "https://wiki.warframe.com/images/GainStatusChanceOfCritChance%28xWhite%29.png?ce463",
+      "sourcePage": "https://wiki.warframe.com/w/File:GainStatusChanceOfCritChance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 18731
+    },
+    {
+      "file": "GainStatusChanceOfCritChance.png",
+      "local": "images/incarnon-evolutions/gainstatuschanceofcritchance.png",
+      "owners": [
+        "incarnon-evolutions/sybaris-4-elemental-dominance"
+      ],
+      "url": "https://wiki.warframe.com/images/GainStatusChanceOfCritChance%28xWhite%29.png?ce463",
+      "sourcePage": "https://wiki.warframe.com/w/File:GainStatusChanceOfCritChance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 18731
+    },
+    {
+      "file": "HammerFanBurstShotgun(xWhite).png",
+      "local": "images/incarnon-evolutions/hammerfanburstshotgun-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vasto-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/HammerFanBurstShotgun%28xWhite%29.png?ce463",
+      "sourcePage": "https://wiki.warframe.com/w/File:HammerFanBurstShotgun(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34644
+    },
+    {
+      "file": "HeadshotDamage(xWhite).png",
+      "local": "images/incarnon-evolutions/headshotdamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lex-4-executioner-s-dawn",
+        "incarnon-evolutions/vectis-4-deadhead"
+      ],
+      "url": "https://wiki.warframe.com/images/HeadshotDamage%28xWhite%29.png?ce463",
+      "sourcePage": "https://wiki.warframe.com/w/File:HeadshotDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 41671
+    },
+    {
+      "file": "HeadshotDamage.png",
+      "local": "images/incarnon-evolutions/headshotdamage.png",
+      "owners": [
+        "incarnon-evolutions/latron-4-deadhead"
+      ],
+      "url": "https://wiki.warframe.com/images/HeadshotDamage%28xWhite%29.png?ce463",
+      "sourcePage": "https://wiki.warframe.com/w/File:HeadshotDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 41671
+    },
+    {
+      "file": "HeadshotsExplodeRadialSpheres(xWhite).png",
+      "local": "images/incarnon-evolutions/headshotsexploderadialspheres-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vectis-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/HeadshotsExplodeRadialSpheres%28xWhite%29.png?d643d",
+      "sourcePage": "https://wiki.warframe.com/w/File:HeadshotsExplodeRadialSpheres(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 41570
+    },
+    {
+      "file": "HighCrit(xWhite).png",
+      "local": "images/incarnon-evolutions/highcrit-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/atomos-4-commodore-s-fortune",
+        "incarnon-evolutions/boltor-4-commodore-s-fortune",
+        "incarnon-evolutions/bronco-4-commodore-s-fortune",
+        "incarnon-evolutions/despair-4-critical-parallel",
+        "incarnon-evolutions/dual-toxocyst-4-commodore-s-fortune",
+        "incarnon-evolutions/miter-4-commodore-s-fortune",
+        "incarnon-evolutions/sicarus-4-commodore-s-fortune",
+        "incarnon-evolutions/torid-4-commodore-s-fortune",
+        "incarnon-evolutions/vasto-4-commodore-s-fortune",
+        "incarnon-evolutions/zylok-4-commodore-s-fortune"
+      ],
+      "url": "https://wiki.warframe.com/images/HighCrit%28xWhite%29.png?a2c12",
+      "sourcePage": "https://wiki.warframe.com/w/File:HighCrit(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35961
+    },
+    {
+      "file": "HighCrit.png",
+      "local": "images/incarnon-evolutions/highcrit.png",
+      "owners": [
+        "incarnon-evolutions/burston-4-absolute-valor",
+        "incarnon-evolutions/gorgon-4-absolute-valor",
+        "incarnon-evolutions/strun-4-commodore-s-fortune"
+      ],
+      "url": "https://wiki.warframe.com/images/HighCrit%28xWhite%29.png?a2c12",
+      "sourcePage": "https://wiki.warframe.com/w/File:HighCrit(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35961
+    },
+    {
+      "file": "HighStatus(xWhite).png",
+      "local": "images/incarnon-evolutions/highstatus-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/atomos-4-elemental-balance",
+        "incarnon-evolutions/ballistica-4-elemental-balance",
+        "incarnon-evolutions/boltor-4-elemental-balance",
+        "incarnon-evolutions/despair-4-elemental-balance",
+        "incarnon-evolutions/dread-4-elemental-balance",
+        "incarnon-evolutions/furis-4-elemental-balance",
+        "incarnon-evolutions/gammacor-4-elemental-balance",
+        "incarnon-evolutions/lex-4-elemental-balance",
+        "incarnon-evolutions/torid-4-elemental-balance"
+      ],
+      "url": "https://wiki.warframe.com/images/HighStatus%28xWhite%29.png?a2c12",
+      "sourcePage": "https://wiki.warframe.com/w/File:HighStatus(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38041
+    },
+    {
+      "file": "HighStatus.png",
+      "local": "images/incarnon-evolutions/highstatus.png",
+      "owners": [
+        "incarnon-evolutions/boar-4-elemental-balance",
+        "incarnon-evolutions/gorgon-4-elemental-balance",
+        "incarnon-evolutions/paris-4-elemental-balance",
+        "incarnon-evolutions/strun-4-elemental-balance"
+      ],
+      "url": "https://wiki.warframe.com/images/HighStatus%28xWhite%29.png?a2c12",
+      "sourcePage": "https://wiki.warframe.com/w/File:HighStatus(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38041
+    },
+    {
+      "file": "Hit3EnemiesAmmoEff.png",
+      "local": "images/incarnon-evolutions/hit3enemiesammoeff.png",
+      "owners": [
+        "incarnon-evolutions/felarx-5-ruptured-plentitude"
+      ],
+      "url": "https://wiki.warframe.com/images/Hit3EnemiesAmmoEff%28xWhite%29.png?a2c12",
+      "sourcePage": "https://wiki.warframe.com/w/File:Hit3EnemiesAmmoEff(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34087
+    },
+    {
+      "file": "HittingEnemyAfterPunchThroughEnvironment.png",
+      "local": "images/incarnon-evolutions/hittingenemyafterpunchthroughenvironment.png",
+      "owners": [
+        "incarnon-evolutions/paris-3-ardent-trigger"
+      ],
+      "url": "https://wiki.warframe.com/images/HittingEnemyAfterPunchThroughEnvironment%28xWhite%29.png?9e7f3",
+      "sourcePage": "https://wiki.warframe.com/w/File:HittingEnemyAfterPunchThroughEnvironment(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 39961
+    },
+    {
+      "file": "HittingEnemyWElectricityStatusRestoresRound.png",
+      "local": "images/incarnon-evolutions/hittingenemywelectricitystatusrestoresround.png",
+      "owners": [
+        "incarnon-evolutions/strun-3-swift-deliverance"
+      ],
+      "url": "https://wiki.warframe.com/images/HittingEnemyWElectricityStatusRestoresRound%28xWhite%29.png?9e7f3",
+      "sourcePage": "https://wiki.warframe.com/w/File:HittingEnemyWElectricityStatusRestoresRound(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33618
+    },
+    {
+      "file": "HoldChargedShotAOEonBounce(xWhite).png",
+      "local": "images/incarnon-evolutions/holdchargedshotaoeonbounce-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/miter-4-sawblade-storm"
+      ],
+      "url": "https://wiki.warframe.com/images/HoldChargedShotAOEonBounce%28xWhite%29.png?9e7f3",
+      "sourcePage": "https://wiki.warframe.com/w/File:HoldChargedShotAOEonBounce(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36409
+    },
+    {
+      "file": "IncarnonAmmoPool(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonammopool-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-3-hitman-s-hoard",
+        "incarnon-evolutions/atomos-3-mercenary-chamber",
+        "incarnon-evolutions/dread-3-hitman-s-hoard",
+        "incarnon-evolutions/miter-3-mercenary-chamber"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonAmmoPool%28xWhite%29.png?54c11",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonAmmoPool(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30618
+    },
+    {
+      "file": "IncarnonAmmoPool.png",
+      "local": "images/incarnon-evolutions/incarnonammopool.png",
+      "owners": [
+        "incarnon-evolutions/boar-3-mercenary-chamber",
+        "incarnon-evolutions/braton-3-mercenary-chamber",
+        "incarnon-evolutions/sybaris-3-extended-volley"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonAmmoPool%28xWhite%29.png?54c11",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonAmmoPool(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30618
+    },
+    {
+      "file": "IncarnonClipSize(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonclipsize-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/boltor-3-extended-volley",
+        "incarnon-evolutions/bronco-3-extended-volley",
+        "incarnon-evolutions/dera-3-extended-volley",
+        "incarnon-evolutions/furis-3-extended-volley",
+        "incarnon-evolutions/gammacor-3-extended-volley",
+        "incarnon-evolutions/kunai-3-extended-volley",
+        "incarnon-evolutions/lex-3-extended-volley",
+        "incarnon-evolutions/onos-3-extended-volley",
+        "incarnon-evolutions/sicarus-3-extended-volley",
+        "incarnon-evolutions/torid-3-extended-volley",
+        "incarnon-evolutions/vasto-3-extended-volley",
+        "incarnon-evolutions/zylok-3-extended-volley"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonClipSize%28xWhite%29.png?2cec5",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonClipSize(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 26162
+    },
+    {
+      "file": "IncarnonClipSize.png",
+      "local": "images/incarnon-evolutions/incarnonclipsize.png",
+      "owners": [
+        "incarnon-evolutions/burston-3-extended-volley",
+        "incarnon-evolutions/latron-3-extended-volley"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonClipSize%28xWhite%29.png?2cec5",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonClipSize(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 26162
+    },
+    {
+      "file": "IncarnonCritChanceCritDamage(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnoncritchancecritdamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-4-critical-parallel"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonCritChanceCritDamage%28xWhite%29.png?7abe7",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonCritChanceCritDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35875
+    },
+    {
+      "file": "IncarnonCritChanceCritDamage.png",
+      "local": "images/incarnon-evolutions/incarnoncritchancecritdamage.png",
+      "owners": [
+        "incarnon-evolutions/braton-4-critical-parallel"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonCritChanceCritDamage%28xWhite%29.png?7abe7",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonCritChanceCritDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35875
+    },
+    {
+      "file": "IncarnonFallOff.png",
+      "local": "images/incarnon-evolutions/incarnonfalloff.png",
+      "owners": [
+        "incarnon-evolutions/strun-3-galvanic-reload"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFallOff%28xWhite%29.png?86d23",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFallOff(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36942
+    },
+    {
+      "file": "IncarnonFireRate(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonfirerate-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/kunai-4-accelerating-volley",
+        "incarnon-evolutions/onos-2-rapid-wrath"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFireRate%28xWhite%29.png?86d23",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFireRate(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38450
+    },
+    {
+      "file": "IncarnonFormAOEonHit.png",
+      "local": "images/incarnon-evolutions/incarnonformaoeonhit.png",
+      "owners": [
+        "incarnon-evolutions/braton-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormAOEonHit%28xWhite%29.png?86d23",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormAOEonHit(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36477
+    },
+    {
+      "file": "IncarnonFormExplosiveSlugs.png",
+      "local": "images/incarnon-evolutions/incarnonformexplosiveslugs.png",
+      "owners": [
+        "incarnon-evolutions/strun-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormExplosiveSlugs%28xWhite%29.png?05fd9",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormExplosiveSlugs(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32330
+    },
+    {
+      "file": "IncarnonFormFatBeamOfFire(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformfatbeamoffire-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/furis-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormFatBeamOfFire%28xWhite%29.png?05fd9",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormFatBeamOfFire(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29824
+    },
+    {
+      "file": "IncarnonFormFiresWavesOfEnergyThatBounceOff.png",
+      "local": "images/incarnon-evolutions/incarnonformfireswavesofenergythatbounceoff.png",
+      "owners": [
+        "incarnon-evolutions/latron-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormFiresWavesOfEnergyThatBounceOff%28xWhite%29.png?78227",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormFiresWavesOfEnergyThatBounceOff(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37955
+    },
+    {
+      "file": "IncarnonFormHomingBouncingExplodingProjectiles(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformhomingbouncingexplodingprojectiles-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/miter-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormHomingBouncingExplodingProjectiles%28xWhite%29.png?78227",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormHomingBouncingExplodingProjectiles(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35618
+    },
+    {
+      "file": "IncarnonFormIncreaseDamageAndSizeOfProjectile(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformincreasedamageandsizeofprojectile-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dread-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormIncreaseDamageAndSizeOfProjectile%28xWhite%29.png?78227",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormIncreaseDamageAndSizeOfProjectile(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32601
+    },
+    {
+      "file": "IncarnonFormIncreaseDamageAndSizeOfProjectile.png",
+      "local": "images/incarnon-evolutions/incarnonformincreasedamageandsizeofprojectile.png",
+      "owners": [
+        "incarnon-evolutions/paris-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormIncreaseDamageAndSizeOfProjectile%28xWhite%29.png?78227",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormIncreaseDamageAndSizeOfProjectile(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32601
+    },
+    {
+      "file": "IncarnonFormIncreasedRangeAndRicochet(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformincreasedrangeandricochet-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormIncreasedRangeAndRicochet%28xWhite%29.png?78227",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormIncreasedRangeAndRicochet(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31145
+    },
+    {
+      "file": "IncarnonFormLongRangeBeam(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformlongrangebeam-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/torid-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormLongRangeBeam%28xWhite%29.png?bc850",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormLongRangeBeam(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35220
+    },
+    {
+      "file": "IncarnonFormMultishotSlowerFireRate(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformmultishotslowerfirerate-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/soma-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormMultishotSlowerFireRate%28xWhite%29.png?bc850",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormMultishotSlowerFireRate(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29629
+    },
+    {
+      "file": "IncarnonFormNapalmGrenadeLauncher(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformnapalmgrenadelauncher-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/atomos-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormNapalmGrenadeLauncher%28xWhite%29.png?bc850",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormNapalmGrenadeLauncher(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29841
+    },
+    {
+      "file": "IncarnonFormPassThroughWaveProj(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformpassthroughwaveproj-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lex-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormPassThroughWaveProj%28xWhite%29.png?bc850",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormPassThroughWaveProj(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33956
+    },
+    {
+      "file": "IncarnonFormRicochetOnHittingEnemies(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformricochetonhittingenemies-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dual-toxocyst-1-incarnon-form",
+        "incarnon-evolutions/lato-1-incarnon-form",
+        "incarnon-evolutions/sicarus-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormRicochetOnHittingEnemies%28xWhite%29.png?38297",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormRicochetOnHittingEnemies(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31840
+    },
+    {
+      "file": "IncarnonFormShrapnelMultishotIncreasedSlash(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonformshrapnelmultishotincreasedslash-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/boltor-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonFormShrapnelMultishotIncreasedSlash%28xWhite%29.png?38297",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonFormShrapnelMultishotIncreasedSlash(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35040
+    },
+    {
+      "file": "IncarnonMultishot(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonmultishot-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-4-rain-of-lead"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonMultishot%28xWhite%29.png?2c6e2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonMultishot(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33732
+    },
+    {
+      "file": "IncarnonProjectileSpeed(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-3-swift-deliverance",
+        "incarnon-evolutions/ballistica-3-swift-deliverance",
+        "incarnon-evolutions/boltor-3-swift-deliverance",
+        "incarnon-evolutions/cestra-3-swift-deliverance",
+        "incarnon-evolutions/despair-3-swift-deliverance",
+        "incarnon-evolutions/dread-3-swift-deliverance",
+        "incarnon-evolutions/kunai-3-swift-deliverance",
+        "incarnon-evolutions/miter-3-swift-deliverance",
+        "incarnon-evolutions/onos-2-swift-deliverance",
+        "incarnon-evolutions/stug-3-swift-deliverance",
+        "incarnon-evolutions/torid-3-swift-deliverance"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonProjectileSpeed%28xWhite%29.png?2c6e2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonProjectileSpeed(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29380
+    },
+    {
+      "file": "IncarnonProjectileSpeed.png",
+      "local": "images/incarnon-evolutions/incarnonprojectilespeed.png",
+      "owners": [
+        "incarnon-evolutions/paris-3-swift-deliverance"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonProjectileSpeed%28xWhite%29.png?2c6e2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonProjectileSpeed(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29380
+    },
+    {
+      "file": "IncarnonReloadSpeed(xWhite).png",
+      "local": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-3-rapid-reinforcement",
+        "incarnon-evolutions/atomos-3-resonant-restore",
+        "incarnon-evolutions/ballistica-3-rapid-reinforcement",
+        "incarnon-evolutions/boltor-3-rapid-reinforcement",
+        "incarnon-evolutions/cestra-3-rapid-reinforcement",
+        "incarnon-evolutions/despair-3-rapid-reinforcement",
+        "incarnon-evolutions/dual-toxocyst-3-evolved-autoloader",
+        "incarnon-evolutions/dual-toxocyst-3-ready-retaliation",
+        "incarnon-evolutions/kunai-3-rapid-reinforcement",
+        "incarnon-evolutions/lex-3-ready-retaliation",
+        "incarnon-evolutions/miter-3-ready-retaliation",
+        "incarnon-evolutions/onos-3-rapid-reinforcement",
+        "incarnon-evolutions/sicarus-3-rapid-reinforcement",
+        "incarnon-evolutions/soma-3-rapid-reinforcement",
+        "incarnon-evolutions/stug-3-rapid-reinforcement",
+        "incarnon-evolutions/stug-3-resonant-restore",
+        "incarnon-evolutions/torid-3-renewed-horror",
+        "incarnon-evolutions/vasto-3-awakened-readiness",
+        "incarnon-evolutions/vectis-3-rapid-reinforcement",
+        "incarnon-evolutions/zylok-3-rapid-reinforcement"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonReloadSpeed%28xWhite%29.png?2c6e2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonReloadSpeed(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32303
+    },
+    {
+      "file": "IncarnonReloadSpeed.png",
+      "local": "images/incarnon-evolutions/incarnonreloadspeed.png",
+      "owners": [
+        "incarnon-evolutions/burston-3-ready-retaliation",
+        "incarnon-evolutions/gorgon-3-rapid-reinforcement",
+        "incarnon-evolutions/strun-3-rapid-reinforcement"
+      ],
+      "url": "https://wiki.warframe.com/images/IncarnonReloadSpeed%28xWhite%29.png?2c6e2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncarnonReloadSpeed(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32303
+    },
+    {
+      "file": "IncreaseChargeGainedOnKills.png",
+      "local": "images/incarnon-evolutions/increasechargegainedonkills.png",
+      "owners": [
+        "incarnon-evolutions/felarx-4-incarnon-catalyst",
+        "incarnon-evolutions/onos-4-incarnon-efficiency"
+      ],
+      "url": "https://wiki.warframe.com/images/IncreaseChargeGainedOnKills%28xWhite%29.png?342a2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncreaseChargeGainedOnKills(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 39206
+    },
+    {
+      "file": "IncreasedCritWithEnergy(xWhite).png",
+      "local": "images/incarnon-evolutions/increasedcritwithenergy-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-2-paladin-virtue",
+        "incarnon-evolutions/atomos-2-paladin-virtue"
+      ],
+      "url": "https://wiki.warframe.com/images/IncreasedCritWithEnergy%28xWhite%29.png?342a2",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncreasedCritWithEnergy(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38374
+    },
+    {
+      "file": "IncreasedFireRateOnAbilityUseStacks(xWhite).png",
+      "local": "images/incarnon-evolutions/increasedfirerateonabilityusestacks-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dual-toxocyst-2-fevered-frenzy"
+      ],
+      "url": "https://wiki.warframe.com/images/IncreasedFireRateOnAbilityUseStacks%28xWhite%29.png?aa801",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncreasedFireRateOnAbilityUseStacks(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33027
+    },
+    {
+      "file": "IncreasedFireRateWithActiveChanneledAbility(xWhite).png",
+      "local": "images/incarnon-evolutions/increasedfireratewithactivechanneledability-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/miter-2-swift-sawblades",
+        "incarnon-evolutions/vectis-2-inciting-incident"
+      ],
+      "url": "https://wiki.warframe.com/images/IncreasedFireRateWithActiveChanneledAbility%28xWhite%29.png?aa801",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncreasedFireRateWithActiveChanneledAbility(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35038
+    },
+    {
+      "file": "IncreasedFireRateWithDespairAndHateEquipped(xWhite).png",
+      "local": "images/incarnon-evolutions/increasedfireratewithdespairandhateequipped-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dread-2-stalker-s-resentment"
+      ],
+      "url": "https://wiki.warframe.com/images/IncreasedFireRateWithDespairAndHateEquipped%28xWhite%29.png?aa801",
+      "sourcePage": "https://wiki.warframe.com/w/File:IncreasedFireRateWithDespairAndHateEquipped(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33879
+    },
+    {
+      "file": "LessRecoil(xWhite).png",
+      "local": "images/incarnon-evolutions/lessrecoil-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-3-kinetic-battle",
+        "incarnon-evolutions/dual-toxocyst-3-marksman-s-hand",
+        "incarnon-evolutions/onos-2-marksman-s-hand",
+        "incarnon-evolutions/soma-3-kinetic-battle",
+        "incarnon-evolutions/vasto-3-marksman-s-hand",
+        "incarnon-evolutions/vectis-3-marksman-s-hand"
+      ],
+      "url": "https://wiki.warframe.com/images/LessRecoil%28xWhite%29.png?f325a",
+      "sourcePage": "https://wiki.warframe.com/w/File:LessRecoil(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35465
+    },
+    {
+      "file": "LessRecoil.png",
+      "local": "images/incarnon-evolutions/lessrecoil.png",
+      "owners": [
+        "incarnon-evolutions/burston-3-kinetic-battle",
+        "incarnon-evolutions/felarx-2-kinetic-baffle",
+        "incarnon-evolutions/gorgon-3-void-s-guidance",
+        "incarnon-evolutions/latron-3-marksman-s-hand",
+        "incarnon-evolutions/sybaris-3-marksman-s-hand"
+      ],
+      "url": "https://wiki.warframe.com/images/LessRecoil%28xWhite%29.png?f325a",
+      "sourcePage": "https://wiki.warframe.com/w/File:LessRecoil(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35465
+    },
+    {
+      "file": "LessRecoilMoreAccuracy(xWhite).png",
+      "local": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/ballistica-3-void-s-guidance",
+        "incarnon-evolutions/cestra-3-slayer-s-nerve",
+        "incarnon-evolutions/dera-3-swift-deliverance",
+        "incarnon-evolutions/lato-3-void-s-guidance",
+        "incarnon-evolutions/soma-3-practiced-grip",
+        "incarnon-evolutions/zylok-3-void-s-guidance"
+      ],
+      "url": "https://wiki.warframe.com/images/LessRecoilMoreAccuracy%28xWhite%29.png?0cfff",
+      "sourcePage": "https://wiki.warframe.com/w/File:LessRecoilMoreAccuracy(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33251
+    },
+    {
+      "file": "LowerFOV(xWhite).png",
+      "local": "images/incarnon-evolutions/lowerfov-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/despair-3-marksman-s-focus",
+        "incarnon-evolutions/dread-3-marksman-s-focus"
+      ],
+      "url": "https://wiki.warframe.com/images/LowerFOV%28xWhite%29.png?0cfff",
+      "sourcePage": "https://wiki.warframe.com/w/File:LowerFOV(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30866
+    },
+    {
+      "file": "LowerFOV.png",
+      "local": "images/incarnon-evolutions/lowerfov.png",
+      "owners": [
+        "incarnon-evolutions/latron-3-marksman-s-focus",
+        "incarnon-evolutions/paris-3-markman-s-focus"
+      ],
+      "url": "https://wiki.warframe.com/images/LowerFOV%28xWhite%29.png?0cfff",
+      "sourcePage": "https://wiki.warframe.com/w/File:LowerFOV(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30866
+    },
+    {
+      "file": "MaxEnergyAboveXIncreaseRadialSize(xWhite).png",
+      "local": "images/incarnon-evolutions/maxenergyabovexincreaseradialsize-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/stug-2-overcharge-blast"
+      ],
+      "url": "https://wiki.warframe.com/images/MaxEnergyAboveXIncreaseRadialSize%28xWhite%29.png?74f6a",
+      "sourcePage": "https://wiki.warframe.com/w/File:MaxEnergyAboveXIncreaseRadialSize(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31718
+    },
+    {
+      "file": "MoreAccuracy(xWhite).png",
+      "local": "images/incarnon-evolutions/moreaccuracy-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/bronco-3-practised-grip",
+        "incarnon-evolutions/furis-3-practiced-grip",
+        "incarnon-evolutions/sicarus-3-void-s-guidance"
+      ],
+      "url": "https://wiki.warframe.com/images/MoreAccuracy%28xWhite%29.png?0cfff",
+      "sourcePage": "https://wiki.warframe.com/w/File:MoreAccuracy(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31082
+    },
+    {
+      "file": "MoreAccuracy.png",
+      "local": "images/incarnon-evolutions/moreaccuracy.png",
+      "owners": [
+        "incarnon-evolutions/boar-3-practiced-grip",
+        "incarnon-evolutions/felarx-2-attuned-accuracy"
+      ],
+      "url": "https://wiki.warframe.com/images/MoreAccuracy%28xWhite%29.png?0cfff",
+      "sourcePage": "https://wiki.warframe.com/w/File:MoreAccuracy(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31082
+    },
+    {
+      "file": "MoreRange(xWhite).png",
+      "local": "images/incarnon-evolutions/morerange-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/atomos-3-moonrise-velocity",
+        "incarnon-evolutions/gammacor-3-moonrise-velocity"
+      ],
+      "url": "https://wiki.warframe.com/images/MoreRange%28xWhite%29.png?0cfff",
+      "sourcePage": "https://wiki.warframe.com/w/File:MoreRange(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 25709
+    },
+    {
+      "file": "MultishotCostsAmmoTakenFromPoolAdditionalDamage(xWhite).png",
+      "local": "images/incarnon-evolutions/multishotcostsammotakenfrompooladditionaldamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/miter-2-plentiful-mayhem",
+        "incarnon-evolutions/torid-2-plentiful-mayhem"
+      ],
+      "url": "https://wiki.warframe.com/images/MultishotCostsAmmoTakenFromPoolAdditionalDamage%28xWhite%29.png?e93a1",
+      "sourcePage": "https://wiki.warframe.com/w/File:MultishotCostsAmmoTakenFromPoolAdditionalDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34869
+    },
+    {
+      "file": "MultishotCostsAmmoTakenFromPoolNotClip.png",
+      "local": "images/incarnon-evolutions/multishotcostsammotakenfrompoolnotclip.png",
+      "owners": [
+        "incarnon-evolutions/braton-2-munitions-grit",
+        "incarnon-evolutions/sybaris-2-blazing-barrel"
+      ],
+      "url": "https://wiki.warframe.com/images/MultishotCostsAmmoTakenFromPoolNotClip%28xWhite%29.png?e93a1",
+      "sourcePage": "https://wiki.warframe.com/w/File:MultishotCostsAmmoTakenFromPoolNotClip(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31756
+    },
+    {
+      "file": "MultishotIncreasesOnEachShotResetsOnReload.png",
+      "local": "images/incarnon-evolutions/multishotincreasesoneachshotresetsonreload.png",
+      "owners": [
+        "incarnon-evolutions/strun-2-blazing-barrel"
+      ],
+      "url": "https://wiki.warframe.com/images/MultishotIncreasesOnEachShotResetsOnReload%28xWhite%29.png?e93a1",
+      "sourcePage": "https://wiki.warframe.com/w/File:MultishotIncreasesOnEachShotResetsOnReload(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30567
+    },
+    {
+      "file": "MultishotOnLastBurstInMag.png",
+      "local": "images/incarnon-evolutions/multishotonlastburstinmag.png",
+      "owners": [
+        "incarnon-evolutions/burston-2-forceful-finality"
+      ],
+      "url": "https://wiki.warframe.com/images/MultishotOnLastBurstInMag%28xWhite%29.png?e93a1",
+      "sourcePage": "https://wiki.warframe.com/w/File:MultishotOnLastBurstInMag(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34495
+    },
+    {
+      "file": "MultishotThatCostsAmmoWithDreadAndHateEquipped(xWhite).png",
+      "local": "images/incarnon-evolutions/multishotthatcostsammowithdreadandhateequipped-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/despair-2-stalker-s-vendetta"
+      ],
+      "url": "https://wiki.warframe.com/images/MultishotThatCostsAmmoWithDreadAndHateEquipped%28xWhite%29.png?0112f",
+      "sourcePage": "https://wiki.warframe.com/w/File:MultishotThatCostsAmmoWithDreadAndHateEquipped(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36115
+    },
+    {
+      "file": "MultishotWhileGlidingAndSliding.png",
+      "local": "images/incarnon-evolutions/multishotwhileglidingandsliding.png",
+      "owners": [
+        "incarnon-evolutions/felarx-5-agile-executor"
+      ],
+      "url": "https://wiki.warframe.com/images/MultishotWhileGlidingAndSliding%28xWhite%29.png?0112f",
+      "sourcePage": "https://wiki.warframe.com/w/File:MultishotWhileGlidingAndSliding(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 23993
+    },
+    {
+      "file": "OnEquipCritChanceDamageOnFirstAttack(xWhite).png",
+      "local": "images/incarnon-evolutions/onequipcritchancedamageonfirstattack-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/cestra-1-incarnon-form",
+        "incarnon-evolutions/kunai-4-deathtrap-trigger",
+        "incarnon-evolutions/lato-4-deathtrap-trigger"
+      ],
+      "url": "https://wiki.warframe.com/images/OnEquipCritChanceDamageOnFirstAttack%28xWhite%29.png?0112f",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnEquipCritChanceDamageOnFirstAttack(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 38033
+    },
+    {
+      "file": "OnHeadshotAmmoEfficiency(xWhite).png",
+      "local": "images/incarnon-evolutions/onheadshotammoefficiency-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vasto-4-reaper-s-plenty"
+      ],
+      "url": "https://wiki.warframe.com/images/OnHeadshotAmmoEfficiency%28xWhite%29.png?0112f",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnHeadshotAmmoEfficiency(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32094
+    },
+    {
+      "file": "OnHeadshotDecreaseRecoilIncreaseAccuracy(xWhite).png",
+      "local": "images/incarnon-evolutions/onheadshotdecreaserecoilincreaseaccuracy-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lex-3-lex-talionis"
+      ],
+      "url": "https://wiki.warframe.com/images/OnHeadshotDecreaseRecoilIncreaseAccuracy%28xWhite%29.png?54816",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnHeadshotDecreaseRecoilIncreaseAccuracy(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37349
+    },
+    {
+      "file": "OnHeadshotFireRateForXSecs(xWhite).png",
+      "local": "images/incarnon-evolutions/onheadshotfirerateforxsecs-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/ballistica-2-headcracker",
+        "incarnon-evolutions/furis-4-headcracker"
+      ],
+      "url": "https://wiki.warframe.com/images/OnHeadshotFireRateForXSecs%28xWhite%29.png?54816",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnHeadshotFireRateForXSecs(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36497
+    },
+    {
+      "file": "OnHeadshotFromFullBurst(xWhite).png",
+      "local": "images/incarnon-evolutions/onheadshotfromfullburst-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/zylok-2-precision-s-payoff"
+      ],
+      "url": "https://wiki.warframe.com/images/OnHeadshotFromFullBurst%28xWhite%29.png?54816",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnHeadshotFromFullBurst(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37103
+    },
+    {
+      "file": "OnHeadshotKillAmmoEff(xWhite).png",
+      "local": "images/incarnon-evolutions/onheadshotkillammoeff-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lato-3-marksman-s-gain"
+      ],
+      "url": "https://wiki.warframe.com/images/OnHeadshotKillAmmoEff%28xWhite%29.png?dde67",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnHeadshotKillAmmoEff(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 40737
+    },
+    {
+      "file": "OnKillChancetogetXAmmo.png",
+      "local": "images/incarnon-evolutions/onkillchancetogetxammo.png",
+      "owners": [
+        "incarnon-evolutions/onos-3-hunter-s-rearmament"
+      ],
+      "url": "https://wiki.warframe.com/images/OnKillChancetogetXAmmo%28xWhite%29.png?1827c",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnKillChancetogetXAmmo(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29333
+    },
+    {
+      "file": "OnKillPunchThrough(xWhite).png",
+      "local": "images/incarnon-evolutions/onkillpunchthrough-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dual-toxocyst-4-ripper-rounds"
+      ],
+      "url": "https://wiki.warframe.com/images/OnKillPunchThrough%28xWhite%29.png?f6f89",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnKillPunchThrough(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35728
+    },
+    {
+      "file": "OnKillPunchThrough.png",
+      "local": "images/incarnon-evolutions/onkillpunchthrough.png",
+      "owners": [
+        "incarnon-evolutions/onos-4-lethal-lance"
+      ],
+      "url": "https://wiki.warframe.com/images/OnKillPunchThrough%28xWhite%29.png?f6f89",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnKillPunchThrough(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 35728
+    },
+    {
+      "file": "OnKillSlashDamageAddOvershields(xWhite).png",
+      "local": "images/incarnon-evolutions/onkillslashdamageaddovershields-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/soma-2-fortifying-bloodshed"
+      ],
+      "url": "https://wiki.warframe.com/images/OnKillSlashDamageAddOvershields%28xWhite%29.png?f6f89",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnKillSlashDamageAddOvershields(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 29550
+    },
+    {
+      "file": "OnPunchThroughIncreaseDmg(xWhite).png",
+      "local": "images/incarnon-evolutions/onpunchthroughincreasedmg-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/onos-5-impaler-s-ferocity"
+      ],
+      "url": "https://wiki.warframe.com/images/OnPunchThroughIncreaseDmg%28xWhite%29.png?f6f89",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnPunchThroughIncreaseDmg(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37849
+    },
+    {
+      "file": "OnShieldLossDamage(xWhite).png",
+      "local": "images/incarnon-evolutions/onshieldlossdamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lex-2-hoplite-virtue"
+      ],
+      "url": "https://wiki.warframe.com/images/OnShieldLossDamage%28xWhite%29.png?74a9d",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnShieldLossDamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 28117
+    },
+    {
+      "file": "OnShieldOverGuardbreakCritdamage(xWhite).png",
+      "local": "images/incarnon-evolutions/onshieldoverguardbreakcritdamage-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/cestra-2-steadfast-grit"
+      ],
+      "url": "https://wiki.warframe.com/images/OnShieldOverGuardbreakCritdamage%28xWhite%29.png?1827c",
+      "sourcePage": "https://wiki.warframe.com/w/File:OnShieldOverGuardbreakCritdamage(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 18811
+    },
+    {
+      "file": "ProjectileBombFreezeProc(xWhite).png",
+      "local": "images/incarnon-evolutions/projectilebombfreezeproc-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/gammacor-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/ProjectileBombFreezeProc%28xWhite%29.png?ed069",
+      "sourcePage": "https://wiki.warframe.com/w/File:ProjectileBombFreezeProc(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30609
+    },
+    {
+      "file": "PunchThroughWithArmorAboveX(xWhite).png",
+      "local": "images/incarnon-evolutions/punchthroughwitharmorabovex-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/soma-2-fortress-salvo"
+      ],
+      "url": "https://wiki.warframe.com/images/PunchThroughWithArmorAboveX%28xWhite%29.png?45fbc",
+      "sourcePage": "https://wiki.warframe.com/w/File:PunchThroughWithArmorAboveX(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37250
+    },
+    {
+      "file": "PunchThroughWithArmorAboveX.png",
+      "local": "images/incarnon-evolutions/punchthroughwitharmorabovex.png",
+      "owners": [
+        "incarnon-evolutions/boar-2-fortress-salvo",
+        "incarnon-evolutions/burston-2-fortress-salvo"
+      ],
+      "url": "https://wiki.warframe.com/images/PunchThroughWithArmorAboveX%28xWhite%29.png?45fbc",
+      "sourcePage": "https://wiki.warframe.com/w/File:PunchThroughWithArmorAboveX(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 37250
+    },
+    {
+      "file": "PunchThroughWithOvershields(xWhite).png",
+      "local": "images/incarnon-evolutions/punchthroughwithovershields-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/strun-2-tenno-targeting"
+      ],
+      "url": "https://wiki.warframe.com/images/PunchThroughWithOvershields%28xWhite%29.png?45fbc",
+      "sourcePage": "https://wiki.warframe.com/w/File:PunchThroughWithOvershields(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 27810
+    },
+    {
+      "file": "ReloadFromEmpty(xWhite).png",
+      "local": "images/incarnon-evolutions/reloadfromempty-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/lato-2-reified-bane",
+        "incarnon-evolutions/soma-4-fresh-havoc"
+      ],
+      "url": "https://wiki.warframe.com/images/ReloadFromEmpty%28xWhite%29.png?8f5d5",
+      "sourcePage": "https://wiki.warframe.com/w/File:ReloadFromEmpty(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31117
+    },
+    {
+      "file": "ReloadFromEmpty.png",
+      "local": "images/incarnon-evolutions/reloadfromempty.png",
+      "owners": [
+        "incarnon-evolutions/boar-2-reified-bane"
+      ],
+      "url": "https://wiki.warframe.com/images/ReloadFromEmpty%28xWhite%29.png?8f5d5",
+      "sourcePage": "https://wiki.warframe.com/w/File:ReloadFromEmpty(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31117
+    },
+    {
+      "file": "ReloadOnEmptyGivesMagSize.png",
+      "local": "images/incarnon-evolutions/reloadonemptygivesmagsize.png",
+      "owners": [
+        "incarnon-evolutions/gorgon-3-resonant-restore"
+      ],
+      "url": "https://wiki.warframe.com/images/ReloadOnEmptyGivesMagSize%28xWhite%29.png?8f5d5",
+      "sourcePage": "https://wiki.warframe.com/w/File:ReloadOnEmptyGivesMagSize(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33619
+    },
+    {
+      "file": "ReloadSpeedOnEmpty.png",
+      "local": "images/incarnon-evolutions/reloadspeedonempty.png",
+      "owners": [
+        "incarnon-evolutions/boar-3-ready-retaliation",
+        "incarnon-evolutions/sybaris-3-ready-retaliation"
+      ],
+      "url": "https://wiki.warframe.com/images/ReloadSpeedOnEmpty%28xWhite%29.png?8f5d5",
+      "sourcePage": "https://wiki.warframe.com/w/File:ReloadSpeedOnEmpty(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 32566
+    },
+    {
+      "file": "ReloadWhileHolstered(xWhite).png",
+      "local": "images/incarnon-evolutions/reloadwhileholstered-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/gammacor-3-evolved-autoloader"
+      ],
+      "url": "https://wiki.warframe.com/images/ReloadWhileHolstered%28xWhite%29.png?2c36c",
+      "sourcePage": "https://wiki.warframe.com/w/File:ReloadWhileHolstered(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31713
+    },
+    {
+      "file": "ReloadWhileHolstered.png",
+      "local": "images/incarnon-evolutions/reloadwhileholstered.png",
+      "owners": [
+        "incarnon-evolutions/felarx-3-evolved-autoloader"
+      ],
+      "url": "https://wiki.warframe.com/images/ReloadWhileHolstered%28xWhite%29.png?2c36c",
+      "sourcePage": "https://wiki.warframe.com/w/File:ReloadWhileHolstered(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31713
+    },
+    {
+      "file": "RestoreAmmoPickUpAmountToCapacity(xWhite).png",
+      "local": "images/incarnon-evolutions/restoreammopickupamounttocapacity-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dera-3-evolved-autoloader"
+      ],
+      "url": "https://wiki.warframe.com/images/RestoreAmmoPickUpAmountToCapacity%28xWhite%29.png?2c36c",
+      "sourcePage": "https://wiki.warframe.com/w/File:RestoreAmmoPickUpAmountToCapacity(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30668
+    },
+    {
+      "file": "RestoreAmmoPickUpAmountToCapacity.png",
+      "local": "images/incarnon-evolutions/restoreammopickupamounttocapacity.png",
+      "owners": [
+        "incarnon-evolutions/braton-3-gunsmoke-pick-up"
+      ],
+      "url": "https://wiki.warframe.com/images/RestoreAmmoPickUpAmountToCapacity%28xWhite%29.png?2c36c",
+      "sourcePage": "https://wiki.warframe.com/w/File:RestoreAmmoPickUpAmountToCapacity(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30668
+    },
+    {
+      "file": "SeekingFireballs(xWhite).png",
+      "local": "images/incarnon-evolutions/seekingfireballs-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/SeekingFireballs%28xWhite%29.png?f36e3",
+      "sourcePage": "https://wiki.warframe.com/w/File:SeekingFireballs(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 36105
+    },
+    {
+      "file": "ShortRangeBeams(xWhite).png",
+      "local": "images/incarnon-evolutions/shortrangebeams-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dera-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/ShortRangeBeams%28xWhite%29.png?f36e3",
+      "sourcePage": "https://wiki.warframe.com/w/File:ShortRangeBeams(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31665
+    },
+    {
+      "file": "ShortRangeBeams.png",
+      "local": "images/incarnon-evolutions/shortrangebeams.png",
+      "owners": [
+        "incarnon-evolutions/boar-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/ShortRangeBeams%28xWhite%29.png?f36e3",
+      "sourcePage": "https://wiki.warframe.com/w/File:ShortRangeBeams(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31665
+    },
+    {
+      "file": "ShotsAreSilent(xWhite).png",
+      "local": "images/incarnon-evolutions/shotsaresilent-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vectis-3-silent-running"
+      ],
+      "url": "https://wiki.warframe.com/images/ShotsAreSilent%28xWhite%29.png?dcb2d",
+      "sourcePage": "https://wiki.warframe.com/w/File:ShotsAreSilent(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 25980
+    },
+    {
+      "file": "SingleShotChargeExplosiveHit(xWhite).png",
+      "local": "images/incarnon-evolutions/singleshotchargeexplosivehit-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/zylok-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/SingleShotChargeExplosiveHit%28xWhite%29.png?f36e3",
+      "sourcePage": "https://wiki.warframe.com/w/File:SingleShotChargeExplosiveHit(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 34535
+    },
+    {
+      "file": "ToggleBetweenProjectileSpeedAndPunchThrough.png",
+      "local": "images/incarnon-evolutions/togglebetweenprojectilespeedandpunchthrough.png",
+      "owners": [
+        "incarnon-evolutions/felarx-3-dual-mode"
+      ],
+      "url": "https://wiki.warframe.com/images/ToggleBetweenProjectileSpeedAndPunchThrough%28xWhite%29.png?e946e",
+      "sourcePage": "https://wiki.warframe.com/w/File:ToggleBetweenProjectileSpeedAndPunchThrough(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 30252
+    },
+    {
+      "file": "UnchargedAndChargedProjectiles(xWhite).png",
+      "local": "images/incarnon-evolutions/unchargedandchargedprojectiles-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/ballistica-1-incarnon-form"
+      ],
+      "url": "https://wiki.warframe.com/images/UnchargedAndChargedProjectiles%28xWhite%29.png?63e42",
+      "sourcePage": "https://wiki.warframe.com/w/File:UnchargedAndChargedProjectiles(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31194
+    },
+    {
+      "file": "WeaponStatusProcFireRate(xWhite).png",
+      "local": "images/incarnon-evolutions/weaponstatusprocfirerate-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/dera-2-paragon-essence"
+      ],
+      "url": "https://wiki.warframe.com/images/WeaponStatusProcFireRate%28xWhite%29.png?e946e",
+      "sourcePage": "https://wiki.warframe.com/w/File:WeaponStatusProcFireRate(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 16618
+    },
+    {
+      "file": "XCritChanceYStatChance(xWhite).png",
+      "local": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/angstrum-4-survivor-s-edge",
+        "incarnon-evolutions/atomos-4-survivor-s-edge",
+        "incarnon-evolutions/ballistica-4-survivor-s-edge",
+        "incarnon-evolutions/boltor-4-survivor-s-edge",
+        "incarnon-evolutions/cestra-4-survivor-s-edge",
+        "incarnon-evolutions/dera-4-elemental-balance",
+        "incarnon-evolutions/despair-4-survivor-s-edge",
+        "incarnon-evolutions/dread-4-survivor-s-edge",
+        "incarnon-evolutions/gammacor-4-survivor-s-edge",
+        "incarnon-evolutions/kunai-4-survivor-s-edge",
+        "incarnon-evolutions/lato-4-survivor-s-edge",
+        "incarnon-evolutions/miter-4-critical-parallel",
+        "incarnon-evolutions/sicarus-4-survivor-s-edge",
+        "incarnon-evolutions/stug-4-survivor-s-edge",
+        "incarnon-evolutions/torid-4-survivor-s-edge",
+        "incarnon-evolutions/vasto-4-survivor-s-edge",
+        "incarnon-evolutions/zylok-4-survivor-s-edge"
+      ],
+      "url": "https://wiki.warframe.com/images/XCritChanceYStatChance%28xWhite%29.png?d114d",
+      "sourcePage": "https://wiki.warframe.com/w/File:XCritChanceYStatChance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33859
+    },
+    {
+      "file": "XCritChanceYStatChance.png",
+      "local": "images/incarnon-evolutions/xcritchanceystatchance.png",
+      "owners": [
+        "incarnon-evolutions/boar-4-survivor-s-edge",
+        "incarnon-evolutions/braton-4-survivor-s-edge",
+        "incarnon-evolutions/gorgon-4-survivor-s-edge",
+        "incarnon-evolutions/strun-4-brutal-edge"
+      ],
+      "url": "https://wiki.warframe.com/images/XCritChanceYStatChance%28xWhite%29.png?d114d",
+      "sourcePage": "https://wiki.warframe.com/w/File:XCritChanceYStatChance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 33859
+    },
+    {
+      "file": "XDamageToEnemiesAtFullHealthAndBelowHalfHealth(xWhite).png",
+      "local": "images/incarnon-evolutions/xdamagetoenemiesatfullhealthandbelowhalfhealth-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/sicarus-2-feigned-retreat"
+      ],
+      "url": "https://wiki.warframe.com/images/XDamageToEnemiesAtFullHealthAndBelowHalfHealth%28xWhite%29.png?c44d9",
+      "sourcePage": "https://wiki.warframe.com/w/File:XDamageToEnemiesAtFullHealthAndBelowHalfHealth(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 14329
+    },
+    {
+      "file": "XMultishotNoEnemiesWithinYm(xWhite).png",
+      "local": "images/incarnon-evolutions/xmultishotnoenemieswithinym-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/vectis-2-lone-enforcer"
+      ],
+      "url": "https://wiki.warframe.com/images/XMultishotNoEnemiesWithinYm%28xWhite%29.png?0a93c",
+      "sourcePage": "https://wiki.warframe.com/w/File:XMultishotNoEnemiesWithinYm(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31585
+    },
+    {
+      "file": "XStatChanceNegYCritChance(xWhite).png",
+      "local": "images/incarnon-evolutions/xstatchancenegycritchance-xwhite.png",
+      "owners": [
+        "incarnon-evolutions/onos-4-elemental-excess"
+      ],
+      "url": "https://wiki.warframe.com/images/XStatChanceNegYCritChance%28xWhite%29.png?c44d9",
+      "sourcePage": "https://wiki.warframe.com/w/File:XStatChanceNegYCritChance(xWhite).png",
+      "provider": "Warframe Wiki",
+      "bytes": 31283
+    },
+    {
       "file": "arcane-AkimboSlipShot.png",
       "local": "images/mods/arcane-AkimboSlipShot.png",
       "owners": [
@@ -12302,6 +14333,39 @@
       "sourcePage": "https://warframe.fandom.com/wiki/File:LegendaryTopRightBacker.png",
       "provider": "Warframe Wiki file catalog (Fandom)",
       "bytes": 511
+    },
+    {
+      "file": "OmegaFrameBottom.png",
+      "local": "images/mods/frames/OmegaFrameBottom.png",
+      "owners": [
+        "ui/mod-frame/riven"
+      ],
+      "url": "https://overframe.gg/static/images/mod/OmegaFrameBottom.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 9087
+    },
+    {
+      "file": "OmegaFrameTop.png",
+      "local": "images/mods/frames/OmegaFrameTop.png",
+      "owners": [
+        "ui/mod-frame/riven"
+      ],
+      "url": "https://overframe.gg/static/images/mod/OmegaFrameTop.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 8034
+    },
+    {
+      "file": "OmegaSideLight.png",
+      "local": "images/mods/frames/OmegaSideLight.png",
+      "owners": [
+        "ui/mod-frame/riven"
+      ],
+      "url": "https://overframe.gg/static/images/mod/OmegaSideLight.png",
+      "sourcePage": "https://overframe.gg/",
+      "provider": "Overframe",
+      "bytes": 1163
     },
     {
       "file": "RankCompleteLine.png",
@@ -58200,6 +60264,51 @@
       "provider": "Warframe Wiki"
     },
     {
+      "file": "icon-aura.png",
+      "local": "images/mods/slots/icon-aura.png",
+      "owners": [
+        "ui/aura-slot"
+      ],
+      "url": "https://static.overframe.gg/static/images/icon-aura.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 1048
+    },
+    {
+      "file": "icon-exilus.png",
+      "local": "images/mods/slots/icon-exilus.png",
+      "owners": [
+        "ui/exilus-slot"
+      ],
+      "url": "https://static.overframe.gg/static/images/icon-exilus.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 923
+    },
+    {
+      "file": "NoArcaneIcon.png",
+      "local": "images/mods/slots/no-arcane.png",
+      "owners": [
+        "ui/empty-weapon-arcane-slot",
+        "ui/empty-warframe-arcane-slot"
+      ],
+      "url": "https://static.overframe.gg/static/images/mod/arcanes/NoArcaneIcon.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 16011
+    },
+    {
+      "file": "warframe_placeholder.png",
+      "local": "images/mods/slots/warframe-placeholder.png",
+      "owners": [
+        "ui/empty-mod-slot"
+      ],
+      "url": "https://overframe.gg/static/images/warframe_placeholder.png",
+      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
+      "provider": "Overframe",
+      "bytes": 2478
+    },
+    {
       "file": "placeholder.svg",
       "local": "images/placeholder.svg",
       "owners": [
@@ -66380,84 +68489,6 @@
       "bytes": 34883,
       "sourcePage": "https://wiki.warframe.com/w/File:Zymos.png",
       "provider": "Warframe Wiki"
-    },
-    {
-      "file": "warframe_placeholder.png",
-      "local": "images/mods/slots/warframe-placeholder.png",
-      "owners": [
-        "ui/empty-mod-slot"
-      ],
-      "url": "https://overframe.gg/static/images/warframe_placeholder.png",
-      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
-      "provider": "Overframe",
-      "bytes": 2478
-    },
-    {
-      "file": "icon-exilus.png",
-      "local": "images/mods/slots/icon-exilus.png",
-      "owners": [
-        "ui/exilus-slot"
-      ],
-      "url": "https://static.overframe.gg/static/images/icon-exilus.png",
-      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
-      "provider": "Overframe",
-      "bytes": 923
-    },
-    {
-      "file": "icon-aura.png",
-      "local": "images/mods/slots/icon-aura.png",
-      "owners": [
-        "ui/aura-slot"
-      ],
-      "url": "https://static.overframe.gg/static/images/icon-aura.png",
-      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
-      "provider": "Overframe",
-      "bytes": 1048
-    },
-    {
-      "file": "NoArcaneIcon.png",
-      "local": "images/mods/slots/no-arcane.png",
-      "owners": [
-        "ui/empty-weapon-arcane-slot",
-        "ui/empty-warframe-arcane-slot"
-      ],
-      "url": "https://static.overframe.gg/static/images/mod/arcanes/NoArcaneIcon.png",
-      "sourcePage": "https://overframe.gg/build/new/8/banshee/",
-      "provider": "Overframe",
-      "bytes": 16011
-    },
-    {
-      "file": "OmegaFrameBottom.png",
-      "local": "images/mods/frames/OmegaFrameBottom.png",
-      "owners": [
-        "ui/mod-frame/riven"
-      ],
-      "url": "https://overframe.gg/static/images/mod/OmegaFrameBottom.png",
-      "sourcePage": "https://overframe.gg/",
-      "provider": "Overframe",
-      "bytes": 9087
-    },
-    {
-      "file": "OmegaFrameTop.png",
-      "local": "images/mods/frames/OmegaFrameTop.png",
-      "owners": [
-        "ui/mod-frame/riven"
-      ],
-      "url": "https://overframe.gg/static/images/mod/OmegaFrameTop.png",
-      "sourcePage": "https://overframe.gg/",
-      "provider": "Overframe",
-      "bytes": 8034
-    },
-    {
-      "file": "OmegaSideLight.png",
-      "local": "images/mods/frames/OmegaSideLight.png",
-      "owners": [
-        "ui/mod-frame/riven"
-      ],
-      "url": "https://overframe.gg/static/images/mod/OmegaSideLight.png",
-      "sourcePage": "https://overframe.gg/",
-      "provider": "Overframe",
-      "bytes": 1163
     }
   ],
   "missing": [

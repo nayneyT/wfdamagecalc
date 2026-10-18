@@ -66,6 +66,11 @@ bundled parser, Wiki-derived data, and third-party artwork have separate terms d
    current, and maximum at the selected rank and weapon disposition. Spliced values are entered from
    the game and scaled once when equipped.
 
+For an Incarnon weapon, enable Incarnon mode and select one illustrated choice in each evolution
+stage. Hover or focus a choice to preview its effect; the selected effects and conditional controls
+appear below the images. Evolution artwork follows the same remote-first and optional local-download
+settings as other images.
+
 Choose **Save build** and enter a name to add the configured weapon to your arsenal. The main
 selector contains saved profiles only. **Save as new** creates another profile of the same weapon;
 subsequent edits require an explicit save.

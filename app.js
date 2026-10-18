@@ -326,6 +326,10 @@
     w.traits.includes('Zaw') ||
     w.tags.includes('MODULAR_GUN') ||
     w.category === 'Amp';
+  function evolutionConditionValue(state, evolution, condition) {
+    const maximum = condition.maxStacks || 1;
+    return clamp(state.evolutionConditions?.[evolution.id]?.[condition.id] ?? maximum, 0, maximum);
+  }
   function evolutionEffectsFor(db, state, w, a) {
     if (!state.incarnonEnabled) return { effects: [], notes: [] };
     const effects = [],
@@ -359,11 +363,7 @@
         let factor = 1;
         if (source.condition) {
           const condition = arr(e.conditions).find((c) => c.id === source.condition);
-          factor = clamp(
-            state.evolutionConditions?.[e.id]?.[source.condition] ?? 0,
-            0,
-            condition?.maxStacks || 1,
-          );
+          factor = condition ? evolutionConditionValue(state, e, condition) : 1;
           if (e.conditionMode === 'normal' && incarnon) factor = 0;
         }
         if (source.stat === 'directStatusDamage') factor *= state.scenario.statusTypes;
@@ -2930,6 +2930,8 @@
       if (safeImagePath(path) !== path) errors.push('Invalid status icon path.');
     if (errors.length) return errors;
     for (const e of records(db, 'incarnon-evolutions')) {
+      if (e.image && safeImagePath(e.image) !== e.image)
+        errors.push(e.name + ': evolution image must be a relative path within images/.');
       if (
         !Array.isArray(e.limitations) ||
         e.limitations.some((n) => typeof n !== 'string') ||
@@ -3364,6 +3366,12 @@
     const w = get(db, 'weapons', s.weaponId);
     if (!w) return s;
     s.evolutions ||= {};
+    for (const [savedTier, id] of Object.entries(s.evolutions)) {
+      const evolution = get(db, 'incarnon-evolutions', id);
+      if (evolution?.family !== w.family || String(evolution.tier) === savedTier) continue;
+      delete s.evolutions[savedTier];
+      s.evolutions[evolution.tier] = id;
+    }
     const tiers = new Map();
     for (const e of records(db, 'incarnon-evolutions').filter((e) => e.family === w.family)) {
       if (!tiers.has(e.tier)) tiers.set(e.tier, []);
@@ -7389,6 +7397,7 @@ return module.exports;})();
             name,
             family,
             tier,
+            image: old?.image || '',
             description: clean,
             effects: [],
             conditions: [],
@@ -9811,92 +9820,57 @@ return module.exports;})();
       $('evolution-controls').innerHTML = '';
       return;
     }
+    const tiers = [...new Set(ev.map((e) => e.tier))].sort((a, b) => a - b);
+    const stages = tiers.map((tier) => {
+      const choices = ev.filter((e) => e.tier === tier);
+      const chosen = choices.find((choice) => choice.id === state.evolutions[tier]);
+      const description = chosen
+        ? evolutionDescription(chosen, w).split('\n').slice(1).join('\n').trim()
+        : '';
+      const conditions = chosen ? arr(chosen.conditions).map((condition) => {
+        const value = evolutionConditionValue(state, chosen, condition);
+        const input = condition.maxStacks === 1
+          ? `<input data-evolution-condition="${escape(condition.id)}" data-evolution-id="${escape(chosen.id)}" type="checkbox" ${value ? 'checked' : ''}>`
+          : `<input data-evolution-condition="${escape(condition.id)}" data-evolution-id="${escape(chosen.id)}" type="number" min="0" max="${condition.maxStacks}" step="1" value="${value}">`;
+        return `<label class="evolution-condition">
+          <span class="evolution-condition-alert" role="img" aria-label="Conditional bonus, assumed met by default" title="Conditional bonus; assumed met until you change the control">⚠</span>
+          <span>${escape(condition.label)}${condition.maxStacks > 1 ? ` (0–${condition.maxStacks} stacks)` : ''}</span>
+          ${input}
+        </label>`;
+      }).join('') : '';
+      return `<section class="evolution-stage" aria-label="Evolution ${tier}">
+        <h4>Evolution ${tier}</h4>
+        <div class="evolution-options">${choices.map((choice) => {
+          const selected = choice.id === state.evolutions[tier];
+          const detail = evolutionDescription(choice, w);
+          return `<div class="evolution-choice">
+            <button type="button" class="evolution-option${selected ? ' selected' : ''}"
+              data-evolution-preview="${escape(choice.id)}" data-evolution-tier="${tier}"
+              aria-pressed="${selected}" aria-label="Evolution ${tier}: ${escape(choice.name)}"
+              aria-describedby="evolution-tip-${escape(choice.id)}">
+              <img class="asset-image evolution-image" src="${escape(assetURL(choice.image))}"
+                alt="" loading="lazy">
+              <span class="evolution-option-name">${escape(choice.name)}</span>
+            </button>
+            <div id="evolution-tip-${escape(choice.id)}" class="evolution-tip" role="tooltip">${escape(detail)}</div>
+          </div>`;
+        }).join('')}</div>
+        ${chosen ? `<div class="evolution-choice-details" aria-label="Selected evolution ${tier} effect">
+          <div class="evolution-details">${escape(description)}</div>
+          ${conditions}
+        </div>` : ''}
+      </section>`;
+    }).join('');
     $('evolution-controls').innerHTML = ev.length
-      ? '<h3>Incarnon evolutions</h3><p class="hint">Conditional bonuses start inactive. Hover or focus a choice for its effects; tap Effect details to read them.</p><div class="fieldgrid">' +
-        [...new Set(ev.map((e) => e.tier))]
-          .sort()
-          .map((t) => {
-            const choices = ev.filter((e) => e.tier === t),
-              chosen = choices.find((e) => e.id === state.evolutions[t]),
-              detail = evolutionDescription(chosen, w);
-            return (
-              '<div class="full"><div class="evolution-choice" tabindex="0"><label>Evolution ' +
-              t +
-              '<select data-evolution="' +
-              t +
-              '" aria-describedby="evolution-detail-' +
-              t +
-              '" ' +
-              (choices.length === 1 ? 'disabled ' : '') +
-              'title="' +
-              escape(detail) +
-              '">' +
-              options(choices, state.evolutions[t], choices.length === 1 ? '' : 'None') +
-              '</select></label><div id="evolution-detail-' +
-              t +
-              '" class="evolution-tip" role="tooltip">' +
-              escape(detail) +
-              '</div></div>' +
-              (chosen
-                ? '<details class="hint spacer"><summary>Effect details</summary><div class="evolution-details">' +
-                  escape(detail) +
-                  '</div></details>' +
-                  arr(chosen.conditions)
-                    .map(
-                      (c) =>
-                        '<label class="spacer">' +
-                        escape(c.label) +
-                        (c.maxStacks > 1 ? ' (0–' + c.maxStacks + ')' : ' active') +
-                        '<input data-evolution-condition="' +
-                        escape(c.id) +
-                        '" data-evolution-id="' +
-                        escape(chosen.id) +
-                        '" type="' +
-                        (c.maxStacks === 1 ? 'checkbox' : 'number') +
-                        '" min="0" max="' +
-                        c.maxStacks +
-                        '" step="1" ' +
-                        (c.maxStacks === 1
-                          ? state.evolutionConditions[chosen.id]?.[c.id]
-                            ? 'checked'
-                            : ''
-                          : 'value="' + (state.evolutionConditions[chosen.id]?.[c.id] || 0) + '"') +
-                        '></label>',
-                    )
-                    .join('')
-                : '') +
-              '<details class="spacer"><summary>Preview evolution ' +
-              t +
-              ' choices</summary>' +
-              choices
-                .map(
-                  (e) =>
-                    '<div class="evolution-choice spacer"><button type="button" data-evolution-preview="' +
-                    escape(e.id) +
-                    '" data-evolution-tier="' +
-                    t +
-                    '">' +
-                    escape(e.name) +
-                    '</button><div class="evolution-tip" role="tooltip">' +
-                    escape(evolutionDescription(e, w)) +
-                    '</div><details class="hint"><summary>Effect details</summary><div class="evolution-details">' +
-                    escape(evolutionDescription(e, w)) +
-                    '</div></details></div>',
-                )
-                .join('') +
-              '</details></div>'
-            );
-          })
-          .join('') +
-        '</div>'
+      ? `<h3>Incarnon evolutions</h3>
+        <p class="hint">Choose one image per stage. Hover or focus for its effect. Conditional bonuses start active and can be adjusted.</p>
+        <div class="evolution-stages">${stages}</div>`
       : '';
     const select = (tier, id) => {
       state.evolutions[tier] = id;
       renderEvolutionControls();
       schedule();
     };
-    for (const el of document.querySelectorAll('[data-evolution]'))
-      el.onchange = () => select(el.dataset.evolution, el.value);
     for (const el of document.querySelectorAll('[data-evolution-preview]'))
       el.onclick = () => select(el.dataset.evolutionTier, el.dataset.evolutionPreview);
     for (const el of document.querySelectorAll('[data-evolution-condition]'))
@@ -14779,6 +14753,37 @@ return module.exports;})();
       },
       near = (a, b) => Math.abs(a - b) < 1e-7;
     try {
+      const conditionalEvolution = records(testDb, 'incarnon-evolutions').find(
+        (e) => e.conditions?.some((condition) => condition.maxStacks > 1),
+      );
+      if (conditionalEvolution) {
+        const condition = conditionalEvolution.conditions.find((item) => item.maxStacks > 1);
+        const binaryEvolution = records(testDb, 'incarnon-evolutions').find(
+          (e) => e.conditions?.some((item) => item.maxStacks === 1),
+        );
+        const binaryCondition = binaryEvolution?.conditions.find((item) => item.maxStacks === 1);
+        assert(
+          evolutionConditionValue({ evolutionConditions: {} }, conditionalEvolution, condition) ===
+            condition.maxStacks &&
+            evolutionConditionValue(
+              { evolutionConditions: { [conditionalEvolution.id]: { [condition.id]: 0 } } },
+              conditionalEvolution,
+              condition,
+            ) === 0 &&
+            (!binaryCondition ||
+              (evolutionConditionValue(
+                { evolutionConditions: {} },
+                binaryEvolution,
+                binaryCondition,
+              ) === 1 &&
+                evolutionConditionValue(
+                  { evolutionConditions: { [binaryEvolution.id]: { [binaryCondition.id]: 0 } } },
+                  binaryEvolution,
+                  binaryCondition,
+                ) === 0)),
+          'Binary and stacking evolution conditions start active while preserving an explicit zero',
+        );
+      }
       const referenceWeapon =
           records(testDb, 'weapons').find((w) => w.name === 'Burston Prime') ||
           records(testDb, 'weapons')[0],
@@ -17637,6 +17642,17 @@ return module.exports;})();
         );
         db['incarnon-evolutions'].onlinePageHashVersion = 2;
         databaseDirty = hasIndexedCatalogue || !!legacyDatabase;
+      }
+      for (const evolution of records(db, 'incarnon-evolutions')) {
+        const fresh = get(bundled, 'incarnon-evolutions', evolution.id);
+        if (!evolution.image && fresh?.image) {
+          evolution.image = fresh.image;
+          databaseDirty = hasIndexedCatalogue || !!legacyDatabase;
+        }
+        if (evolution.id === 'vectis-2-survivor-s-edge' && evolution.tier === 2) {
+          evolution.tier = 4;
+          databaseDirty = hasIndexedCatalogue || !!legacyDatabase;
+        }
       }
       const iconRules = ruleOf(db),
         defaultIcons = ruleOf(bundled).statusIcons || {};

@@ -205,7 +205,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/seekingfireballs-xwhite.png"
     },
     {
       "id": "angstrum-2-haven-foray",
@@ -276,7 +277,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandincreaseddamagewithovershields-xwhite.png"
     },
     {
       "id": "angstrum-2-paladin-virtue",
@@ -347,7 +349,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/increasedcritwithenergy-xwhite.png"
     },
     {
       "id": "angstrum-3-swift-deliverance",
@@ -393,7 +396,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "angstrum-3-rapid-reinforcement",
@@ -439,7 +443,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "angstrum-3-hitman-s-hoard",
@@ -466,7 +471,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool-xwhite.png"
     },
     {
       "id": "angstrum-4-critical-parallel",
@@ -537,7 +543,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnoncritchancecritdamage-xwhite.png"
     },
     {
       "id": "angstrum-4-survivor-s-edge",
@@ -616,7 +623,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "angstrum-4-fatal-affliction",
@@ -643,7 +651,8 @@
       "variantValues": {
         "Angstrum": {},
         "Prisma Angstrum": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperactivestatus-xwhite.png"
     },
     {
       "id": "atomos-1-incarnon-form",
@@ -670,7 +679,8 @@
       "legacyFingerprint": "6f398417",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformnapalmgrenadelauncher-xwhite.png"
     },
     {
       "id": "atomos-2-paladin-virtue",
@@ -727,7 +737,8 @@
       "legacyFingerprint": "9570ef5c",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/increasedcritwithenergy-xwhite.png"
     },
     {
       "id": "atomos-2-hoplite-virtue",
@@ -784,7 +795,8 @@
       "legacyFingerprint": "74d18fd7",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageonshieldloss-xwhite.png"
     },
     {
       "id": "atomos-3-moonrise-velocity",
@@ -824,7 +836,8 @@
       "legacyFingerprint": "924c91b0",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/morerange-xwhite.png"
     },
     {
       "id": "atomos-3-mercenary-chamber",
@@ -862,7 +875,8 @@
       "legacyFingerprint": "21a173e0",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool-xwhite.png"
     },
     {
       "id": "atomos-3-resonant-restore",
@@ -909,7 +923,8 @@
       "legacyFingerprint": "c1dd13cb",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "atomos-4-elemental-balance",
@@ -947,7 +962,8 @@
       "legacyFingerprint": "666ee498",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "atomos-4-commodore-s-fortune",
@@ -985,7 +1001,8 @@
       "legacyFingerprint": "5c4d4969",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "atomos-4-survivor-s-edge",
@@ -1033,7 +1050,8 @@
       "legacyFingerprint": "b94742d7",
       "variantValues": {
         "Atomos": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "ballistica-1-incarnon-form",
@@ -1060,7 +1078,8 @@
       "variantValues": {
         "Ballistica": {},
         "Rakta Ballistica": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/unchargedandchargedprojectiles-xwhite.png"
     },
     {
       "id": "ballistica-2-headcracker",
@@ -1162,7 +1181,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/onheadshotfirerateforxsecs-xwhite.png"
     },
     {
       "id": "ballistica-2-prolific-perforation",
@@ -1234,7 +1254,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/additionalccforeveryenemypunchedthrough-xwhite.png"
     },
     {
       "id": "ballistica-3-rapid-reinforcement",
@@ -1287,7 +1308,8 @@
       "variantValues": {
         "Ballistica": {},
         "Rakta Ballistica": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "ballistica-3-swift-deliverance",
@@ -1340,7 +1362,8 @@
       "variantValues": {
         "Ballistica": {},
         "Rakta Ballistica": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "ballistica-3-void-s-guidance",
@@ -1413,7 +1436,8 @@
       "variantValues": {
         "Ballistica": {},
         "Rakta Ballistica": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png"
     },
     {
       "id": "ballistica-4-elemental-balance",
@@ -1514,7 +1538,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "ballistica-4-survivor-s-edge",
@@ -1647,7 +1672,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "ballistica-4-critical-parallel",
@@ -1748,7 +1774,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
       "id": "boar-1-incarnon-form",
@@ -1775,7 +1802,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/shortrangebeams.png"
     },
     {
       "id": "boar-2-reified-bane",
@@ -1846,7 +1874,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadfromempty.png"
     },
     {
       "id": "boar-2-fortress-salvo",
@@ -1917,7 +1946,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/punchthroughwitharmorabovex.png"
     },
     {
       "id": "boar-3-ready-retaliation",
@@ -1973,7 +2003,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadspeedonempty.png"
     },
     {
       "id": "boar-3-mercenary-chamber",
@@ -2019,7 +2050,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool.png"
     },
     {
       "id": "boar-3-practiced-grip",
@@ -2065,7 +2097,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/moreaccuracy.png"
     },
     {
       "id": "boar-4-elemental-balance",
@@ -2126,7 +2159,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus.png"
     },
     {
       "id": "boar-4-critical-parallel",
@@ -2187,7 +2221,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage.png"
     },
     {
       "id": "boar-4-survivor-s-edge",
@@ -2263,7 +2298,8 @@
       "variantValues": {
         "Boar": {},
         "Boar Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance.png"
     },
     {
       "id": "boltor-1-incarnon-form",
@@ -2290,7 +2326,8 @@
       "variantValues": {
         "Boltor": {},
         "Telos Boltor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformshrapnelmultishotincreasedslash-xwhite.png"
     },
     {
       "id": "boltor-2-hunter-s-mantra",
@@ -2390,7 +2427,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageaccuracypunchthroughactivechanability-xwhite.png"
     },
     {
       "id": "boltor-2-crimson-overture",
@@ -2502,7 +2540,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageammoefficiencyonkill-xwhite.png"
     },
     {
       "id": "boltor-3-swift-deliverance",
@@ -2555,7 +2594,8 @@
       "variantValues": {
         "Boltor": {},
         "Telos Boltor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "boltor-3-extended-volley",
@@ -2608,7 +2648,8 @@
       "variantValues": {
         "Boltor": {},
         "Telos Boltor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "boltor-3-rapid-reinforcement",
@@ -2661,7 +2702,8 @@
       "variantValues": {
         "Boltor": {},
         "Telos Boltor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "boltor-4-elemental-balance",
@@ -2730,7 +2772,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "boltor-4-survivor-s-edge",
@@ -2831,7 +2874,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "boltor-4-commodore-s-fortune",
@@ -2900,7 +2944,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "braton-1-incarnon-form",
@@ -2927,7 +2972,8 @@
       "variantValues": {
         "Braton": {},
         "Mk1-Braton": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformaoeonhit.png"
     },
     {
       "id": "braton-2-daring-reverie",
@@ -3062,7 +3108,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageammoefficiencyduringactivechannelledability.png"
     },
     {
       "id": "braton-2-munitions-grit",
@@ -3190,7 +3237,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotcostsammotakenfrompoolnotclip.png"
     },
     {
       "id": "braton-3-mercenary-chamber",
@@ -3272,7 +3320,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool.png"
     },
     {
       "id": "braton-3-void-s-guidance",
@@ -3357,7 +3406,8 @@
       "variantValues": {
         "Braton": {},
         "Mk1-Braton": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/evolutionvoid-sguidance.png"
     },
     {
       "id": "braton-3-gunsmoke-pick-up",
@@ -3384,7 +3434,8 @@
       "variantValues": {
         "Braton": {},
         "Mk1-Braton": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/restoreammopickupamounttocapacity.png"
     },
     {
       "id": "braton-4-critical-parallel",
@@ -3507,7 +3558,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnoncritchancecritdamage.png"
     },
     {
       "id": "braton-4-prelude-of-might",
@@ -3557,7 +3609,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamagewhencritchanceisbelowx.png"
     },
     {
       "id": "braton-4-survivor-s-edge",
@@ -3680,7 +3733,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance.png"
     },
     {
       "id": "bronco-1-incarnon-form",
@@ -3707,7 +3761,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformincreasedrangeandricochet-xwhite.png"
     },
     {
       "id": "bronco-2-speeding-bullet",
@@ -3765,7 +3820,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageincreasedfalloffrangewithsprintspeedlowerthanx-xwhite.png"
     },
     {
       "id": "bronco-2-infused-shots",
@@ -3854,7 +3910,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damagewithenergyspent-xwhite.png"
     },
     {
       "id": "bronco-3-kinetic-battle",
@@ -3900,7 +3957,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
       "id": "bronco-3-practised-grip",
@@ -3946,7 +4004,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/moreaccuracy-xwhite.png"
     },
     {
       "id": "bronco-3-extended-volley",
@@ -3992,7 +4051,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "bronco-4-enough-for-everyone",
@@ -4019,7 +4079,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/ammoeffwhenaimglidingorsliding-xwhite.png"
     },
     {
       "id": "bronco-4-commodore-s-fortune",
@@ -4065,7 +4126,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "bronco-4-rain-of-lead",
@@ -4111,7 +4173,8 @@
       "variantValues": {
         "Bronco": {},
         "Bronco Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonmultishot-xwhite.png"
     },
     {
       "id": "burston-1-incarnon-form",
@@ -4138,7 +4201,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/automatickillsexplode.png"
     },
     {
       "id": "burston-2-forceful-finality",
@@ -4182,7 +4246,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotonlastburstinmag.png"
     },
     {
       "id": "burston-2-fortress-salvo",
@@ -4226,7 +4291,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/punchthroughwitharmorabovex.png"
     },
     {
       "id": "burston-3-extended-volley",
@@ -4257,7 +4323,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize.png"
     },
     {
       "id": "burston-3-ready-retaliation",
@@ -4295,7 +4362,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed.png"
     },
     {
       "id": "burston-3-kinetic-battle",
@@ -4328,7 +4396,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil.png"
     },
     {
       "id": "burston-4-reaver-s-rapture",
@@ -4368,7 +4437,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageincreaseonfullbursthitresetonreload.png"
     },
     {
       "id": "burston-4-absolute-valor",
@@ -4399,7 +4469,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit.png"
     },
     {
       "id": "burston-4-fatal-affliction",
@@ -4430,7 +4501,8 @@
       "variantValues": {
         "Burston": {},
         "Burston Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperactivestatus.png"
     },
     {
       "id": "cestra-1-incarnon-form",
@@ -4456,7 +4528,8 @@
       "legacyFingerprint": "0e190c9f",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onequipcritchancedamageonfirstattack-xwhite.png"
     },
     {
       "id": "cestra-2-steadfast-grit",
@@ -4496,7 +4569,8 @@
       "legacyFingerprint": "c4b79f9e",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onshieldoverguardbreakcritdamage-xwhite.png"
     },
     {
       "id": "cestra-2-fortress-salvo",
@@ -4536,7 +4610,8 @@
       "legacyFingerprint": "80760e8a",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/armorabovexmultishot-xwhite.png"
     },
     {
       "id": "cestra-3-rapid-reinforcement",
@@ -4574,7 +4649,8 @@
       "legacyFingerprint": "57365533",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "cestra-3-slayer-s-nerve",
@@ -4600,7 +4676,8 @@
       "legacyFingerprint": "4ec73709",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png"
     },
     {
       "id": "cestra-3-swift-deliverance",
@@ -4638,7 +4715,8 @@
       "legacyFingerprint": "7b9c973b",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "cestra-4-survivor-s-edge",
@@ -4676,7 +4754,8 @@
       "legacyFingerprint": "2ea32ed9",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "cestra-4-deathtrap-trigger",
@@ -4714,7 +4793,8 @@
       "legacyFingerprint": "693db2b2",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamage-xwhite.png"
     },
     {
       "id": "cestra-4-wiseman-s-regard",
@@ -4752,7 +4832,8 @@
       "legacyFingerprint": "e27b3ba0",
       "variantValues": {
         "Cestra": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png"
     },
     {
       "id": "dera-1-incarnon-form",
@@ -4780,7 +4861,8 @@
       "variantValues": {
         "Dera": {},
         "Dera Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/shortrangebeams-xwhite.png"
     },
     {
       "id": "dera-2-crimson-overture",
@@ -4838,7 +4920,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageammoefficiencyonkill-xwhite.png"
     },
     {
       "id": "dera-2-paragon-essence",
@@ -4919,7 +5002,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/weaponstatusprocfirerate-xwhite.png"
     },
     {
       "id": "dera-3-swift-deliverance",
@@ -4965,7 +5049,8 @@
       "variantValues": {
         "Dera": {},
         "Dera Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png"
     },
     {
       "id": "dera-3-extended-volley",
@@ -5021,7 +5106,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "dera-3-evolved-autoloader",
@@ -5048,7 +5134,8 @@
       "variantValues": {
         "Dera": {},
         "Dera Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/restoreammopickupamounttocapacity-xwhite.png"
     },
     {
       "id": "dera-4-deathtrap-trigger",
@@ -5119,7 +5206,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
       "id": "dera-4-high-ground",
@@ -5165,7 +5253,8 @@
       "variantValues": {
         "Dera": {},
         "Dera Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamagewhencritchanceisbelowx-xwhite.png"
     },
     {
       "id": "dera-4-elemental-balance",
@@ -5221,7 +5310,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "despair-1-incarnon-form",
@@ -5247,7 +5337,8 @@
       "legacyFingerprint": "63f0c8da",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/despairexplodingknives-xwhite.png"
     },
     {
       "id": "despair-2-fatal-affliction",
@@ -5287,7 +5378,8 @@
       "legacyFingerprint": "71ae0465",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperactivestatus-xwhite.png"
     },
     {
       "id": "despair-2-stalker-s-vendetta",
@@ -5331,7 +5423,8 @@
       "legacyFingerprint": "c7b8a0c9",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotthatcostsammowithdreadandhateequipped-xwhite.png"
     },
     {
       "id": "despair-3-marksman-s-focus",
@@ -5357,7 +5450,8 @@
       "legacyFingerprint": "d460d624",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lowerfov-xwhite.png"
     },
     {
       "id": "despair-3-swift-deliverance",
@@ -5395,7 +5489,8 @@
       "legacyFingerprint": "d95770fa",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "despair-3-rapid-reinforcement",
@@ -5433,7 +5528,8 @@
       "legacyFingerprint": "003ed6da",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "despair-4-elemental-balance",
@@ -5459,7 +5555,8 @@
       "legacyFingerprint": "d99614bf",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "despair-4-survivor-s-edge",
@@ -5486,7 +5583,8 @@
       "legacyFingerprint": "e85296a0",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "despair-4-critical-parallel",
@@ -5534,7 +5632,8 @@
       "legacyFingerprint": "352f740d",
       "variantValues": {
         "Despair": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "dread-1-incarnon-form",
@@ -5561,7 +5660,8 @@
       "legacyFingerprint": "09c083c7",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformincreasedamageandsizeofprojectile-xwhite.png"
     },
     {
       "id": "dread-2-hitman-s-opportunity",
@@ -5611,7 +5711,8 @@
       "legacyFingerprint": "0c92c2cd",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandadditionaldamagetoenemiesathalfhealth-xwhite.png"
     },
     {
       "id": "dread-2-stalker-s-resentment",
@@ -5668,7 +5769,8 @@
       "legacyFingerprint": "bb5becfc",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/increasedfireratewithdespairandhateequipped-xwhite.png"
     },
     {
       "id": "dread-3-swift-deliverance",
@@ -5706,7 +5808,8 @@
       "legacyFingerprint": "9a71ed62",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "dread-3-marksman-s-focus",
@@ -5732,7 +5835,8 @@
       "legacyFingerprint": "46e64016",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lowerfov-xwhite.png"
     },
     {
       "id": "dread-3-hitman-s-hoard",
@@ -5770,7 +5874,8 @@
       "legacyFingerprint": "838dc3d3",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool-xwhite.png"
     },
     {
       "id": "dread-4-survivor-s-edge",
@@ -5818,7 +5923,8 @@
       "legacyFingerprint": "bea43bed",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "dread-4-elemental-balance",
@@ -5856,7 +5962,8 @@
       "legacyFingerprint": "064f6d7f",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "dread-4-zeroed-in",
@@ -5894,7 +6001,8 @@
       "legacyFingerprint": "aa2cc42f",
       "variantValues": {
         "Dread": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamage-xwhite.png"
     },
     {
       "id": "dual-toxocyst-1-incarnon-form",
@@ -5921,7 +6029,8 @@
       "legacyFingerprint": "1db4f604",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformricochetonhittingenemies-xwhite.png"
     },
     {
       "id": "dual-toxocyst-2-carnage-reign",
@@ -5961,7 +6070,8 @@
       "legacyFingerprint": "e58d68bf",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperstatusonenemywithenergypool-xwhite.png"
     },
     {
       "id": "dual-toxocyst-2-fevered-frenzy",
@@ -6001,7 +6111,8 @@
       "legacyFingerprint": "603de780",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/increasedfirerateonabilityusestacks-xwhite.png"
     },
     {
       "id": "dual-toxocyst-3-ready-retaliation",
@@ -6048,7 +6159,8 @@
       "legacyFingerprint": "7d9577ba",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "dual-toxocyst-3-evolved-autoloader",
@@ -6074,7 +6186,8 @@
       "legacyFingerprint": "bd7786c4",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "dual-toxocyst-3-marksman-s-hand",
@@ -6112,7 +6225,8 @@
       "legacyFingerprint": "27b6ef84",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
       "id": "dual-toxocyst-4-commodore-s-fortune",
@@ -6150,7 +6264,8 @@
       "legacyFingerprint": "3c140ae8",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "dual-toxocyst-4-neurotoxin",
@@ -6176,7 +6291,8 @@
       "legacyFingerprint": "532a8795",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/additionalviraldamageinfrenziedstate-xwhite.png"
     },
     {
       "id": "dual-toxocyst-4-ripper-rounds",
@@ -6223,7 +6339,8 @@
       "legacyFingerprint": "8e8f153f",
       "variantValues": {
         "Dual Toxocyst": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onkillpunchthrough-xwhite.png"
     },
     {
       "id": "felarx-1-incarnon-form",
@@ -6246,7 +6363,8 @@
         "Weakpoint Hits charge Incarnon Transmutation; Alt Fire transmutes. Switching back will expend any remaining charge."
       ],
       "coverage": "utility",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionincarnonformgun.png"
     },
     {
       "id": "felarx-2-attuned-accuracy",
@@ -6282,7 +6400,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "2cd51e92",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/moreaccuracy.png"
     },
     {
       "id": "felarx-2-kinetic-baffle",
@@ -6310,7 +6429,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "f5818c62",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/lessrecoil.png"
     },
     {
       "id": "felarx-2-frictionless-flight",
@@ -6338,7 +6458,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "e9e6270c",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionprojectilespeed.png"
     },
     {
       "id": "felarx-3-dual-mode",
@@ -6366,7 +6487,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "8e18bfd3",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/togglebetweenprojectilespeedandpunchthrough.png"
     },
     {
       "id": "felarx-3-evolved-autoloader",
@@ -6390,7 +6512,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "3112290d",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/reloadwhileholstered.png"
     },
     {
       "id": "felarx-3-mounting-momentum",
@@ -6431,7 +6554,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "c72da41d",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/firerateincreasespershellreloaded.png"
     },
     {
       "id": "felarx-4-brutal-edge",
@@ -6471,7 +6595,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "4b161334",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutioncriticalstatusup.png"
     },
     {
       "id": "felarx-4-incarnon-catalyst",
@@ -6495,7 +6620,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "8c4a315c",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/increasechargegainedonkills.png"
     },
     {
       "id": "felarx-4-racking-wrath",
@@ -6535,7 +6661,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "95cc4b76",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutiontrade-off.png"
     },
     {
       "id": "felarx-5-devastating-attrition",
@@ -6560,7 +6687,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "750d0148",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionnon-critical.png"
     },
     {
       "id": "felarx-5-ruptured-plentitude",
@@ -6596,7 +6724,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "1dc5012d",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/hit3enemiesammoeff.png"
     },
     {
       "id": "felarx-5-agile-executor",
@@ -6620,7 +6749,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "c96d7b1d",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/multishotwhileglidingandsliding.png"
     },
     {
       "id": "furis-1-incarnon-form",
@@ -6648,7 +6778,8 @@
       "variantValues": {
         "Furis": {},
         "Mk1-Furis": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformfatbeamoffire-xwhite.png"
     },
     {
       "id": "furis-2-haven-foray",
@@ -6729,7 +6860,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandincreaseddamagewithovershields-xwhite.png"
     },
     {
       "id": "furis-2-stormburst",
@@ -6787,7 +6919,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandonhittingenemyaffectedbyelectricity-xwhite.png"
     },
     {
       "id": "furis-3-practiced-grip",
@@ -6833,7 +6966,8 @@
       "variantValues": {
         "Furis": {},
         "Mk1-Furis": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/moreaccuracy-xwhite.png"
     },
     {
       "id": "furis-3-extended-volley",
@@ -6879,7 +7013,8 @@
       "variantValues": {
         "Furis": {},
         "Mk1-Furis": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "furis-3-executioner-s-fortune",
@@ -6906,7 +7041,8 @@
       "variantValues": {
         "Furis": {},
         "Mk1-Furis": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/chancetoreplenishmagonheadshot-xwhite.png"
     },
     {
       "id": "furis-4-headcracker",
@@ -6962,7 +7098,8 @@
       "variantValues": {
         "Furis": {},
         "Mk1-Furis": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onheadshotfirerateforxsecs-xwhite.png"
     },
     {
       "id": "furis-4-prelude-of-might",
@@ -6989,7 +7126,8 @@
       "variantValues": {
         "Furis": {},
         "Mk1-Furis": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamagewhencritchanceisbelowx-xwhite.png"
     },
     {
       "id": "furis-4-elemental-balance",
@@ -7045,7 +7183,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "gammacor-1-incarnon-form",
@@ -7073,7 +7212,8 @@
       "variantValues": {
         "Gammacor": {},
         "Synoid Gammacor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/projectilebombfreezeproc-xwhite.png"
     },
     {
       "id": "gammacor-2-sage-s-resolve",
@@ -7121,7 +7261,8 @@
       "variantValues": {
         "Gammacor": {},
         "Synoid Gammacor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandmultishotwithactivechanneledability-xwhite.png"
     },
     {
       "id": "gammacor-2-infused-shots",
@@ -7192,7 +7333,8 @@
       "variantValues": {
         "Gammacor": {},
         "Synoid Gammacor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damagewithenergyspent-xwhite.png"
     },
     {
       "id": "gammacor-3-evolved-autoloader",
@@ -7219,7 +7361,8 @@
       "variantValues": {
         "Gammacor": {},
         "Synoid Gammacor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadwhileholstered-xwhite.png"
     },
     {
       "id": "gammacor-3-moonrise-velocity",
@@ -7265,7 +7408,8 @@
       "variantValues": {
         "Gammacor": {},
         "Synoid Gammacor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/morerange-xwhite.png"
     },
     {
       "id": "gammacor-3-extended-volley",
@@ -7311,7 +7455,8 @@
       "variantValues": {
         "Gammacor": {},
         "Synoid Gammacor": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "gammacor-4-critical-parallel",
@@ -7382,7 +7527,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
       "id": "gammacor-4-survivor-s-edge",
@@ -7461,7 +7607,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "gammacor-4-elemental-balance",
@@ -7517,7 +7664,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "gorgon-1-incarnon-form",
@@ -7544,7 +7692,8 @@
       "variantValues": {
         "Gorgon": {},
         "Gorgon Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/explodingspikes.png"
     },
     {
       "id": "gorgon-2-hunter-s-mantra",
@@ -7644,7 +7793,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageaccuracypunchthroughactivechanability.png"
     },
     {
       "id": "gorgon-2-hoplite-virtue",
@@ -7756,7 +7906,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageonshieldbreak.png"
     },
     {
       "id": "gorgon-3-resonant-restore",
@@ -7820,7 +7971,8 @@
       "variantValues": {
         "Gorgon": {},
         "Gorgon Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadonemptygivesmagsize.png"
     },
     {
       "id": "gorgon-3-rapid-reinforcement",
@@ -7873,7 +8025,8 @@
       "variantValues": {
         "Gorgon": {},
         "Gorgon Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed.png"
     },
     {
       "id": "gorgon-3-void-s-guidance",
@@ -7926,7 +8079,8 @@
       "variantValues": {
         "Gorgon": {},
         "Gorgon Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil.png"
     },
     {
       "id": "gorgon-4-survivor-s-edge",
@@ -8027,7 +8181,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance.png"
     },
     {
       "id": "gorgon-4-elemental-balance",
@@ -8096,7 +8251,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus.png"
     },
     {
       "id": "gorgon-4-absolute-valor",
@@ -8165,7 +8321,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit.png"
     },
     {
       "id": "kunai-1-incarnon-form",
@@ -8192,7 +8349,8 @@
       "variantValues": {
         "Kunai": {},
         "Mk1-Kunai": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/addmultishotandkunaiseekheads-xwhite.png"
     },
     {
       "id": "kunai-2-swift-conclusion",
@@ -8265,7 +8423,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandadditionaldamagetoenemiesathalfhealth-xwhite.png"
     },
     {
       "id": "kunai-2-sage-s-resolve",
@@ -8323,7 +8482,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandmultishotwithactivechanneledability-xwhite.png"
     },
     {
       "id": "kunai-3-swift-deliverance",
@@ -8369,7 +8529,8 @@
       "variantValues": {
         "Kunai": {},
         "Mk1-Kunai": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "kunai-3-extended-volley",
@@ -8415,7 +8576,8 @@
       "variantValues": {
         "Kunai": {},
         "Mk1-Kunai": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "kunai-3-rapid-reinforcement",
@@ -8461,7 +8623,8 @@
       "variantValues": {
         "Kunai": {},
         "Mk1-Kunai": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "kunai-4-deathtrap-trigger",
@@ -8542,7 +8705,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/onequipcritchancedamageonfirstattack-xwhite.png"
     },
     {
       "id": "kunai-4-accelerating-volley",
@@ -8598,7 +8762,8 @@
       "variantValues": {
         "Kunai": {},
         "Mk1-Kunai": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonfirerate-xwhite.png"
     },
     {
       "id": "kunai-4-survivor-s-edge",
@@ -8659,7 +8824,8 @@
       "variantValues": {
         "Kunai": {},
         "Mk1-Kunai": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "laetum-1-incarnon-form",
@@ -8683,7 +8849,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "1466562e",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionincarnonformgun.png"
     },
     {
       "id": "laetum-2-marksman-s-hand",
@@ -8711,7 +8878,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "393843eb",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionreducedrecoil.png"
     },
     {
       "id": "laetum-2-rapid-wrath",
@@ -8739,7 +8907,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "4f0b5721",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionrapidwrath.png"
     },
     {
       "id": "laetum-2-raptor-s-chase",
@@ -8763,7 +8932,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "2694f254",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionraptor-schase.png"
     },
     {
       "id": "laetum-3-lethal-rearmament",
@@ -8799,7 +8969,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "b3b9c9b1",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionlethalrearmament.png"
     },
     {
       "id": "laetum-3-awakened-readiness",
@@ -8823,7 +8994,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "4dc9ca44",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionholsterreload.png"
     },
     {
       "id": "laetum-3-feather-of-justice",
@@ -8847,7 +9019,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "e0749679",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionfeatherofjustice.png"
     },
     {
       "id": "laetum-4-caput-mortuum",
@@ -8875,7 +9048,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "bf46f3b0",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutioncaputmortuum.png"
     },
     {
       "id": "laetum-4-incarnon-efficiency",
@@ -8899,7 +9073,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "0ad87382",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionfasttransmutation.png"
     },
     {
       "id": "laetum-4-elemental-excess",
@@ -8932,7 +9107,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "e929028b",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutiontrade-off.png"
     },
     {
       "id": "laetum-5-devouring-attrition",
@@ -8957,7 +9133,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "94e001d2",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionnon-critical.png"
     },
     {
       "id": "laetum-5-reaper-s-plenty",
@@ -8981,7 +9158,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "15ac72d6",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionreaper-splenty.png"
     },
     {
       "id": "laetum-5-overwhelming-attrition",
@@ -9019,7 +9197,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "02f77bb7",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionoverwhelmingattrition.png"
     },
     {
       "id": "lato-1-incarnon-form",
@@ -9046,7 +9225,8 @@
       "variantValues": {
         "Lato": {},
         "Lato Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformricochetonhittingenemies-xwhite.png"
     },
     {
       "id": "lato-2-haven-foray",
@@ -9158,7 +9338,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageplusxdamagewithovershields-xwhite.png"
     },
     {
       "id": "lato-2-reified-bane",
@@ -9273,7 +9454,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadfromempty-xwhite.png"
     },
     {
       "id": "lato-3-void-s-guidance",
@@ -9346,7 +9528,8 @@
       "variantValues": {
         "Lato": {},
         "Lato Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png"
     },
     {
       "id": "lato-3-marksman-s-gain",
@@ -9373,7 +9556,8 @@
       "variantValues": {
         "Lato": {},
         "Lato Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onheadshotkillammoeff-xwhite.png"
     },
     {
       "id": "lato-3-exact-penance",
@@ -9400,7 +9584,8 @@
       "variantValues": {
         "Lato": {},
         "Lato Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/chancetoreplenishmagonheadshot-xwhite.png"
     },
     {
       "id": "lato-4-survivor-s-edge",
@@ -9501,7 +9686,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "lato-4-deathtrap-trigger",
@@ -9604,7 +9790,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/onequipcritchancedamageonfirstattack-xwhite.png"
     },
     {
       "id": "lato-4-carnage-reign",
@@ -9631,7 +9818,8 @@
       "variantValues": {
         "Lato": {},
         "Lato Vandal": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperactivestatus-xwhite.png"
     },
     {
       "id": "latron-1-incarnon-form",
@@ -9658,7 +9846,8 @@
       "variantValues": {
         "Latron": {},
         "Latron Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformfireswavesofenergythatbounceoff.png"
     },
     {
       "id": "latron-2-riddled-target",
@@ -9729,7 +9918,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandonpierce.png"
     },
     {
       "id": "latron-2-swift-punishment",
@@ -9800,7 +9990,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandwithmovespeed.png"
     },
     {
       "id": "latron-3-marksman-s-hand",
@@ -9853,7 +10044,8 @@
       "variantValues": {
         "Latron": {},
         "Latron Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil.png"
     },
     {
       "id": "latron-3-extended-volley",
@@ -9906,7 +10098,8 @@
       "variantValues": {
         "Latron": {},
         "Latron Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize.png"
     },
     {
       "id": "latron-3-marksman-s-focus",
@@ -9933,7 +10126,8 @@
       "variantValues": {
         "Latron": {},
         "Latron Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lowerfov.png"
     },
     {
       "id": "latron-4-flensing-spikes",
@@ -9960,7 +10154,8 @@
       "variantValues": {
         "Latron": {},
         "Latron Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/armourstrippedforeverystackofpierce.png"
     },
     {
       "id": "latron-4-deadhead",
@@ -10013,7 +10208,8 @@
       "variantValues": {
         "Latron": {},
         "Latron Wraith": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/headshotdamage.png"
     },
     {
       "id": "latron-4-critical-parallel",
@@ -10114,7 +10310,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage.png"
     },
     {
       "id": "lex-1-incarnon-form",
@@ -10141,7 +10338,8 @@
       "variantValues": {
         "Lex": {},
         "Lex Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformpassthroughwaveproj-xwhite.png"
     },
     {
       "id": "lex-2-hoplite-virtue",
@@ -10222,7 +10420,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/onshieldlossdamage-xwhite.png"
     },
     {
       "id": "lex-2-trusty-sidearm",
@@ -10280,7 +10479,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandmultishotwithactivechanneledability-xwhite.png"
     },
     {
       "id": "lex-3-lex-talionis",
@@ -10307,7 +10507,8 @@
       "variantValues": {
         "Lex": {},
         "Lex Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onheadshotdecreaserecoilincreaseaccuracy-xwhite.png"
     },
     {
       "id": "lex-3-extended-volley",
@@ -10353,7 +10554,8 @@
       "variantValues": {
         "Lex": {},
         "Lex Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "lex-3-ready-retaliation",
@@ -10409,7 +10611,8 @@
       "variantValues": {
         "Lex": {},
         "Lex Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "lex-4-executioner-s-dawn",
@@ -10465,7 +10668,8 @@
       "variantValues": {
         "Lex": {},
         "Lex Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/headshotdamage-xwhite.png"
     },
     {
       "id": "lex-4-elemental-balance",
@@ -10521,7 +10725,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "lex-4-critical-parallel",
@@ -10592,7 +10797,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
       "id": "miter-1-incarnon-form",
@@ -10619,7 +10825,8 @@
       "legacyFingerprint": "73303db1",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformhomingbouncingexplodingprojectiles-xwhite.png"
     },
     {
       "id": "miter-2-swift-sawblades",
@@ -10676,7 +10883,8 @@
       "legacyFingerprint": "1a58b895",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/increasedfireratewithactivechanneledability-xwhite.png"
     },
     {
       "id": "miter-2-plentiful-mayhem",
@@ -10719,7 +10927,8 @@
       "legacyFingerprint": "b164b99a",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotcostsammotakenfrompooladditionaldamage-xwhite.png"
     },
     {
       "id": "miter-3-swift-deliverance",
@@ -10757,7 +10966,8 @@
       "legacyFingerprint": "cd1d9e59",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "miter-3-ready-retaliation",
@@ -10804,7 +11014,8 @@
       "legacyFingerprint": "04bc73c4",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "miter-3-mercenary-chamber",
@@ -10842,7 +11053,8 @@
       "legacyFingerprint": "7357b2b7",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool-xwhite.png"
     },
     {
       "id": "miter-4-sawblade-storm",
@@ -10868,7 +11080,8 @@
       "legacyFingerprint": "10399c4c",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/holdchargedshotaoeonbounce-xwhite.png"
     },
     {
       "id": "miter-4-commodore-s-fortune",
@@ -10906,7 +11119,8 @@
       "legacyFingerprint": "f20b7bea",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "miter-4-critical-parallel",
@@ -10954,7 +11168,8 @@
       "legacyFingerprint": "8b6c4a75",
       "variantValues": {
         "Miter": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "onos-1-incarnon-form",
@@ -10978,7 +11193,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "d17d8037",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionincarnonformgun.png"
     },
     {
       "id": "onos-2-marksman-s-hand",
@@ -11006,7 +11222,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "25826c43",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
       "id": "onos-2-rapid-wrath",
@@ -11034,7 +11251,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "722e155f",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/incarnonfirerate-xwhite.png"
     },
     {
       "id": "onos-2-swift-deliverance",
@@ -11062,7 +11280,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "c47b5b8a",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "onos-3-extended-volley",
@@ -11086,7 +11305,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "015c7ea5",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "onos-3-rapid-reinforcement",
@@ -11114,7 +11334,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "d235b705",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "onos-3-hunter-s-rearmament",
@@ -11140,7 +11361,8 @@
       ],
       "coverage": "partial",
       "legacyFingerprint": "54d7a343",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/onkillchancetogetxammo.png"
     },
     {
       "id": "onos-4-lethal-lance",
@@ -11176,7 +11398,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "cff8ca56",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/onkillpunchthrough.png"
     },
     {
       "id": "onos-4-incarnon-efficiency",
@@ -11200,7 +11423,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "ee9cbe1c",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/increasechargegainedonkills.png"
     },
     {
       "id": "onos-4-elemental-excess",
@@ -11233,7 +11457,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "e1372b3c",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/xstatchancenegycritchance-xwhite.png"
     },
     {
       "id": "onos-5-sequential-skullbuster",
@@ -11269,7 +11494,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "bdc9407b",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/consecutivetheadshotincrdmg-xwhite.png"
     },
     {
       "id": "onos-5-impaler-s-ferocity",
@@ -11307,7 +11533,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "7f028252",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/onpunchthroughincreasedmg-xwhite.png"
     },
     {
       "id": "onos-5-devastation-cascade",
@@ -11337,7 +11564,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "ab072aa6",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/chargebeamcritchancedmg-xwhite.png"
     },
     {
       "id": "paris-1-incarnon-form",
@@ -11364,7 +11592,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformincreasedamageandsizeofprojectile.png"
     },
     {
       "id": "paris-2-deadly-pace",
@@ -11435,7 +11664,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandincreasedfireratewithsprint.png"
     },
     {
       "id": "paris-2-guardian-s-might",
@@ -11547,7 +11777,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damageandincreaseddamagewithovershields.png"
     },
     {
       "id": "paris-3-ardent-trigger",
@@ -11611,7 +11842,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/hittingenemyafterpunchthroughenvironment.png"
     },
     {
       "id": "paris-3-markman-s-focus",
@@ -11638,7 +11870,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lowerfov.png"
     },
     {
       "id": "paris-3-swift-deliverance",
@@ -11691,7 +11924,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed.png"
     },
     {
       "id": "paris-4-vicious-promise",
@@ -11785,7 +12019,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancedamagetoenemiesatfullhealth.png"
     },
     {
       "id": "paris-4-elemental-balance",
@@ -11838,7 +12073,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus.png"
     },
     {
       "id": "paris-4-striking-succession",
@@ -11902,7 +12138,8 @@
       "variantValues": {
         "Paris": {},
         "Mk1-Paris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageincreasesoneachconsecutivehit.png"
     },
     {
       "id": "phenmor-1-incarnon-form",
@@ -11926,7 +12163,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "7b5be8e3",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionincarnonformgun.png"
     },
     {
       "id": "phenmor-2-void-s-guidance",
@@ -11950,7 +12188,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "8bd8e150",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionvoid-sguidance.png"
     },
     {
       "id": "phenmor-2-rapid-wrath",
@@ -11978,7 +12217,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "06ce5308",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionrapidwrath.png"
     },
     {
       "id": "phenmor-2-swift-deliverance",
@@ -12006,7 +12246,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "0e14d80b",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionprojectilespeed.png"
     },
     {
       "id": "phenmor-3-retribution-s-vessel",
@@ -12030,7 +12271,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "b14b417e",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionretribution-svessel.png"
     },
     {
       "id": "phenmor-3-ready-retaliation",
@@ -12066,7 +12308,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "d9c23558",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionreadyretaliation.png"
     },
     {
       "id": "phenmor-3-executioner-s-fortune",
@@ -12090,7 +12333,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "2913be23",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionexecutioner-sfortune.png"
     },
     {
       "id": "phenmor-4-survivor-s-edge",
@@ -12123,7 +12367,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "4ca743b5",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutioncriticalstatusup.png"
     },
     {
       "id": "phenmor-4-incarnon-efficiency",
@@ -12147,7 +12392,8 @@
       ],
       "coverage": "utility",
       "legacyFingerprint": "98fadbaa",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionfasttransmutation.png"
     },
     {
       "id": "phenmor-4-elemental-excess",
@@ -12180,7 +12426,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "6c634002",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutiontrade-off.png"
     },
     {
       "id": "phenmor-5-devouring-attrition",
@@ -12205,7 +12452,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "93a7f316",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionnon-critical.png"
     },
     {
       "id": "phenmor-5-spiteful-defilement",
@@ -12233,7 +12481,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "ab280647",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionspitefuldefilement.png"
     },
     {
       "id": "phenmor-5-lingering-judgement",
@@ -12269,7 +12518,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "5a27d749",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/evolutionlingeringjudgement.png"
     },
     {
       "id": "sicarus-1-incarnon-form",
@@ -12296,7 +12546,8 @@
       "variantValues": {
         "Sicarus": {},
         "Sicarus Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformricochetonhittingenemies-xwhite.png"
     },
     {
       "id": "sicarus-2-feigned-retreat",
@@ -12369,7 +12620,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xdamagetoenemiesatfullhealthandbelowhalfhealth-xwhite.png"
     },
     {
       "id": "sicarus-2-king-s-gambit",
@@ -12453,7 +12705,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/bodyshotscantcritheadshotsinccritchance-xwhite.png"
     },
     {
       "id": "sicarus-3-void-s-guidance",
@@ -12499,7 +12752,8 @@
       "variantValues": {
         "Sicarus": {},
         "Sicarus Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/moreaccuracy-xwhite.png"
     },
     {
       "id": "sicarus-3-rapid-reinforcement",
@@ -12545,7 +12799,8 @@
       "variantValues": {
         "Sicarus": {},
         "Sicarus Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "sicarus-3-extended-volley",
@@ -12601,7 +12856,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "sicarus-4-commodore-s-fortune",
@@ -12657,7 +12913,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "sicarus-4-survivor-s-edge",
@@ -12736,7 +12993,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "sicarus-4-wiseman-s-regard",
@@ -12782,7 +13040,8 @@
       "variantValues": {
         "Sicarus": {},
         "Sicarus Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png"
     },
     {
       "id": "soma-1-incarnon-form",
@@ -12809,7 +13068,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformmultishotslowerfirerate-xwhite.png"
     },
     {
       "id": "soma-2-fortress-salvo",
@@ -12880,7 +13140,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/punchthroughwitharmorabovex-xwhite.png"
     },
     {
       "id": "soma-2-fortifying-bloodshed",
@@ -12928,7 +13189,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onkillslashdamageaddovershields-xwhite.png"
     },
     {
       "id": "soma-3-kinetic-battle",
@@ -12974,7 +13236,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
       "id": "soma-3-practiced-grip",
@@ -13020,7 +13283,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png"
     },
     {
       "id": "soma-3-rapid-reinforcement",
@@ -13066,7 +13330,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "soma-4-fresh-havoc",
@@ -13122,7 +13387,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadfromempty-xwhite.png"
     },
     {
       "id": "soma-4-fatal-affliction",
@@ -13149,7 +13415,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperactivestatus-xwhite.png"
     },
     {
       "id": "soma-4-zeroed-in",
@@ -13195,7 +13462,8 @@
       "variantValues": {
         "Soma": {},
         "Soma Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamage-xwhite.png"
     },
     {
       "id": "strun-1-incarnon-form",
@@ -13222,7 +13490,8 @@
       "variantValues": {
         "Strun": {},
         "Mk1-Strun": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformexplosiveslugs.png"
     },
     {
       "id": "strun-2-tenno-targeting",
@@ -13341,7 +13610,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/punchthroughwithovershields-xwhite.png"
     },
     {
       "id": "strun-2-blazing-barrel",
@@ -13464,7 +13734,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotincreasesoneachshotresetsonreload.png"
     },
     {
       "id": "strun-3-rapid-reinforcement",
@@ -13524,7 +13795,8 @@
       "variantValues": {
         "Strun": {},
         "Mk1-Strun": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed.png"
     },
     {
       "id": "strun-3-galvanic-reload",
@@ -13551,7 +13823,8 @@
       "variantValues": {
         "Strun": {},
         "Mk1-Strun": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonfalloff.png"
     },
     {
       "id": "strun-3-swift-deliverance",
@@ -13611,7 +13884,8 @@
       "variantValues": {
         "Strun": {},
         "Mk1-Strun": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/hittingenemywelectricitystatusrestoresround.png"
     },
     {
       "id": "strun-4-elemental-balance",
@@ -13734,7 +14008,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus.png"
     },
     {
       "id": "strun-4-commodore-s-fortune",
@@ -13816,7 +14091,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit.png"
     },
     {
       "id": "strun-4-brutal-edge",
@@ -13980,7 +14256,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance.png"
     },
     {
       "id": "stug-1-incarnon-form",
@@ -14006,7 +14283,8 @@
       "legacyFingerprint": "bd572fe8",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/explodingbouncyballprojections-xwhite.png"
     },
     {
       "id": "stug-2-blazing-barrel",
@@ -14048,7 +14326,8 @@
       "legacyFingerprint": "c0339321",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/gainmultishotonfireresetonreload-xwhite.png"
     },
     {
       "id": "stug-2-overcharge-blast",
@@ -14090,7 +14369,8 @@
       "legacyFingerprint": "210c62d8",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/maxenergyabovexincreaseradialsize-xwhite.png"
     },
     {
       "id": "stug-3-rapid-reinforcement",
@@ -14128,7 +14408,8 @@
       "legacyFingerprint": "645b5c9d",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "stug-3-swift-deliverance",
@@ -14166,7 +14447,8 @@
       "legacyFingerprint": "4f8b910b",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "stug-3-resonant-restore",
@@ -14213,7 +14495,8 @@
       "legacyFingerprint": "0d90a90e",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "stug-4-survivor-s-edge",
@@ -14261,7 +14544,8 @@
       "legacyFingerprint": "ac9b37d2",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "stug-4-deathtrap-trigger",
@@ -14309,7 +14593,8 @@
       "legacyFingerprint": "48f78c7e",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
       "id": "stug-4-elemental-dominance",
@@ -14347,7 +14632,8 @@
       "legacyFingerprint": "a71337cb",
       "variantValues": {
         "Stug": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png"
     },
     {
       "id": "sybaris-1-incarnon-form",
@@ -14374,7 +14660,8 @@
       "variantValues": {
         "Sybaris": {},
         "Dex Sybaris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/4roundinnateblast.png"
     },
     {
       "id": "sybaris-2-well-rehearsed",
@@ -14474,7 +14761,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/consecutivetheadshotincrdmg.png"
     },
     {
       "id": "sybaris-2-blazing-barrel",
@@ -14546,7 +14834,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotcostsammotakenfrompoolnotclip.png"
     },
     {
       "id": "sybaris-3-extended-volley",
@@ -14615,7 +14904,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonammopool.png"
     },
     {
       "id": "sybaris-3-ready-retaliation",
@@ -14679,7 +14969,8 @@
       "variantValues": {
         "Sybaris": {},
         "Dex Sybaris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/reloadspeedonempty.png"
     },
     {
       "id": "sybaris-3-marksman-s-hand",
@@ -14732,7 +15023,8 @@
       "variantValues": {
         "Sybaris": {},
         "Dex Sybaris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil.png"
     },
     {
       "id": "sybaris-4-elemental-dominance",
@@ -14803,7 +15095,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/gainstatuschanceofcritchance.png"
     },
     {
       "id": "sybaris-4-reaver-s-rapture",
@@ -14867,7 +15160,8 @@
       "variantValues": {
         "Sybaris": {},
         "Dex Sybaris": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageincreaseonfullbursthitresetonreload.png"
     },
     {
       "id": "sybaris-4-survivor-s-edge",
@@ -14923,7 +15217,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/evolutioncriticalstatusup.png"
     },
     {
       "id": "torid-1-incarnon-form",
@@ -14950,7 +15245,8 @@
       "legacyFingerprint": "1b12d5c3",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonformlongrangebeam-xwhite.png"
     },
     {
       "id": "torid-2-final-fusillade",
@@ -15007,7 +15303,8 @@
       "legacyFingerprint": "4236efe6",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damagexmultishotonlastshotinmag-xwhite.png"
     },
     {
       "id": "torid-2-plentiful-mayhem",
@@ -15051,7 +15348,8 @@
       "legacyFingerprint": "13576531",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/multishotcostsammotakenfrompooladditionaldamage-xwhite.png"
     },
     {
       "id": "torid-3-swift-deliverance",
@@ -15089,7 +15387,8 @@
       "legacyFingerprint": "f4a7e6d0",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonprojectilespeed-xwhite.png"
     },
     {
       "id": "torid-3-renewed-horror",
@@ -15115,7 +15414,8 @@
       "legacyFingerprint": "0e0e2064",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "torid-3-extended-volley",
@@ -15153,7 +15453,8 @@
       "legacyFingerprint": "dd90cbdc",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "torid-4-commodore-s-fortune",
@@ -15191,7 +15492,8 @@
       "legacyFingerprint": "4f53403c",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "torid-4-survivor-s-edge",
@@ -15239,7 +15541,8 @@
       "legacyFingerprint": "145a1d06",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "torid-4-elemental-balance",
@@ -15277,7 +15580,8 @@
       "legacyFingerprint": "69cb50a8",
       "variantValues": {
         "Torid": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/highstatus-xwhite.png"
     },
     {
       "id": "vasto-1-incarnon-form",
@@ -15304,7 +15608,8 @@
       "variantValues": {
         "Vasto": {},
         "Vasto Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/hammerfanburstshotgun-xwhite.png"
     },
     {
       "id": "vasto-2-lone-gun",
@@ -15393,7 +15698,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/damagewithnoprimaryormeleeequipped-xwhite.png"
     },
     {
       "id": "vasto-2-deathtrap-trigger",
@@ -15490,7 +15796,8 @@
             "unit": "x"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critchanceanddmgonfirstshot-xwhite.png"
     },
     {
       "id": "vasto-3-extended-volley",
@@ -15536,7 +15843,8 @@
       "variantValues": {
         "Vasto": {},
         "Vasto Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "vasto-3-marksman-s-hand",
@@ -15582,7 +15890,8 @@
       "variantValues": {
         "Vasto": {},
         "Vasto Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
       "id": "vasto-3-awakened-readiness",
@@ -15609,7 +15918,8 @@
       "variantValues": {
         "Vasto": {},
         "Vasto Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "vasto-4-commodore-s-fortune",
@@ -15665,7 +15975,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "vasto-4-survivor-s-edge",
@@ -15726,7 +16037,8 @@
       "variantValues": {
         "Vasto": {},
         "Vasto Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "vasto-4-reaper-s-plenty",
@@ -15753,7 +16065,8 @@
       "variantValues": {
         "Vasto": {},
         "Vasto Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/onheadshotammoefficiency-xwhite.png"
     },
     {
       "id": "vectis-1-incarnon-form",
@@ -15777,7 +16090,8 @@
       "nonDamageEffects": [],
       "coverage": "utility",
       "legacyFingerprint": "4cfab03b",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/headshotsexploderadialspheres-xwhite.png"
     },
     {
       "id": "vectis-2-inciting-incident",
@@ -15808,7 +16122,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "9429851c",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/increasedfireratewithactivechanneledability-xwhite.png"
     },
     {
       "id": "vectis-2-lone-enforcer",
@@ -15832,7 +16147,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "9602080c",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/xmultishotnoenemieswithinym-xwhite.png"
     },
     {
       "id": "vectis-3-rapid-reinforcement",
@@ -15856,7 +16172,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "776a562a",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "vectis-3-marksman-s-hand",
@@ -15880,7 +16197,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "2437cd04",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
       "id": "vectis-3-silent-running",
@@ -15904,7 +16222,8 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "b81290b8",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/shotsaresilent-xwhite.png"
     },
     {
       "id": "vectis-4-deadhead",
@@ -15928,7 +16247,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "4e2e69e6",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/headshotdamage-xwhite.png"
     },
     {
       "id": "vectis-4-critical-parallel",
@@ -15952,13 +16272,14 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "8d339509",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
       "id": "vectis-2-survivor-s-edge",
       "name": "Survivor's Edge",
       "family": "Vectis",
-      "tier": 2,
+      "tier": 4,
       "description": "| style=\"white-space: nowrap; text-align:center;\" | Survivor's Edge 64px|center | * Increase Base Status Chance by 30% of current Critical Chance, up to 40% | colspan=\"2\" style=\"text-align:center\" | - | * Maximum Base Status Chance increase is gained at 134% Critical Chance, requiring +345% critical chance to reach. ** Critical chance from {{M|Primary Acuity}} does not work, however {{M|Galvanized Scope}} does. |} ==Notes== * The headshot explosion does not trigger an Extra Hit from sources like {{WF|Saryn}}'s {{A|Toxic Lash}} (which may be a bug) or {{WF|Oraxia}}'s {{A|Silken Stride}} (because it doesn't work on any Incarnon form). ==Tips== ==Known Bugs== *EVO2's base damage increase is applied a second time for the Total Damage stat in the arsenal UI (in-mission damage is not affected). The damage value for each individual damage type will be correctly calculated based on the damage bonus applying once. *EVO4 Survivor's Edge does not appear to apply its bonus for the Incarnon form's radial attack portion when modding for {{D|Blast}} specifically. However, this is just a UI bug in the Arsenal: the bonus applies correctly during gameplay. ==Patch History== {{Scrollbox/Article| {{ver|43.5.3}} *Fixed the Vectis (Prime) not having a fully reloaded magazine after exiting Incarnon Form. {{ver|43.5}} *Fixed the Vectis Incarnon Form benefitting from Primed Chamber on every shot. {{ver|43.0.5}} *Fixed explosion kills from the Vectis' Incarnon Forms not counting towards the \"Kill 100 Enemies\" challenge. {{ver|43.0.4}} *Increased the Vectis Incarnon \"Lone Enforcer\" Evolution's stats as follows: **Increased Base Damage from +50 to +75 (+100 to +150 for Vectis Prime). **Increased Multishot from 20% to 25%. *Increased the Vectis Incarnon form's projectile speed from 200 to 300. {{ver|43}} *Introduced. }} {{IncarnonNav}} Category:Duviri Category:Incarnon Category:Incarnon Geneses",
       "effects": [],
       "limitations": [
@@ -15976,7 +16297,8 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "22beff36",
-      "variantValues": {}
+      "variantValues": {},
+      "image": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png"
     },
     {
       "id": "zylok-1-incarnon-form",
@@ -16003,7 +16325,8 @@
       "variantValues": {
         "Zylok": {},
         "Zylok Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/singleshotchargeexplosivehit-xwhite.png"
     },
     {
       "id": "zylok-2-precision-s-payoff",
@@ -16084,7 +16407,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/onheadshotfromfullburst-xwhite.png"
     },
     {
       "id": "zylok-2-mauler-s-magazine",
@@ -16167,7 +16491,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/critdamageonreloadfromempty-xwhite.png"
     },
     {
       "id": "zylok-3-extended-volley",
@@ -16223,7 +16548,8 @@
             "unit": ""
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonclipsize-xwhite.png"
     },
     {
       "id": "zylok-3-rapid-reinforcement",
@@ -16269,7 +16595,8 @@
       "variantValues": {
         "Zylok": {},
         "Zylok Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
       "id": "zylok-3-void-s-guidance",
@@ -16330,7 +16657,8 @@
       "variantValues": {
         "Zylok": {},
         "Zylok Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/lessrecoilmoreaccuracy-xwhite.png"
     },
     {
       "id": "zylok-4-survivor-s-edge",
@@ -16409,7 +16737,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/xcritchanceystatchance-xwhite.png"
     },
     {
       "id": "zylok-4-commodore-s-fortune",
@@ -16465,7 +16794,8 @@
             "unit": "%"
           }
         }
-      }
+      },
+      "image": "images/incarnon-evolutions/highcrit-xwhite.png"
     },
     {
       "id": "zylok-4-fatal-affliction",
@@ -16492,7 +16822,8 @@
       "variantValues": {
         "Zylok": {},
         "Zylok Prime": {}
-      }
+      },
+      "image": "images/incarnon-evolutions/damageperactivestatus-xwhite.png"
     }
   ],
   "onlinePageHashes": {
