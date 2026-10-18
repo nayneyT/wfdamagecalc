@@ -9760,18 +9760,20 @@ return module.exports;})();
   function evolutionDescription(e, w) {
     if (!e) return 'No evolution selected.';
     const effects = e.variantEffects?.[w.incarnonVariant || w.name] || e.effects,
-      formatEffect = (effect) => {
+      variantValues = e.variantValues?.[w.incarnonVariant || w.name] || {},
+      formatValue = (effect) => {
         const flat = [
-            'baseDamage',
-            'baseMagazine',
-            'baseMultishot',
-            'baseAmmoSet',
-            'baseCritDamage',
-            'punchThrough',
-            'range',
-          ].includes(effect.stat),
-          value =
-            (effect.value >= 0 ? '+' : '') + (flat ? fmt(effect.value, 3) : pct(effect.value));
+          'baseDamage',
+          'baseMagazine',
+          'baseMultishot',
+          'baseAmmoSet',
+          'baseCritDamage',
+          'punchThrough',
+          'range',
+        ].includes(effect.stat);
+        return (effect.value >= 0 ? '+' : '') + (flat ? fmt(effect.value, 3) : pct(effect.value));
+      },
+      formatEffect = (effect) => {
         const names = {
           baseDamage: 'base damage',
           baseMagazine: 'base magazine capacity',
@@ -9787,7 +9789,7 @@ return module.exports;})();
         };
         const condition = arr(e.conditions).find((c) => c.id === effect.condition);
         return (
-          value +
+          formatValue(effect) +
           ' ' +
           (names[effect.stat] || effect.stat.replace(/([A-Z])/g, ' $1').toLowerCase()) +
           (effect.scope && effect.scope !== 'both'
@@ -9796,19 +9798,59 @@ return module.exports;})();
           (condition ? ' · ' + condition.label : '')
         );
       };
-    const table = Object.entries(e.variantValues?.[w.incarnonVariant || w.name] || {})
-      .map(([key, v]) => key + ' = ' + fmt(v.value, 3) + v.unit)
-      .join(' · ');
+    const descriptionLines = String(e.description || '')
+      .split('\n')
+      .map((line) => line.trim())
+      .filter(Boolean);
+    const effectLines = descriptionLines.length
+      ? descriptionLines.map((line, index) => {
+          const effect = effects[index];
+          if (
+            effect &&
+            ['baseCrit', 'baseStatus'].includes(effect.stat) &&
+            !/:|;|\band\b|\bstacks?\b|\bper\b|\bfor\s+\d/i.test(line)
+          )
+            return formatEffect(effect);
+          return line.replace(/\b([XYZ])([%x])?/g, (placeholder, key, suffix) => {
+            const variant = variantValues[key];
+            if (variant) return fmt(variant.value, 3) + (suffix || variant.unit);
+            if (!effect) return placeholder;
+            const value = formatValue(effect).replace(/^\+/, '');
+            return value + (suffix && !value.endsWith(suffix) ? suffix : '');
+          });
+        })
+      : effects.map(formatEffect);
+    if (descriptionLines.length && effects.length > descriptionLines.length)
+      effectLines.push(...effects.slice(descriptionLines.length).map(formatEffect));
+    const described = descriptionLines.join(' ').toLowerCase();
+    const utility = arr(e.nonDamageEffects).filter(
+      (item) => !described.includes(item.trim().toLowerCase()),
+    );
+    const limitations = [
+      ...new Set(
+        arr(e.limitations)
+          .map((limitation) => {
+            const prefix = 'Unmodeled evolution effect: ';
+            if (!limitation.startsWith(prefix)) return limitation;
+            const detail = limitation.slice(prefix.length);
+            const duplicate = descriptionLines.find(
+              (line) => detail === line || detail.startsWith(line + ' ('),
+            );
+            return duplicate
+              ? detail.slice(duplicate.length).trim().replace(/^\(|\)$/g, '')
+              : limitation;
+          })
+          .filter(Boolean),
+      ),
+    ];
     return (
       e.name +
       ' — ' +
       w.name +
       '\n' +
-      effects.map(formatEffect).join('\n') +
-      (table ? '\nSource table: ' + table : '') +
-      (e.description ? '\n\n' + e.description : '') +
-      (e.limitations.length ? '\n\nNot modeled:\n' + e.limitations.join('\n') : '') +
-      (e.nonDamageEffects?.length ? '\n\nUtility effects: ' + e.nonDamageEffects.join(' · ') : '')
+      effectLines.join('\n') +
+      (limitations.length ? '\n\nNot modeled:\n' + limitations.join('\n') : '') +
+      (utility.length ? '\n\nUtility effects: ' + utility.join(' · ') : '')
     );
   }
   function renderEvolutionControls() {
@@ -16142,6 +16184,20 @@ return module.exports;})();
       }
       const bp = get(testDb, 'weapons', 'burston-prime');
       if (bp) {
+        const recoilDescription = evolutionDescription(
+          get(testDb, 'incarnon-evolutions', 'burston-3-kinetic-battle'),
+          bp,
+        );
+        const criticalDescription = evolutionDescription(
+          get(testDb, 'incarnon-evolutions', 'burston-4-absolute-valor'),
+          bp,
+        );
+        assert(
+          recoilDescription.split('-50% Weapon Recoil.').length === 2 &&
+            criticalDescription.split('+22% base critical chance').length === 2 &&
+            !criticalDescription.includes('Increase Base Critical Chance'),
+          'Incarnon summaries display each recoil and critical effect once',
+        );
         const empty = defaultState(testDb);
         empty.weaponId = bp.id;
         empty.attackId = 'attack-0';

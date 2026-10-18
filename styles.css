@@ -916,6 +916,8 @@ details summary:hover {
   margin-top: 10px;
   padding: 10px 2px 2px;
   border-top: 1px solid var(--border);
+  min-width: 0;
+  overflow-x: auto;
 }
 .evolution-tip {
   white-space: pre-line;
@@ -1001,10 +1003,12 @@ details summary:hover {
 }
 .evolution-condition {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   margin-top: 8px;
   font-size: 11px;
+  white-space: nowrap;
 }
 .evolution-condition-alert {
   flex: none;
@@ -1014,7 +1018,8 @@ details summary:hover {
   cursor: help;
 }
 .evolution-condition input {
-  margin-left: auto;
+  flex: none;
+  margin-left: 0;
 }
 .evolution-condition input[type="number"] {
   width: 60px;
