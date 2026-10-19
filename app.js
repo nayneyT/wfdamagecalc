@@ -147,9 +147,11 @@
   STATUS_ICON_FILES['shield drain'] = 'images/status/IconShield.png';
   const STORAGE_KEY = 'void-arsenal-v1';
   const BUILD_DRAFT_STORAGE_KEY = 'void-arsenal-active-build-v1';
+  const PROJECT_FOLDER_NAME_KEY = 'void-arsenal-project-folder-name';
   const INDEXED_DB_NAME = 'void-arsenal-catalogue';
-  const INDEXED_DB_VERSION = 1;
+  const INDEXED_DB_VERSION = 2;
   const INDEXED_DB_STORE = 'categories';
+  const INDEXED_DB_FOLDER_STORE = 'folder-handles';
   const clone = (value) => JSON.parse(JSON.stringify(value));
   const clamp = (n, a, b) => Math.max(a, Math.min(b, Number.isFinite(+n) ? +n : a));
   const sum = (o) =>
@@ -7590,45 +7592,94 @@ return module.exports;})();
   let onlineDraft = null,
     onlineBusy = false,
     appDirectory = null,
-    dataDirectory = null;
+    dataDirectory = null,
+    assetFolder = null;
   function onlineProgress(message) {
     $('online-progress').textContent = message;
   }
-  async function connectDataFolder() {
+  function renderProjectFolderStatus(message = '') {
+    let savedName = '';
+    try {
+      savedName = localStorage.getItem(PROJECT_FOLDER_NAME_KEY) || '';
+    } catch (error) {
+      reportOptionalFailure('Saved folder name could not be read', error);
+    }
+    const status = message || (appDirectory
+      ? 'Connected: ' + appDirectory.name + ' · data and images are available.'
+      : savedName
+        ? 'Saved folder: ' + savedName + ' · select Local Data Folder to restore access.'
+        : 'No Local Data Folder selected. Select the folder containing index.html.');
+    $('local-folder-status').textContent = status;
+    $('online-folder').textContent = status;
+    $('connect-data-folder').textContent = appDirectory
+      ? 'Change Local Data Folder'
+      : 'Select Local Data Folder';
+    for (const id of [
+      'import-data-zip',
+      'download-images-locally',
+      'export-assets-zip',
+      'import-assets-zip',
+      'image-mode',
+    ])
+      $(id).disabled = !appDirectory;
+  }
+  async function validateProjectFolder(handle) {
+    await handle.getFileHandle('index.html');
+    const data = await handle.getDirectoryHandle('data');
+    await data.getFileHandle('weapons.json');
+    const images = await handle.getDirectoryHandle('images');
+    const manifestHandle = await images.getFileHandle('manifest.json');
+    const manifest = JSON.parse(await (await manifestHandle.getFile()).text());
+    if (!Array.isArray(manifest.assets)) throw Error('images/manifest.json has no asset list.');
+    return data;
+  }
+  function useProjectFolder(handle, data) {
+    appDirectory = handle;
+    dataDirectory = data;
+    assetFolder = handle;
+    renderProjectFolderStatus();
+    countLocalAssets().catch((error) => notify('Asset count failed: ' + error.message, true));
+  }
+  async function connectProjectFolder() {
     if (!global.showDirectoryPicker) {
       notify(
-        'This browser cannot write local folders. Apply online updates, then save the downloaded category JSON files into data/.',
+        'Folder access is unavailable in this browser. Use Chrome or Edge, or see “How to download images” for the Python fallback.',
+        true,
       );
       return;
     }
     try {
       const handle = await global.showDirectoryPicker({
-        id: 'void-arsenal-data',
+        id: 'void-arsenal-project',
         mode: 'readwrite',
       });
-      let data;
+      const data = await validateProjectFolder(handle);
+      useProjectFolder(handle, data);
       try {
-        data = await handle.getDirectoryHandle('data');
-        appDirectory = handle;
-      } catch {
-        data = handle;
-        appDirectory = null;
+        await saveProjectFolderHandle(handle);
+        localStorage.setItem(PROJECT_FOLDER_NAME_KEY, handle.name);
+      } catch (error) {
+        notify('Folder connected for this session, but could not be saved: ' + error.message, true);
       }
-      await data.getFileHandle('weapons.json');
-      dataDirectory = data;
-      $('online-folder').value =
-        'Connected: ' +
-        handle.name +
-        (appDirectory ? ' / data' : '') +
-        '. Category JSON files will be updated here.';
-      if ($('connect-data-folder'))
-        $('connect-data-folder').textContent = 'Data folder: ' + handle.name;
-      if (appDirectory) {
-        assetFolder = appDirectory;
-        countLocalAssets().catch((error) => notify('Asset count failed: ' + error.message, true));
-      }
+      renderProjectFolderStatus();
     } catch (e) {
-      if (e.name !== 'AbortError') notify('Cannot connect folder: ' + e.message, true);
+      if (e.name !== 'AbortError')
+        notify('Select the project folder containing index.html, data/, and images/: ' + e.message, true);
+    }
+  }
+  async function restoreProjectFolder() {
+    renderProjectFolderStatus();
+    try {
+      const handle = await readProjectFolderHandle();
+      if (!handle) return;
+      if ((await handle.queryPermission({ mode: 'readwrite' })) !== 'granted') {
+        renderProjectFolderStatus('Saved folder: ' + handle.name + ' · select Local Data Folder to renew access.');
+        return;
+      }
+      useProjectFolder(handle, await validateProjectFolder(handle));
+    } catch (error) {
+      renderProjectFolderStatus('Saved folder could not be restored. Select Local Data Folder again.');
+      notify('Local Data Folder restore failed: ' + error.message, true);
     }
   }
   async function readSyncBase() {
@@ -7735,7 +7786,7 @@ return module.exports;})();
         '</tbody></table></div><p class="hint">Saved arsenal builds, custom Rivens and calculation rules are retained. Existing records missing online are kept to protect build references. New or changed mechanics that cannot be verified are marked incomplete. ' +
         (dataDirectory
           ? 'Apply writes category JSON files to the connected folder.'
-          : 'Apply updates this browser and downloads changed category JSON files; save them into your data folder.') +
+          : 'Apply updates this browser and downloads changed category JSON files; save them into data/. To write directly to disk, cancel and select Local Data Folder in Database editor before checking online again.') +
         '</p>';
       $('online-dialog').showModal();
       onlineProgress('Online check complete. Review the changes.');
@@ -8202,6 +8253,8 @@ return module.exports;})();
       request.onupgradeneeded = () => {
         if (!request.result.objectStoreNames.contains(INDEXED_DB_STORE))
           request.result.createObjectStore(INDEXED_DB_STORE);
+        if (!request.result.objectStoreNames.contains(INDEXED_DB_FOLDER_STORE))
+          request.result.createObjectStore(INDEXED_DB_FOLDER_STORE);
       };
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject(request.error || Error('Could not open IndexedDB.'));
@@ -8230,6 +8283,51 @@ return module.exports;})();
       tx.onabort = () => {
         database.close();
         reject(tx.error || Error('IndexedDB catalogue read was cancelled.'));
+      };
+    });
+  }
+  async function readProjectFolderHandle() {
+    const database = await openCatalogueDatabase();
+    return new Promise((resolve, reject) => {
+      const tx = database.transaction(INDEXED_DB_FOLDER_STORE, 'readonly');
+      const request = tx.objectStore(INDEXED_DB_FOLDER_STORE).get('project-root');
+      tx.oncomplete = () => {
+        database.close();
+        resolve(request.result || null);
+      };
+      tx.onerror = () => {
+        database.close();
+        reject(tx.error || Error('Could not restore the Local Data Folder.'));
+      };
+      tx.onabort = () => {
+        database.close();
+        reject(tx.error || Error('Local Data Folder restore was cancelled.'));
+      };
+    });
+  }
+  async function saveProjectFolderHandle(handle) {
+    const database = await openCatalogueDatabase();
+    return new Promise((resolve, reject) => {
+      const tx = database.transaction(INDEXED_DB_FOLDER_STORE, 'readwrite');
+      try {
+        tx.objectStore(INDEXED_DB_FOLDER_STORE).put(handle, 'project-root');
+      } catch (error) {
+        tx.abort();
+        database.close();
+        reject(error);
+        return;
+      }
+      tx.oncomplete = () => {
+        database.close();
+        resolve();
+      };
+      tx.onerror = () => {
+        database.close();
+        reject(tx.error || Error('Could not save the Local Data Folder.'));
+      };
+      tx.onabort = () => {
+        database.close();
+        reject(tx.error || Error('Local Data Folder save was cancelled.'));
       };
     });
   }
@@ -13463,6 +13561,8 @@ return module.exports;})();
   async function importDataZip(file) {
     if (!file) return;
     try {
+      if (!dataDirectory)
+        throw Error('Select Local Data Folder before importing data.');
       backupProgress('Reading data ZIP', 0, 1);
       const entries = await readZip(file),
         expected = new Set(CATEGORIES.map((c) => 'data/' + c + '.json'));
@@ -13495,21 +13595,18 @@ return module.exports;})();
       $('cancel-zip-import').onclick = () => ($('import-preview').hidden = true);
       $('confirm-zip-import').onclick = async () => {
         try {
+          if (!dataDirectory)
+            throw Error('Select Local Data Folder before restoring data.');
           let rollback = null;
           try {
-            if (dataDirectory) rollback = await writeImportedDataFolder(entries);
+            rollback = await writeImportedDataFolder(entries);
             applyDatabase(candidate);
           } catch (error) {
             if (rollback) await rollback();
             throw error;
           }
           $('import-preview').hidden = true;
-          notify(
-            'Data ZIP restored' +
-              (dataDirectory
-                ? ' to browser and connected data folder.'
-                : ' to browser. Connect a data folder during online sync to write JSON files.'),
-          );
+          notify('Data ZIP restored to browser and connected data folder.');
         } catch (error) {
           notify('Data restore failed: ' + error.message, true);
         }
@@ -13520,24 +13617,11 @@ return module.exports;})();
       $('data-zip-file').value = '';
     }
   }
-  let assetFolder = null;
   const BUNDLED_ASSET_PATHS = [
     'images/archon-shards/plain-shard.png',
     'images/archon-shards/plain-shard-large.png',
     'images/placeholder.svg',
   ];
-  async function chooseAssetFolder() {
-    if (!global.showDirectoryPicker)
-      throw Error('Folder access is unavailable in this browser. Use Chrome or Edge.');
-    const folder = await global.showDirectoryPicker({
-      id: 'void-arsenal-images',
-      mode: 'readwrite',
-    });
-    await folder.getFileHandle('index.html');
-    assetFolder = folder;
-    await countLocalAssets();
-    return folder;
-  }
   async function imageHandle(root, path, create = false) {
     const parts = checkedZipPath(path).split('/');
     if (parts[0] !== 'images') throw Error('Expected an images/ path.');
@@ -13552,41 +13636,52 @@ return module.exports;})();
       output.textContent =
         Object.keys(ASSET_SOURCES).length +
         BUNDLED_ASSET_PATHS.length +
-        ' assets in manifest (' +
+        ' assets in manifest · local: unknown · ' +
         Object.keys(ASSET_SOURCES).length +
-        ' downloadable) · locally present: unknown (connect project folder)';
+        ' remote sources available. Select Local Data Folder to count local files.';
       return;
     }
-    const manifestFile = await (await imageHandle(assetFolder, 'images/manifest.json')).getFile(),
+    const folder = assetFolder;
+    const manifestFile = await (await imageHandle(folder, 'images/manifest.json')).getFile(),
       manifest = JSON.parse(await manifestFile.text()),
-      paths = manifest.assets.map((asset) => checkedZipPath(asset.local)),
-      total = paths.length;
+      assets = manifest.assets.map((asset) => ({ ...asset, local: checkedZipPath(asset.local) })),
+      total = assets.length;
     let present = 0,
+      remoteOnly = 0,
+      unavailable = 0,
       checked = 0;
-    for (const path of paths) {
+    for (const asset of assets) {
       try {
-        if ((await (await imageHandle(assetFolder, path)).getFile()).size > 0) present++;
+        if ((await (await imageHandle(folder, asset.local)).getFile()).size > 0) present++;
+        else if (asset.url) remoteOnly++;
+        else unavailable++;
       } catch (error) {
         if (error.name !== 'NotFoundError') throw error;
+        if (asset.url) remoteOnly++;
+        else unavailable++;
       }
       checked++;
       if (checked % 100 === 0) {
+        if (assetFolder !== folder) return;
         output.textContent =
           total + ' in manifest · checking local files ' + checked + ' / ' + total;
         await new Promise((resolve) => setTimeout(resolve, 0));
       }
     }
+    if (assetFolder !== folder) return;
     output.textContent =
       total +
       ' assets in manifest · ' +
       present +
-      ' present locally · ' +
-      (total - present) +
-      ' missing';
+      ' local · ' +
+      remoteOnly +
+      ' remote-only' +
+      (unavailable ? ' · ' + unavailable + ' missing without a remote source' : '');
   }
   async function exportAssetsZip() {
     try {
-      const folder = assetFolder || (await chooseAssetFolder()),
+      if (!assetFolder) throw Error('Select Local Data Folder before exporting assets.');
+      const folder = assetFolder,
         entries = [],
         manifest = await (await imageHandle(folder, 'images/manifest.json')).getFile(),
         registry = JSON.parse(await manifest.text()),
@@ -13618,7 +13713,8 @@ return module.exports;})();
   async function importAssetsZip(file) {
     if (!file) return;
     try {
-      const folder = assetFolder || (await chooseAssetFolder()),
+      if (!assetFolder) throw Error('Select Local Data Folder before importing assets.');
+      const folder = assetFolder,
         entries = await readZip(file);
       if (!entries.length) throw Error('Asset ZIP is empty.');
       if (!entries.some((entry) => entry.path === 'images/manifest.json'))
@@ -16905,25 +17001,12 @@ return module.exports;})();
   async function downloadImagesLocally() {
     const button = $('download-images-locally'),
       status = $('image-download-status');
-    if (!global.showDirectoryPicker) {
-      status.textContent =
-        'Folder-write access is unavailable in this browser or page. Use Chrome or Edge, or see “How to download images” for the Python fallback.';
+    if (!assetFolder) {
+      status.textContent = 'Select Local Data Folder before downloading images.';
       return;
     }
-    let folder;
-    try {
-      folder = await global.showDirectoryPicker({ id: 'void-arsenal-images', mode: 'readwrite' });
-      await folder.getFileHandle('index.html');
-      assetFolder = folder;
-    } catch (error) {
-      if (error.name !== 'AbortError')
-        status.textContent =
-          'Folder selection failed: ' +
-          error.message +
-          '. Select the folder containing index.html, or see “How to download images” for help.';
-      return;
-    }
-    const assets = Object.entries(ASSET_SOURCES),
+    const folder = assetFolder,
+      assets = Object.entries(ASSET_SOURCES),
       total = assets.length,
       failures = [];
     let next = 0,
@@ -17080,7 +17163,7 @@ return module.exports;})();
         };
       }
     } finally {
-      button.disabled = false;
+      button.disabled = !assetFolder;
       if (assetFolder)
         countLocalAssets().catch((error) =>
           notify('Could not count local assets: ' + error.message, true),
@@ -17089,6 +17172,7 @@ return module.exports;})();
   }
   function bind() {
     renderImageAssetControls();
+    renderProjectFolderStatus();
     if (!$('record-tweaks'))
       $('record-fields').insertAdjacentHTML(
         'afterend',
@@ -17100,26 +17184,13 @@ return module.exports;})();
     for (const button of document.querySelectorAll('[data-check-online]'))
       button.textContent = 'Sync all sourced data';
     countLocalAssets();
-    $('connect-assets-folder').onclick = () =>
-      chooseAssetFolder().catch((error) => {
-        if (error.name !== 'AbortError') notify('Folder access failed: ' + error.message, true);
-      });
     $('export-assets-zip').onclick = exportAssetsZip;
     $('import-assets-zip').onclick = () => $('assets-zip-file').click();
     $('assets-zip-file').onchange = () => importAssetsZip($('assets-zip-file').files[0]);
     $('export-data-zip').onclick = exportDataZip;
     $('import-data-zip').onclick = () => $('data-zip-file').click();
     $('data-zip-file').onchange = () => importDataZip($('data-zip-file').files[0]);
-    const folderButton = $('connect-data-folder');
-    folderButton.hidden = false;
-    $('import-data-zip').after(folderButton);
-    if (!document.querySelector('[data-check-online]'))
-      folderButton.insertAdjacentHTML(
-        'afterend',
-        '<button type="button" data-check-online>Sync all sourced data</button>',
-      );
-    folderButton.onclick = connectDataFolder;
-    $('local-asset-counts').after($('online-progress'));
+    $('connect-data-folder').onclick = connectProjectFolder;
     $('online-progress').hidden = false;
     $('download-images-locally').onclick = downloadImagesLocally;
     $('show-image-download-help').onclick = () => showImageDownloadHelp();
@@ -17171,15 +17242,6 @@ return module.exports;})();
     $('close-ttk-graph-dialog').onclick = () => ttkGraphDialog.close();
     for (const b of document.querySelectorAll('[data-check-online]'))
       b.onclick = checkOnlineUpdates;
-    $('connect-data-folder').onclick = connectDataFolder;
-    $('connect-online-folder').onclick = async () => {
-      await connectDataFolder();
-      if (dataDirectory) {
-        onlineDraft = null;
-        $('online-dialog').close();
-        await checkOnlineUpdates();
-      }
-    };
     $('apply-online').onclick = applyOnlineUpdates;
     $('online-dialog').oncancel = (e) => {
       if (onlineBusy) e.preventDefault();
@@ -17746,6 +17808,7 @@ return module.exports;})();
       syncInputs();
       renderRivenList();
       bind();
+      await restoreProjectFolder();
       renderArsenalUI();
       renderCalculations();
       let savedView = 'calculator';

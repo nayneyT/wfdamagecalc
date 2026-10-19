@@ -23,10 +23,10 @@ start .\index.html
 If `C:\github` already exists, skip the `mkdir` command. You can also open `index.html` from File
 Explorer. The page uses online images by default.
 
-To save images for offline use, open the page in Chrome or Edge, go to **Database editor → Image
-assets**, and click **Download Images Locally**. Select the folder containing `index.html` (for
-example, `C:\github\wfdamagecalc`) and allow the browser to edit files there. When the download
-finishes, choose **Use Local Images**.
+To save images for offline use, open the page in Chrome or Edge. In **Database editor → Local
+database**, click **Select Local Data Folder** and choose the folder containing `index.html` (for
+example, `C:\github\wfdamagecalc`). Allow the browser to edit files there, then click **Image
+assets → Download Images Locally**. When the download finishes, choose **Use Local Images**.
 
 Alternatively, from the project folder run the Python downloader:
 
@@ -36,8 +36,8 @@ py scripts/download_images.py
 ```
 
 You can use `python scripts/download_images.py` if `py` is unavailable. After it finishes, return to
-**Database editor → Image assets** and change **Image source** from **Remote images** to **Local
-images**. See **How to download images** in the app for more help.
+**Database editor**, select **Local Data Folder** to count the files, then change **Image source**
+from **Remote images** to **Local images**. See **How to download images** in the app for more help.
 
 A browser-only Warframe damage calculator. Open [index.html](index.html) with `app.js` and
 `styles.css` beside it. There is no installation, Node.js, npm, framework, build step, or server.
@@ -124,9 +124,9 @@ categories reference those IDs.
 Browser restrictions generally prevent automatically fetching JSON beside a directly opened HTML
 file. Therefore `index.html` also embeds a starter copy of each dataset. The working database is
 saved in IndexedDB. **Export Data** downloads a ZIP containing every current `data/*.json` category,
-including arsenal and Rivens. **Import Data** validates and previews that ZIP before replacing the
-working data; if you connect the data folder, it updates those JSON files too. No local `fetch()`
-calls are used.
+including arsenal and Rivens. Select **Local Data Folder** to enable **Import Data**. It validates
+and previews the ZIP, then restores the working data in this browser and the selected folder's
+`data/*.json` files. No local `fetch()` calls are used.
 
 The editor supports creating, cloning, changing, and deleting records. Its simple fields update the
 full record JSON. Nested damage profiles, effects, conditions, and defenses are edited in the JSON
@@ -236,9 +236,10 @@ loads from the source URLs listed in `images/manifest.json`. A compact source lo
 access is needed for artwork in the default **Remote images** mode; unavailable sources show a local
 image, when present, or the placeholder.
 
-To save artwork for offline use, open the app in a current Chromium browser such as Chrome or Edge,
-then choose **Database editor → Image assets → Download Images Locally**. Select the project folder
-containing `index.html` when the browser asks for folder access. A progress window shows checked,
+To save artwork for offline use, open the app in a current Chromium browser such as Chrome or Edge.
+In **Database editor → Local database**, click **Select Local Data Folder** and select the project
+folder containing `index.html`, `data/`, and `images/`. Then choose **Image assets → Download Images
+Locally**. A progress window shows checked,
 downloaded, skipped, and failed images; **Cancel download** keeps files already saved. At
 completion, choose **Use Local Images** or **Stay Remote**. Local mode tries the online source for
 any missing image, so it can also be used after a partial download. Run the download again to retry
@@ -246,9 +247,16 @@ failures. If a source blocks browser cross-origin downloads, the downloader retr
 `images.weserv.nl`; source attribution remains in the manifest. The app does not upload your local
 images.
 
+The browser remembers the selected folder name in localStorage and its access handle in IndexedDB.
+After a refresh, folder access is restored when the browser retains permission. If access needs
+renewing, click **Select Local Data Folder** again. Browsers do not expose the full Windows path.
+Image download, export, import, and source selection stay disabled until the folder is accessible;
+the download help remains available.
+
 Opening `index.html` directly from disk works in Chrome and Edge with folder access; a local server
-is not required. If folder access is unavailable, the Image assets card displays an error and points
-to **How to download images**. The Python fallback reads `images/manifest.json`, skips images
+is not required. If folder access is unavailable, the folder selector reports the error and the
+Image assets card keeps its file actions disabled; **How to download images** explains the Python
+fallback. The Python script reads `images/manifest.json`, skips images
 already present, prints progress and failures, and writes a detailed, ignored `image-download.log`
 in the project folder. It can be rerun after an interruption. Python is optional for image downloads
 and is not required to run the app.
@@ -259,7 +267,8 @@ Weapon artwork lives in `images/weapons`, enemy portraits in `images/enemies`, s
 computer after Git stops tracking it; `.gitignore` prevents it from being added to future commits.
 The three included images have no remote source.
 
-**Connect project folder** in Database editor to count downloaded assets against the manifest.
+**Select Local Data Folder** in Database editor to count downloaded assets against the manifest.
+The Image assets card shows how many manifest entries are local and how many require a remote source.
 **Export Assets** creates a ZIP of locally present, manifest-listed images and
 `images/manifest.json`; **Import Assets** validates and restores that ZIP into the selected project
 folder. These controls require folder access in a compatible browser. The bundled local-only
@@ -294,12 +303,12 @@ supplies some artwork, but the catalogue update reads the Warframe Wiki. Browser
 only needed for this optional check. Lua source tables are parsed as data without running their
 code; the parser is bundled in the single JavaScript file (see LICENSES.md).
 
-To update files directly, use **Database editor → Connect app/data folder**, select this app's
-folder (or its data folder), check online, then choose **Apply sync**. You can also connect the
-folder from the preview and recheck. Supported browsers require their normal folder-access dialog.
+To update files directly, use **Database editor → Local database → Select Local Data Folder**,
+select this app's project root, check online, then choose **Apply**. Supported browsers require
+their normal folder-access dialog.
 Category JSON files already on disk are read before merging, and files changed after the preview
 cause sync to stop. Completed writes are restored if another file write fails. Folder access is
-connected for the current page session; reconnect after reopening the page.
+restored after refresh when browser permission remains granted; otherwise, select the folder again.
 
 Without folder access, applying sync updates browser storage and downloads the changed category JSON
 files. Save them into `data/`; your browser may ask to allow multiple downloads. **Export Data**
