@@ -75,8 +75,8 @@
           </p>
         </div>
         <div class="toolbar">
-          <button id="export-build">Export build</button>
-          <button id="import-build">Import build</button>
+          <button id="export-arsenal">Backup Everything</button>
+          <button id="import-arsenal">Restore Everything</button>
           <button id="help">Guide &amp; sources</button>
         </div>
       </div>
@@ -110,8 +110,8 @@
               <button id="save-as-build">Save as new</button>
               <button id="rename-build">Rename</button>
               <button id="delete-build">Delete</button>
-              <button id="export-arsenal">Export arsenal.json</button>
-              <button id="import-arsenal">Import arsenal.json</button>
+              <button id="export-build">Export Current Build</button>
+              <button id="import-build">Import Build</button>
             </div>
             <p id="draft-status" class="draft-status" role="status">Portable Braton · saved</p>
             <div id="arsenal-empty" class="empty" hidden="">
@@ -6996,13 +6996,13 @@
               The working database is saved in this browser. Export Data backs up every category,
               including arsenal builds and Rivens, as one ZIP. Select Local Data Folder to enable
               Import Data, which previews and restores the ZIP to this browser and the selected
-              folder's data/*.json files.
+              folder's data/*.json files. The folder also enables Sync all sourced data.
             </p>
             <div class="toolbar">
               <button id="export-data-zip" class="primary">Export Data</button>
               <button id="import-data-zip" disabled>Import Data</button>
               <button id="connect-data-folder" type="button">Select Local Data Folder</button>
-              <button type="button" data-check-online>Sync all sourced data</button>
+              <button type="button" data-check-online disabled>Sync all sourced data</button>
             </div>
             <p id="local-folder-status" class="hint" role="status">No Local Data Folder selected.</p>
             <p id="online-progress" class="hint" hidden></p>
@@ -7196,7 +7196,7 @@
       </div>
     </dialog>
     <dialog id="arsenal-import-dialog" class="dialog">
-      <h2>Import arsenal</h2>
+      <h2>Restore Everything</h2>
       <div id="arsenal-import-preview"></div>
       <div class="toolbar spacer">
         <button id="apply-arsenal-import" class="primary">Replace arsenal and apply records</button>

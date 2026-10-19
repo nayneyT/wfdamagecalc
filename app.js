@@ -7622,6 +7622,8 @@ return module.exports;})();
       'image-mode',
     ])
       $(id).disabled = !appDirectory;
+    for (const button of document.querySelectorAll('[data-check-online]'))
+      button.disabled = !dataDirectory || onlineBusy;
   }
   async function validateProjectFolder(handle) {
     await handle.getFileHandle('index.html');
@@ -7685,28 +7687,27 @@ return module.exports;})();
   async function readSyncBase() {
     const local = clone(db),
       originals = {};
-    if (dataDirectory)
-      for (const c of ONLINE_CATEGORIES) {
-        try {
-          const handle = await dataDirectory.getFileHandle(c + '.json'),
-            file = await handle.getFile(),
-            text = await file.text(),
-            data = JSON.parse(text);
-          if (data.category !== c || data.schemaVersion !== 1 || !Array.isArray(data.records))
-            throw Error('Unexpected category');
-          data.onlineReference = { ...data.onlineReference, ...local[c].onlineReference };
-          for (const browserRecord of records(db, c)) {
-            const diskRecord = data.records.find((record) => record.id === browserRecord.id);
-            if (!diskRecord) continue;
-            for (const field of tweakedFields(c, browserRecord))
-              diskRecord[field] = clone(browserRecord[field]);
-          }
-          local[c] = data;
-          originals[c] = { handle, text };
-        } catch (e) {
-          if (e.name !== 'NotFoundError') throw Error(c + '.json: ' + e.message);
+    for (const c of ONLINE_CATEGORIES) {
+      try {
+        const handle = await dataDirectory.getFileHandle(c + '.json'),
+          file = await handle.getFile(),
+          text = await file.text(),
+          data = JSON.parse(text);
+        if (data.category !== c || data.schemaVersion !== 1 || !Array.isArray(data.records))
+          throw Error('Unexpected category');
+        data.onlineReference = { ...data.onlineReference, ...local[c].onlineReference };
+        for (const browserRecord of records(db, c)) {
+          const diskRecord = data.records.find((record) => record.id === browserRecord.id);
+          if (!diskRecord) continue;
+          for (const field of tweakedFields(c, browserRecord))
+            diskRecord[field] = clone(browserRecord[field]);
         }
+        local[c] = data;
+        originals[c] = { handle, text };
+      } catch (e) {
+        if (e.name !== 'NotFoundError') throw Error(c + '.json: ' + e.message);
       }
+    }
     restoreArcaneRarities(local);
     const errors = validateDatabase(local);
     if (errors.length)
@@ -7715,6 +7716,10 @@ return module.exports;})();
   }
   async function checkOnlineUpdates() {
     if (onlineBusy) return;
+    if (!dataDirectory) {
+      notify('Select Local Data Folder before syncing sourced data.', true);
+      return;
+    }
     onlineBusy = true;
     for (const b of document.querySelectorAll('[data-check-online]')) b.disabled = true;
     onlineProgress('Checking Warframe Wiki…');
@@ -7783,11 +7788,7 @@ return module.exports;})();
               '</td></tr>',
           )
           .join('') +
-        '</tbody></table></div><p class="hint">Saved arsenal builds, custom Rivens and calculation rules are retained. Existing records missing online are kept to protect build references. New or changed mechanics that cannot be verified are marked incomplete. ' +
-        (dataDirectory
-          ? 'Apply writes category JSON files to the connected folder.'
-          : 'Apply updates this browser and downloads changed category JSON files; save them into data/. To write directly to disk, cancel and select Local Data Folder in Database editor before checking online again.') +
-        '</p>';
+        '</tbody></table></div><p class="hint">Saved arsenal builds, custom Rivens and calculation rules are retained. Existing records missing online are kept to protect build references. New or changed mechanics that cannot be verified are marked incomplete. Apply writes category JSON files to the connected folder.</p>';
       $('online-dialog').showModal();
       onlineProgress('Online check complete. Review the changes.');
     } catch (e) {
@@ -7799,7 +7800,8 @@ return module.exports;})();
       );
     } finally {
       onlineBusy = false;
-      for (const b of document.querySelectorAll('[data-check-online]')) b.disabled = false;
+      for (const b of document.querySelectorAll('[data-check-online]'))
+        b.disabled = !dataDirectory;
     }
   }
   async function downloadSyncedArtwork(candidate) {
@@ -8040,6 +8042,10 @@ return module.exports;})();
   }
   async function applyOnlineUpdates() {
     if (!onlineDraft || onlineBusy) return;
+    if (!dataDirectory) {
+      notify('Select Local Data Folder before applying sourced data.', true);
+      return;
+    }
     const draft = onlineDraft;
     if (recordFingerprint(db) !== draft.dbFingerprint) {
       notify(
@@ -8052,44 +8058,31 @@ return module.exports;})();
     $('apply-online').disabled = true;
     const written = [];
     try {
-      const candidate = clone(draft.candidate),
-        changed = draft.summary.filter((r) => r.added || r.updated).map((r) => r.category);
+      const candidate = clone(draft.candidate);
       const errors = validateDatabase(candidate);
       if (errors.length) throw Error(errors.slice(0, 5).join('\n'));
-      if (dataDirectory) {
-        for (const [c, original] of Object.entries(draft.originals))
-          if ((await (await original.handle.getFile()).text()) !== original.text)
-            throw Error(c + '.json changed on disk after the preview. Check online again.');
-        await downloadSyncedArtwork(candidate);
-        for (const c of ONLINE_CATEGORIES) {
-          const handle =
-              draft.originals[c]?.handle ||
-              (await dataDirectory.getFileHandle(c + '.json', { create: true })),
-            writer = await handle.createWritable();
-          try {
-            await writer.write(JSON.stringify(candidate[c], null, 2) + '\n');
-            await writer.close();
-            written.push({ c, handle });
-          } catch (e) {
-            await writer.abort();
-            throw e;
-          }
+      for (const [c, original] of Object.entries(draft.originals))
+        if ((await (await original.handle.getFile()).text()) !== original.text)
+          throw Error(c + '.json changed on disk after the preview. Check online again.');
+      await downloadSyncedArtwork(candidate);
+      for (const c of ONLINE_CATEGORIES) {
+        const handle =
+            draft.originals[c]?.handle ||
+            (await dataDirectory.getFileHandle(c + '.json', { create: true })),
+          writer = await handle.createWritable();
+        try {
+          await writer.write(JSON.stringify(candidate[c], null, 2) + '\n');
+          await writer.close();
+          written.push({ c, handle });
+        } catch (e) {
+          await writer.abort();
+          throw e;
         }
       }
       applyDatabase(candidate);
-      if (!dataDirectory)
-        for (const [i, c] of changed.entries())
-          setTimeout(
-            () => download(c + '.json', JSON.stringify(candidate[c], null, 2) + '\n'),
-            i * 180,
-          );
       onlineDraft = null;
       $('online-dialog').close();
-      onlineProgress(
-        'Catalogue synced ' +
-          new Date().toLocaleString() +
-          (dataDirectory ? ' · local JSON files updated.' : ' · changed JSON files downloaded.'),
-      );
+      onlineProgress('Catalogue synced ' + new Date().toLocaleString() + ' · local JSON files updated.');
       notify(
         'Online catalogue synced. Custom edits and saved builds were retained. Export Data to keep a portable backup.',
       );
@@ -9408,7 +9401,7 @@ return module.exports;})();
       indexData();
       renderArsenalUI();
       persist();
-      notify('Saved ' + build.name + '. Export arsenal.json for a portable backup.');
+      notify('Saved ' + build.name + '. Use Backup Everything for a portable backup.');
     } catch (e) {
       notify('Build save rejected: ' + e.message, true);
     }
@@ -14840,9 +14833,10 @@ return module.exports;})();
         state and saved arsenal profiles stay in localStorage. Export arsenal.json to back up
         saved builds, Riven Workshop Rivens and their custom records, plus recorded progenitor
         weapon acquisition and bonus details; importing arsenal.json restores those personal
-        records. Use Export Data to back up the working database as a ZIP, and Import Data to
-        restore it in another browser. Connect the app/data folder to grant supported browsers
-        access for online JSON sync.
+        records. Backup Everything and Restore Everything transfer saved builds and their
+        supporting personal records. Export Current Build and Import Build transfer one build.
+        Export Data backs up the working database as a ZIP; select Local Data Folder in Database
+        editor to enable Import Data and online JSON sync.
       </p>
       <h3>Reading the numbers</h3>
       <p class="footnote">

@@ -95,13 +95,19 @@ verified. Some utility effects are displayed with explicit calculation limitatio
 ## Personal arsenal
 
 `data/arsenal.json` is an empty starter database. Browser storage restores saved profiles and the
-current draft on reload. **Export arsenal.json** downloads named builds together with referenced
-custom Rivens, edited/custom records, and their required dependencies. **Import arsenal.json**
-previews replacement of the arsenal and any conflicting custom records before applying the import
-together.
+current draft on reload. **Backup Everything** downloads `arsenal.json` with named builds,
+referenced custom Rivens, edited/custom records, and their required dependencies. **Restore
+Everything** previews replacement of the arsenal and any conflicting custom records before applying
+the import together. These buttons transfer personal arsenal data; **Export Data** in the database
+editor backs up the full working database.
 
-A directly opened HTML file cannot automatically read or overwrite a neighbouring JSON file. Import
-a populated `arsenal.json` once in a new browser. Arsenal exports include saved builds only; save
+**Export Current Build** downloads the active build as `warframe-build.json`, including unsaved
+changes. **Import Build** opens that single build as an unsaved draft. The destination database must
+already contain its referenced weapon, mods, and arcanes; save the imported draft to add it to the
+arsenal.
+
+A directly opened HTML file cannot automatically read or overwrite a neighbouring JSON file. Restore
+a populated `arsenal.json` once in a new browser. Arsenal backups include saved builds only; save
 current edits before making a backup. Profiles can be renamed or deleted, and leaving a changed
 build prompts before discarding it.
 
@@ -293,7 +299,7 @@ keeps horizontal table scrolling inside its wrapper.
 
 ## Online catalogue sync
 
-Use **Sync all sourced data** in the calculator or database editor. It reads the Warframe Wiki API,
+Select **Local Data Folder** in the database editor to enable **Sync all sourced data**. It reads the Warframe Wiki API,
 previews new/changed weapons, mods, arcanes, enemies, factions, modular parts, stances, and Incarnon
 sources, and applies validated changes together. The record editor shows the actual source link and
 marks locally changed sourced fields and records **TWEAKED**. Normal sync preserves those fields;
@@ -310,10 +316,9 @@ Category JSON files already on disk are read before merging, and files changed a
 cause sync to stop. Completed writes are restored if another file write fails. Folder access is
 restored after refresh when browser permission remains granted; otherwise, select the folder again.
 
-Without folder access, applying sync updates browser storage and downloads the changed category JSON
-files. Save them into `data/`; your browser may ask to allow multiple downloads. **Export Data**
-creates a portable ZIP of the working database. A Git pull restores the committed JSON files on
-disk; existing browser data remains until you import updated data or sync it.
+Without folder access, data sync stays disabled. **Export Data** still creates a portable ZIP of the
+working database. A Git pull restores the committed JSON files on disk; existing browser data remains
+until you select Local Data Folder and import updated data or sync it.
 
 Sync keeps saved builds, custom Rivens, locally edited fields, and records no longer listed online.
 The calculation-rule and Riven-base-value tables are maintained separately; online sync does not
