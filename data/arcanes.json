@@ -1,7 +1,7 @@
 {
   "category": "arcanes",
   "schemaVersion": 1,
-  "snapshot": "2026-10-15",
+  "snapshot": "2026-10-19",
   "sources": [
     {
       "url": "https://wiki.warframe.com/w/Module:Arcane/data",
@@ -31,7 +31,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Akimbo_Slip_Shot",
@@ -100,7 +100,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Acceleration",
@@ -129,7 +129,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Aegis",
@@ -158,7 +158,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Agility",
@@ -187,7 +187,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Arachne",
@@ -256,7 +256,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Avenger",
@@ -325,7 +325,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Awakening",
@@ -354,7 +354,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Barrier",
@@ -383,7 +383,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Battery",
@@ -412,7 +412,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Bellicose",
@@ -441,7 +441,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Blade_Charger",
@@ -470,7 +470,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Blessing",
@@ -499,7 +499,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Bodyguard",
@@ -528,7 +528,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Camisado",
@@ -557,7 +557,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Circumvent",
@@ -586,7 +586,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Concentration",
@@ -615,7 +615,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Consequence",
@@ -644,7 +644,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Crepuscular",
@@ -673,7 +673,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Deflection",
@@ -702,7 +702,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Double_Back",
@@ -731,7 +731,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Energize",
@@ -760,7 +760,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Eruption",
@@ -789,7 +789,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Escapist",
@@ -818,7 +818,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Expertise",
@@ -887,7 +887,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Fury",
@@ -916,7 +916,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Grace",
@@ -945,7 +945,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Guardian",
@@ -974,7 +974,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Healing",
@@ -1003,7 +1003,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Hot_Shot",
@@ -1032,7 +1032,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ice",
@@ -1061,7 +1061,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ice_Storm",
@@ -1090,7 +1090,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Impetus",
@@ -1119,7 +1119,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Intention",
@@ -1148,7 +1148,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Momentum",
@@ -1177,7 +1177,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Nullifier",
@@ -1206,7 +1206,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Persistence",
@@ -1235,7 +1235,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Phantasm",
@@ -1264,7 +1264,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Pistoleer",
@@ -1293,7 +1293,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Power_Ramp",
@@ -1362,7 +1362,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Precision",
@@ -1391,7 +1391,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Primary_Charger",
@@ -1420,7 +1420,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Pulse",
@@ -1489,7 +1489,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Rage",
@@ -1518,7 +1518,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Reaper",
@@ -1547,7 +1547,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Resistance",
@@ -1576,7 +1576,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Rise",
@@ -1605,7 +1605,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Steadfast",
@@ -1634,7 +1634,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Sculptor",
@@ -1703,7 +1703,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Strike",
@@ -1732,7 +1732,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Tanker",
@@ -1761,7 +1761,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Tempo",
@@ -1790,7 +1790,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Trickery",
@@ -1819,7 +1819,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Truculence",
@@ -1848,7 +1848,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ultimatum",
@@ -1877,7 +1877,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Universal_Fallout",
@@ -1946,7 +1946,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Velocity",
@@ -1975,7 +1975,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Victory",
@@ -2004,7 +2004,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Warmth",
@@ -2033,7 +2033,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Accuracy",
@@ -2062,7 +2062,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Empowered",
@@ -2091,7 +2091,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Flare",
@@ -2120,7 +2120,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Overcharge",
@@ -2224,7 +2224,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Conjunction_Voltage",
@@ -2253,7 +2253,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Dissipate",
@@ -2282,7 +2282,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Renewed",
@@ -2311,7 +2311,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Savior",
@@ -2340,7 +2340,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Eradicate",
@@ -2369,7 +2369,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Logistics",
@@ -2398,7 +2398,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Onslaught",
@@ -2425,7 +2425,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Brave",
@@ -2452,7 +2452,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Contagion",
@@ -2479,7 +2479,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Epidemic",
@@ -2506,7 +2506,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Force",
@@ -2533,7 +2533,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Hunt",
@@ -2560,7 +2560,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Might",
@@ -2587,7 +2587,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Triumph",
@@ -2614,7 +2614,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Valor",
@@ -2643,7 +2643,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Fractalized_Reset",
@@ -2672,7 +2672,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Longbow_Sharpshot",
@@ -2701,7 +2701,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Accelerant",
@@ -2730,7 +2730,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Aggress",
@@ -2759,7 +2759,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Anomaly",
@@ -2788,7 +2788,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Cadence",
@@ -2817,7 +2817,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Cloud",
@@ -2846,7 +2846,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Destruct",
@@ -2875,7 +2875,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Drive",
@@ -2904,7 +2904,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Elevate",
@@ -2933,7 +2933,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Firewall",
@@ -2962,7 +2962,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Glitch",
@@ -2991,7 +2991,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Husk",
@@ -3020,7 +3020,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Lockdown",
@@ -3049,7 +3049,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Melt",
@@ -3078,7 +3078,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Nourish",
@@ -3107,7 +3107,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Overload",
@@ -3136,7 +3136,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Repair",
@@ -3165,7 +3165,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Replenish",
@@ -3194,7 +3194,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Revert",
@@ -3223,7 +3223,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Vigor",
@@ -3252,7 +3252,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Afflictions",
@@ -3281,7 +3281,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Animosity",
@@ -3310,7 +3310,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Assimilation",
@@ -3339,7 +3339,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Careen",
@@ -3368,7 +3368,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Crescendo",
@@ -3397,7 +3397,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Doughty",
@@ -3426,7 +3426,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Duplicate",
@@ -3455,7 +3455,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Exposure",
@@ -3484,7 +3484,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Fortification",
@@ -3513,7 +3513,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Influence",
@@ -3542,7 +3542,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Retaliation",
@@ -3571,7 +3571,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Vortex",
@@ -3600,7 +3600,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Augmented",
@@ -3629,7 +3629,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Efficiency",
@@ -3658,7 +3658,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Reconstruct",
@@ -3687,7 +3687,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Vigor",
@@ -3714,7 +3714,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Bolt",
@@ -3741,7 +3741,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Charge",
@@ -3768,7 +3768,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Seeker",
@@ -3795,7 +3795,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Soar",
@@ -3824,7 +3824,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Blight",
@@ -3853,7 +3853,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Bulwark",
@@ -3882,7 +3882,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Compression",
@@ -3988,7 +3988,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Crux",
@@ -4085,7 +4085,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Deadhead",
@@ -4114,7 +4114,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Debilitate",
@@ -4183,7 +4183,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Dexterity",
@@ -4212,7 +4212,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Exhilarate",
@@ -4241,7 +4241,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Frostbite",
@@ -4314,7 +4314,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Merciless",
@@ -4343,7 +4343,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Obstruct",
@@ -4372,7 +4372,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Overcharge",
@@ -4401,7 +4401,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Plated_Round",
@@ -4428,7 +4428,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Boils",
@@ -4455,7 +4455,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Malodor",
@@ -4482,7 +4482,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Shock",
@@ -4509,7 +4509,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Viremia",
@@ -4538,7 +4538,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Cryogenic",
@@ -4635,7 +4635,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Deadhead",
@@ -4704,7 +4704,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Dexterity",
@@ -4733,7 +4733,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Encumber",
@@ -4762,7 +4762,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Enervate",
@@ -4791,7 +4791,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Fortifier",
@@ -4820,7 +4820,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Irradiate",
@@ -4849,7 +4849,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Kinship",
@@ -4922,7 +4922,7 @@
       "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Merciless",
@@ -4951,7 +4951,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Outburst",
@@ -4980,7 +4980,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Shiver",
@@ -5009,7 +5009,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Surge",
@@ -5038,7 +5038,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Shotgun_Vendetta",
@@ -5067,7 +5067,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Contagion",
@@ -5096,7 +5096,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Demulcent",
@@ -5125,7 +5125,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Infection",
@@ -5152,7 +5152,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Forge",
@@ -5179,7 +5179,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Fury",
@@ -5206,7 +5206,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Ghost",
@@ -5233,7 +5233,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Null",
@@ -5260,7 +5260,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Shadow",
@@ -5287,7 +5287,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Spike",
@@ -5314,7 +5314,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Strike",
@@ -5341,7 +5341,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Surge",
@@ -5368,7 +5368,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Tempo",
@@ -5395,7 +5395,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Trojan",
@@ -5424,7 +5424,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Asheir",
@@ -5453,7 +5453,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Haras",
@@ -5482,7 +5482,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Osbok",
@@ -5511,7 +5511,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Sek-Eel",
@@ -5540,7 +5540,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Uskos",
@@ -5569,7 +5569,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Akimbo_Slip_Shot",
@@ -5637,7 +5637,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Acceleration",
@@ -5663,7 +5663,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Aegis",
@@ -5689,7 +5689,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Agility",
@@ -5715,7 +5715,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Arachne",
@@ -5783,7 +5783,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Avenger",
@@ -5851,7 +5851,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Awakening",
@@ -5877,7 +5877,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Barrier",
@@ -5903,7 +5903,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Battery",
@@ -5929,7 +5929,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Bellicose",
@@ -5955,7 +5955,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Blade_Charger",
@@ -5981,7 +5981,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Blessing",
@@ -6007,7 +6007,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Bodyguard",
@@ -6033,7 +6033,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Camisado",
@@ -6059,7 +6059,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Circumvent",
@@ -6085,7 +6085,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Concentration",
@@ -6111,7 +6111,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Consequence",
@@ -6137,7 +6137,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Crepuscular",
@@ -6163,7 +6163,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Deflection",
@@ -6189,7 +6189,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Double_Back",
@@ -6215,7 +6215,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Energize",
@@ -6241,7 +6241,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Eruption",
@@ -6267,7 +6267,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Escapist",
@@ -6293,7 +6293,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Expertise",
@@ -6361,7 +6361,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Fury",
@@ -6387,7 +6387,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Grace",
@@ -6413,7 +6413,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Guardian",
@@ -6439,7 +6439,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Healing",
@@ -6465,7 +6465,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Hot_Shot",
@@ -6491,7 +6491,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ice",
@@ -6517,7 +6517,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ice_Storm",
@@ -6543,7 +6543,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Impetus",
@@ -6569,7 +6569,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Intention",
@@ -6595,7 +6595,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Momentum",
@@ -6621,7 +6621,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Nullifier",
@@ -6647,7 +6647,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Persistence",
@@ -6673,7 +6673,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Phantasm",
@@ -6699,7 +6699,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Pistoleer",
@@ -6725,7 +6725,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Power_Ramp",
@@ -6793,7 +6793,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Precision",
@@ -6819,7 +6819,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Primary_Charger",
@@ -6845,7 +6845,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Pulse",
@@ -6913,7 +6913,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Rage",
@@ -6939,7 +6939,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Reaper",
@@ -6965,7 +6965,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Resistance",
@@ -6991,7 +6991,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Rise",
@@ -7017,7 +7017,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Steadfast",
@@ -7043,7 +7043,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Sculptor",
@@ -7111,7 +7111,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Strike",
@@ -7137,7 +7137,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Tanker",
@@ -7163,7 +7163,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Tempo",
@@ -7189,7 +7189,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Trickery",
@@ -7215,7 +7215,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Truculence",
@@ -7241,7 +7241,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Ultimatum",
@@ -7267,7 +7267,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Universal_Fallout",
@@ -7335,7 +7335,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Velocity",
@@ -7361,7 +7361,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Victory",
@@ -7387,7 +7387,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Arcane_Warmth",
@@ -7413,7 +7413,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Accuracy",
@@ -7439,7 +7439,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Empowered",
@@ -7465,7 +7465,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Flare",
@@ -7491,7 +7491,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Cascadia_Overcharge",
@@ -7594,7 +7594,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Conjunction_Voltage",
@@ -7620,7 +7620,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Dissipate",
@@ -7646,7 +7646,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Renewed",
@@ -7672,7 +7672,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Emergence_Savior",
@@ -7698,7 +7698,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Eradicate",
@@ -7724,7 +7724,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Logistics",
@@ -7750,7 +7750,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Eternal_Onslaught",
@@ -7774,7 +7774,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Brave",
@@ -7798,7 +7798,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Contagion",
@@ -7822,7 +7822,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Epidemic",
@@ -7846,7 +7846,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Force",
@@ -7870,7 +7870,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Hunt",
@@ -7894,7 +7894,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Might",
@@ -7918,7 +7918,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Triumph",
@@ -7942,7 +7942,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Exodia_Valor",
@@ -7968,7 +7968,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Fractalized_Reset",
@@ -7994,7 +7994,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Longbow_Sharpshot",
@@ -8020,7 +8020,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Accelerant",
@@ -8046,7 +8046,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Aggress",
@@ -8072,7 +8072,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Anomaly",
@@ -8098,7 +8098,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Cadence",
@@ -8124,7 +8124,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Cloud",
@@ -8150,7 +8150,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Destruct",
@@ -8176,7 +8176,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Drive",
@@ -8202,7 +8202,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Elevate",
@@ -8228,7 +8228,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Firewall",
@@ -8254,7 +8254,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Glitch",
@@ -8280,7 +8280,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Husk",
@@ -8306,7 +8306,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Lockdown",
@@ -8332,7 +8332,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Melt",
@@ -8358,7 +8358,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Nourish",
@@ -8384,7 +8384,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Overload",
@@ -8410,7 +8410,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Repair",
@@ -8436,7 +8436,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Replenish",
@@ -8462,7 +8462,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Revert",
@@ -8488,7 +8488,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Magus_Vigor",
@@ -8514,7 +8514,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Afflictions",
@@ -8540,7 +8540,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Animosity",
@@ -8566,7 +8566,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Assimilation",
@@ -8592,7 +8592,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Careen",
@@ -8618,7 +8618,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Crescendo",
@@ -8644,7 +8644,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Doughty",
@@ -8670,7 +8670,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Duplicate",
@@ -8696,7 +8696,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Exposure",
@@ -8722,7 +8722,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Fortification",
@@ -8748,7 +8748,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Influence",
@@ -8774,7 +8774,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Retaliation",
@@ -8800,7 +8800,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Melee_Vortex",
@@ -8826,7 +8826,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Augmented",
@@ -8852,7 +8852,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Efficiency",
@@ -8878,7 +8878,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Reconstruct",
@@ -8904,7 +8904,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Molt_Vigor",
@@ -8928,7 +8928,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Bolt",
@@ -8952,7 +8952,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Charge",
@@ -8976,7 +8976,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Seeker",
@@ -9000,7 +9000,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Pax_Soar",
@@ -9026,7 +9026,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Blight",
@@ -9052,7 +9052,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Bulwark",
@@ -9078,7 +9078,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Compression",
@@ -9181,7 +9181,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Crux",
@@ -9277,7 +9277,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Deadhead",
@@ -9303,7 +9303,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Debilitate",
@@ -9371,7 +9371,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Dexterity",
@@ -9397,7 +9397,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Exhilarate",
@@ -9423,7 +9423,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Frostbite",
@@ -9495,7 +9495,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Merciless",
@@ -9521,7 +9521,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Obstruct",
@@ -9547,7 +9547,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Overcharge",
@@ -9573,7 +9573,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Primary_Plated_Round",
@@ -9597,7 +9597,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Boils",
@@ -9621,7 +9621,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Malodor",
@@ -9645,7 +9645,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Shock",
@@ -9669,7 +9669,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Residual_Viremia",
@@ -9695,7 +9695,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Cryogenic",
@@ -9791,7 +9791,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Deadhead",
@@ -9859,7 +9859,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Dexterity",
@@ -9885,7 +9885,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Encumber",
@@ -9911,7 +9911,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Enervate",
@@ -9937,7 +9937,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Fortifier",
@@ -9963,7 +9963,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Irradiate",
@@ -9989,7 +9989,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Kinship",
@@ -10061,7 +10061,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Merciless",
@@ -10087,7 +10087,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Outburst",
@@ -10113,7 +10113,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Shiver",
@@ -10139,7 +10139,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Secondary_Surge",
@@ -10165,7 +10165,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Shotgun_Vendetta",
@@ -10191,7 +10191,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Contagion",
@@ -10217,7 +10217,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Demulcent",
@@ -10243,7 +10243,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Theorem_Infection",
@@ -10267,7 +10267,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Forge",
@@ -10291,7 +10291,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Fury",
@@ -10315,7 +10315,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Ghost",
@@ -10339,7 +10339,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Null",
@@ -10363,7 +10363,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Shadow",
@@ -10387,7 +10387,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Spike",
@@ -10411,7 +10411,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Strike",
@@ -10435,7 +10435,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Surge",
@@ -10459,7 +10459,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Tempo",
@@ -10483,7 +10483,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Virtuos_Trojan",
@@ -10509,7 +10509,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Asheir",
@@ -10535,7 +10535,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Haras",
@@ -10561,7 +10561,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Osbok",
@@ -10587,7 +10587,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Sek-Eel",
@@ -10613,7 +10613,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Arcane/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "wiki": "https://wiki.warframe.com/w/Zid-An_Uskos",

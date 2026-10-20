@@ -6,47 +6,23 @@ does not download images; the existing image downloader handles local copies.
 
 import json
 import re
-import urllib.parse
-import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
 from embedded_data import replace_embedded_category
+from wiki_api import wiki_json
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "data" / "incarnon-evolutions.json"
 MANIFEST = ROOT / "images" / "manifest.json"
 HTML = ROOT / "index.html"
-WIKI_API = "https://wiki.warframe.com/api.php"
 IMAGE_PATTERN = re.compile(r"\[\[File:([^]|]+\.(?:png|webp|jpg|jpeg))\|", re.I)
 STAGE_PATTERN = re.compile(r"\bEVO([1-5])\b", re.I)
 BROKEN_WIKI_FILENAMES = {
     # The Strun table still points to a removed file; this is its live replacement.
     "PunchThroughWithOvershields_.png": "PunchThroughWithOvershields(xWhite).png",
 }
-
-
-def wiki_json(parameters: dict[str, str]) -> dict:
-    query = urllib.parse.urlencode(parameters)
-    url = f"{WIKI_API}?{query}"
-    request = urllib.request.Request(
-        url, headers={"User-Agent": "VoidArsenal/1.0 (+https://github.com/nayneyT/wfdamagecalc)"}
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=25) as response:
-            payload = response.read().decode("utf-8")
-    except (OSError, TimeoutError):
-        # The Wiki sometimes challenges non-browser requests. This read-only
-        # gateway returns the same public MediaWiki API response as text.
-        gateway = urllib.request.Request("https://r.jina.ai/" + url.replace("&", "%26"))
-        with urllib.request.urlopen(gateway, timeout=40) as response:
-            result = response.read().decode("utf-8")
-        marker = "Markdown Content:"
-        if marker not in result:
-            raise ValueError("No Wiki API response for " + parameters["titles"])
-        payload = result.split(marker, 1)[1].strip()
-    return json.loads(payload)
 
 
 def wiki_text(page: str) -> str:

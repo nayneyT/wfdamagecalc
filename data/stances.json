@@ -1,7 +1,7 @@
 {
   "category": "stances",
   "schemaVersion": 1,
-  "snapshot": "2026-10-15",
+  "snapshot": "2026-10-19",
   "sources": [
     {
       "url": "https://wiki.warframe.com/w/Module:Stances/data",
@@ -41,7 +41,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -100,7 +100,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -440,7 +440,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -660,7 +660,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -872,7 +872,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -905,7 +905,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -1065,7 +1065,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -1571,7 +1571,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -1751,7 +1751,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -2050,7 +2050,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -2278,7 +2278,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -2550,7 +2550,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -2682,7 +2682,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -2901,7 +2901,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -3100,7 +3100,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -3171,7 +3171,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -3383,7 +3383,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -3657,7 +3657,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -3901,7 +3901,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -3939,7 +3939,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -4127,7 +4127,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -4318,7 +4318,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -4498,7 +4498,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -4710,7 +4710,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -4906,7 +4906,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -5201,7 +5201,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -5374,7 +5374,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -5616,7 +5616,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -5914,7 +5914,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -6284,7 +6284,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -6590,7 +6590,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -6631,7 +6631,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -6811,7 +6811,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -7252,7 +7252,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -7507,7 +7507,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -7841,7 +7841,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -8005,7 +8005,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -8226,7 +8226,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -8398,7 +8398,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -8618,7 +8618,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -8806,7 +8806,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -9077,7 +9077,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -9409,7 +9409,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -9610,7 +9610,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -9764,7 +9764,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -9928,7 +9928,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -10236,7 +10236,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -10560,7 +10560,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -10732,7 +10732,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -11016,7 +11016,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -11286,7 +11286,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -11488,7 +11488,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -11706,7 +11706,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -12108,7 +12108,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -12262,7 +12262,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -12337,7 +12337,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -12402,7 +12402,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -12457,7 +12457,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -12765,7 +12765,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -13021,7 +13021,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -13185,7 +13185,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -13240,7 +13240,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -13506,7 +13506,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -13846,7 +13846,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -14042,7 +14042,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -14334,7 +14334,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -14674,7 +14674,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -14733,7 +14733,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -15031,7 +15031,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -15333,7 +15333,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -15513,7 +15513,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -15685,7 +15685,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -15760,7 +15760,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -16044,7 +16044,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -16232,7 +16232,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -16732,7 +16732,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -16984,7 +16984,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17148,7 +17148,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17186,7 +17186,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17385,7 +17385,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17573,7 +17573,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17769,7 +17769,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -18109,7 +18109,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -18289,7 +18289,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -18613,7 +18613,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -18788,7 +18788,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -19040,7 +19040,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -19180,7 +19180,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -19416,7 +19416,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -19607,7 +19607,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -19931,7 +19931,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20217,7 +20217,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20258,7 +20258,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20301,7 +20301,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20342,7 +20342,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20554,7 +20554,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20597,7 +20597,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20647,7 +20647,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20701,7 +20701,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -20999,7 +20999,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -21183,7 +21183,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -21371,7 +21371,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -21674,7 +21674,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -21881,7 +21881,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -21954,7 +21954,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -22222,7 +22222,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -22265,7 +22265,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -22528,7 +22528,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -22759,7 +22759,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -23059,7 +23059,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -23336,7 +23336,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -23502,7 +23502,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -23545,7 +23545,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -23598,7 +23598,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     }
@@ -23635,7 +23635,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -23694,7 +23694,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -24034,7 +24034,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -24254,7 +24254,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -24466,7 +24466,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -24499,7 +24499,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -24659,7 +24659,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -25165,7 +25165,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -25345,7 +25345,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -25644,7 +25644,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -25872,7 +25872,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -26144,7 +26144,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -26276,7 +26276,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -26495,7 +26495,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -26694,7 +26694,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -26765,7 +26765,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -26977,7 +26977,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -27251,7 +27251,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -27495,7 +27495,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -27533,7 +27533,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -27721,7 +27721,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -27912,7 +27912,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -28092,7 +28092,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -28304,7 +28304,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -28500,7 +28500,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -28795,7 +28795,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -28968,7 +28968,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -29210,7 +29210,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -29508,7 +29508,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -29878,7 +29878,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -30184,7 +30184,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -30225,7 +30225,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -30405,7 +30405,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -30846,7 +30846,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -31101,7 +31101,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -31435,7 +31435,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -31599,7 +31599,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -31820,7 +31820,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -31992,7 +31992,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -32212,7 +32212,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -32400,7 +32400,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -32671,7 +32671,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -33003,7 +33003,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -33204,7 +33204,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -33358,7 +33358,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -33522,7 +33522,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -33830,7 +33830,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -34154,7 +34154,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -34326,7 +34326,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -34610,7 +34610,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -34880,7 +34880,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -35082,7 +35082,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -35300,7 +35300,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -35702,7 +35702,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -35856,7 +35856,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -35931,7 +35931,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -35996,7 +35996,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -36051,7 +36051,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -36359,7 +36359,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -36615,7 +36615,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -36779,7 +36779,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -36834,7 +36834,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -37100,7 +37100,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -37440,7 +37440,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -37636,7 +37636,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -37928,7 +37928,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -38268,7 +38268,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -38327,7 +38327,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -38625,7 +38625,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -38927,7 +38927,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -39107,7 +39107,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -39279,7 +39279,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -39354,7 +39354,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -39638,7 +39638,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -39826,7 +39826,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -40326,7 +40326,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -40578,7 +40578,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -40742,7 +40742,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -40780,7 +40780,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -40979,7 +40979,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -41167,7 +41167,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -41363,7 +41363,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -41703,7 +41703,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -41883,7 +41883,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -42207,7 +42207,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -42382,7 +42382,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -42634,7 +42634,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -42774,7 +42774,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43010,7 +43010,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43201,7 +43201,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43525,7 +43525,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43811,7 +43811,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43852,7 +43852,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43895,7 +43895,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -43936,7 +43936,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44148,7 +44148,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44191,7 +44191,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44241,7 +44241,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44295,7 +44295,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44593,7 +44593,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44777,7 +44777,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -44965,7 +44965,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -45268,7 +45268,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -45475,7 +45475,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -45548,7 +45548,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -45816,7 +45816,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -45859,7 +45859,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -46122,7 +46122,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -46353,7 +46353,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -46653,7 +46653,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -46930,7 +46930,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -47096,7 +47096,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -47139,7 +47139,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -47192,7 +47192,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Module:Stances/data",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     }

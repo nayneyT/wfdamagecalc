@@ -262,6 +262,12 @@ nav button[aria-selected="true"] {
 .target h3 {
   margin: 0 0 5px;
 }
+.enemy-testing-conditions {
+  margin: 18px 0;
+  padding: 18px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
 .levelhead {
   display: flex;
   justify-content: space-between;
@@ -907,7 +913,85 @@ details summary:hover {
   border-radius: 2px;
 }
 .damage-row.staged {
-  grid-template-columns: 70px minmax(0, 1fr);
+  grid-template-columns: minmax(125px, 150px) minmax(0, 1fr);
+}
+.damage-type-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+.status-help {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+  cursor: help;
+  text-align: left;
+}
+.status-help:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.status-help:hover::after,
+.status-help:focus-visible::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  top: calc(100% + 8px);
+  width: min(280px, 75vw);
+  padding: 9px 11px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #101824;
+  color: var(--text);
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.45;
+  white-space: normal;
+  text-align: left;
+  box-shadow: 0 8px 20px #0008;
+}
+.incarnon-mode-column .status-help::after {
+  left: auto;
+  right: 0;
+}
+.damage-weight {
+  color: var(--muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.damage-row.dot-row {
+  margin-top: -5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted var(--border);
+}
+.dot-row .damage-type-label {
+  color: var(--muted);
+  font-size: 10px;
+}
+.dot-row .damagebar {
+  height: 5px;
+}
+.dot-stage .dot-timing {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.3;
+  text-align: left;
+}
+.damage-type-label .status-icon {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+.damage-status-chance {
+  margin: 6px 0 0;
+  font-size: 11px;
 }
 .evolution-choice {
   position: relative;
@@ -1092,7 +1176,7 @@ details summary:hover {
   display: block;
 }
 .damage-profile:not(:has(.stage-legend span:nth-child(3))) .damage-row.staged {
-  grid-template-columns: 70px minmax(0, 1fr);
+  grid-template-columns: minmax(125px, 150px) minmax(0, 1fr);
 }
 
 .progenitor-grid {
@@ -1557,10 +1641,7 @@ details summary:hover {
   max-height: 100%;
   object-fit: contain;
 }
-.enemy-picker-panel .enemy-selection-panel {
-  position: relative;
-}
-.enemy-picker-panel .enemy-selection-panel > label {
+.enemy-picker-panel .enemy-search-field {
   position: relative;
 }
 .enemy-picker-panel .enemy-select-results {
@@ -1600,33 +1681,57 @@ details summary:hover {
   color: var(--muted);
   font-size: 12px;
 }
+.performance-mode-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.performance-mode-column {
+  min-width: 0;
+}
+.performance-mode-column + .performance-mode-column {
+  border-left: 1px solid var(--border);
+  padding-left: 18px;
+}
+.performance-mode-single > h3,
+.performance-mode-column > h3 {
+  color: var(--orange);
+  margin: 0 0 12px;
+}
 .performance-profile + .performance-profile {
   border-top: 1px solid var(--border);
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 14px;
+  padding-top: 12px;
 }
 .performance-profile h3 {
-  color: var(--orange);
-  margin-bottom: 7px;
+  color: var(--text);
+  margin-bottom: 8px;
+  font-size: 12px;
 }
-.performance-profile .mini-stats {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 7px 12px;
+.performance-stats {
+  display: grid;
+  gap: 4px;
 }
-.performance-profile .mini-stats > div {
+.performance-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  font-size: 11px;
+}
+.performance-value {
+  text-align: right;
   white-space: nowrap;
 }
 .perf-label {
-  display: block;
   color: var(--muted);
-  font-size: 9px;
+  white-space: nowrap;
 }
 .perf-modded {
-  display: inline;
   color: var(--text);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 650;
-  margin: 0;
 }
 .base-stat {
   display: inline;
@@ -1644,9 +1749,20 @@ details summary:hover {
   padding: 4px 6px;
   font-size: 9px;
 }
-@media (max-width: 1250px) {
-  .performance-profile .mini-stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+.performance-formula {
+  margin: 14px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+@media (max-width: 760px) {
+  .performance-mode-columns {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .performance-mode-column + .performance-mode-column {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+    padding: 12px 0 0;
   }
 }
 .evolution-performance {
@@ -1831,105 +1947,6 @@ details.faction-database-panel > summary.faction-database-toggle .badge {
   vertical-align: middle;
   margin-right: 6px;
 }
-.status-mode-single {
-  width: 100%;
-  min-width: 0;
-}
-.status-mode-columns {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  width: 100%;
-  min-width: 0;
-}
-.status-mode-column {
-  min-width: 0;
-}
-.status-mode-column > h3 {
-  margin: 0 0 10px;
-  color: var(--orange);
-}
-.status-mode-column + .status-mode-column {
-  border-left: 1px solid var(--border);
-  padding-left: 18px;
-}
-.status-profile {
-  min-width: 0;
-}
-.status-profile + .status-profile {
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
-}
-.status-probability {
-  border-top: 1px solid var(--border);
-  padding-top: 18px;
-}
-.status-probability > h3 {
-  margin-bottom: 8px;
-}
-.status-probability-profile + .status-probability-profile {
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--border);
-}
-.status-probability-profile h4 {
-  margin: 0 0 7px;
-  color: var(--muted);
-}
-@media (max-width: 900px) {
-  .status-mode-columns {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-  .status-mode-column + .status-mode-column {
-    border-left: 0;
-    border-top: 1px solid var(--border);
-    padding: 12px 0 0;
-  }
-}
-
-.status-effect-table,
-.status-probability-table {
-  width: 100%;
-  table-layout: fixed;
-  white-space: normal;
-  font-size: 9px;
-}
-.status-effect-table th,
-.status-effect-table td,
-.status-probability-table th,
-.status-probability-table td {
-  padding: 7px 4px;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  line-height: 1.25;
-}
-.status-effect-table td.numeric,
-.status-probability-table td.numeric {
-  white-space: nowrap;
-  overflow-wrap: normal;
-  font-size: 9px;
-}
-.status-effect-table th abbr,
-.status-probability-table th abbr {
-  cursor: help;
-  text-decoration: underline dotted;
-  text-underline-offset: 2px;
-}
-.status-effect-table td:first-child .status-icon,
-.status-probability-table td:first-child .status-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
-}
-.status-effect-table td:first-child small {
-  display: block;
-  margin-top: 3px;
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-
 .ttk-mode-single {
   width: 100%;
   min-width: 0;
@@ -2125,6 +2142,10 @@ details.faction-database-panel > summary.faction-database-toggle .badge {
 }
 .ttk-summaries .metric span {
   margin-top: auto;
+}
+.ttk-summaries .metric .ttk-status-count {
+  margin-top: 4px;
+  color: var(--gold);
 }
 .ttk-graph-wrap,
 .ttk-graph {
@@ -3769,15 +3790,23 @@ details.faction-database-panel > summary.faction-database-toggle .badge {
   padding-top: 14px;
   border-top: 1px solid var(--border);
 }
+.riven-retirement-notice {
+  margin-bottom: 16px;
+  border-left: 3px solid var(--gold);
+}
+.riven-retirement-notice h2 {
+  margin-bottom: 8px;
+  color: var(--gold);
+}
+.riven-retirement-notice p {
+  margin: 0;
+  line-height: 1.5;
+}
 .riven-family-dispositions h3 {
   margin-bottom: 8px;
 }
 .riven-family-dispositions .selected {
   background: #263449;
-}
-.riven-family-dispositions .highest {
-  color: #a8eac4;
-  font-weight: 700;
 }
 #save-riven {
   background: #236d45;

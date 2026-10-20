@@ -60,11 +60,11 @@ bundled parser, Wiki-derived data, and third-party artwork have separate terms d
    status damage, and Emerald Corrosive stack capacity.
 3. Drag the enemy-level slider (1–9,999, default 100). Results update while dragging, preserving the
    weapon build. You can also enter a level or reset to 100.
-4. Choose mission and hit settings. Expand factions and select an enemy for individual health,
+4. Choose an enemy and adjust its level, Steel Path, or Eximus settings for individual health,
    shield, Overguard, and status results.
 5. Use the Riven workshop to create ordinary or spliced rolls. Ordinary traits show their minimum,
-   current, and maximum at the selected rank and weapon disposition. Spliced values are entered from
-   the game and scaled once when equipped.
+   current, and maximum at the selected rank and universal 1.2 Riven multiplier. Spliced values
+   are entered from the game and scaled once when equipped.
 
 For an Incarnon weapon, enable Incarnon mode and select one illustrated choice in each evolution
 stage. Hover or focus a choice to preview its effect; the selected effects and conditional controls
@@ -80,9 +80,11 @@ subsequent edits require an explicit save.
 ![](images/github_screenshot_riven.png)
 
 Choose ordinary Riven traits and their roll quality from 90% to 110%. The preview shows each trait's
-minimum, current and maximum at the selected weapon variant's disposition and Riven rank, plus its
-position within that roll interval. Negative ranges are ordered by displayed numeric value; a higher
-roll quality gives a larger penalty.
+minimum, current and maximum at the selected weapon variant's rank and the universal 1.2 Riven
+multiplier, plus its position within that roll interval. Negative ranges are ordered by displayed
+numeric value; a higher roll quality gives a larger penalty.
+
+Digital Extremes [announced the retirement of variable Riven Disposition](https://forums.warframe.com/topic/1529475-dev-workshop-ammo-efficiency-changes-riven-disposition-retirement/) for the Thursday, 22 October 2026 hotfix. This calculator previews the announced 1.2 multiplier for every Riven-compatible weapon; weapons without Riven support remain unavailable in the workshop.
 
 **Use Riven Splicer** offers the combinations valid for the current Riven. Enter the resulting value
 shown in game; the two source traits are replaced by one locked spliced trait and one ordinary
@@ -156,6 +158,11 @@ up every active category as a ZIP; **Export Assets** backs up downloaded artwork
 
 ## Calculation model
 
+- Weapon performance groups base and Incarnon attacks side by side when Incarnon is enabled.
+  Accuracy, noise, and base punch-through come from the Wiki weapon modules; the repeatable
+  `scripts/backfill_weapon_utility.py` update keeps `data/weapons.json` and the embedded starter
+  dataset aligned. Unverified values in custom or older records display as N/A. The attack summaries
+  include calculation breakdowns and coverage notes for the selected enemy.
 - Damage graphs compare base and fully modded values per attack component. The Incarnon checkbox is
   off by default; enabling it adds Incarnon-mode attack components and their base/modded graphs
   beside normal attacks. Graph values exclude crits, multishot, combo/stance multipliers and enemy
@@ -174,7 +181,7 @@ up every active category as a ZIP; **Export Assets** backs up downloaded artwork
   probability of at least one proc of that type. For status chance `s` and type weight `w`, expected
   procs are `s*w`; probability is `1-(1-w)^floor(s)*(1-fraction(s)*w)`. For example, 250% status and
   a 40% damage weight yields 1 expected proc but a 71.2% chance of at least one. The bottom of the
-  Status damage card also shows a separate per-type probability table for each normal, Incarnon, or
+  Status Chance card also shows a separate per-type probability table for each normal, Incarnon, or
   alt-fire profile, using that profile’s damage weights only. Each reports chance per projectile,
   expected random procs, and cumulative chance of at least one proc over 500 projectiles. These
   weapon-only tables exclude forced procs, multishot, and target immunity. Forced/triggered procs
@@ -189,7 +196,7 @@ up every active category as a ZIP; **Export Assets** backs up downloaded artwork
 - Sustained firearm DPS includes magazine consumption and reloads. Burst delay, charge time, bow
   charge/reload cycles, beam ammo consumption, and regenerating ammunition are represented. Reserve
   ammunition is unlimited. Semi-automatic weapons assume maximum achievable firing cadence.
-- The Status damage card uses the fixed debuff inputs and reports theoretical steady-state
+- The Status Chance card uses the fixed debuff inputs and reports theoretical steady-state
   contribution. Linked direct and radial components share one projectile’s combined proc result;
   their damage and the radial body-hit behavior are labeled separately. The selected-enemy card is
   separate from faction rows and includes defense pools, popup values, a cumulative status timeline,

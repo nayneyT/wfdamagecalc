@@ -20,6 +20,7 @@
     'coda-offerings',
     'progenitor-library',
   ];
+  const STANDARD_RIVEN_DISPOSITION = 1.2;
   const ARCANE_STACK_CAPS = {
     'Arcane Blessing': 50,
     'Arcane Double Back': 3,
@@ -378,46 +379,6 @@
     chance = Math.max(0, chance);
     weight = clamp(weight, 0, 1);
     return 1 - (1 - weight) ** Math.floor(chance) * (1 - (chance % 1) * weight);
-  }
-  const STATUS_PROBABILITY_SHOTS = 500;
-  function statusProbabilityRows(profile, shots = STATUS_PROBABILITY_SHOTS) {
-    const parts = arr(profile?.damageParts),
-      totalDamage = parts.reduce((n, part) => n + sum(part.damage || {}), 0),
-      count = Math.max(0, Math.floor(Number(shots) || 0));
-    if (!totalDamage || !count) return [];
-    return STATUS_EFFECT_TYPES.map((type) => {
-      let typeDamage = 0,
-        expectedPerProjectile = 0,
-        noneProbability = 1;
-      for (const part of parts) {
-        const partDamage = sum(part.damage || {}),
-          damage = Number(part.damage?.[type]) || 0;
-        if (partDamage <= 0 || damage <= 0) continue;
-        const weight = damage / partDamage,
-          chance = Math.max(0, Number(part.statusChance) || 0);
-        typeDamage += damage;
-        expectedPerProjectile += chance * weight;
-        noneProbability *= 1 - procProbability(chance, weight);
-      }
-      if (!typeDamage) return null;
-      const perProjectile = clamp(1 - noneProbability, 0, 1),
-        atLeastOne = count
-          ? perProjectile >= 1
-            ? 1
-            : perProjectile <= 0
-              ? 0
-              : -Math.expm1(count * Math.log1p(-perProjectile))
-          : 0;
-      return {
-        profile: attackProfileGroup(profile.a) + ' · ' + (profile.a?.name || ''),
-        type,
-        damageWeight: typeDamage / totalDamage,
-        perProjectile,
-        expected: expectedPerProjectile * count,
-        atLeastOne,
-        shots: count,
-      };
-    }).filter(Boolean);
   }
   function rivenRollRange(db, riven, attribute, w, rank = riven.rank) {
     const base = get(db, 'riven-tables', attribute.stat)?.values?.[riven.category],
@@ -1465,6 +1426,49 @@
     return result;
   }
 
+  function rawDotCycle(statusRules, type, baseDamage, damageFactor, bonus, elements) {
+    const definition = statusRules[type];
+    if (!definition || definition.ticks <= 1) return null;
+    const duration = Math.max(0, 1 + (bonus.statusDuration || 0));
+    const ticks = Math.max(
+      0,
+      Math.floor(definition.duration * duration) +
+        (definition.ticks > definition.duration ? 1 : 0),
+    );
+    const elementBonus = definition.element
+      ? elements.reduce(
+          (total, element) => total + (element.type === definition.element ? element.value : 0),
+          0,
+        )
+      : 0;
+    const statusBonus = (bonus.statusDamage || 0) +
+      (type === 'toxin' ? bonus.toxinStatusDamage || 0 : 0);
+    const tick =
+      sum(baseDamage) *
+      damageFactor *
+      definition.coefficient *
+      Math.max(0, 1 + elementBonus) *
+      Math.max(0, 1 + statusBonus);
+    return {
+      tick,
+      ticks,
+      total: tick * ticks,
+      seconds: definition.duration * duration,
+      immediateTick: definition.ticks > definition.duration,
+    };
+  }
+
+  function rawDotStages(statusRules, sourceDamage, distribution, damageFactor, bonus, elements) {
+    return Object.fromEntries(
+      Object.keys(distribution)
+        .filter((type) => distribution[type] > 0 && statusRules[type]?.ticks > 1)
+        .map((type) => [
+          type,
+          rawDotCycle(statusRules, type, sourceDamage, damageFactor, bonus, elements),
+        ]),
+    );
+  }
+
   function calculateWeapon(db, state) {
     const { w, notes, evolutionEffects, evolutionDisplay, unmodded, unmoddedComponents } =
         configureWeapon(db, state),
@@ -1706,28 +1710,52 @@
       unmodded,
       components,
       forcedProcs: components.flatMap((part) => arr(part.forcedProcs)),
-      damageParts: moddedParts.map((part, index) => ({
-        id: part.source.id,
-        name: part.source.name,
-        componentOf: part.source.componentOf,
-        damage: part.damage,
-        shotType: part.source.shotType,
-        falloff: part.source.falloff,
-        baseTotal: part.baseTotal,
-        stages: {
-          unmodded: clone(
+      damageParts: moddedParts.map((part, index) => {
+        const unmoddedDamage = clone(
             unmoddedComponents.find((source) => source.id === part.source.id)?.damage ||
               part.source.damage ||
               {},
           ),
-          incarnon: clone(incarnonParts[index].damage),
-          modded: clone(part.distribution),
-        },
-        criticalChance: part.criticalChance,
-        criticalMultiplier: part.criticalMultiplier,
-        statusChance: part.statusChance,
-        forcedProcs: part.forcedProcs,
-      })),
+          stages = {
+            unmodded: unmoddedDamage,
+            incarnon: clone(incarnonParts[index].damage),
+            modded: clone(part.distribution),
+          },
+          statusRules = ruleOf(db).status;
+        return {
+          id: part.source.id,
+          name: part.source.name,
+          componentOf: part.source.componentOf,
+          damage: part.damage,
+          shotType: part.source.shotType,
+          falloff: part.source.falloff,
+          baseTotal: part.baseTotal,
+          stages,
+          dotStages: {
+            unmodded: rawDotStages(statusRules, unmoddedDamage, stages.unmodded, 1, {}, []),
+            incarnon: rawDotStages(
+              statusRules,
+              part.source.damage,
+              stages.incarnon,
+              Math.max(0, 1 + (eb.bonus.damage || 0)),
+              eb.bonus,
+              eb.elements,
+            ),
+            modded: rawDotStages(
+              statusRules,
+              part.source.damage,
+              stages.modded,
+              ordinary,
+              b,
+              effects.elements,
+            ),
+          },
+          criticalChance: part.criticalChance,
+          criticalMultiplier: part.criticalMultiplier,
+          statusChance: part.statusChance,
+          forcedProcs: part.forcedProcs,
+        };
+      }),
       build,
       bonus: b,
       elementBonuses,
@@ -1750,6 +1778,7 @@
       sc,
       crit,
       meanCrit,
+      fireRate,
       rate,
       sustain,
       mag,
@@ -1789,7 +1818,12 @@
       notes.push('Level-scaled defenses are unavailable.');
     let point = null;
     if (s.location !== 'body' && a.shotType !== 'AoE') {
-      point = s.location === 'head' ? e.weakpoints.find((p) => p.headshot) : e.weakpoints[0];
+      point =
+        s.location === 'head'
+          ? e.weakpoints.find((p) => p.headshot)
+          : s.weakpointId
+            ? e.weakpoints.find((p) => p.id === s.weakpointId)
+            : e.weakpoints[0];
       if (!point) notes.push('Requested hit location is not sourced for this enemy.');
     }
     const body = point
@@ -2299,6 +2333,14 @@
     { id: 'mix110', name: '1 head/weak : 10 body', head: 1 / 11, headHits: 1, cycle: 11 },
     { id: 'body', name: '100% body', head: 0, headHits: 0, cycle: 4 },
   ];
+  function ttkStatusSummary(statuses) {
+    const active = Object.entries(statuses || {})
+      .filter(([, stacks]) => stacks > 1e-9)
+      .sort((a, b) => b[1] - a[1]),
+      total = active.reduce((sum, [, stacks]) => sum + stacks, 0),
+      breakdown = active.map(([type, stacks]) => `${type} ${fmt(stacks, 1)}`).join(' · ');
+    return { total, breakdown: breakdown || 'None' };
+  }
   function ttkGraphSVG(locations) {
     const colors = ['#7cddcf', '#ffad68', '#b89aff', '#f7d37a', '#9fb8ff', '#ff858c'],
       width = 760,
@@ -2337,16 +2379,20 @@
     const lines = locations
       .map((line, i) => {
         const strip = line.timeline?.find((p) => p.armorStripped);
+        const statuses = ttkStatusSummary(line.killStatuses);
         const marker = strip
           ? `<line x1="${(pad.l + (strip.time / maxTime) * plotW).toFixed(1)}" y1="${pad.t}" x2="${(pad.l + (strip.time / maxTime) * plotW).toFixed(1)}" y2="${pad.t + plotH}" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4 3"><title>Armor stripped at ${fmt(strip.time, 3)} s; remains stripped for the rest of this simulation</title></line><circle cx="${(pad.l + (strip.time / maxTime) * plotW).toFixed(1)}" cy="${(pad.t + (1 - strip.remaining / maxValue) * plotH).toFixed(1)}" r="4" fill="#fbbf24"><title>Armor stripped at ${fmt(strip.time, 3)} s</title></circle>`
           : '';
-        return `${marker}<polyline points="${pointsFor(line)}" fill="none" stroke="${colors[i]}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><title>${escape(line.name)} · ${line.killed ? fmt(line.ttk, 3) + ' s' : 'not depleted'}${strip ? ' · armor stripped at ' + fmt(strip.time, 3) + ' s' : ''}</title></polyline>`;
+        return `${marker}<polyline points="${pointsFor(line)}" fill="none" stroke="${colors[i]}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><title>${escape(line.name)} · ${line.killed ? fmt(line.ttk, 3) + ' s · average statuses at kill: ' + statuses.breakdown : 'not depleted'}${strip ? ' · armor stripped at ' + fmt(strip.time, 3) + ' s' : ''}</title></polyline>`;
       })
       .join('');
     const legend =
         locations
           .map(
-            (line, i) => `<span><i style="background:${colors[i]}"></i>${escape(line.name)}</span>`,
+            (line, i) => {
+              const statuses = ttkStatusSummary(line.killStatuses);
+              return `<span title="${escape(line.killed ? 'Average statuses at kill: ' + statuses.breakdown : 'Target not depleted')}"><i style="background:${colors[i]}"></i>${escape(line.name)}${line.killed ? ' · ' + fmt(statuses.total, 1) + ' avg status stacks' : ''}</span>`;
+            },
           )
           .join('') + '<span><i style="background:#fbbf24"></i>Armor stripped (persistent)</span>',
       axisY = pad.t + plotH,
@@ -2354,11 +2400,12 @@
         .map((line, i) => {
           const endTime = line.ttk ?? line.timeline?.at(-1)?.time ?? maxTime,
             x = pad.l + (Math.max(0, Math.min(maxTime, endTime)) / maxTime) * plotW,
+            statuses = ttkStatusSummary(line.killStatuses),
             label = escape(
               line.name +
                 ' · ' +
                 (line.killed
-                  ? fmt(line.ttk, 2) + ' s'
+                  ? fmt(line.ttk, 2) + ' s · ' + fmt(statuses.total, 1) + ' stacks'
                   : 'not depleted · ' + fmt(endTime, 2) + ' s'),
             ),
             anchor = x > width * 0.78 ? 'end' : x < pad.l + 90 ? 'start' : 'middle',
@@ -2378,6 +2425,7 @@
         killed: x.killed,
         projectiles: x.projectiles,
         unavailable: x.unavailable,
+        killStatuses: x.killStatuses,
         timeline: arr(x.timeline).map((p) => ({
           time: p.time,
           remaining: p.remaining,
@@ -2428,11 +2476,24 @@
   function simulateTtk(db, state, weapon, enemy, limit = 4000) {
     const rows = ttkProjectileSchedule(weapon, limit);
     if (!rows.length) return { locations: [], rows: [], limited: false };
+    const zeroStacks = Object.fromEntries(
+        Object.keys(state.scenario.stacks || {}).map((type) => [type, 0]),
+      ),
+      ttkState = {
+        ...state,
+        scenario: {
+          ...state.scenario,
+          stacks: zeroStacks,
+          strip: 0,
+          statusTypes: 0,
+          heatStripOverride: 0,
+        },
+      };
     const corCap = corrosiveStackCap(state, weapon, enemy),
       initialPools = enemyStats(
         db,
         enemy,
-        auraEnemyScenario(db, state, { ...state.scenario, corrosiveCap: corCap }),
+        auraEnemyScenario(db, ttkState, { ...ttkState.scenario, corrosiveCap: corCap }),
       );
     if (
       initialPools.scalingUnknown ||
@@ -2457,7 +2518,7 @@
       statusDurationFactor = Math.max(0, 1 + (weapon.bonus?.statusDuration || 0)),
       duration = 6 * statusDurationFactor,
       statusDefinitions = ruleOf(db).status;
-    const reference = calculateEnemy(db, state, one, enemy),
+    const reference = calculateEnemy(db, ttkState, one, enemy),
       corProc = reference.procs.find((p) => p.type === 'corrosive'),
       heatProc = reference.procs.find((p) => p.type === 'heat');
     const corProb = clamp(corProc?.probability || 0, 0, 1),
@@ -2465,13 +2526,11 @@
       forcedCor = corProc?.forcedPerProjectile || 0,
       forcedHeat = heatProc?.forcedPerProjectile || 0,
       hitCache = new Map();
-    const startCor = Math.floor(state.scenario.stacks.corrosive || 0),
-      startHeat = (state.scenario.stacks.heat || 0) > 0;
     const locResults = TTK_LOCATIONS.map((location) => {
       let corrosion = Array.from({ length: corCap + 1 }, (_, i) =>
-          i === Math.min(corCap, startCor) ? 1 : 0,
+          i === 0 ? 1 : 0,
         ),
-        heatEvents = startHeat ? [{ time: 0, probability: 1 }] : [],
+        heatEvents = [],
         pools = { ...initialPools },
         killedAt = null,
         permanentStripChance = initialPools.baseArmor > 0 && initialPools.armor <= 1e-8 ? 1 : 0;
@@ -2479,14 +2538,10 @@
         timeline = [],
         dotQueue = [],
         statusActive = {},
+        statusEvents = {},
         trackedStacks = ['viral', 'magnetic', 'cold', 'puncture'],
         stackEvents = Object.fromEntries(
-          trackedStacks.map((type) => [
-            type,
-            (state.scenario.stacks[type] || 0) > 0
-              ? [{ time: 0, count: state.scenario.stacks[type] }]
-              : [],
-          ]),
+          trackedStacks.map((type) => [type, []]),
         );
       const stackCap = (type) =>
           Math.min(
@@ -2530,9 +2585,36 @@
           }
           for (let i = events.length - 1; i >= 0; i--)
             if (events[i].count <= 1e-9) events.splice(i, 1);
+        },
+        recordStatus = (type, count, time) => {
+          if (type === 'corrosive' || count <= 0) return;
+          const events = statusEvents[type] || (statusEvents[type] = []),
+            duration = Math.max(0, (statusDefinitions[type]?.duration || 6) * statusDurationFactor);
+          for (let i = events.length - 1; i >= 0; i--)
+            if (time - events[i].time >= duration) events.splice(i, 1);
+          events.push({ time, count });
+        },
+        statusSnapshot = (time) => {
+          const counts = {},
+            corrosive = corrosion.reduce((total, chance, stacks) => total + chance * stacks, 0);
+          if (corrosive > 1e-9) counts.corrosive = corrosive;
+          for (const [type, events] of Object.entries(statusEvents)) {
+            const duration = Math.max(
+                0,
+                (statusDefinitions[type]?.duration || 6) * statusDurationFactor,
+              ),
+              active = events.filter((event) => time - event.time < duration),
+              cap = enemy.statusCaps?.[type] ?? statusDefinitions[type]?.cap ?? 100,
+              count = Math.min(cap, active.reduce((total, event) => total + event.count, 0));
+            if (count <= 1e-9) continue;
+            counts[type] = count;
+          }
+          return counts;
         };
       const headLocation = enemy.weakpoints.some((p) => p.headshot) ? 'head' : 'weak',
         dotTypes = new Set(['slash', 'heat', 'gas', 'electricity', 'toxin']),
+        effectType = (type) =>
+          type === 'hunter munitions' || type === 'impact-triggered bleed' ? 'slash' : type,
         dotCache = new Map();
       const remaining = () =>
         Math.max(0, (pools.health || 0) + (pools.shield || 0) + (pools.overguard || 0));
@@ -2558,10 +2640,10 @@
           const stats = enemyStats(
             db,
             enemy,
-            auraEnemyScenario(db, state, {
-              ...state.scenario,
+            auraEnemyScenario(db, ttkState, {
+              ...ttkState.scenario,
               corrosiveCap: corCap,
-              stacks: { ...state.scenario.stacks, corrosive: c, heat: reduction > 0 ? 1 : 0 },
+              stacks: { ...zeroStacks, corrosive: c, heat: reduction > 0 ? 1 : 0 },
               heatStripOverride: reduction,
             }),
           );
@@ -2571,7 +2653,7 @@
       };
       snapshot(0, 'start', 'Initial defense pools');
       const dotDamageAt = (type, time) => {
-        const isBypass = type === 'slash' || type === 'toxin',
+        const isBypass = effectType(type) === 'slash' || type === 'toxin',
           active = pools.overguard > 0 ? 'overguard' : pools.shield > 0 ? 'shield' : 'health';
         if (active === 'overguard') return { layer: 'health', damage: 0 };
         const layer = isBypass ? 'health' : active,
@@ -2591,13 +2673,13 @@
             ].join('|');
           if (dotCache.has(key)) return dotCache.get(key);
           const s = {
-              ...state,
+              ...ttkState,
               scenario: {
-                ...state.scenario,
+                ...ttkState.scenario,
                 location: hitLocation,
                 eximus: false,
                 stacks: {
-                  ...state.scenario.stacks,
+                  ...zeroStacks,
                   ...dynamic,
                   corrosive: c,
                   heat: hot || heatReduction > 0 ? 1 : 0,
@@ -2714,12 +2796,12 @@
             let hit = hitCache.get(key);
             if (!hit) {
               const scenario = {
-                  ...state,
+                  ...ttkState,
                   scenario: {
-                    ...state.scenario,
+                    ...ttkState.scenario,
                     location: hitLocation,
                     stacks: {
-                      ...state.scenario.stacks,
+                      ...zeroStacks,
                       ...dynamic,
                       corrosive: c,
                       heat: hot || heatReduction > 0 ? 1 : 0,
@@ -2799,6 +2881,10 @@
           killed: pools.health <= 0 && pools.shield <= 0 && pools.overguard <= 0,
         });
         snapshot(projectile.time, 'projectile', 'Projectile ' + (index + 1));
+        if (out[out.length - 1].killed) {
+          killedAt = projectile.time;
+          break;
+        }
         const procScale = active === 'overguard' ? 0 : projectile.pelletWeight,
           applyCorrosive = (p) => {
             if (p <= 0) return;
@@ -2817,39 +2903,42 @@
           applyCorrosive(corProb * procScale);
         }
         if (active !== 'overguard') {
-          if (startHeat) heatEvents.push({ time: projectile.time, probability: 1 });
-          else {
-            const heatChance =
-              1 - (1 - Math.min(1, forcedHeat * procScale)) * (1 - heatProb * procScale);
-            if (heatChance) heatEvents.push({ time: projectile.time, probability: heatChance });
-          }
+          const heatChance =
+            1 - (1 - Math.min(1, forcedHeat * procScale)) * (1 - heatProb * procScale);
+          if (heatChance) heatEvents.push({ time: projectile.time, probability: heatChance });
         }
         if (procScale && !enemy.statusImmune) {
           const dynamic = stackCountsAt(projectile.time),
+            corrosiveStacks = corrosion.reduce(
+              (total, chance, stacks) => total + chance * stacks,
+              0,
+            ),
             statusState = {
-              ...state,
+              ...ttkState,
               scenario: {
-                ...state.scenario,
+                ...ttkState.scenario,
                 location: 'body',
                 stacks: {
-                  ...state.scenario.stacks,
+                  ...zeroStacks,
                   ...dynamic,
-                  corrosive: startCor,
+                  corrosive: corrosiveStacks,
                   heat: heatChanceAt(projectile.time) ? 1 : 0,
                 },
               },
             },
             statusResult = calculateEnemy(db, statusState, one, enemy);
           for (const proc of statusResult.procs) {
-            const definition = statusDefinitions[proc.type],
+            const canonicalType = effectType(proc.type),
+              definition = statusDefinitions[canonicalType],
               applications =
                 Math.max(0, (proc.randomExpected || 0) + (proc.forcedPerProjectile || 0)) *
                 procScale;
             if (!applications) continue;
             if (stackEvents[proc.type]) addStack(proc.type, applications, projectile.time);
-            if (!dotTypes.has(proc.type)) continue;
+            recordStatus(canonicalType, applications, projectile.time);
+            if (!dotTypes.has(canonicalType)) continue;
             if (!definition || !(definition.ticks > 0) || !(definition.duration > 0)) continue;
-            const cap = enemy.statusCaps?.[proc.type] || definition.cap || 100,
+            const cap = enemy.statusCaps?.[canonicalType] || definition.cap || 100,
               activeCount = statusActive[proc.type] || 0,
               weight = Math.min(applications, Math.max(0, cap - activeCount));
             if (!weight) continue;
@@ -2872,12 +2961,13 @@
         if (stripRow.armorStrippedAfter && !stripRow.armorStripped) {
           snapshot(projectile.time, 'armor-strip', 'Armor permanently stripped');
         }
-        if (out[out.length - 1].killed) {
-          killedAt = projectile.time;
-          break;
-        }
       }
       if (killedAt == null && dotQueue.length) processDotsUntil(Infinity);
+      const killStatuses = killedAt == null ? {} : statusSnapshot(killedAt);
+      if (killedAt != null && out.length) {
+        out[out.length - 1].killed = true;
+        out[out.length - 1].killStatuses = killStatuses;
+      }
       return {
         ...location,
         rows: out,
@@ -2885,6 +2975,7 @@
         ttk: killedAt,
         projectiles: out.length,
         killed: killedAt != null,
+        killStatuses,
       };
     });
     const rowCount = Math.max(...locResults.map((x) => x.rows.length), 0),
@@ -6569,7 +6660,7 @@ return module.exports;})();
           source: source('Module:Weapons/data/' + group),
           wiki: wiki(w.Link || name),
           description: '',
-          rivenDisposition: w.Disposition ?? null,
+          rivenDisposition: w.Disposition == null ? null : STANDARD_RIVEN_DISPOSITION,
           mastery: w.Mastery || 0,
           maxRank: w.MaxRank || 30,
           polarities: list(w.Polarities).map(normalizePolarity),
@@ -6577,6 +6668,7 @@ return module.exports;})();
           stancePolarity: normalizePolarity(w.StancePolarity),
           tags,
           traits: list(w.Traits),
+          accuracy: Number.isFinite(w.Accuracy) ? w.Accuracy : null,
           magazine: w.Magazine ?? null,
           reload: w.Reload ?? null,
           reloadStyle: w.ReloadStyle || 'Magazine',
@@ -6600,6 +6692,8 @@ return module.exports;})();
             ammoCost: a.AmmoCost ?? 1,
             multishot: a.Multishot ?? 1,
             trigger: a.Trigger || w.Trigger || 'Normal',
+            isSilent: typeof a.IsSilent === 'boolean' ? a.IsSilent : false,
+            punchThrough: Number.isFinite(a.PunchThrough) ? a.PunchThrough : 0,
             shotType: a.ShotType || 'Melee',
             chargeTime: a.ChargeTime || 0,
             burstCount: a.BurstCount || 1,
@@ -7274,6 +7368,8 @@ return module.exports;})();
             prior.has(a.id) ? { ...a, ...prior.get(a.id) } : a,
           );
         }
+        if (c === 'weapons' && incomingRecord.rivenDisposition != null)
+          incomingRecord.rivenDisposition = STANDARD_RIVEN_DISPOSITION;
         hashes[source.id] ||= {};
         let changed = false;
         if (!old) {
@@ -9721,9 +9817,6 @@ return module.exports;})();
       fallback = overall || base || incarnonMode;
     return { ...fallback, base, incarnon: incarnonMode, profiles };
   }
-  function statusAttackProfiles(weapon, incarnonEnabled) {
-    return availableWeaponAttacks(weapon?.attacks, incarnonEnabled);
-  }
   function shouldShowIncarnonEvolutions(w, incarnonEnabled) {
     return !!incarnonEnabled && hasIncarnonProfile(w);
   }
@@ -11274,12 +11367,6 @@ return module.exports;})();
     'ability-strength': ['abilityStrength', 0, 2000],
     'ability-multiplier': ['abilityMultiplier', 0, 100],
     'shard-max-energy': ['maximumEnergy', 0, 5000],
-    distance: ['scenario.distance', 0, 1000],
-    'armor-strip': ['scenario.strip', 0, 100],
-    'corrosive-cap': ['scenario.corrosiveCap', 10, 14],
-    combo: ['scenario.combo', 1, 12],
-    'status-types': ['scenario.statusTypes', 0, 16],
-    'combo-duration': ['scenario.comboDuration', 0, 60],
   };
   function setPath(object, path, value) {
     const keys = path.split('.');
@@ -11303,8 +11390,6 @@ return module.exports;})();
     ])
       $(id).checked = state[field];
     $('progenitor-element').value = state.progenitor;
-    for (const el of document.querySelectorAll('[data-status]'))
-      el.value = state.scenario.stacks[el.dataset.status];
   }
   function metric(label, value, detail, featured = false) {
     return (
@@ -11322,242 +11407,135 @@ return module.exports;})();
   function performanceProfileHTML(profile) {
     const a = profile.unmodded || profile.a || {},
       w = profile.w || {},
+      group = attackProfileGroup(profile.a),
+      attackName = profile.a?.name || 'Attack',
+      heading = attackName.toLowerCase() === group.toLowerCase()
+        ? attackName
+        : group + ' · ' + attackName,
       baseMag = a.magazine ?? w.magazine,
-      baseAmmo = Math.max(0, a.ammoCost || 1),
-      baseShots = baseMag == null || baseAmmo <= 1e-9 ? null : Math.floor(baseMag / baseAmmo),
       baseRate = Math.max(0, a.fireRate || 0),
+      baseAccuracy = Number.isFinite(w.accuracy) ? w.accuracy : null,
+      basePunchThrough = Number.isFinite(a.punchThrough) ? a.punchThrough : null,
+      trigger = a.trigger === 'Burst' && a.burstCount > 1
+        ? 'Burst ×' + a.burstCount
+        : a.trigger || 'N/A',
+      baseNoise = typeof a.isSilent === 'boolean' ? (a.isSilent ? 'Silent' : 'Alarming') : 'N/A',
       pairs = [
-        ['Critical chance', pct(a.critChance || 0), pct(profile.cc)],
-        ['Critical multiplier', fmt(a.critMultiplier || 1, 2) + '×', fmt(profile.cd, 2) + '×'],
-        ['Status chance', pct(a.statusChance || 0), pct(profile.sc)],
-        ['Attacks / second', fmt(baseRate, 2), fmt(profile.rate, 2)],
+        ['Trigger', trigger, trigger],
+        ['Fire Rate', fmt(baseRate, 2) + '/s', fmt(profile.fireRate, 2) + '/s'],
         [
           'Magazine',
           baseMag == null ? 'N/A' : fmt(baseMag, 0),
           profile.mag == null ? 'N/A' : fmt(profile.mag, 0),
         ],
         [
-          'Shots before reload',
-          baseShots == null ? 'N/A' : fmt(baseShots, 0),
-          profile.shots == null
-            ? profile.mag == null
-              ? 'N/A'
-              : profile.ammoEfficiency >= 1
-                ? '∞'
-                : '—'
-            : fmt(profile.shots, 0),
-        ],
-        ['Ammo efficiency', pct(0), pct(profile.ammoEfficiency)],
-        [
-          'Reload time',
+          'Reload',
           w.reload == null ? 'N/A' : fmt(w.reload, 2) + ' s',
           profile.reload == null ? 'N/A' : fmt(profile.reload, 2) + ' s',
         ],
+        [
+          'Accuracy',
+          baseAccuracy == null ? 'N/A' : fmt(baseAccuracy, 2),
+          baseAccuracy == null
+            ? 'N/A'
+            : fmt(Math.max(0, baseAccuracy * (1 + (profile.bonus.accuracy || 0))), 2),
+        ],
+        ['Noise', baseNoise, baseNoise],
+        [
+          'Punch Through',
+          basePunchThrough == null ? 'N/A' : fmt(basePunchThrough, 2) + ' m',
+          basePunchThrough == null
+            ? 'N/A'
+            : fmt(Math.max(0, basePunchThrough + (profile.bonus.punchThrough || 0)), 2) + ' m',
+        ],
+        ['Critical Chance', pct(a.critChance || 0), pct(profile.cc)],
+        ['Critical Damage', fmt(a.critMultiplier || 1, 2) + '×', fmt(profile.cd, 2) + '×'],
       ];
-    return (
-      '<section class="performance-profile"><h3>' +
-      escape(attackProfileGroup(profile.a)) +
-      ' · ' +
-      escape(profile.a?.name || 'Attack') +
-      '</h3><div class="mini-stats">' +
-      pairs
-        .map(
-          ([name, base, modded]) =>
-            '<div><span class="perf-label">' +
-            escape(name) +
-            '</span><strong class="perf-modded">' +
-            modded +
-            '</strong> <small class="base-stat">(' +
-            base +
-            ')</small></div>',
-        )
-        .join('') +
-      '</div><div class="critrow">' +
-      arr(profile.crit)
-        .map(
-          (c) =>
-            '<span class="critpill">Modded tier ' +
-            c.tier +
-            ' · ' +
-            pct(c.probability) +
-            ' · ' +
-            fmt(c.multiplier, 2) +
-            '×</span>',
-        )
-        .join('') +
-      '</div></section>'
-    );
+    const statRows = pairs
+      .map(([name, base, modded]) => `
+        <div class="performance-stat">
+          <span class="perf-label">${escape(name)}:</span>
+          <span class="performance-value">
+            <strong class="perf-modded">${escape(modded)}</strong>
+            ${modded !== base ? `<small class="base-stat">(${escape(base)})</small>` : ''}
+          </span>
+        </div>`,
+      )
+      .join('');
+    const criticalTiers = arr(profile.crit)
+      .map((tier) => `
+        <span class="critpill">Modded tier ${tier.tier} · ${pct(tier.probability)} · ${fmt(tier.multiplier, 2)}×</span>`,
+      )
+      .join('');
+    return `
+      <section class="performance-profile">
+        <h3>${escape(heading)}</h3>
+        <div class="performance-stats">${statRows}</div>
+        <div class="critrow">${criticalTiers}</div>
+      </section>`;
   }
-  function statusDamageBreakdown(profile) {
-    const parts = arr(profile.damageParts);
-    if (!parts.length) return '';
-    const total = parts.reduce((n, part) => n + sum(part.damage || {}), 0),
-      rows = parts
-        .map((part) => {
-          const radial = part.shotType === 'AoE',
-            elements =
-              Object.entries(part.damage || {})
-                .filter(([, value]) => value > 0)
-                .map(([type, value]) => escape(type) + ' ' + fmt(value, 1))
-                .join(' · ') || 'no damage';
-          return (
-            '<tr><th><span class="status-part-label ' +
-            (radial ? 'radial' : 'projectile') +
-            '">' +
-            (radial ? 'RADIAL · BODY HIT' : 'PROJECTILE') +
-            '</span><small>' +
-            escape(part.name || 'Attack component') +
-            '</small></th><td class="numeric"><b>' +
-            fmt(sum(part.damage || {}), 1) +
-            '</b><small>' +
-            elements +
-            '</small></td></tr>'
-          );
-        })
-        .join('');
-    return (
-      '<div class="tablewrap status-damage-breakdown"><table><thead><tr><th>Projectile damage</th><th class="numeric">Damage / shot</th></tr></thead><tbody><tr class="status-damage-total"><th>Total combined damage</th><td class="numeric">' +
-      fmt(total, 1) +
-      '</td></tr><tr class="status-breakdown-row"><td colspan="2"><details><summary>Show damage breakdown</summary><div class="tablewrap"><table><tbody>' +
-      rows +
-      '</tbody></table></div></details></td></tr></tbody></table></div>'
-    );
-  }
-  function orderStatusProfiles(profiles) {
-    const rank = (profile) => {
-      const a = profile.a || {},
-        name = (a.name || '').toLowerCase(),
-        trigger = (a.trigger || '').toLowerCase(),
-        text = name + ' ' + trigger;
-      if (/alt[ -]?fire|alternate fire/.test(text)) return 4;
-      if (/normal attack|primary fire|primary attack|main attack/.test(name)) return 0;
-      if (/incarnon/.test(name) && a.shotType !== 'AoE' && !/radial/.test(name)) return 0;
-      if (a.shotType === 'AoE' || /radial/.test(name)) return 3;
-      return 1;
-    };
-    return arr(profiles)
-      .map((profile, index) => ({ profile, index, rank: rank(profile) }))
-      .sort((a, b) => a.rank - b.rank || a.index - b.index)
-      .map((x) => x.profile);
-  }
-  function statusModeLayout(profiles, incarnonEnabled, renderProfile) {
-    if (!profiles.length) return '';
-    if (!incarnonEnabled)
-      return (
-        '<div class="status-mode-single">' +
-        orderStatusProfiles(profiles).map(renderProfile).join('') +
-        '</div>'
-      );
-    const base = orderStatusProfiles(
-        profiles.filter((profile) => !/Incarnon/i.test(profile.a?.name || '')),
-      ),
-      incarnon = orderStatusProfiles(
-        profiles.filter((profile) => /Incarnon/i.test(profile.a?.name || '')),
-      );
-    return (
-      '<div class="status-mode-columns"><section class="status-mode-column"><h3>Base mode</h3>' +
-      (base.length
-        ? base.map(renderProfile).join('')
-        : '<p class="empty">No base-mode status data.</p>') +
-      '</section><section class="status-mode-column incarnon-mode-column"><h3>Incarnon mode</h3>' +
-      (incarnon.length
-        ? incarnon.map(renderProfile).join('')
-        : '<p class="empty">No Incarnon status data.</p>') +
-      '</section></div>'
-    );
-  }
-  function statusProfileHTML(profile, result) {
-    const rows =
-        result.procs
-          .map(
-            (p) =>
-              '<tr><td>' +
-              statusImage(p.type) +
-              escape(p.type) +
-              '<small>' +
-              escape(p.note) +
-              (p.forcedPerProjectile
-                ? ' · ' + fmt(p.forcedPerProjectile, 3) + ' forced/triggered procs per projectile'
-                : '') +
-              '</small></td><td class="numeric">' +
-              (p.weight == null ? '—' : pct(p.weight)) +
-              '</td><td class="numeric">' +
-              fmt(p.randomExpected, 3) +
-              '</td><td class="numeric">' +
-              (p.probability == null ? '—' : pct(p.probability)) +
-              '</td><td class="numeric">' +
-              fmt(p.rate, 3) +
-              '</td><td class="numeric">' +
-              fmt(p.tick) +
-              '</td><td class="numeric">' +
-              fmt(p.lifetime) +
-              '</td><td class="numeric">' +
-              fmt(p.dps) +
-              '</td></tr>',
-          )
+  function performanceModeHTML(profiles, incarnonEnabled) {
+    const base = profiles.filter((profile) => !/Incarnon/i.test(profile.a.name)),
+      incarnon = profiles.filter((profile) => /Incarnon/i.test(profile.a.name)),
+      renderProfiles = (items) =>
+        items
+          .map((profile) => performanceProfileHTML(profile))
           .join('') ||
-        '<tr><td colspan="8" class="empty">This projectile produces no status effects.</td></tr>',
-      componentSummary = statusDamageBreakdown(profile);
+        '<p class="empty">No attacks in this mode.</p>',
+      formula =
+        '<p class="footnote performance-formula">Direct damage = typed modded damage × expected multishot × critical expectation × hit-location multiplier × faction bonus × falloff × layer defenses. Damaging procs use their own coefficients and elemental rules; applicable faction bonuses are applied twice. The game rounds each typed damage component to a 1/32 share of modded base damage and encodes base critical multipliers as 12-bit values; selected-enemy details show rounded normal and critical popup values beside probability-weighted averages.</p>';
+    if (!incarnonEnabled || !incarnon.length)
+      return `<div class="performance-mode-single"><h3>Base mode</h3>${renderProfiles(base)}</div>${formula}`;
+    return `
+      <div class="performance-mode-columns">
+        <section class="performance-mode-column"><h3>Base mode</h3>${renderProfiles(base)}</section>
+        <section class="performance-mode-column incarnon-mode-column">
+          <h3>Incarnon mode</h3>${renderProfiles(incarnon)}
+        </section>
+      </div>${formula}`;
+  }
+  const STATUS_HELP = {
+    impact: 'Staggers the target. Repeated stacks increase the Parazon Mercy Kill threshold.',
+    puncture: 'Weakens the target, reducing its outgoing damage.',
+    slash: 'Bleed deals damage over time that bypasses armor, but does not bypass shields.',
+    heat: 'Burn deals damage over time and progressively reduces armor by up to 50% while active.',
+    cold: 'Slows the target; enough stacks can freeze it.',
+    electricity: 'Stuns the target and deals chained Electricity damage over time.',
+    toxin: 'Poison deals damage over time to Health, bypassing shields but not Overguard.',
+    blast: 'Applies a delayed detonation. This is a single burst, not a damage-over-time cycle.',
+    gas: 'Creates a damaging gas cloud that can affect nearby enemies over time.',
+    magnetic: 'Weakens shields and Overguard; its damage bonus grows with stacks.',
+    radiation: 'Confuses the target, making it attack nearby units.',
+    viral: 'Increases damage dealt to Health while stacks remain; it does not boost Shield or Overguard damage.',
+    void: 'Creates a bullet-attractor field around the target.',
+    tau: 'Tau damage has no standard weapon status effect in this calculator.',
+    true: 'True damage has no standard status effect; it bypasses armor.',
+  };
+
+  function statusHelpText(type, profile, state) {
+    if (type !== 'corrosive')
+      return STATUS_HELP[type] || 'No standard status effect is modeled for this damage type.';
+    const shardBonus = Math.max(0, Math.floor(profile.bonus?.corrosiveCapBonus || 0)),
+      cap = Math.max(0, Math.floor((state.scenario.corrosiveCap ?? 10) + shardBonus)),
+      reduction = Math.min(100, 20 + 6 * cap);
     return (
-      '<details class="status-profile" open><summary><b>' +
-      escape(attackProfileGroup(profile.a)) +
-      ' · ' +
-      escape(profile.a.name) +
-      '</b><small>' +
-      fmt(profile.rate, 2) +
-      ' attacks/s · ' +
-      fmt(profile.ms, 2) +
-      ' projectiles/attack · ' +
-      pct(profile.sc) +
-      ' status chance</small></summary>' +
-      componentSummary +
-      '<div class="tablewrap spacer"><table class="status-effect-table"><colgroup><col style="width:21%"><col style="width:9%"><col style="width:13%"><col style="width:12%"><col style="width:11%"><col style="width:11%"><col style="width:11%"><col style="width:12%"></colgroup><thead><tr><th><abbr title="Status effect">Effect</abbr></th><th class="numeric"><abbr title="Damage weight">Wt.</abbr></th><th class="numeric"><abbr title="Random procs per projectile">Procs/shot</abbr></th><th class="numeric"><abbr title="Chance of at least one status proc per projectile">Any/shot</abbr></th><th class="numeric"><abbr title="Status procs per second">Procs/s</abbr></th><th class="numeric"><abbr title="Damage per status tick">Tick dmg</abbr></th><th class="numeric"><abbr title="Status effect lifetime per proc">Life</abbr></th><th class="numeric"><abbr title="Status damage per second">DPS</abbr></th></tr></thead><tbody>' +
-      rows +
-      '</tbody></table></div></details>'
+      'Corrosive removes 20% armor plus 6% per stack, up to ' +
+      fmt(reduction, 0) +
+      '% at this build’s ' +
+      cap +
+      '-stack limit. The default 10-stack limit removes 80%. Emerald Archon Shards add 2 stacks each, or 3 if Tauforged; 14 stacks can fully strip armor. Equipped shard bonus: +' +
+      shardBonus +
+      ' stacks.'
     );
   }
-  function statusProbabilityTableHTML(profiles, incarnonEnabled = false) {
-    const eligible = arr(profiles).filter((profile) => statusProbabilityRows(profile).length);
-    if (!eligible.length) return '';
-    const tables = statusModeLayout(eligible, incarnonEnabled, (profile) => {
-      const rows = statusProbabilityRows(profile)
-        .map(
-          (row) =>
-            '<tr><td>' +
-            statusImage(row.type) +
-            escape(row.type) +
-            '</td><td class="numeric">' +
-            pct(row.damageWeight) +
-            '</td><td class="numeric">' +
-            pct(row.perProjectile) +
-            '</td><td class="numeric">' +
-            fmt(row.expected, 1) +
-            '</td><td class="numeric">' +
-            pct(row.atLeastOne) +
-            '</td></tr>',
-        )
-        .join('');
-      if (!rows) return '';
-      return (
-        '<div class="status-probability-profile"><h4>' +
-        escape(attackProfileGroup(profile.a)) +
-        ' · ' +
-        escape(profile.a?.name || 'Attack') +
-        '</h4><div class="tablewrap"><table class="status-probability-table"><colgroup><col style="width:20%"><col style="width:15%"><col style="width:20%"><col style="width:22%"><col style="width:23%"></colgroup><thead><tr><th><abbr title="Damage type">Type</abbr></th><th class="numeric"><abbr title="Damage weight">Wt.</abbr></th><th class="numeric"><abbr title="Chance per projectile">Chance/shot</abbr></th><th class="numeric"><abbr title="Expected number of procs in 500 projectiles">Expected/500</abbr></th><th class="numeric"><abbr title="Chance of at least one proc in 500 projectiles">Chance ≥1/500</abbr></th></tr></thead><tbody>' +
-        rows +
-        '</tbody></table></div></div>'
-      );
-    });
-    if (!tables) return '';
-    return (
-      '<section class="status-probability spacer"><h3>Status proc probability · ' +
-      STATUS_PROBABILITY_SHOTS +
-      ' projectiles per attack profile</h3><p class="hint">Each table uses only that firing profile’s damage and status chance. Weighted random status rolls from the weapon only; counts are projectiles, independent of multishot. Forced procs and enemy status immunity are excluded.</p>' +
-      tables +
-      '</section>'
-    );
+
+  function dotTimingLabel(cycle) {
+    if (!cycle) return 'No proc at this stage';
+    const cadence = cycle.immediateTick ? 'Immediate + 1 tick/s' : '1 tick/s';
+    return cadence + ' · ' + fmt(cycle.seconds, 1) + 's · ' + cycle.ticks + ' ticks';
   }
-  function damageProfileHTML(profile, label, color, incarnonMode = false) {
+
+  function damageProfileHTML(profile, label, color, state, incarnonMode = false) {
     const showIncarnon = incarnonMode,
       names = showIncarnon
         ? ['Base / unmodded', 'Incarnon enhancement', 'Modded']
@@ -11592,12 +11570,33 @@ return module.exports;})();
                 (distributions[distributions.length - 1][a] || 0),
             ),
             max = Math.max(1, ...distributions.flatMap((d) => Object.values(d))),
+            dotStages = part.dotStages || {},
+            dotDistributions = showIncarnon
+              ? [dotStages.unmodded || {}, dotStages.incarnon || {}, dotStages.modded || {}]
+              : [dotStages.unmodded || {}, dotStages.modded || {}],
+            dotMax = Math.max(
+              1,
+              ...dotDistributions.flatMap((d) => Object.values(d).map((cycle) => cycle.total)),
+            ),
+            moddedDamage = distributions[distributions.length - 1],
+            moddedTotal = sum(moddedDamage),
             rows = types
-              .map(
-                (type) =>
-                  '<div class="damage-row staged"><span>' +
+              .map((type) => {
+                const weight = moddedTotal ? (moddedDamage[type] || 0) / moddedTotal : 0,
+                  help = statusHelpText(type, profile, state),
+                  dotCycles = dotDistributions.map((d) => d[type]),
+                  hasDot = dotCycles.some(Boolean);
+                return (
+                  '<div class="damage-row staged"><span class="damage-type-label"><span class="status-help" tabindex="0" aria-label="' +
+                  escape(type + ' status: ' + help) +
+                  '" data-tooltip="' +
+                  escape(help) +
+                  '">' +
+                  statusImage(type) +
                   escape(type[0].toUpperCase() + type.slice(1)) +
-                  '</span><div class="stage-bars">' +
+                  '</span> <small class="damage-weight">(' +
+                  pct(weight) +
+                  ')</small></span><div class="stage-bars">' +
                   distributions
                     .map(
                       (d, i) =>
@@ -11614,8 +11613,38 @@ return module.exports;})();
                         '</small></div>',
                     )
                     .join('') +
-                  '</div></div>',
-              )
+                  '</div></div>' +
+                  (hasDot
+                    ? '<div class="damage-row staged dot-row"><span class="damage-type-label">' +
+                      statusImage(type) +
+                      escape(type[0].toUpperCase() + type.slice(1)) +
+                      ' DoT · full cycle</span><div class="stage-bars">' +
+                      dotCycles
+                        .map((cycle, i) => {
+                          const value = cycle?.total || 0;
+                          return (
+                            '<div class="stage-bar dot-stage" title="' +
+                            escape(names[i]) +
+                            ': ' +
+                            fmt(value, 3) +
+                            ' · ' +
+                            escape(dotTimingLabel(cycle)) +
+                            '"><div class="damagebar"><div style="width:' +
+                            (value / dotMax) * 100 +
+                            '%;background:' +
+                            colors[i] +
+                            '"></div></div><small>' +
+                            fmt(value, 3) +
+                            '</small><span class="dot-timing">' +
+                            escape(dotTimingLabel(cycle)) +
+                            '</span></div>'
+                          );
+                        })
+                        .join('') +
+                      '</div></div>'
+                    : '')
+                );
+              })
               .join(''),
             totals = distributions
               .map(
@@ -11651,16 +11680,20 @@ return module.exports;})();
       escape(label) +
       ' <small>· ' +
       escape(profile.a.name) +
-      '</small></h3><div class="stage-legend">' +
+      '</small></h3><p class="damage-status-chance">Status Chance: <strong>' +
+      pct(profile.sc) +
+      '</strong> <small class="base-stat">(' +
+      pct(profile.unmodded?.statusChance || 0) +
+      ' base)</small></p><div class="stage-legend">' +
       legend +
       '</div>' +
       componentHTML +
-      '<p class="hint">Typed damage per projectile before critical hits, multishot, and defenses. ' +
+      '<p class="hint">Typed damage per projectile before critical hits, multishot, and defenses. Damage weight uses this component’s modded damage. Each status DoT row is one successful noncritical proc over its full tick cycle, including applicable build bonuses; it excludes proc chance, multishot, faction bonuses, and enemy defenses. DoT bars use their own scale. ' +
       fmt(profile.ms, 2) +
       ' expected projectiles / attack.</p></section>'
     );
   }
-  function damageDistributionHTML(profiles, incarnonEnabled) {
+  function damageDistributionHTML(profiles, incarnonEnabled, state) {
     const activeIncarnon =
         incarnonEnabled && profiles.some((profile) => /Incarnon/i.test(profile.a.name)),
       base = profiles.filter((profile) => !/Incarnon/i.test(profile.a.name)),
@@ -11678,7 +11711,7 @@ return module.exports;})();
       renderProfiles = (items, incarnonMode) =>
         ordered(items)
           .map((profile) =>
-            damageProfileHTML(profile, attackModeLabel(profile.a), '#f4ae78', incarnonMode),
+            damageProfileHTML(profile, attackModeLabel(profile.a), '#f4ae78', state, incarnonMode),
           )
           .join('') || '<p class="empty">No attacks in this mode.</p>';
     if (!activeIncarnon)
@@ -11717,8 +11750,6 @@ return module.exports;})();
       const profiles = profileAttacks.map((a) =>
         a.id === state.attackId ? w : calculateWeapon(db, { ...state, attackId: a.id }),
       );
-      $('performance').innerHTML =
-        profiles.map(performanceProfileHTML).join('') + shardPerformanceHTML(db, state, w.w);
       const e = get(db, 'enemies', state.enemyId) || records(db, 'enemies')[0],
         result = calculateEnemy(
           db,
@@ -11726,6 +11757,9 @@ return module.exports;})();
           w,
           e,
         );
+      $('performance').innerHTML =
+        performanceModeHTML(profiles, state.incarnonEnabled && hasIncarnonProfile(w.w)) +
+        shardPerformanceHTML(db, state, w.w);
       $('capacity-label').textContent = w.build.used + ' / ' + w.build.capacity + ' CAPACITY';
       $('capacity-bar').classList.toggle('over', w.build.used > w.build.capacity);
       $('capacity-bar').firstElementChild.style.width =
@@ -11785,6 +11819,7 @@ return module.exports;})();
       $('damage-distribution').innerHTML = damageDistributionHTML(
         profiles,
         state.incarnonEnabled && hasIncarnonProfile(w.w),
+        state,
       );
       const evoText = {
           baseDamage: 'base damage',
@@ -11835,46 +11870,8 @@ return module.exports;})();
             '</ul></div>',
         );
       fillEnemySelector(true);
-      $('status-target-name').textContent = e.name.toUpperCase();
-      const statusProfiles = statusAttackProfiles(w.w, state.incarnonEnabled)
-          .map((a) => profiles.find((p) => p.a.id === a.id))
-          .filter(Boolean),
-        statusHasIncarnon =
-          state.incarnonEnabled && statusProfiles.some((p) => /Incarnon/i.test(p.a.name)),
-        statusProfileMarkup = statusModeLayout(statusProfiles, statusHasIncarnon, (p) => {
-          const sr = calculateEnemy(
-            db,
-            { ...state, attackId: p.a.id, scenario: { ...state.scenario, location: 'body' } },
-            p,
-            e,
-          );
-          return statusProfileHTML(p, sr);
-        });
-      $('status-profiles').innerHTML =
-        statusProfileMarkup +
-          (statusProfileMarkup
-            ? statusProbabilityTableHTML(statusProfiles, statusHasIncarnon)
-            : '') || '<p class="empty">No applicable attack profiles.</p>';
       renderFactions(w);
       renderEnemyDetails(result, profiles);
-      $('formula-details').innerHTML =
-        '<div class="mini-stats">' +
-        [
-          ['Base / projectile', fmt(w.baseTotal)],
-          ['Base damage multiplier', fmt(w.ordinary, 3) + '×'],
-          ['Average crit multiplier', fmt(w.meanCrit, 3) + '×'],
-          ['Reload-adjusted attack rate', fmt(w.sustain, 3) + ' / s'],
-          ['Target faction multiplier', fmt(result.factionMultiplier, 3) + '×'],
-          ['Target body multiplier', fmt(result.body, 3) + '×'],
-        ]
-          .map(([n, v]) => '<div>' + n + '<b>' + v + '</b></div>')
-          .join('') +
-        '</div><p class="footnote spacer">Direct damage = typed modded damage × expected multishot × critical expectation × hit-location multiplier × faction bonus × falloff × layer defenses. Damaging procs use their own coefficients and elemental rules; applicable faction bonuses are applied twice. The game rounds each typed damage component to a 1/32 share of modded base damage and encodes base critical multipliers as 12-bit values; selected-enemy details show rounded normal and critical popup values beside probability-weighted averages.</p>' +
-        (result.notes.length
-          ? '<h3>Coverage notes</h3><ul class="limits-list footnote">' +
-            result.notes.map((n) => '<li>' + escape(n) + '</li>').join('') +
-            '</ul>'
-          : '<p class="success">Selected mechanics have no recorded coverage gaps.</p>');
     } catch (error) {
       calculationNoticeHost().innerHTML = '<div class="error">' + escape(error.message) + '</div>';
       console.error(error);
@@ -11963,6 +11960,9 @@ return module.exports;})();
         'Overguard ' + fmt(cell.overguard, 0),
         'Shield ' + fmt(cell.shield, 0),
         'Health ' + fmt(cell.health, 0),
+        cell.killStatuses
+          ? 'Average statuses at kill: ' + ttkStatusSummary(cell.killStatuses).breakdown
+          : '',
       ]
         .filter(Boolean)
         .join(' · '),
@@ -11989,7 +11989,9 @@ return module.exports;})();
   function ttkResultHTML(ttk, host) {
     const summaries = ttk.locations
         .map(
-          (x) =>
+        (x) => {
+          const statuses = ttkStatusSummary(x.killStatuses);
+          return (
             '<div class="metric"><small>' +
             escape(x.name) +
             '</small><strong>' +
@@ -12000,7 +12002,17 @@ return module.exports;})();
               : x.killed
                 ? fmt(x.projectiles, 0) + ' projectiles'
                 : 'After ' + fmt(x.projectiles, 0) + ' projectiles') +
-            '</span></div>',
+            '</span>' +
+            (x.killed
+              ? '<span class="ttk-status-count" title="' +
+                escape('Average statuses at kill: ' + statuses.breakdown) +
+                '">Avg statuses at kill: ' +
+                fmt(statuses.total, 1) +
+                ' stacks</span>'
+              : '') +
+            '</div>'
+          );
+        },
         )
         .join(''),
       labels = {
@@ -12592,14 +12604,14 @@ return module.exports;})();
       .join(' + ');
     return total + '<small class="hit-component-breakdown">' + escape(breakdown) + '</small>';
   }
-  function hitOutcomeRangeSet(db, state, profile, enemy, location) {
+  function hitOutcomeRangeSet(db, state, profile, enemy, location, weakpointId = '') {
     const stacks = Object.fromEntries(
         Object.keys(state.scenario.stacks || {}).map((type) => [type, 0]),
       ),
       scenario = {
         ...state,
         attackId: profile.a.id,
-        scenario: { ...state.scenario, location, stacks, heatStripOverride: 0 },
+        scenario: { ...state.scenario, location, weakpointId, stacks, heatStripOverride: 0 },
       },
       current = calculateEnemy(db, scenario, profile, enemy),
       ceiling = maxApplicableStatusState(scenario, profile, enemy),
@@ -12614,6 +12626,23 @@ return module.exports;})();
         .filter((outcome) => outcome.critical)
         .map((outcome) => ({ min: outcome, max: findMatch(maximum, outcome) }));
     return { current, maximum, normal, normalMax, criticals, labels: ceiling.labels };
+  }
+
+  function bestWeakpointRangeSet(source, buildState, profile, enemy) {
+    const candidates = arr(enemy.weakpoints).map((point) => ({
+      point,
+      range: hitOutcomeRangeSet(source, buildState, profile, enemy, 'weak', point.id),
+    }));
+    if (!candidates.length)
+      return { point: null, range: hitOutcomeRangeSet(source, buildState, profile, enemy, 'weak') };
+    return candidates.reduce((best, candidate) => {
+      const score = candidate.range.current.layers[candidate.range.current.current].hit,
+        bestScore = best.range.current.layers[best.range.current.current].hit;
+      return score > bestScore + 1e-9 ||
+        (Math.abs(score - bestScore) <= 1e-9 && candidate.point.headshot && !best.point.headshot)
+        ? candidate
+        : best;
+    });
   }
   function ttkHitOutcomesHTML(source, buildState, profile, enemy) {
     const targetProfile = directTargetProfile(profile),
@@ -12656,101 +12685,103 @@ return module.exports;})();
   function renderEnemyDetails(r, profiles = []) {
     const w = calculateWeapon(db, state),
       comparison = cachedEnemyComparison(db, state, w, r.enemy),
-      locations = ['body', 'weak', 'head'],
-      labels = { body: 'Body shot', weak: 'Weakpoint', head: 'Headshot' };
+      locations = ['body', 'weak', 'head'];
     const image = recordImage(r.enemy, 'enemy'),
-      detailRows = profiles
-        .flatMap((profile) => {
-          const targetProfile = directTargetProfile(profile);
-          return locations.map((location) => {
-            const range = hitOutcomeRangeSet(db, state, targetProfile, r.enemy, location),
-              hit = range.current;
-            if (!hit.locationAvailable)
-              return (
-                '<tr><td>' +
-                escape(
-                  attackModeLabel(profile.a) + ' · ' + profile.a.name + ' · ' + labels[location],
-                ) +
-                '</td><td colspan="4">N/A</td></tr>'
-              );
-            const value = (min, max) => hitOutcomeValue(min, hit.current, max),
-              critical = range.criticals
-                .map(({ min, max }) => value(min, max) + ' · ' + pct(min.probability))
-                .join('<br>'),
-              maxStatusLabel = range.labels.length
-                ? '<small class="hit-component-breakdown">Maximum: ' +
-                  escape(range.labels.join(' · ')) +
-                  '</small>'
-                : '';
+      hitRows = profiles.flatMap((profile) => {
+        const targetProfile = directTargetProfile(profile),
+          precision = bestWeakpointRangeSet(db, state, targetProfile, r.enemy);
+        return [
+          {
+            profile,
+            label: 'Body shot',
+            range: hitOutcomeRangeSet(db, state, targetProfile, r.enemy, 'body'),
+          },
+          {
+            profile,
+            label:
+              'Weakpoint / Headshot' +
+              (precision.point ? ' · ' + (precision.point.name || 'Weakpoint') : ''),
+            range: precision.range,
+          },
+        ];
+      }),
+      detailRows = hitRows
+        .map(({ profile, label, range }) => {
+          const hit = range.current;
+          if (!hit.locationAvailable)
             return (
               '<tr><td>' +
-              escape(
-                attackModeLabel(profile.a) +
-                  ' · ' +
-                  profile.a.name +
-                  ' · ' +
-                  labels[location] +
-                  ' · ' +
-                  fmt(hit.layers[hit.current].hit) +
-                  ' average',
-              ) +
-              maxStatusLabel +
-              '</td><td>' +
-              value(range.normal, range.normalMax) +
-              ' normal</td><td>' +
-              critical +
-              (range.criticals.length ? ' critical' : 'no critical chance') +
-              '</td><td>' +
-              fmt(hit.body, 2) +
-              '×</td><td>' +
-              pct(hit.criticalChance) +
-              '</td></tr>'
+              escape(attackModeLabel(profile.a) + ' · ' + profile.a.name + ' · ' + label) +
+              '</td><td colspan="4">N/A</td></tr>'
             );
-          });
+          const value = (min, max) => hitOutcomeValue(min, hit.current, max),
+            critical = range.criticals
+              .map(({ min, max }) => value(min, max) + ' · ' + pct(min.probability))
+              .join('<br>'),
+            maxStatusLabel = range.labels.length
+              ? '<small class="hit-component-breakdown">Maximum: ' +
+                escape(range.labels.join(' · ')) +
+                '</small>'
+              : '';
+          return (
+            '<tr><td>' +
+            escape(
+              attackModeLabel(profile.a) +
+                ' · ' +
+                profile.a.name +
+                ' · ' +
+                label +
+                ' · ' +
+                fmt(hit.layers[hit.current].hit) +
+                ' average',
+            ) +
+            maxStatusLabel +
+            '</td><td>' +
+            value(range.normal, range.normalMax) +
+            ' normal</td><td>' +
+            critical +
+            (range.criticals.length ? ' critical' : 'no critical chance') +
+            '</td><td>' +
+            fmt(hit.body, 2) +
+            '×</td><td>' +
+            pct(hit.criticalChance) +
+            '</td></tr>'
+          );
         })
         .join(''),
-      summaryRows = profiles
-        .flatMap((profile) =>
-          locations.map((location) => {
-            const range = hitOutcomeRangeSet(
-                db,
-                state,
-                directTargetProfile(profile),
-                r.enemy,
-                location,
-              ),
-              hit = range.current;
-            if (!hit.locationAvailable)
-              return (
-                '<tr><th>' +
-                escape(attackModeLabel(profile.a) + ' · ' + labels[location]) +
-                '</th><td colspan="2">N/A</td></tr>'
-              );
-            const best = range.criticals.reduce(
-                (chosen, item) =>
-                  !chosen || item.min.damage[hit.current] > chosen.min.damage[hit.current]
-                    ? item
-                    : chosen,
-                null,
-              ),
-              normal = hitOutcomeValue(range.normal, hit.current, range.normalMax),
-              critical = best
-                ? hitOutcomeValue(best.min, hit.current, best.max) +
-                  '<small>Highest tier · ' +
-                  pct(best.min.probability) +
-                  '</small>'
-                : 'No critical chance';
+      summaryRows = hitRows
+        .map(({ profile, label, range }) => {
+          const hit = range.current;
+          if (!hit.locationAvailable)
             return (
               '<tr><th>' +
-              escape(attackModeLabel(profile.a) + ' · ' + labels[location]) +
-              '</th><td>' +
-              normal +
-              '</td><td>' +
-              critical +
-              '</td></tr>'
+              escape(attackModeLabel(profile.a) + ' · ' + label) +
+              '</th><td colspan="2">N/A</td></tr>'
             );
-          }),
-        )
+          const best = range.criticals.reduce(
+              (chosen, item) =>
+                !chosen || item.min.damage[hit.current] > chosen.min.damage[hit.current]
+                  ? item
+                  : chosen,
+              null,
+            ),
+            normal = hitOutcomeValue(range.normal, hit.current, range.normalMax),
+            critical = best
+              ? hitOutcomeValue(best.min, hit.current, best.max) +
+                '<small>Highest tier · ' +
+                pct(best.min.probability) +
+                '</small>'
+              : 'No critical chance';
+          return (
+            '<tr><th>' +
+            escape(attackModeLabel(profile.a) + ' · ' + label) +
+            '</th><td>' +
+            normal +
+            '</td><td>' +
+            critical +
+            '</td></tr>'
+          );
+        })
         .join('');
     const ttkProfiles = profiles.map((profile, index) => ({ profile, index })),
       renderTtkProfile = ({ profile, index }) => {
@@ -12803,7 +12834,7 @@ return module.exports;})();
           : '<div class="ttk-mode-single">' +
             ttkProfiles.map(renderTtkProfile).join('') +
             '</div>') +
-        '<p class="hint ttk-disclaimer">Expected critical damage, status applications and DoT ticks are used; fractional multishot and status procs represent expected values. TTK measures damage to the directly struck enemy; linked radial bursts are excluded. Hover a damage value for DoT and remaining defense pools. Shield gating and Incarnon charge cycles are excluded.</p>';
+        '<p class="hint ttk-disclaimer">TTK starts at zero target status stacks and builds them from each projectile’s weighted proc chance. Critical damage, fractional multishot, status stacks and DoT ticks are modeled as expected values; status counts at death are averages, not guaranteed outcomes. TTK measures damage to the directly struck enemy; linked radial bursts are excluded. Hover a damage value for DoT and remaining defense pools. Shield gating and Incarnon charge cycles are excluded.</p>';
     $('ttk-target-name').textContent =
       r.enemy.name.toUpperCase() + ' · LEVEL ' + fmt(state.scenario.level, 0);
     const enemySummaryHTML =
@@ -12838,7 +12869,7 @@ return module.exports;})();
         (comparison.truncated ? ' · Proc distribution capped at 256.' : '') +
         '</p></div></div><p class="hint spacer">Hit popups show direct damage to the struck enemy from zero stacks through maximum applicable status stacks. Heat armor reduction ramps over time and caps at 50%; linked radial bursts affect neighboring enemies and their falloff damage is listed with TTK.</p>',
       hitDamageHTML =
-        '<section class="enemy-hit-damage"><h3>Hit damage</h3><p class="hint">Direct damage per projectile, before multishot. Normal values span zero through maximum applicable status effects; the critical column shows the highest critical tier. Expand details for all tiers and probabilities.</p><div class="tablewrap"><table><thead><tr><th>Attack · location</th><th>Normal</th><th>Highest critical</th></tr></thead><tbody>' +
+        '<section class="enemy-hit-damage"><h3>Hit damage</h3><p class="hint">Direct damage per projectile, before multishot. Weakpoint / Headshot shows the highest-damage sourced weakpoint for this attack; its body part is named in the row. Normal values span zero through maximum applicable status effects; the critical column shows the highest critical tier. Expand details for all tiers and probabilities.</p><div class="tablewrap"><table><thead><tr><th>Attack · location</th><th>Normal</th><th>Highest critical</th></tr></thead><tbody>' +
         summaryRows +
         '</tbody></table></div></section>',
       detailedHitHTML =
@@ -13109,6 +13140,9 @@ return module.exports;})();
               (typeof value === 'number' ? 'number' : 'text') +
               '"' +
               (typeof value === 'number' ? ' step="any"' : '') +
+              (category === 'weapons' && key === 'rivenDisposition'
+                ? ' readonly title="All Riven-compatible weapons use the universal 1.2 multiplier"'
+                : '') +
               ' value="' +
               escape(value) +
               '">';
@@ -13265,6 +13299,12 @@ return module.exports;})();
         candidate = clone(db),
         index = candidate[c].records.findIndex((r) => r.id === selectedRecord),
         previous = index >= 0 ? candidate[c].records[index] : null;
+      if (
+        c === 'weapons' &&
+        r.rivenDisposition != null &&
+        r.rivenDisposition !== STANDARD_RIVEN_DISPOSITION
+      )
+        throw Error('Riven Disposition is fixed at 1.2 for every Riven-compatible weapon.');
       if (
         c === 'mods' &&
         previous &&
@@ -13960,23 +14000,13 @@ return module.exports;})();
           model.rivenDisposition != null &&
           Number.isFinite(Number(model.rivenDisposition)),
       )
-      .sort(
-        (left, right) =>
-          right.rivenDisposition - left.rivenDisposition || left.name.localeCompare(right.name),
-      );
-    const highest = variants[0]?.rivenDisposition,
-      leaders = variants
-        .filter((model) => model.rivenDisposition === highest)
-        .map((model) => model.name)
-        .join(', ');
+      .sort((left, right) => left.name.localeCompare(right.name));
     const comparison =
       '<div class="riven-family-dispositions"><h3>Riven disposition across ' +
       escape(w.family) +
-      ' models</h3><p class="hint">Highest: <strong>' +
-      escape(leaders) +
-      '</strong> · ' +
-      fmt(highest || 0, 2) +
-      '×</p><div class="tablewrap"><table><thead><tr><th>Weapon model</th><th class="numeric">Disposition</th><th>Comparison</th></tr></thead><tbody>' +
+      ' models</h3><p class="hint">All Riven-compatible models use ' +
+      fmt(STANDARD_RIVEN_DISPOSITION, 2) +
+      '× under the <a href="https://forums.warframe.com/topic/1529475-dev-workshop-ammo-efficiency-changes-riven-disposition-retirement/" target="_blank" rel="noopener">announced retirement of Riven Disposition</a>. The change is planned for Thursday’s hotfix.</p><div class="tablewrap"><table><thead><tr><th>Weapon model</th><th class="numeric">Disposition</th></tr></thead><tbody>' +
       variants
         .map(
           (model) =>
@@ -13987,9 +14017,7 @@ return module.exports;})();
             (model.id === w.id ? ' · selected' : '') +
             '</td><td class="numeric">' +
             fmt(model.rivenDisposition, 2) +
-            '×</td><td>' +
-            (model.rivenDisposition === highest ? '<span class="highest">Highest</span>' : '') +
-            '</td></tr>',
+            '×</td></tr>',
         )
         .join('') +
       '</tbody></table></div></div>';
@@ -14885,6 +14913,22 @@ return module.exports;})();
       },
       near = (a, b) => Math.abs(a - b) < 1e-7;
     try {
+      const dispositionFixture = {
+        records: [{ rivenDisposition: 0.55 }, { rivenDisposition: null }],
+        onlineReference: { old: { rivenDisposition: 1.35 } },
+      };
+      normalizeWeaponDatabase(dispositionFixture);
+      assert(
+        dispositionFixture.records[0].rivenDisposition === STANDARD_RIVEN_DISPOSITION &&
+          dispositionFixture.records[1].rivenDisposition === null &&
+          dispositionFixture.onlineReference.old.rivenDisposition === STANDARD_RIVEN_DISPOSITION &&
+          records(testDb, 'weapons').every(
+            (weapon) =>
+              weapon.rivenDisposition == null ||
+              weapon.rivenDisposition === STANDARD_RIVEN_DISPOSITION,
+          ),
+        'Riven-compatible weapons and saved source references use the universal 1.2 disposition',
+      );
       const conditionalEvolution = records(testDb, 'incarnon-evolutions').find(
         (e) => e.conditions?.some((condition) => condition.maxStacks > 1),
       );
@@ -15233,7 +15277,12 @@ return module.exports;})();
       if (plainDamageWeapon) {
         plainDamageState.weaponId = plainDamageWeapon.id;
         const plainDamageProfile = calculateWeapon(testDb, plainDamageState),
-          plainDamageMarkup = damageProfileHTML(plainDamageProfile, 'Base mode', '#f4ae78');
+          plainDamageMarkup = damageProfileHTML(
+            plainDamageProfile,
+            'Base mode',
+            '#f4ae78',
+            plainDamageState,
+          );
         assert(
           !plainDamageMarkup.includes('Incarnon enhancement') &&
             (plainDamageMarkup.match(/<span style=\"--stage:/g) || []).length === 2,
@@ -15493,8 +15542,8 @@ return module.exports;})();
           shouldShowIncarnonEvolutions(incarnonWeapon, true),
         'Incarnon evolutions are visible only when Incarnon mode is enabled',
       );
-      const normalStatus = statusAttackProfiles(incarnonWeapon, false),
-        allStatus = statusAttackProfiles(incarnonWeapon, true);
+      const normalStatus = availableWeaponAttacks(incarnonWeapon.attacks, false),
+        allStatus = availableWeaponAttacks(incarnonWeapon.attacks, true);
       assert(
         normalStatus.length === 1 &&
           allStatus.length === 2 &&
@@ -15507,71 +15556,20 @@ return module.exports;})();
       statusState.incarnonEnabled = true;
       statusState.attackId = 'attack-1';
       const statusProfile = calculateWeapon(testDb, statusState),
-        statusTarget = records(testDb, 'enemies').find((e) => e.name === 'Lancer'),
-        statusHtml = statusProfileHTML(
+        statusHtml = damageProfileHTML(
           statusProfile,
-          calculateEnemy(
-            testDb,
-            { ...statusState, scenario: { ...statusState.scenario, location: 'body' } },
-            statusProfile,
-            statusTarget,
-          ),
+          'Incarnon attack',
+          '#f4ae78',
+          statusState,
+          true,
         );
       assert(
         statusProfile.components.length === 2 &&
-          statusHtml.includes('Total combined damage') &&
-          statusHtml.includes('Show damage breakdown') &&
-          statusHtml.includes('PROJECTILE') &&
-          statusHtml.includes('RADIAL · BODY HIT') &&
-          !statusHtml.includes('status-component-summary') &&
-          statusHtml.includes('<details><summary>Show damage breakdown</summary>'),
-        'Incarnon status card shows total damage and a collapsed direct/radial subrow breakdown',
-      );
-      const normalMultiState = defaultState(testDb);
-      normalMultiState.weaponId = incarnonWeapon.id;
-      normalMultiState.attackId = 'attack-0';
-      const normalMultiProfile = calculateWeapon(testDb, normalMultiState),
-        normalMultiHtml = statusProfileHTML(
-          normalMultiProfile,
-          calculateEnemy(
-            testDb,
-            { ...normalMultiState, scenario: { ...normalMultiState.scenario, location: 'body' } },
-            normalMultiProfile,
-            statusTarget,
-          ),
-        );
-      assert(
-        normalMultiProfile.damageParts.length === 1 &&
-          normalMultiHtml.includes('Total combined damage') &&
-          normalMultiHtml.includes('<details><summary>Show damage breakdown</summary>') &&
-          normalMultiHtml.includes('impact ') &&
-          normalMultiHtml.includes('puncture ') &&
-          normalMultiHtml.includes('slash '),
-        'Single normal projectiles show their total with collapsed elemental damage breakdown',
-      );
-      const standardComponentWeapon = get(testDb, 'weapons', 'bubonico'),
-        standardComponentState = defaultState(testDb);
-      standardComponentState.weaponId = standardComponentWeapon.id;
-      standardComponentState.attackId = 'attack-1';
-      const standardComponentProfile = calculateWeapon(testDb, standardComponentState),
-        standardComponentTarget = records(testDb, 'enemies').find((e) => e.name === 'Lancer'),
-        standardComponentHtml = statusProfileHTML(
-          standardComponentProfile,
-          calculateEnemy(
-            testDb,
-            {
-              ...standardComponentState,
-              scenario: { ...standardComponentState.scenario, location: 'body' },
-            },
-            standardComponentProfile,
-            standardComponentTarget,
-          ),
-        );
-      assert(
-        standardComponentProfile.components.length === 2 &&
-          standardComponentHtml.includes('Total combined damage') &&
-          standardComponentHtml.includes('<details><summary>Show damage breakdown</summary>'),
-        'Normal attacks with linked radial components use the same collapsed damage breakdown',
+          statusHtml.includes('DIRECT PROJECTILE') &&
+          statusHtml.includes('RADIAL DAMAGE') &&
+          statusHtml.includes('DoT · full cycle') &&
+          statusHtml.includes('damage-weight'),
+        'Linked Incarnon components retain separate damage weights and DoT bars',
       );
       const staleWeaponDb = clone(testDb),
         staleBurston = get(staleWeaponDb, 'weapons', 'burston-prime');
@@ -15956,6 +15954,11 @@ return module.exports;})();
         dotRuns.every((run) => run.locations[0].ttk > 0),
         'DoT ticks contribute to kill time after the final projectile',
       );
+      assert(
+        dotRuns.every((run, index) => run.locations[0].killStatuses[dotTypes[index]] > 0) &&
+          ttkGraphSVG(dotRuns[0].locations).includes('avg status stacks'),
+        'TTK records expected active status stacks at the kill point and labels them on the graph',
+      );
       const durationSlash = simulateTtk(
         fixture,
         sw,
@@ -16107,6 +16110,21 @@ return module.exports;})();
           near(expiredViralRows[1].damage / expiredViralRows[0].damage, 1),
         'TTK applies Viral stack multipliers to following health hits and drops them after their duration',
       );
+      const presetStatusState = {
+          ...viralState,
+          scenario: {
+            ...viralState.scenario,
+            strip: 100,
+            stacks: { ...viralState.scenario.stacks, viral: 10, corrosive: 10, heat: 1 },
+          },
+        },
+        presetStatusRows = simulateTtk(testDb, presetStatusState, viralWeapon, viralEnemy, 2)
+          .locations.find((x) => x.id === 'body').rows;
+      assert(
+        near(presetStatusRows[0].damage, viralRows[0].damage) &&
+          near(presetStatusRows[1].damage, viralRows[1].damage),
+        'TTK starts with zero status stacks and no manual armor strip even for older saved scenarios',
+      );
       const persistentState = {
           ...corrosiveState,
           scenario: { ...corrosiveState.scenario, level: 100, corrosiveCap: 14 },
@@ -16184,8 +16202,9 @@ return module.exports;})();
         );
       assert(
         strunPreview?.id === 'strun-prime' &&
-          strunPreview.rivenDisposition !== get(testDb, 'weapons', 'mk1-strun').rivenDisposition,
-        'Riven model selection uses the exact family variant and its disposition',
+          strunPreview.rivenDisposition === STANDARD_RIVEN_DISPOSITION &&
+          get(testDb, 'weapons', 'mk1-strun').rivenDisposition === STANDARD_RIVEN_DISPOSITION,
+        'Riven model selection preserves the exact variant with universal disposition',
       );
       assert(
         rivenTraitGrade('statusDamage', 'Status') === 'good' &&
@@ -16310,8 +16329,8 @@ return module.exports;})();
           'Burston Prime Evolution II adds 42 base damage before combat quantization',
         );
         assert(
-          damageProfileHTML(first, 'Incarnon mode', '#a78be8', true).includes('#a78be8') &&
-            damageProfileHTML(first, 'Incarnon mode', '#a78be8', true).includes('#55d6b0'),
+          damageProfileHTML(first, 'Incarnon mode', '#a78be8', st, true).includes('#a78be8') &&
+            damageProfileHTML(first, 'Incarnon mode', '#a78be8', st, true).includes('#55d6b0'),
           'Incarnon chart distinguishes enhancement and modded colors',
         );
         st.evolutions[4] = 'burston-4-absolute-valor';
@@ -16405,6 +16424,17 @@ return module.exports;})();
             headMaxCrit?.min.components[0].damage.health === 951 &&
             headMaxCrit?.max.components[0].damage.health === 1441,
           'Hit popup ranges apply maximum Heat armor strip to direct damage while retaining separate radial damage',
+        );
+        const aridPrecision = bestWeakpointRangeSet(testDb, serrationState, serrated, arid),
+          moa = records(testDb, 'enemies').find((enemy) => enemy.name === 'MOA'),
+          moaPrecision = bestWeakpointRangeSet(testDb, serrationState, serrated, moa),
+          moaHead = hitOutcomeRangeSet(testDb, serrationState, serrated, moa, 'head');
+        assert(
+          aridPrecision.point.name === 'Head' &&
+            moaPrecision.point.name === 'Fanny Pack' &&
+            moaPrecision.range.current.layers[moaPrecision.range.current.current].hit >=
+              moaHead.current.layers[moaHead.current.current].hit,
+          'Enemy Damage combines head and weakpoint into the strongest sourced hit location',
         );
         st.attackId = 'attack-0';
         st.evolutions = { 4: 'burston-4-absolute-valor' };
@@ -16591,71 +16621,37 @@ return module.exports;})();
         near(procProbability(2.5, 0.4), 0.712),
         'Above 100% status distinguishes expected procs from at-least-one probability',
       );
-      const probabilityFixture = {
-          a: { name: 'Test attack' },
-          ms: 4,
-          damageParts: [{ damage: { impact: 25, heat: 75 }, statusChance: 1.1 }],
-        },
-        probabilityRows = statusProbabilityRows(probabilityFixture),
-        impactRow = probabilityRows.find((row) => row.type === 'impact'),
-        heatRow = probabilityRows.find((row) => row.type === 'heat');
+      const statusRules = ruleOf(testDb).status,
+        slashCycle = rawDotCycle(statusRules, 'slash', { slash: 100 }, 1, {}, []),
+        gasCycle = rawDotCycle(statusRules, 'gas', { gas: 100 }, 1, {}, []),
+        heatCycle = rawDotCycle(
+          statusRules,
+          'heat',
+          { impact: 100 },
+          2,
+          { statusDuration: 1, statusDamage: 0.5 },
+          [{ type: 'heat', value: 0.9 }],
+        );
       assert(
-        near(impactRow.damageWeight, 0.25) &&
-          near(impactRow.perProjectile, 0.26875) &&
-          near(impactRow.expected, 137.5) &&
-          near(heatRow.damageWeight, 0.75) &&
-          near(heatRow.perProjectile, 0.76875) &&
-          near(heatRow.expected, 412.5),
-        '500-projectile status estimates apply weighted procs above 100% status chance',
+        slashCycle.ticks === 6 &&
+          near(slashCycle.total, 210) &&
+          heatCycle.ticks === 12 &&
+          near(heatCycle.total, 3420) &&
+          near(gasCycle.total, 350) &&
+          near(rawDotCycle(statusRules, 'toxin', { toxin: 100 }, 1, {}, []).total, 300),
+        'Raw full-cycle DoT uses status coefficients, duration, base damage and build bonuses',
       );
       assert(
-        near(impactRow.atLeastOne, 1) &&
-          statusProbabilityRows({ ...probabilityFixture, ms: 1 })[0].expected ===
-            impactRow.expected,
-        '500-projectile cumulative probability is displayed and independent of multishot',
+        dotTimingLabel(slashCycle) === '1 tick/s · 6s · 6 ticks' &&
+          dotTimingLabel(heatCycle) === '1 tick/s · 12s · 12 ticks' &&
+          dotTimingLabel(gasCycle) === 'Immediate + 1 tick/s · 6s · 7 ticks',
+        'DoT bars show each status effect’s full tick timing',
       );
-      const linkedProbability = statusProbabilityRows({
-        a: { name: 'Linked attack' },
-        damageParts: [
-          { damage: { impact: 50, slash: 50 }, statusChance: 0.5 },
-          { damage: { impact: 100 }, statusChance: 0.5, shotType: 'AoE' },
-        ],
-      }).find((row) => row.type === 'impact');
       assert(
-        near(linkedProbability.damageWeight, 0.75) &&
-          near(linkedProbability.perProjectile, 0.625) &&
-          near(linkedProbability.expected, 375) &&
-          linkedProbability.atLeastOne === 1,
-        'Linked projectile and radial status probabilities combine as independent component rolls',
-      );
-      const separateProfileMarkup = statusProbabilityTableHTML([
-        {
-          a: { name: 'Normal Attack' },
-          damageParts: [{ damage: { heat: 100 }, statusChance: 0.5 }],
-        },
-        {
-          a: { name: 'Incarnon Form' },
-          damageParts: [{ damage: { toxin: 100 }, statusChance: 0.5 }],
-        },
-        { a: { name: 'Alt Fire' }, damageParts: [{ damage: { cold: 100 }, statusChance: 0.5 }] },
-      ]);
-      assert(
-        (separateProfileMarkup.match(/<table class="status-probability-table">/g) || []).length ===
-          3 &&
-          separateProfileMarkup.includes('Normal attack · Normal Attack') &&
-          separateProfileMarkup.includes('Incarnon attack · Incarnon Form') &&
-          separateProfileMarkup.includes('Normal attack · Alt Fire'),
-        'Normal, Incarnon and alt-fire probability tables keep damage weights separate',
-      );
-      const probabilityMarkup = statusProbabilityTableHTML([probabilityFixture]);
-      assert(
-        probabilityMarkup.includes(
-          'Status proc probability · 500 projectiles per attack profile',
-        ) &&
-          probabilityMarkup.includes('Expected/500') &&
-          probabilityMarkup.includes('Chance ≥1/500') &&
-          probabilityMarkup.includes('Weighted random status rolls from the weapon only'),
-        'Status probability table explains its 500-projectile weapon-roll scope',
+        rawDotCycle(statusRules, 'corrosive', { corrosive: 100 }, 1, {}, []) === null &&
+          statusHelpText('corrosive', { bonus: { corrosiveCapBonus: 4 } }, defaultState(testDb))
+            .includes('14-stack limit'),
+        'Only ticking effects have DoT bars and Emerald shard stacks update Corrosive help',
       );
       assert(
         procProbability(3, 0) === 0 && procProbability(1.2, 1) === 1,
@@ -16795,7 +16791,16 @@ return module.exports;})();
     return w;
   }
   function normalizeWeaponDatabase(weapons) {
-    for (const w of weapons?.records || []) normalizeWeaponRecord(w);
+    for (const w of weapons?.records || []) {
+      normalizeWeaponRecord(w);
+      if (w.rivenDisposition != null) w.rivenDisposition = STANDARD_RIVEN_DISPOSITION;
+    }
+    for (const reference of Object.values(weapons?.onlineReference || {}))
+      if (reference.rivenDisposition != null)
+        reference.rivenDisposition = STANDARD_RIVEN_DISPOSITION;
+    for (const hashes of Object.values(weapons?.onlineHashes || {}))
+      if (hashes.rivenDisposition)
+        hashes.rivenDisposition = recordFingerprint(STANDARD_RIVEN_DISPOSITION);
     return weapons;
   }
   function restoreIncarnonCatalog(savedDb) {
@@ -17297,12 +17302,7 @@ return module.exports;})();
     $('reset-level').onclick = () => levelChange(100);
     for (const [id, [path, min, max]] of Object.entries(inputMap))
       $(id).oninput = (e) => {
-        let value = clamp(e.target.value, min, max);
-        if (path === 'scenario.corrosiveCap') {
-          value = Math.round(value);
-          e.target.value = value;
-        }
-        setPath(state, path, value);
+        setPath(state, path, clamp(e.target.value, min, max));
         schedule();
       };
     for (const [id, field] of [
@@ -17322,11 +17322,6 @@ return module.exports;})();
       state.progenitor = e.target.value;
       schedule();
     };
-    for (const el of document.querySelectorAll('[data-status]'))
-      el.oninput = () => {
-        state.scenario.stacks[el.dataset.status] = clamp(el.value, 0, +el.max);
-        schedule();
-      };
     $('faction-filter').onchange = schedule;
     $('enemy-select-search').onfocus = (e) => renderEnemySelectorResults(e.target.value, true);
     $('enemy-select-search').oninput = (e) => renderEnemySelectorResults(e.target.value, true);
@@ -17624,6 +17619,13 @@ return module.exports;})();
       db['riven-splices'] ||= clone(bundled['riven-splices']);
       db['archon-shards'] ||= clone(bundled['archon-shards']);
       db['progenitor-library'] ||= clone(bundled['progenitor-library']);
+      const retiredDispositions = records(db, 'weapons').some(
+        (weapon) =>
+          weapon.rivenDisposition != null &&
+          weapon.rivenDisposition !== STANDARD_RIVEN_DISPOSITION,
+      );
+      normalizeWeaponDatabase(db.weapons);
+      if (retiredDispositions) databaseDirty ||= hasIndexedCatalogue || !!legacyDatabase;
       restoreIncarnonCatalog(db);
       restoreModRankDescriptions(db);
       restoreRivenSpliceRanges(db);
@@ -17774,26 +17776,6 @@ return module.exports;})();
       autoSelectEvolutions(db, state);
       indexData();
       configureBuildPanels();
-      $('status-controls').innerHTML = [
-        'viral',
-        'corrosive',
-        'heat',
-        'magnetic',
-        'cold',
-        'puncture',
-      ]
-        .map(
-          (t) =>
-            '<label>' +
-            t[0].toUpperCase() +
-            t.slice(1) +
-            '<input data-status="' +
-            t +
-            '" type="number" min="0" max="' +
-            (t === 'puncture' ? 5 : t === 'heat' ? 1 : 10) +
-            '" value="0"></label>',
-        )
-        .join('');
       fillCatalogControls();
       renderWeaponControls();
       renderMods();

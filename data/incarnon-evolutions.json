@@ -1,7 +1,7 @@
 {
   "category": "incarnon-evolutions",
   "schemaVersion": 1,
-  "snapshot": "2026-10-15",
+  "snapshot": "2026-10-19",
   "sources": [
     {
       "url": "https://wiki.warframe.com/w/Angstrum_Incarnon_Genesis",
@@ -16073,24 +16073,28 @@
       "name": "Incarnon Form",
       "family": "Vectis",
       "tier": 1,
-      "description": "! EVO1 | style=\"white-space: nowrap; text-align:center;\" | Incarnon Form 64px|center | * Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge. * Fire slowing projectiles that explode on headshot | style=\"text-align:center\" | - | style=\"text-align:center\" | - | * Incarnon Form has higher Critical Chance, but with reduced Fire Rate and can no longer Punch Through. * Fires projectiles which deal 150 {{D|Cold}} direct hit damage, then embed an orb which instantly deals an additional 25 {{D|Cold}} AoE damage in a ~0.5m radius with a guaranteed {{D|Cold}} proc. On body shots, the orb remains embedded for 2.5s, dealing another 2 ticks of 25 AoE damage before disappearing. On headshots, the orb instead explodes after a 0.4s delay, dealing 2 simultaneous hits of 150 {{D|Cold}} damage in a 6.7m AoE, each with a guaranteed {{D|Cold}} proc. ** Direct hit, orb embed, and orb AoE explosion damage are all affected by EVO2's base damage increase. *** Also affected as expected by all modded bonuses, such as multishot, base damage, elemental damage, critical / status stats, etc. ** Forced {{D|Cold}} procs cannot be changed with elemental mods. ** Orb embed and explosion damage do not increase sniper combo, but are affected by the sniper combo damage multiplier. ** Projectiles have a flight speed of 300m/s. *** As the weapon is normally hitscan, it is unable to equip {{M|Terminal Velocity}}. ** Headshot AoE has 70% damage falloff, dealing 30% damage at the edge of its range.",
+      "description": "Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge.\nFire slowing projectiles that explode on headshot",
       "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
-      ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "variantEffects": {},
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "* Incarnon Form has higher Critical Chance, but with reduced Fire Rate and can no longer Punch Through. * Fires projectiles which deal 150 Cold direct hit damage, then embed an orb which instantly deals an additional 25 Cold AoE damage in a ~0.5m radius with a guaranteed Cold proc. On body shots, the orb remains embedded for 2.5s, dealing another 2 ticks of 25 AoE damage before disappearing. On headshots, the orb instead explodes after a 0.4s delay, dealing 2 simultaneous hits of 150 Cold damage in a 6.7m AoE, each with a guaranteed Cold proc. ** Direct hit, orb embed, and orb AoE explosion damage are all affected by EVO2's base damage increase. *** Also affected as expected by all modded bonuses, such as multishot, base damage, elemental damage, critical / status stats, etc. ** Forced Cold procs cannot be changed with elemental mods. ** Orb embed and explosion damage do not increase sniper combo, but are affected by the sniper combo damage multiplier. ** Projectiles have a flight speed of 300m/s. *** As the weapon is normally hitscan, it is unable to equip Terminal Velocity. ** Headshot AoE has 70% damage falloff, dealing 30% damage at the edge of its range. ** Despite being AoE damage, the headshot AoE can sometimes benefit from Vectis's bonus headshot damage on the initial target. This includes its scope bonus, EVO4 Deadhead, Target Acquired, etc. but not an enemy's innate headshot multiplier (3x for most units). Potentially a bug.",
-      "nonDamageEffects": [],
+      "nonDamageEffects": [
+        "Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge.",
+        "Fire slowing projectiles that explode on headshot"
+      ],
       "coverage": "utility",
       "legacyFingerprint": "4cfab03b",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {},
+        "Vectis Prime": {}
+      },
       "image": "images/incarnon-evolutions/headshotsexploderadialspheres-xwhite.png"
     },
     {
@@ -16098,17 +16102,54 @@
       "name": "Inciting Incident",
       "family": "Vectis",
       "tier": 2,
-      "description": "! rowspan=\"2\" | EVO2 | style=\"white-space: nowrap; text-align:center;\" | Inciting Incident 64px|center | * Increase Base Damage by +X. * With Channeled Ability Active: +2 Punch Through | style=\"text-align:center\" | X = 100 | style=\"text-align:center\" | X = 200 | * Punch Through is locked to 0 in Incarnon Form, meaning the Channeled Ability bonus from this evolution applies only in the base form.",
-      "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      "description": "Increase Base Damage by +X.\nWith Channeled Ability Active: +2 Punch Through",
+      "effects": [
+        {
+          "stat": "baseDamage",
+          "value": 100,
+          "scope": "both"
+        },
+        {
+          "stat": "punchThrough",
+          "value": 2,
+          "scope": "both",
+          "condition": "condition-1"
+        }
       ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "baseDamage",
+            "value": 100,
+            "scope": "both"
+          },
+          {
+            "stat": "punchThrough",
+            "value": 2,
+            "scope": "both",
+            "condition": "condition-1"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "baseDamage",
+            "value": 200,
+            "scope": "both"
+          },
+          {
+            "stat": "punchThrough",
+            "value": 2,
+            "scope": "both",
+            "condition": "condition-1"
+          }
+        ]
+      },
       "conditions": [
         {
           "id": "condition-1",
@@ -16122,7 +16163,20 @@
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "9429851c",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {
+          "X": {
+            "value": 100,
+            "unit": ""
+          }
+        },
+        "Vectis Prime": {
+          "X": {
+            "value": 200,
+            "unit": ""
+          }
+        }
+      },
       "image": "images/incarnon-evolutions/increasedfireratewithactivechanneledability-xwhite.png"
     },
     {
@@ -16130,24 +16184,59 @@
       "name": "Lone Enforcer",
       "family": "Vectis",
       "tier": 2,
-      "description": "| style=\"white-space: nowrap; text-align:center;\" | Lone Enforcer 64px|center | * Increase Base Damage by +X. * +25% Multishot if no enemies are within 5m. | style=\"text-align:center\" | X = 75 | style=\"text-align:center\" | X = 150 | * Multishot bonus is additive with {{M|Split Chamber}} and similar bonuses.",
-      "effects": [],
+      "description": "Increase Base Damage by +X.\n+25% Multishot if no enemies are within 5m.",
+      "effects": [
+        {
+          "stat": "baseDamage",
+          "value": 75,
+          "scope": "both"
+        }
+      ],
       "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+        "Unmodeled evolution effect: +25% Multishot if no enemies are within 5m.",
+        "Unmodeled evolution effect: Source interaction: Multishot bonus is additive with Split Chamber and similar bonuses."
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "baseDamage",
+            "value": 75,
+            "scope": "both"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "baseDamage",
+            "value": 150,
+            "scope": "both"
+          }
+        ]
+      },
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "* Multishot bonus is additive with Split Chamber and similar bonuses.",
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "9602080c",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {
+          "X": {
+            "value": 75,
+            "unit": ""
+          }
+        },
+        "Vectis Prime": {
+          "X": {
+            "value": 150,
+            "unit": ""
+          }
+        }
+      },
       "image": "images/incarnon-evolutions/xmultishotnoenemieswithinym-xwhite.png"
     },
     {
@@ -16155,24 +16244,46 @@
       "name": "Rapid Reinforcement",
       "family": "Vectis",
       "tier": 3,
-      "description": "! rowspan=\"3\" | EVO3 | style=\"white-space: nowrap; text-align:center;\" | Rapid Reinforcement 64px|center | * +60% Reload Speed. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
-      "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      "description": "+60% Reload Speed.",
+      "effects": [
+        {
+          "stat": "reload",
+          "value": 0.6,
+          "scope": "both"
+        }
       ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "reload",
+            "value": 0.6,
+            "scope": "both"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "reload",
+            "value": 0.6,
+            "scope": "both"
+          }
+        ]
+      },
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "776a562a",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {},
+        "Vectis Prime": {}
+      },
       "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png"
     },
     {
@@ -16180,24 +16291,46 @@
       "name": "Marksman's Hand",
       "family": "Vectis",
       "tier": 3,
-      "description": "| style=\"white-space: nowrap; text-align:center;\" | Marksman's Hand 64px|center | * -60% Recoil. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
-      "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      "description": "-60% Recoil.",
+      "effects": [
+        {
+          "stat": "recoil",
+          "value": -0.6,
+          "scope": "both"
+        }
       ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "recoil",
+            "value": -0.6,
+            "scope": "both"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "recoil",
+            "value": -0.6,
+            "scope": "both"
+          }
+        ]
+      },
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "2437cd04",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {},
+        "Vectis Prime": {}
+      },
       "image": "images/incarnon-evolutions/lessrecoil-xwhite.png"
     },
     {
@@ -16205,14 +16338,14 @@
       "name": "Silent Running",
       "family": "Vectis",
       "tier": 3,
-      "description": "| style=\"white-space: nowrap; text-align:center;\" | Silent Running 64px|center | * Reduce the chance an enemy will hear gunfire by 100%. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
+      "description": "Reduce the chance an enemy will hear gunfire by 100%.",
       "effects": [],
       "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+        "Unmodeled evolution effect: Reduce the chance an enemy will hear gunfire by 100%."
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
       "variantEffects": {},
@@ -16222,7 +16355,10 @@
       "nonDamageEffects": [],
       "coverage": "partial",
       "legacyFingerprint": "b81290b8",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {},
+        "Vectis Prime": {}
+      },
       "image": "images/incarnon-evolutions/shotsaresilent-xwhite.png"
     },
     {
@@ -16230,24 +16366,46 @@
       "name": "Deadhead",
       "family": "Vectis",
       "tier": 4,
-      "description": "! rowspan=\"3\" | EVO4 | style=\"white-space: nowrap; text-align:center;\" | Deadhead 64px|center | * +25% Headshot Damage. | colspan=\"2\" style=\"text-align:center\" | - | * Bonus is additive with Vectis's Scope bonus, {{M|Target Acquired}}, {{Arcane|Primary Deadhead}}, and similar bonuses.",
-      "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      "description": "+25% Headshot Damage.",
+      "effects": [
+        {
+          "stat": "headshot",
+          "value": 0.25,
+          "scope": "both"
+        }
       ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "headshot",
+            "value": 0.25,
+            "scope": "both"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "headshot",
+            "value": 0.25,
+            "scope": "both"
+          }
+        ]
+      },
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "4e2e69e6",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {},
+        "Vectis Prime": {}
+      },
       "image": "images/incarnon-evolutions/headshotdamage-xwhite.png"
     },
     {
@@ -16255,24 +16413,71 @@
       "name": "Critical Parallel",
       "family": "Vectis",
       "tier": 4,
-      "description": "| style=\"white-space: nowrap; text-align:center;\" | Critical Parallel 64px|center | *Increase Base Critical Chance by +X. *Increase Base Critical Damage Multiplier by +0.5x. | style=\"text-align:center\" | X = 10% | style=\"text-align:center\" | X = 8% | style=\"text-align:center\" | -",
-      "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      "description": "Increase Base Critical Chance by +X.\nIncrease Base Critical Damage Multiplier by +0.5x.",
+      "effects": [
+        {
+          "stat": "baseCrit",
+          "value": 0.1,
+          "scope": "both"
+        },
+        {
+          "stat": "baseCritDamage",
+          "value": 0.5,
+          "scope": "both"
+        }
       ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "baseCrit",
+            "value": 0.1,
+            "scope": "both"
+          },
+          {
+            "stat": "baseCritDamage",
+            "value": 0.5,
+            "scope": "both"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "baseCrit",
+            "value": 0.08,
+            "scope": "both"
+          },
+          {
+            "stat": "baseCritDamage",
+            "value": 0.5,
+            "scope": "both"
+          }
+        ]
+      },
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "-",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "8d339509",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {
+          "X": {
+            "value": 10,
+            "unit": "%"
+          }
+        },
+        "Vectis Prime": {
+          "X": {
+            "value": 8,
+            "unit": "%"
+          }
+        }
+      },
       "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png"
     },
     {
@@ -16280,24 +16485,46 @@
       "name": "Survivor's Edge",
       "family": "Vectis",
       "tier": 4,
-      "description": "| style=\"white-space: nowrap; text-align:center;\" | Survivor's Edge 64px|center | * Increase Base Status Chance by 30% of current Critical Chance, up to 40% | colspan=\"2\" style=\"text-align:center\" | - | * Maximum Base Status Chance increase is gained at 134% Critical Chance, requiring +345% critical chance to reach. ** Critical chance from {{M|Primary Acuity}} does not work, however {{M|Galvanized Scope}} does. |} ==Notes== * The headshot explosion does not trigger an Extra Hit from sources like {{WF|Saryn}}'s {{A|Toxic Lash}} (which may be a bug) or {{WF|Oraxia}}'s {{A|Silken Stride}} (because it doesn't work on any Incarnon form). ==Tips== ==Known Bugs== *EVO2's base damage increase is applied a second time for the Total Damage stat in the arsenal UI (in-mission damage is not affected). The damage value for each individual damage type will be correctly calculated based on the damage bonus applying once. *EVO4 Survivor's Edge does not appear to apply its bonus for the Incarnon form's radial attack portion when modding for {{D|Blast}} specifically. However, this is just a UI bug in the Arsenal: the bonus applies correctly during gameplay. ==Patch History== {{Scrollbox/Article| {{ver|43.5.3}} *Fixed the Vectis (Prime) not having a fully reloaded magazine after exiting Incarnon Form. {{ver|43.5}} *Fixed the Vectis Incarnon Form benefitting from Primed Chamber on every shot. {{ver|43.0.5}} *Fixed explosion kills from the Vectis' Incarnon Forms not counting towards the \"Kill 100 Enemies\" challenge. {{ver|43.0.4}} *Increased the Vectis Incarnon \"Lone Enforcer\" Evolution's stats as follows: **Increased Base Damage from +50 to +75 (+100 to +150 for Vectis Prime). **Increased Multishot from 20% to 25%. *Increased the Vectis Incarnon form's projectile speed from 200 to 300. {{ver|43}} *Introduced. }} {{IncarnonNav}} Category:Duviri Category:Incarnon Category:Incarnon Geneses",
-      "effects": [],
-      "limitations": [
-        "Online evolution source is new or changed; verify its numeric bonuses in the database editor before inclusion in totals."
+      "description": "Increase Base Status Chance by 30% of current Critical Chance, up to 40%",
+      "effects": [
+        {
+          "stat": "baseStatus",
+          "value": 0.3,
+          "scope": "both"
+        }
       ],
+      "limitations": [],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       },
-      "variantEffects": {},
+      "variantEffects": {
+        "Vectis": [
+          {
+            "stat": "baseStatus",
+            "value": 0.3,
+            "scope": "both"
+          }
+        ],
+        "Vectis Prime": [
+          {
+            "stat": "baseStatus",
+            "value": 0.3,
+            "scope": "both"
+          }
+        ]
+      },
       "conditions": [],
       "effectSchemaVersion": 2,
       "sourceNotes": "",
       "nonDamageEffects": [],
       "coverage": "modeled",
       "legacyFingerprint": "22beff36",
-      "variantValues": {},
+      "variantValues": {
+        "Vectis": {},
+        "Vectis Prime": {}
+      },
       "image": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png"
     },
     {
@@ -16859,7 +17086,7 @@
     "Sybaris_Incarnon_Genesis": "1035b7c7",
     "Torid_Incarnon_Genesis": "e003caff",
     "Vasto_Incarnon_Genesis": "05bb54ea",
-    "Vectis_Incarnon_Genesis": "2369bcd9",
+    "Vectis_Incarnon_Genesis": "dfd502f7",
     "Zylok_Incarnon_Genesis": "578a8fff",
     "Dual_Toxocyst_Incarnon_Genesis": "099acdb8"
   },
@@ -17809,6 +18036,7 @@
       "name": "Incarnon Form",
       "family": "Vectis",
       "tier": 1,
+      "image": "images/incarnon-evolutions/headshotsexploderadialspheres-xwhite.png",
       "description": "! EVO1 | style=\"white-space: nowrap; text-align:center;\" | Incarnon Form 64px|center | * Weakpoint hits charge Incarnon Transmutation; alt fire transmutes. Switching back will expend any remaining charge. * Fire slowing projectiles that explode on headshot | style=\"text-align:center\" | - | style=\"text-align:center\" | - | * Incarnon Form has higher Critical Chance, but with reduced Fire Rate and can no longer Punch Through. * Fires projectiles which deal 150 {{D|Cold}} direct hit damage, then embed an orb which instantly deals an additional 25 {{D|Cold}} AoE damage in a ~0.5m radius with a guaranteed {{D|Cold}} proc. On body shots, the orb remains embedded for 2.5s, dealing another 2 ticks of 25 AoE damage before disappearing. On headshots, the orb instead explodes after a 0.4s delay, dealing 2 simultaneous hits of 150 {{D|Cold}} damage in a 6.7m AoE, each with a guaranteed {{D|Cold}} proc. ** Direct hit, orb embed, and orb AoE explosion damage are all affected by EVO2's base damage increase. *** Also affected as expected by all modded bonuses, such as multishot, base damage, elemental damage, critical / status stats, etc. ** Forced {{D|Cold}} procs cannot be changed with elemental mods. ** Orb embed and explosion damage do not increase sniper combo, but are affected by the sniper combo damage multiplier. ** Projectiles have a flight speed of 300m/s. *** As the weapon is normally hitscan, it is unable to equip {{M|Terminal Velocity}}. ** Headshot AoE has 70% damage falloff, dealing 30% damage at the edge of its range.",
       "effects": [],
       "variantEffects": {},
@@ -17819,7 +18047,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17828,6 +18056,7 @@
       "name": "Inciting Incident",
       "family": "Vectis",
       "tier": 2,
+      "image": "images/incarnon-evolutions/increasedfireratewithactivechanneledability-xwhite.png",
       "description": "! rowspan=\"2\" | EVO2 | style=\"white-space: nowrap; text-align:center;\" | Inciting Incident 64px|center | * Increase Base Damage by +X. * With Channeled Ability Active: +2 Punch Through | style=\"text-align:center\" | X = 100 | style=\"text-align:center\" | X = 200 | * Punch Through is locked to 0 in Incarnon Form, meaning the Channeled Ability bonus from this evolution applies only in the base form.",
       "effects": [],
       "variantEffects": {},
@@ -17838,7 +18067,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17847,6 +18076,7 @@
       "name": "Lone Enforcer",
       "family": "Vectis",
       "tier": 2,
+      "image": "images/incarnon-evolutions/xmultishotnoenemieswithinym-xwhite.png",
       "description": "| style=\"white-space: nowrap; text-align:center;\" | Lone Enforcer 64px|center | * Increase Base Damage by +X. * +25% Multishot if no enemies are within 5m. | style=\"text-align:center\" | X = 75 | style=\"text-align:center\" | X = 150 | * Multishot bonus is additive with {{M|Split Chamber}} and similar bonuses.",
       "effects": [],
       "variantEffects": {},
@@ -17857,7 +18087,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17866,6 +18096,7 @@
       "name": "Rapid Reinforcement",
       "family": "Vectis",
       "tier": 3,
+      "image": "images/incarnon-evolutions/incarnonreloadspeed-xwhite.png",
       "description": "! rowspan=\"3\" | EVO3 | style=\"white-space: nowrap; text-align:center;\" | Rapid Reinforcement 64px|center | * +60% Reload Speed. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
       "effects": [],
       "variantEffects": {},
@@ -17876,7 +18107,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17885,6 +18116,7 @@
       "name": "Marksman's Hand",
       "family": "Vectis",
       "tier": 3,
+      "image": "images/incarnon-evolutions/lessrecoil-xwhite.png",
       "description": "| style=\"white-space: nowrap; text-align:center;\" | Marksman's Hand 64px|center | * -60% Recoil. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
       "effects": [],
       "variantEffects": {},
@@ -17895,7 +18127,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17904,6 +18136,7 @@
       "name": "Silent Running",
       "family": "Vectis",
       "tier": 3,
+      "image": "images/incarnon-evolutions/shotsaresilent-xwhite.png",
       "description": "| style=\"white-space: nowrap; text-align:center;\" | Silent Running 64px|center | * Reduce the chance an enemy will hear gunfire by 100%. | colspan=\"2\" style=\"text-align:center\" | - | style=\"text-align:center\" | -",
       "effects": [],
       "variantEffects": {},
@@ -17914,7 +18147,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17923,6 +18156,7 @@
       "name": "Deadhead",
       "family": "Vectis",
       "tier": 4,
+      "image": "images/incarnon-evolutions/headshotdamage-xwhite.png",
       "description": "! rowspan=\"3\" | EVO4 | style=\"white-space: nowrap; text-align:center;\" | Deadhead 64px|center | * +25% Headshot Damage. | colspan=\"2\" style=\"text-align:center\" | - | * Bonus is additive with Vectis's Scope bonus, {{M|Target Acquired}}, {{Arcane|Primary Deadhead}}, and similar bonuses.",
       "effects": [],
       "variantEffects": {},
@@ -17933,7 +18167,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17942,6 +18176,7 @@
       "name": "Critical Parallel",
       "family": "Vectis",
       "tier": 4,
+      "image": "images/incarnon-evolutions/critchancecritdamage-xwhite.png",
       "description": "| style=\"white-space: nowrap; text-align:center;\" | Critical Parallel 64px|center | *Increase Base Critical Chance by +X. *Increase Base Critical Damage Multiplier by +0.5x. | style=\"text-align:center\" | X = 10% | style=\"text-align:center\" | X = 8% | style=\"text-align:center\" | -",
       "effects": [],
       "variantEffects": {},
@@ -17952,7 +18187,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -17961,7 +18196,8 @@
       "name": "Survivor's Edge",
       "family": "Vectis",
       "tier": 2,
-      "description": "| style=\"white-space: nowrap; text-align:center;\" | Survivor's Edge 64px|center | * Increase Base Status Chance by 30% of current Critical Chance, up to 40% | colspan=\"2\" style=\"text-align:center\" | - | * Maximum Base Status Chance increase is gained at 134% Critical Chance, requiring +345% critical chance to reach. ** Critical chance from {{M|Primary Acuity}} does not work, however {{M|Galvanized Scope}} does. |} ==Notes== * The headshot explosion does not trigger an Extra Hit from sources like {{WF|Saryn}}'s {{A|Toxic Lash}} (which may be a bug) or {{WF|Oraxia}}'s {{A|Silken Stride}} (because it doesn't work on any Incarnon form). ==Tips== ==Known Bugs== *EVO2's base damage increase is applied a second time for the Total Damage stat in the arsenal UI (in-mission damage is not affected). The damage value for each individual damage type will be correctly calculated based on the damage bonus applying once. *EVO4 Survivor's Edge does not appear to apply its bonus for the Incarnon form's radial attack portion when modding for {{D|Blast}} specifically. However, this is just a UI bug in the Arsenal: the bonus applies correctly during gameplay. ==Patch History== {{Scrollbox/Article| {{ver|43.5.3}} *Fixed the Vectis (Prime) not having a fully reloaded magazine after exiting Incarnon Form. {{ver|43.5}} *Fixed the Vectis Incarnon Form benefitting from Primed Chamber on every shot. {{ver|43.0.5}} *Fixed explosion kills from the Vectis' Incarnon Forms not counting towards the \"Kill 100 Enemies\" challenge. {{ver|43.0.4}} *Increased the Vectis Incarnon \"Lone Enforcer\" Evolution's stats as follows: **Increased Base Damage from +50 to +75 (+100 to +150 for Vectis Prime). **Increased Multishot from 20% to 25%. *Increased the Vectis Incarnon form's projectile speed from 200 to 300. {{ver|43}} *Introduced. }} {{IncarnonNav}} Category:Duviri Category:Incarnon Category:Incarnon Geneses",
+      "image": "images/incarnon-evolutions/gainstatuschanceofcritchance-xwhite.png",
+      "description": "| style=\"white-space: nowrap; text-align:center;\" | Survivor's Edge 64px|center | * Increase Base Status Chance by 30% of current Critical Chance, up to 40% | colspan=\"2\" style=\"text-align:center\" | - | * Maximum Base Status Chance increase is gained at 134% total Critical Chance, requiring +345% Critical Chance to reach. ** Critical chance from {{M|Primary Acuity}} does not work, however {{M|Galvanized Scope}} does. |} ==Notes== * The headshot explosion does not trigger an Extra Hit from sources like {{WF|Saryn}}'s {{A|Toxic Lash}} (which may be a bug) or {{WF|Oraxia}}'s {{A|Silken Stride}} (because it doesn't work on any Incarnon form). ==Tips== ==Known Bugs== *EVO2's base damage increase is applied a second time for the Total Damage stat in the arsenal UI (in-mission damage is not affected). The damage value for each individual damage type will be correctly calculated based on the damage bonus applying once. *EVO4 Survivor's Edge does not appear to apply its bonus for the Incarnon form's radial attack portion when modding for {{D|Blast}} specifically. However, this is just a UI bug in the Arsenal: the bonus applies correctly during gameplay. ==Patch History== {{Scrollbox/Article| {{ver|43.5.3}} *Fixed the Vectis (Prime) not having a fully reloaded magazine after exiting Incarnon Form. {{ver|43.5}} *Fixed the Vectis Incarnon Form benefitting from Primed Chamber on every shot. {{ver|43.0.5}} *Fixed explosion kills from the Vectis' Incarnon Forms not counting towards the \"Kill 100 Enemies\" challenge. {{ver|43.0.4}} *Increased the Vectis Incarnon \"Lone Enforcer\" Evolution's stats as follows: **Increased Base Damage from +50 to +75 (+100 to +150 for Vectis Prime). **Increased Multishot from 20% to 25%. *Increased the Vectis Incarnon form's projectile speed from 200 to 300. {{ver|43}} *Introduced. }} {{IncarnonNav}} Category:Duviri Category:Incarnon Category:Incarnon Geneses",
       "effects": [],
       "variantEffects": {},
       "variantValues": {},
@@ -17971,7 +18207,7 @@
       ],
       "source": {
         "url": "https://wiki.warframe.com/w/Vectis_Incarnon_Genesis",
-        "snapshot": "2026-10-15",
+        "snapshot": "2026-10-19",
         "license": "CC BY-NC-SA 3.0"
       }
     },
@@ -18317,66 +18553,17 @@
     "vasto-4-commodore-s-fortune": {},
     "vasto-4-survivor-s-edge": {},
     "vasto-4-reaper-s-plenty": {},
-    "vectis-1-incarnon-form": {
-      "description": "66b4e56d",
-      "variantValues": "5465b825",
-      "nonDamageEffects": "741638a5",
-      "limitations": "24a20968"
-    },
-    "vectis-2-inciting-incident": {
-      "description": "1796ee85",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
-    "vectis-2-lone-enforcer": {
-      "description": "fdb7b498",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
-    "vectis-3-rapid-reinforcement": {
-      "description": "3212d7bb",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
-    "vectis-3-marksman-s-hand": {
-      "description": "1d4964e5",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
-    "vectis-3-silent-running": {
-      "description": "4916db8f",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
-    "vectis-4-deadhead": {
-      "description": "498e7caf",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
-    "vectis-4-critical-parallel": {
-      "description": "4d875952",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
-    },
+    "vectis-1-incarnon-form": {},
+    "vectis-2-inciting-incident": {},
+    "vectis-2-lone-enforcer": {},
+    "vectis-3-rapid-reinforcement": {},
+    "vectis-3-marksman-s-hand": {},
+    "vectis-3-silent-running": {},
+    "vectis-4-deadhead": {},
+    "vectis-4-critical-parallel": {},
     "vectis-2-survivor-s-edge": {
       "tier": "370cabd5",
-      "description": "569e9c49",
-      "effects": "741638a5",
-      "variantEffects": "5465b825",
-      "variantValues": "5465b825",
-      "limitations": "24a20968"
+      "description": "83823a27"
     },
     "zylok-1-incarnon-form": {},
     "zylok-2-precision-s-payoff": {},
