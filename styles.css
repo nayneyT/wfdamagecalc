@@ -1258,6 +1258,200 @@ details summary:hover {
   color: #14532d;
   font-weight: 800;
 }
+.incarnon-rotation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.incarnon-rotation {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  background: var(--panel);
+}
+.incarnon-rotation.current {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 1px var(--cyan);
+  background: color-mix(in srgb, var(--cyan) 8%, var(--panel));
+}
+.incarnon-rotation h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+.incarnon-rotation h3 span,
+.incarnon-acquired-label {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+.incarnon-rotation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.incarnon-rotation li + li {
+  margin-top: 4px;
+}
+.incarnon-rotation-offering {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+}
+.incarnon-rotation-offering > span {
+  display: grid;
+  gap: 2px;
+}
+.incarnon-rotation-details {
+  min-width: 0;
+}
+.incarnon-rotation-variants {
+  line-height: 1.45;
+}
+.incarnon-rotation-check {
+  color: #15803d;
+  font-weight: 800;
+}
+.incarnon-art-image {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  object-fit: contain;
+  border-radius: 5px;
+  background: #111923;
+}
+.incarnon-acquired-label {
+  color: #15803d;
+}
+.incarnon-search-label {
+  display: block;
+  max-width: 420px;
+  margin: 0 0 12px;
+}
+.incarnon-search-label input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+.incarnon-variant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  margin-top: 7px;
+}
+.incarnon-variant,
+.incarnon-evolution {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.incarnon-variant {
+  font-weight: 500;
+}
+.incarnon-evolution {
+  font-size: 12px;
+}
+.incarnon-variant input,
+.incarnon-evolution input {
+  margin: 0;
+}
+.incarnon-auto-evolution {
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
+}
+.incarnon-table .incarnon-family-row th {
+  padding-top: 12px;
+  color: var(--cyan);
+  font-size: 13px;
+  text-transform: none;
+  text-align: left;
+}
+.incarnon-family-row th span {
+  margin-left: 6px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.incarnon-weapon-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  min-width: 160px;
+}
+.incarnon-weapon-cell .incarnon-art-image {
+  width: 48px;
+  height: 48px;
+  flex-basis: 48px;
+}
+.incarnon-weapon-details {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  text-align: left;
+}
+.incarnon-weapon-details small {
+  max-width: 290px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  white-space: normal;
+}
+.incarnon-founders-label {
+  display: inline-block;
+  width: fit-content;
+  padding: 1px 5px;
+  border: 1px solid #a879bd;
+  border-radius: 4px;
+  color: #d7b4e7;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+.incarnon-acquired-toggle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+.incarnon-evolution {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+.incarnon-table th,
+.incarnon-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.incarnon-table thead th:first-child,
+.incarnon-table tbody .incarnon-weapon-row td:first-child {
+  text-align: left;
+}
+.incarnon-stage-unavailable {
+  color: var(--muted);
+}
+.incarnon-table {
+  min-width: 920px;
+}
+@media (max-width: 900px) {
+  .incarnon-rotation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .incarnon-rotation-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .progenitor-not-acquired {
   color: var(--muted);
 }

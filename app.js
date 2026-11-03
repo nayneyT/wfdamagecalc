@@ -19,6 +19,7 @@
     'tenet-offerings',
     'coda-offerings',
     'progenitor-library',
+    'incarnon-tracker',
   ];
   const STANDARD_RIVEN_DISPOSITION = 1.2;
   const ARCANE_STACK_CAPS = {
@@ -3648,6 +3649,8 @@
     }
     const library = records(db, 'progenitor-library');
     if (library.length) custom['progenitor-library'] = library.map(clone);
+    const incarnonTracker = records(db, 'incarnon-tracker');
+    if (incarnonTracker.length) custom['incarnon-tracker'] = incarnonTracker.map(clone);
     result.customRecords = custom;
     return result;
   }
@@ -8481,7 +8484,7 @@ return module.exports;})();
     }
   }
   function persistCatalogue() {
-    if (!databaseDirty) return;
+    if (!databaseDirty) return databaseWriteQueue;
     databaseDirty = false;
     const snapshot = clone(db);
     databaseWriteQueue = databaseWriteQueue
@@ -8498,6 +8501,7 @@ return module.exports;})();
             '. Your current session remains available; export the category JSON files to keep database edits.';
         }
       });
+    return databaseWriteQueue;
   }
   function flushPersist() {
     clearTimeout(saveTimer);
@@ -8509,7 +8513,7 @@ return module.exports;})();
     persistBuildDraft();
     clearTimeout(saveTimer);
     saveTimer = setTimeout(persistSession, 200);
-    persistCatalogue();
+    return persistCatalogue();
   }
   function options(items, value, empty = '') {
     return (
@@ -8590,6 +8594,319 @@ return module.exports;})();
     }
     database[category] = current;
     return changed;
+  }
+  function syncIncarnonTrackerFromWeapons(database) {
+    const category = 'incarnon-tracker',
+      foundersOnlyWeapons = new Set(['lato-prime', 'skana-prime']),
+      current = database[category] || clone(bundled[category]),
+      defaults = records(bundled, category)[0],
+      savedTracker = records(database, category)[0] || {},
+      tracker = {
+        ...clone(defaults),
+        ...savedTracker,
+        rotations: clone(defaults.rotations),
+        nativeFamilies: [...new Set([...arr(defaults.nativeFamilies), ...arr(savedTracker.nativeFamilies)])],
+        requirements: { ...defaults.requirements, ...savedTracker.requirements },
+      },
+      oldWeapons = new Map(arr(tracker.weapons).map((item) => [item.weaponId, item])),
+      oldEvolutions = tracker.evolutions || {},
+      genesisFamilies = new Set(arr(tracker.rotations).flat()),
+      nativeFamilies = new Set(arr(tracker.nativeFamilies)),
+      weapons = records(database, 'weapons')
+        .filter(
+          (weapon) =>
+            (genesisFamilies.has(weapon.family || weapon.name) ||
+              nativeFamilies.has(weapon.family || weapon.name)) &&
+            !/\s*\(Atmosphere\)$/i.test(weapon.name),
+        )
+        .map((weapon) => {
+          const family = weapon.family || weapon.name,
+            previous = oldWeapons.get(weapon.id) || {},
+            previousFamily = oldEvolutions[family] || {},
+            acquired = previous.acquired === true,
+            native = nativeFamilies.has(family),
+            evolutionCount = native ? 5 : 4,
+            evolutions = {};
+          for (let stage = 1; stage <= evolutionCount; stage++) {
+            const key = ['I', 'II', 'III', 'IV', 'V'][stage - 1],
+              legacyStage = stage === 1
+                ? native && previous.evolutions?.[key] === true
+                : previousFamily[key] === true;
+            evolutions[key] = native
+              ? previous.evolutions?.[key] === true || legacyStage
+              : stage === 1
+                ? acquired
+                : previous.evolutions?.[key] === true || legacyStage;
+          }
+          for (let stage = 2; stage <= evolutionCount; stage++) {
+            const key = ['I', 'II', 'III', 'IV', 'V'][stage - 1],
+              previousKey = ['I', 'II', 'III', 'IV', 'V'][stage - 2];
+            if (evolutions[key]) evolutions[previousKey] = true;
+          }
+          if (!native) evolutions.I = acquired;
+          return {
+            weaponId: weapon.id,
+            name: weapon.name,
+            family,
+            weaponType: weapon.category || '',
+            kind: native ? 'native' : 'genesis',
+            foundersOnly: foundersOnlyWeapons.has(weapon.id),
+            evolutionCount,
+            image: weapon.image || '',
+            incarnonImage: weapon.incarnonImage || '',
+            wiki: weapon.wiki || '',
+            acquired,
+            evolutions,
+          };
+        })
+        .sort((a, b) => a.family.localeCompare(b.family) || a.name.localeCompare(b.name)),
+      next = {
+      ...tracker,
+      weapons,
+    };
+    delete next.evolutions;
+    current.records = [next];
+    database[category] = current;
+    return next;
+  }
+  function incarnonTrackerRecord() {
+    return syncIncarnonTrackerFromWeapons(db);
+  }
+  function incarnonWeekIndex(now = Date.now(), tracker = incarnonTrackerRecord()) {
+    const epoch = Date.parse(tracker.rotationEpochUTC),
+      period = (tracker.resetPeriodHours || 168) * 3600000,
+      epochIndex = (tracker.rotationEpochWeek || 1) - 1;
+    if (!Number.isFinite(epoch) || period <= 0) return 0;
+    return ((epochIndex + Math.floor((now - epoch) / period)) % tracker.rotations.length + tracker.rotations.length) % tracker.rotations.length;
+  }
+  function incarnonWeaponImage(weapon, showIncarnon = false, alt = '') {
+    const image = (showIncarnon && weapon.incarnonImage) || weapon.image || 'images/placeholder.svg';
+    return recordImage({ name: alt || weapon.name, image }, 'incarnon-art', 'images/placeholder.svg');
+  }
+  function incarnonEvolutionRequirement(weapon, stage) {
+    if (weapon.kind === 'genesis') {
+      if (stage === 'I') return 'Unlocked automatically when the Incarnon Genesis adapter is applied.';
+      if (stage === 'II') return 'Complete a solo mission with this weapon equipped.';
+      if (stage === 'III')
+        return weapon.weaponType === 'Melee'
+          ? 'Activate this weapon’s Incarnon Form 6 times in one mission.'
+          : 'Kill 100 enemies with this weapon’s Incarnon Form.';
+      return 'Complete this weapon’s unique Evolution IV challenge. Check the challenge in the Arsenal.';
+    }
+    if (stage === 'I') return 'Kill 100 enemies with this weapon.';
+    if (stage === 'II') {
+      if (['Innodem', 'Praedos'].includes(weapon.family))
+        return 'Activate this weapon’s Incarnon Form 6 times in one mission.';
+      return 'Kill 8 Eximus with this weapon’s Incarnon Form.';
+    }
+    if (stage === 'III') {
+      const requirements = {
+        Felarx: 'Land 20 weakpoint hits on Void Angels with Primary Fire without reloading.',
+        Laetum: 'Land 8 weakpoint hits on Void Angels with Primary Fire without reloading.',
+        Phenmor: 'Land 20 weakpoint hits on Void Angels with Primary Fire without reloading.',
+        Innodem: 'Complete 3 Heavy Attacks on Thrax Centurions or Legates.',
+        Praedos: 'Complete 3 Heavy Attacks on Thrax Centurions or Legates.',
+        Onos: 'Get 5 weakpoint hits on Scathing and Mocking Whispers in Albrecht’s Laboratories with Primary Fire without reloading.',
+        Ruvox: 'Perform 3 Heavy Attacks on Scathing and Mocking Whispers in Albrecht’s Laboratories.',
+        Thalys: 'Perform 20 Ground Finishers with this weapon.',
+      };
+      return requirements[weapon.family] || 'Complete this weapon’s Evolution III challenge shown in the Arsenal.';
+    }
+    if (stage === 'IV') {
+      if (weapon.family === 'Thalys') return 'Activate this weapon’s Incarnon Form 3 times.';
+      return ['Onos', 'Ruvox'].includes(weapon.family)
+        ? 'Open 20 Conduits in Disruption on Armatus, Deimos.'
+        : 'Close 12 Ruptures in Void Flood. Contribute Vitoplast to close each Rupture.';
+    }
+    return 'Complete a Solo mission with an Incarnon weapon equipped in every weapon slot.';
+  }
+  let incarnonTimer = null;
+  function renderIncarnonTracker() {
+    const tracker = incarnonTrackerRecord(),
+      now = Date.now(),
+      activeIndex = incarnonWeekIndex(now, tracker),
+      nextReset = Date.parse(tracker.rotationEpochUTC) +
+        (Math.floor((now - Date.parse(tracker.rotationEpochUTC)) / 604800000) + 1) *
+          604800000,
+      currentLabel = $('incarnon-current-week');
+    currentLabel.textContent = `Week ${activeIndex + 1} of ${tracker.rotations.length} · Rotation ${String.fromCharCode(65 + activeIndex)}`;
+    $('incarnon-reset-countdown').textContent = 'Next Circuit rotation in ' + formatRotationTime(nextReset - now);
+    $('incarnon-rotations').innerHTML =
+      '<div class="incarnon-rotation-grid">' +
+      tracker.rotations
+        .map((rotation, index) => {
+          const active = index === activeIndex;
+          return (
+            '<section class="incarnon-rotation' + (active ? ' current' : '') + '"' +
+            (active ? ' aria-current="true"' : '') + '><h3>Week ' + (index + 1) +
+            ' <span>Rotation ' + String.fromCharCode(65 + index) + '</span></h3><ul>' +
+            rotation.map((family) => {
+              const variants = tracker.weapons.filter(
+                  (item) => item.kind === 'genesis' && item.family === family,
+                ),
+                variantStatus = variants
+                  .map((item) =>
+                    '<span class="incarnon-rotation-variant">' +
+                    escape(item.name) +
+                    (item.foundersOnly
+                      ? ' <span class="incarnon-founders-label">Founders Only</span>'
+                      : '') +
+                    (item.acquired
+                      ? ' <span class="incarnon-rotation-check" aria-label="Acquired">✓</span>'
+                      : '') +
+                    '</span>',
+                  )
+                  .join(' · '),
+                weapon = tracker.weapons.find(
+                  (item) => item.family === family && item.incarnonImage,
+                ) || tracker.weapons.find((item) => item.family === family);
+              return '<li><div class="incarnon-rotation-offering">' +
+                (weapon ? incarnonWeaponImage(weapon, true, family + ' Incarnon') : '') +
+                '<span class="incarnon-rotation-details"><strong>' + escape(family) +
+                '</strong><small class="incarnon-rotation-variants">' + variantStatus +
+                '</small></span></div></li>';
+            }).join('') + '</ul></section>'
+          );
+        }).join('') + '</div>';
+    const query = $('incarnon-tracker-search').value.trim().toLowerCase(),
+      nativeFamilies = new Set(tracker.nativeFamilies || []),
+      families = [...new Set(tracker.weapons.map((weapon) => weapon.family))].sort((a, b) =>
+        a.localeCompare(b),
+      ),
+      filtered = families.filter((family) =>
+        family.toLowerCase().includes(query) ||
+        tracker.weapons.some(
+          (weapon) => weapon.family === family && weapon.name.toLowerCase().includes(query),
+        ),
+      );
+    const genesisWeapons = tracker.weapons.filter((weapon) => weapon.kind === 'genesis'),
+      nativeWeapons = tracker.weapons.filter((weapon) => weapon.kind === 'native');
+    $('incarnon-tracker-count').textContent = `${genesisWeapons.length} weapons · ${genesisWeapons.filter((weapon) => weapon.acquired).length} acquired`;
+    $('incarnon-native-count').textContent = `${nativeWeapons.length} weapons · ${nativeWeapons.filter((weapon) => weapon.acquired).length} acquired`;
+    const renderWeaponTable = (kind, containerId) => {
+      const container = $(containerId),
+        kindFamilies = filtered.filter((family) =>
+          tracker.weapons.some((weapon) => weapon.family === family && weapon.kind === kind),
+        );
+      container.innerHTML = kindFamilies.length
+        ? '<div class="tablewrap"><table class="progenitor-table incarnon-table"><thead><tr><th>Weapon</th><th>Acquired</th><th>Evolution I</th><th>Evolution II</th><th>Evolution III</th><th>Evolution IV</th><th>Evolution V</th></tr></thead><tbody>' +
+          kindFamilies.map((family) => {
+          const variants = tracker.weapons.filter(
+              (weapon) => weapon.family === family && weapon.kind === kind,
+            ),
+            recipe = tracker.requirements?.[family],
+            requirements = recipe?.map(([name, count]) => `${count} ${name}`).join(', ') || '',
+            rows = variants.map((weapon) => {
+              const evolutionCells = Array.from({ length: 5 }, (_, index) => {
+                  const stage = ['I', 'II', 'III', 'IV', 'V'][index],
+                    supported = index < weapon.evolutionCount,
+                    requirement = incarnonEvolutionRequirement(weapon, stage),
+                    previousStage = ['I', 'II', 'III', 'IV', 'V'][index - 1],
+                    locked = !weapon.acquired || (index > 0 && !weapon.evolutions?.[previousStage]);
+                  if (!supported) return '<td><span class="incarnon-stage-unavailable">—</span></td>';
+                  if (weapon.kind === 'genesis' && stage === 'I')
+                    return '<td title="' + escape(requirement) + '"><span class="incarnon-auto-evolution">' +
+                      (weapon.acquired ? 'Unlocked' : 'Apply blueprint') + '</span></td>';
+                  return '<td title="' + escape(requirement) + '"><label class="incarnon-evolution"><input type="checkbox" data-incarnon-weapon="' +
+                    escape(weapon.weaponId) + '" data-incarnon-stage="' + stage + '"' +
+                    (weapon.evolutions?.[stage] ? ' checked' : '') +
+                    (locked ? ' disabled' : '') +
+                    ' /><span class="sr-only">Mark Evolution ' + stage + ' complete for ' +
+                    escape(weapon.name) + '</span></label></td>';
+                }).join(''),
+                title = (weapon.kind === 'genesis' ? 'Installation requirements: ' : 'Build requirements: ') +
+                  escape(requirements || 'Requirements unavailable'),
+                acquisition = kind === 'genesis'
+                  ? tracker.genesisAcquisition
+                  : tracker.nativeAcquisition?.[family] || 'Acquisition information unavailable',
+                wikiURL = /^https:\/\/wiki\.warframe\.com\/w\//.test(weapon.wiki)
+                  ? weapon.wiki
+                  : 'https://wiki.warframe.com/w/' + encodeURIComponent(weapon.name.replace(/\s+/g, '_'));
+              return '<tr class="incarnon-weapon-row"><td><div class="incarnon-weapon-cell" title="' +
+                title + '">' + incarnonWeaponImage(weapon, weapon.acquired) + '<span class="incarnon-weapon-details"><a href="' +
+                escape(wikiURL) + '" target="_blank" rel="noopener noreferrer">' +
+                escape(weapon.name) + '</a>' +
+                (weapon.foundersOnly
+                  ? '<span class="incarnon-founders-label">Founders Only</span>'
+                  : '') +
+                '<small>' + escape(acquisition) +
+                '</small></span></div></td><td><label class="incarnon-acquired-toggle"><input type="checkbox" data-incarnon-acquired="' +
+                escape(weapon.weaponId) + '"' + (weapon.acquired ? ' checked' : '') +
+                ' /><span class="sr-only">Mark ' + escape(weapon.name) + ' as acquired</span></label></td>' +
+                evolutionCells + '</tr>';
+            }).join('');
+          return '<tr class="incarnon-family-row"><th colspan="7">' + escape(family) +
+            (nativeFamilies.has(family) ? ' <span>Native Incarnon</span>' : '') +
+            '</th></tr>' + rows;
+          }).join('') + '</tbody></table></div>'
+        : '<p class="empty">No Incarnon weapon families match your search.</p>';
+    };
+    renderWeaponTable('genesis', 'incarnon-genesis-table');
+    renderWeaponTable('native', 'incarnon-native-table');
+    const trackerTables = [$('incarnon-genesis-table'), $('incarnon-native-table')];
+    for (const input of trackerTables.flatMap((table) =>
+      [...table.querySelectorAll('[data-incarnon-acquired]')],
+    ))
+      input.onchange = async () => {
+        const trackerRecord = records(db, 'incarnon-tracker')[0],
+          weapon = trackerRecord?.weapons?.find(
+            (item) => item.weaponId === input.dataset.incarnonAcquired,
+          );
+        if (!weapon) {
+          input.checked = false;
+          notify('Could not save acquisition status for this weapon.', true);
+          return;
+        }
+        weapon.acquired = input.checked;
+        databaseDirty = true;
+        await persist();
+        renderIncarnonTracker();
+      };
+    for (const input of trackerTables.flatMap((table) =>
+      [...table.querySelectorAll('[data-incarnon-stage]')],
+    ))
+      input.onchange = async () => {
+        const trackerRecord = records(db, 'incarnon-tracker')[0],
+          weapon = trackerRecord?.weapons?.find(
+          (item) => item.weaponId === input.dataset.incarnonWeapon,
+        );
+        if (!weapon) {
+          input.checked = false;
+          notify('Could not save evolution progress for this weapon.', true);
+          return;
+        }
+        const stages = ['I', 'II', 'III', 'IV', 'V'],
+          stageIndex = stages.indexOf(input.dataset.incarnonStage),
+          row = input.closest('.incarnon-weapon-row');
+        weapon.evolutions[input.dataset.incarnonStage] = input.checked;
+        if (!input.checked)
+          stages.slice(stageIndex + 1, weapon.evolutionCount).forEach((stage) => {
+            weapon.evolutions[stage] = false;
+          });
+        for (const stageInput of row.querySelectorAll('[data-incarnon-stage]')) {
+          const index = stages.indexOf(stageInput.dataset.incarnonStage),
+            previousStage = stages[index - 1];
+          stageInput.checked = weapon.evolutions[stageInput.dataset.incarnonStage] === true;
+          stageInput.disabled =
+            !weapon.acquired || (index > 0 && !weapon.evolutions[previousStage]);
+        }
+        databaseDirty = true;
+        await persist();
+      };
+    clearInterval(incarnonTimer);
+    incarnonTimer = setInterval(() => {
+      if (incarnonWeekIndex() !== activeIndex) {
+        renderIncarnonTracker();
+        return;
+      }
+      const currentTime = Date.now(),
+        currentReset =
+          Date.parse(tracker.rotationEpochUTC) +
+          (Math.floor((currentTime - Date.parse(tracker.rotationEpochUTC)) / 604800000) + 1) *
+            604800000;
+      $('incarnon-reset-countdown').textContent =
+        'Next Circuit rotation in ' + formatRotationTime(currentReset - currentTime);
+    }, 1000);
   }
   function progenitorRecord(category) {
     return records(db, category)[0] || null;
@@ -9264,6 +9581,7 @@ return module.exports;})();
     }
     if (view === 'database') renderEditorList();
     if (view === 'progenitors') renderProgenitorWeapons();
+    if (view === 'incarnons') renderIncarnonTracker();
     if (view === 'rivens') renderRivenList();
   }
   let ttkWorker = null,
@@ -9556,6 +9874,7 @@ return module.exports;})();
     }
     restoreArcaneRarities(next);
     syncProgenitorLibraryFromWeapons(next);
+    syncIncarnonTrackerFromWeapons(next);
     const errors = validateDatabase(next);
     if (errors.length) throw Error(errors.slice(0, 10).join('\n'));
     next.arsenal.records.forEach((b) => {
@@ -13234,6 +13553,7 @@ return module.exports;})();
   function applyDatabase(candidate) {
     normalizeWeaponDatabase(candidate.weapons);
     syncProgenitorLibraryFromWeapons(candidate);
+    syncIncarnonTrackerFromWeapons(candidate);
     const errors = validateDatabase(candidate);
     if (errors.length)
       throw Error(
@@ -17257,6 +17577,7 @@ return module.exports;})();
     $('check-coda-wiki').onclick = () => checkProgenitorWiki('coda-offerings');
     $('progenitor-library-search').oninput = renderProgenitorLibrary;
     $('progenitor-library-filter').onchange = renderProgenitorLibrary;
+    $('incarnon-tracker-search').oninput = renderIncarnonTracker;
     bindArsenal();
     $('attack-select').onchange = () => {
       state.attackId = $('attack-select').value;
@@ -17631,6 +17952,8 @@ return module.exports;})();
       restoreRivenSpliceRanges(db);
       restoreArcaneData(db);
       syncProgenitorLibraryFromWeapons(db);
+      db['incarnon-tracker'] ||= clone(bundled['incarnon-tracker']);
+      syncIncarnonTrackerFromWeapons(db);
       const legacyFormat = !!legacyDatabase && !legacyDatabase.arsenal;
       if (legacyFormat) {
         const previous = db['incarnon-evolutions'];
@@ -17663,6 +17986,8 @@ return module.exports;})();
           restoreRivenSpliceRanges(db);
           restoreArcaneData(db);
           syncProgenitorLibraryFromWeapons(db);
+          db['incarnon-tracker'] ||= clone(bundled['incarnon-tracker']);
+          syncIncarnonTrackerFromWeapons(db);
           errors = validateDatabase(db);
         }
         if (errors.length) throw Error(errors[0]);

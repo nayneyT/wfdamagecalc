@@ -47,6 +47,10 @@ fabricated statistics.
   [Braton Incarnon Genesis](https://wiki.warframe.com/w/Braton_Incarnon_Genesis) supplies
   variant-specific values. Source markup is cleaned for readable previews; utility effects are
   distinguished from unresolved damage mechanics.
+- The Incarnon tracker uses the published [nine-week Genesis rotation](https://wiki.warframe.com/w/Incarnon_Genesis)
+  and per-family installation resource costs from the [Incarnon Genesis guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2970331931)
+  and current [Genesis adapter pages](https://wiki.warframe.com/w/Ballistica_Incarnon_Genesis). The weekly
+  schedule is anchored to Week 9 on 22 June 2026 at 00:00 UTC; update the tracker data if the rotation changes.
 
 ## Mechanics
 
@@ -152,3 +156,7 @@ subsequent stack, ten-stack default cap, eight-second proc duration), Heat armor
 a raised external cap. References: https://wiki.warframe.com/w/Damage/Corrosive_Damage and
 https://wiki.warframe.com/w/Damage/Heat_Damage. The probabilistic follow-up model and its
 timing/grouping assumptions are described in README.md.
+
+- Native Incarnon crafting recipes: [Felarx](https://wiki.warframe.com/w/Felarx), [Innodem](https://wiki.warframe.com/w/Innodem), [Laetum](https://wiki.warframe.com/w/Laetum), [Phenmor](https://wiki.warframe.com/w/Phenmor), [Praedos](https://wiki.warframe.com/w/Praedos), [Onos](https://wiki.warframe.com/w/Onos), [Ruvox](https://wiki.warframe.com/w/Ruvox), and [Thalys](https://wiki.warframe.com/w/Thalys).
+
+- Founder-exclusive tracker labels: [Warframe Prime Resurgence FAQ](https://www.warframe.com/en/prime-resurgence) confirms Excalibur Prime, Skana Prime and Lato Prime remain exclusive to the original Founders program. Excalibur Prime is a Warframe; Skana Prime and Lato Prime are the eligible weapons.

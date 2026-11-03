@@ -1,0 +1,921 @@
+{
+  "category": "incarnon-tracker",
+  "schemaVersion": 1,
+  "snapshot": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://wiki.warframe.com/w/Incarnon_Genesis",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2970331931",
+      "snapshot": "2026-11-03"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Felarx",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Innodem",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Laetum",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Phenmor",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Praedos",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Onos",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Ruvox",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://wiki.warframe.com/w/Thalys",
+      "snapshot": "2026-11-03",
+      "license": "CC BY-NC-SA 3.0"
+    }
+  ],
+  "records": [
+    {
+      "id": "incarnon-tracker",
+      "name": "Incarnon weapon tracker",
+      "rotationEpochUTC": "2026-06-22T00:00:00Z",
+      "rotationEpochWeek": 9,
+      "resetPeriodHours": 168,
+      "rotations": [
+        [
+          "Braton",
+          "Lato",
+          "Skana",
+          "Paris",
+          "Kunai"
+        ],
+        [
+          "Boar",
+          "Gammacor",
+          "Angstrum",
+          "Gorgon",
+          "Anku"
+        ],
+        [
+          "Bo",
+          "Latron",
+          "Furis",
+          "Furax",
+          "Strun"
+        ],
+        [
+          "Lex",
+          "Magistar",
+          "Boltor",
+          "Bronco",
+          "Ceramic Dagger"
+        ],
+        [
+          "Torid",
+          "Dual Toxocyst",
+          "Dual Ichor",
+          "Miter",
+          "Atomos"
+        ],
+        [
+          "Ack & Brunt",
+          "Soma",
+          "Vasto",
+          "Nami Solo",
+          "Burston"
+        ],
+        [
+          "Zylok",
+          "Sibear",
+          "Dread",
+          "Despair",
+          "Hate"
+        ],
+        [
+          "Dera",
+          "Sybaris",
+          "Cestra",
+          "Sicarus",
+          "Okina"
+        ],
+        [
+          "Vectis",
+          "Stug",
+          "Ballistica",
+          "Destreza",
+          "Obex"
+        ]
+      ],
+      "nativeFamilies": [
+        "Felarx",
+        "Innodem",
+        "Laetum",
+        "Phenmor",
+        "Praedos",
+        "Onos",
+        "Ruvox",
+        "Thalys"
+      ],
+      "requirements": {
+        "Braton": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Lato": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Nacreous Pebble",
+            250
+          ]
+        ],
+        "Skana": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Connla Sprout",
+            80
+          ]
+        ],
+        "Paris": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Silphsela",
+            60
+          ]
+        ],
+        "Kunai": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Eevani",
+            80
+          ]
+        ],
+        "Boar": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Gammacor": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Ueymag",
+            70
+          ],
+          [
+            "Lamentus",
+            80
+          ]
+        ],
+        "Angstrum": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Ueymag",
+            70
+          ],
+          [
+            "Lamentus",
+            80
+          ]
+        ],
+        "Gorgon": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Anku": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Ueymag",
+            70
+          ],
+          [
+            "Ariette Scale",
+            300
+          ]
+        ],
+        "Bo": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Kovnik",
+            80
+          ]
+        ],
+        "Latron": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Maw Fang",
+            20
+          ]
+        ],
+        "Furis": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Lamentus",
+            150
+          ]
+        ],
+        "Furax": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Ariette Scale",
+            500
+          ]
+        ],
+        "Strun": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Lex": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Saggen Pearl",
+            150
+          ]
+        ],
+        "Magistar": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Aggristone",
+            150
+          ]
+        ],
+        "Boltor": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Silphsela",
+            60
+          ]
+        ],
+        "Bronco": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Nacreous Pebble",
+            100
+          ]
+        ],
+        "Ceramic Dagger": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Connla Sprout",
+            80
+          ]
+        ],
+        "Torid": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Maw Fang",
+            20
+          ]
+        ],
+        "Dual Toxocyst": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Eevani",
+            80
+          ]
+        ],
+        "Dual Ichor": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Kovnik",
+            80
+          ]
+        ],
+        "Miter": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Atomos": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Lamentus",
+            80
+          ]
+        ],
+        "Ack & Brunt": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Ariette Scale",
+            300
+          ]
+        ],
+        "Soma": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Silphsela",
+            60
+          ]
+        ],
+        "Vasto": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Saggen Pearl",
+            150
+          ]
+        ],
+        "Nami Solo": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Aggristone",
+            150
+          ]
+        ],
+        "Burston": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Maw Fang",
+            20
+          ]
+        ],
+        "Zylok": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Yao Shrub",
+            70
+          ],
+          [
+            "Nacreous Pebble",
+            100
+          ]
+        ],
+        "Sibear": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Connla Sprout",
+            80
+          ]
+        ],
+        "Dread": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Rune Marrow",
+            60
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Despair": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Silphsela",
+            60
+          ],
+          [
+            "Yao Shrub",
+            70
+          ]
+        ],
+        "Hate": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Maw Fang",
+            20
+          ]
+        ],
+        "Dera": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Eevani",
+            80
+          ],
+          [
+            "Ueymag",
+            70
+          ]
+        ],
+        "Sybaris": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Saggen Pearl",
+            150
+          ],
+          [
+            "Ueymag",
+            70
+          ]
+        ],
+        "Cestra": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Saggen Pearl",
+            150
+          ],
+          [
+            "Kovnik",
+            80
+          ]
+        ],
+        "Sicarus": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Nacreous Pebble",
+            100
+          ],
+          [
+            "Aggristone",
+            150
+          ]
+        ],
+        "Okina": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Maw Fang",
+            20
+          ],
+          [
+            "Lamentus",
+            80
+          ]
+        ],
+        "Vectis": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Eevani",
+            80
+          ],
+          [
+            "Saggen Pearl",
+            150
+          ]
+        ],
+        "Stug": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Aggristone",
+            150
+          ],
+          [
+            "Tasoma Extract",
+            60
+          ]
+        ],
+        "Ballistica": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Kovnik",
+            80
+          ],
+          [
+            "Silphsela",
+            60
+          ]
+        ],
+        "Destreza": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Dracroot",
+            70
+          ],
+          [
+            "Rune Marrow",
+            60
+          ]
+        ],
+        "Obex": [
+          [
+            "Pathos Clamp",
+            20
+          ],
+          [
+            "Nacreous Pebble",
+            100
+          ],
+          [
+            "Lamentus",
+            80
+          ]
+        ],
+        "Felarx": [
+          [
+            "Voidplume Pinion",
+            10
+          ],
+          [
+            "Voidplume Quill",
+            15
+          ],
+          [
+            "Voidgel Orb",
+            30
+          ],
+          [
+            "Alloy Plate",
+            8000
+          ]
+        ],
+        "Innodem": [
+          [
+            "Voidplume Pinion",
+            5
+          ],
+          [
+            "Voidplume Quill",
+            10
+          ],
+          [
+            "Entrati Lanthorn",
+            15
+          ],
+          [
+            "Thrax Plasm",
+            20
+          ]
+        ],
+        "Laetum": [
+          [
+            "Voidplume Pinion",
+            1
+          ],
+          [
+            "Voidplume Quill",
+            5
+          ],
+          [
+            "Voidgel Orb",
+            20
+          ],
+          [
+            "Ferrite",
+            4000
+          ]
+        ],
+        "Phenmor": [
+          [
+            "Voidplume Pinion",
+            15
+          ],
+          [
+            "Voidplume Quill",
+            20
+          ],
+          [
+            "Alloy Plate",
+            6000
+          ],
+          [
+            "Entrati Lanthorn",
+            15
+          ]
+        ],
+        "Praedos": [
+          [
+            "Voidplume Pinion",
+            15
+          ],
+          [
+            "Voidplume Quill",
+            30
+          ],
+          [
+            "Ferrite",
+            8000
+          ],
+          [
+            "Thrax Plasm",
+            100
+          ]
+        ],
+        "Onos": [
+          [
+            "Salvage",
+            3000
+          ],
+          [
+            "Necracoil",
+            400
+          ],
+          [
+            "Argon Crystal",
+            2
+          ],
+          [
+            "Entrati Lanthorn",
+            6
+          ]
+        ],
+        "Ruvox": [
+          [
+            "Ruvox Blade",
+            2
+          ],
+          [
+            "Ruvox Glove",
+            2
+          ]
+        ],
+        "Thalys": [
+          [
+            "Temporal Dust",
+            100
+          ],
+          [
+            "Entrati Obols",
+            1500
+          ],
+          [
+            "Silphsela",
+            180
+          ],
+          [
+            "Rune Marrow",
+            150
+          ]
+        ]
+      },
+      "weapons": [],
+      "evolutions": {},
+      "genesisAcquisition": "Steel Path Circuit in the Undercroft; install at Cavalero in the Chrysalith on the Zariman.",
+      "nativeAcquisition": {
+        "Laetum": "Cavalero, Chrysalith (Zariman) · Holdfasts Rank 0 (Neutral) · 3,000 Standing",
+        "Innodem": "Cavalero, Chrysalith (Zariman) · Holdfasts Rank 1 (Fallen) · 5,500 Standing",
+        "Phenmor": "Cavalero, Chrysalith (Zariman) · Holdfasts Rank 2 (Watcher) · 6,000 Standing",
+        "Felarx": "Cavalero, Chrysalith (Zariman) · Holdfasts Rank 3 (Guardian) · 8,000 Standing",
+        "Praedos": "Cavalero, Chrysalith (Zariman) · Holdfasts Rank 4 (Seraph) · 9,000 Standing",
+        "Onos": "Armatus Disruption, Deimos (Rotation B), or Loid in the Sanctum Anatomica for Vessel Capillaries.",
+        "Ruvox": "Armatus Disruption, Deimos (Rotation B), or Loid in the Sanctum Anatomica for Vessel Capillaries.",
+        "Thalys": "Acrithis or Dominus Thrax in the Dormizone · 96 Scuttler Husk from Isleweaver."
+      }
+    }
+  ]
+}
